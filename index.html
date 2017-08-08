@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="description" content="Le meilleur de l’immobilier de votre région est ici ! Un large choix d’annonces immobilières en vente, location et location de vacances, nombreux appartements, maisons, villa, commerces, terrains, etc." />
+        <meta name="Author-Corporate" content="DMAISONS.COM" />
+        <meta name="keywords" content="dmaisons.com,immobilier,vente,location,location vacances,appartement,maison,villa,commerce,terrain" />
+        <!-- /favicons -->
+        <title>DMAISONS.COM | Tout l’immobilier : vente, location, location vacances</title>
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/font-awesome.firefox.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/validetta.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="css/bootstrap-multiselect.css" rel="stylesheet">
+        <link href="css/select2.css" rel="stylesheet">
+        <!-- /stylesheets -->
+
+    </head>
+    <body>
+
+        <!-- header -->
+        <header>
+
+            <nav class="navbar navbar-inverse">
+                <div class="container text-right">
+                    <div class="textheader">
+                    <p>16 678 online real estate advertisements,
+                        Last advertisement today in 05:00 PM</p>
+                    </div>
+                    <div id="data"></div>
+                    <div class="lang">
+                        <select class="selectpicker" data-width="fit">
+                            <option>ENG<img class="img-responsive" src="images/icons/United-Kingdom.png" alt=""></option>
+                            <option>FR<img class="img-responsive" src="images/icons/France.png" alt=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="container-fluid head">
+                    <div class="container logo-pos">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img class="img-responsive" src="images/logo.png" alt="">
+                        <p>All real estate of your region | SALE - RENTAL - HOLIDAY RENTAL</p>
+
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a class="dropdown-toggle  active" data-toggle="dropdown" href="#"><img src="images/icons/icon-home.png">SEARCH A PROPERTY <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Page 1-1</a></li>
+                                    <li><a href="#">Page 1-2</a></li>
+                                    <li><a href="#">Page 1-3</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/post.png">POST AN AD<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Page 1-1</a></li>
+                                    <li><a href="#">Page 1-2</a></li>
+                                    <li><a href="#">Page 1-3</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/email.png">E-MAIL ALERTS<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Page 1-1</a></li>
+                                    <li><a href="#">Page 1-2</a></li>
+                                    <li><a href="#">Page 1-3</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown ">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/setting.png">SERVICES<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Page 1-1</a></li>
+                                    <li><a href="#">Page 1-2</a></li>
+                                    <li><a href="#">Page 1-3</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </nav>
+            <div class="container serach-bar">
+                <div class="col-md-10 col-md-offset-1 text-center filters">
+                    <div class="forms">
+                    <div class="form1">
+                    <select id="select-box2-filter" name="typebiens[]" class="form-control " data-placeholder="Annonce" >
+                         <option value="0">Annonce</option>
+                         <option value="1">Vente</option>
+                        <option value="2">Location</option>
+                        <option value="3">Location saisonnière</option>
+                    </select>
+                    </div>
+                    </div>
+                    <div class="forms">
+
+                    <div class="form2">
+                    <select id="select-box2-filter2" name="typebiens[]" class="form-control " data-placeholder="Biens" multiple="multiple">
+                         <option value="99">Appartements</option>
+                        <option value="8">Maisons de Villages / Villes</option>
+                        <option value="10">Divers</option>
+                    </select>
+                </div>
+                </div>
+                    <div class="forms">
+                    <div class="form3">
+                        <select name="Localité" id="location" class="form-control select2-sel select2-sel-v2">
+                            <option value="" selected hidden>Ville ou code postal*</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    </div>
+                    <div class="forms">
+                    <button class="btn-search">search</button>
+                </div>
+                </div>
+
+            </div>
+            <div class="container title-text text-center">
+                <h1 class="title">Welcome on <p>DMAISONS.COM</p></h1>
+                <p>THE BEST PRPERTIES, REGION BY REGION</p>
+            </div>
+        </header>
+        <!-- /header -->
+        <section class="content">
+            <div class=" container-fluid header text-center">
+                <p>Click on the region of your choice to view all available real estate advertisements !</p>
+            </div>
+            <section class="one">
+                  <div class="container">
+            <div class="col-md-8 col-sm-8 col-xs-12">
+                <img class="img-responsive" src="images/DMAISONS-M01.jpg" alt="">
+
+
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                 <div class="bloc_liste_portails" onmouseout="javascript:moduleCartoChangeRegion(0);">
+                    <div class="bloc_liste_portails_top">
+                        <div class="top_content_texte">DMAISONS.COM<br><span>ALL REAL ESTATE OF YOUR REGION</span></div>
+                    </div>
+                    <!--googleoff: all-->
+                    <div class="bloc_liste_portails_content">
+                        <div class="liste_portails_elem elem_portail_1">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto42.jpg"></div>
+                            <a href="http://www.dmaisons-alsace.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(1);" onclick="moduleCartoChangeRegion(0); $(this).blur();" >
+                                Alsace					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_2">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto72.jpg"></div>
+                            <a href="http://www.dmaisons-aquitaine.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(2);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Aquitaine					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_3">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto83.jpg"></div>
+                            <a href="http://www.dmaisons-auvergne.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(3);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Auvergne					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_4">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto25.jpg"></div>
+                            <a href="http://www.dmaisons-bassenormandie.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(4);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Basse Normandie					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_5">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto26.jpg"></div>
+                            <a href="http://www.dmaisons-bourgogne.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(5);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Bourgogne					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_6">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto53.jpg"></div>
+                            <a href="http://www.dmaisons-bretagne.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(6);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Bretagne					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_7">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto24.jpg"></div>
+                            <a href="http://www.dmaisons-centre.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(7);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Centre					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_8">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto21.jpg"></div>
+                            <a href="http://www.dmaisons-champagneardenne.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(8);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Champagne Ardenne					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_9">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto94.jpg"></div>
+                            <a href="http://www.dmaisons-corse.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(9);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Corse					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_10">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto43.jpg"></div>
+                            <a href="http://www.dmaisons-franchecomte.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(10);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Franche Comté					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_11">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto23.jpg"></div>
+                            <a href="http://www.dmaisons-hautenormandie.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(11);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Haute Normandie					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_12">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto91.jpg"></div>
+                            <a href="http://www.dmaisons-languedocroussillon.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(12);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Languedoc Roussillon					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_13">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto74.jpg"></div>
+                            <a href="http://www.dmaisons-limousin.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(13);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Limousin					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_14">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto41.jpg"></div>
+                            <a href="http://www.dmaisons-lorraine.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(14);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Lorraine					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_15">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto73.jpg"></div>
+                            <a href="http://www.dmaisons-midipyrenees.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(15);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Midi Pyrénées					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_16">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto31.jpg"></div>
+                            <a href="http://www.dmaisons-nordpasdecalais.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(16);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Nord Pas de Calais					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_17">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto11.jpg"></div>
+                            <a href="http://www.dmaisons-paris.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(17);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Paris (Ile de France)					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_18">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto52.jpg"></div>
+                            <a href="http://www.dmaisons-paysdelaloire.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(18);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Pays de la Loire					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_19">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto22.jpg"></div>
+                            <a href="http://www.dmaisons-picardie.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(19);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Picardie					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_20">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto54.jpg"></div>
+                            <a href="http://www.dmaisons-poitoucharentes.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(20);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Poitou Charentes					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_21">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto93.jpg"></div>
+                            <a href="http://www.dmaisons-provence.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(21);" onclick="moduleCartoChangeRegion(0); $(this).blur();">
+                                Provence Alpes Côte d'Azur					</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="liste_portails_elem elem_portail_22">
+                            <div class="liste_portails_picto"><img src="http://www.dmaisons.com/images/00Accueil/picto82.jpg"></div>
+                            <a href="http://www.dmaisons-rhonealpes.com" rel="nofollow" target="_blank" class="liste_portails_nom_region" onmouseover="moduleCartoChangeRegion(22);" onclick="moduleCartoChangeRegion(0); $(this).blur();" style="color: rgb(153, 153, 153); text-decoration: none;">
+                                Rhône Alpes					</a>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </section>
+            <section class="two">
+                <div class="container">
+                    <div class="col-md-8 col-sm-8 col-xs-12 left">
+                        <div class="title-text">
+                            <h3>Real estate in your region for purchase, sale, rental or vacation rental</h3>
+                        </div>
+                        <div class="disqription text-justify">
+                            <p>
+                               <span> DMAISONS.COM</span> find on thousands of real estate available in your area purchase sale, rental and holiday !
+                                Looking to buy a home, rent an apartment? <span> DMAISONS.COM</span> provides you with the best real estate, from Paris to Marseille via Lyon or Bordeaux, Toulouse, Rennes.
+                                <br>
+                                Every day, discover a selection of the best ads not to be missed in your area: apartment (studio and T1 to T5), lofts, houses, villas, mansions, farmhouses, houses, land, offices, local businesses, cottage, garage, parking and even buildings! Buy or rent a property has never been easier: <span> DMAISONS.COM</span> together for you latest ads across all regions of France, including your vacation rentals. Do not wait to find the property of your dreams !
+                                <br>
+                                Purchase sale, lease or rental, of Strasbourg in Brest and Lille to Perpignan, a multitude of ads waiting for you today at <span> DMAISONS.COM</span>.
+                            </p>
+                        </div>
+                        <div class="title-text1">
+                            <h3>Properties by city</h3>
+                        </div>
+                        <div class="disqription text-justify">
+                            <p>
+                                Aix En Provence Marseille Perpignan Paris Pertuis Port Aix En Provence Marseille Perpignan Vendres <span>Argeles Sur Mer</span> Toulouse Chalon Sur Saone Aix En Provence Marseille Perpignan.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 right">
+                        <div class="personal">
+                            <div class="title-text">
+                                <h4>PERSONAL AREA</h4>
+                            </div>
+                                <div class="forms">
+                                    <input type="text" value="" placeholder="E-mail">
+                                </div>
+                                <div class="forms">
+                                    <input type="password" value="" placeholder="password">
+                                </div>
+                            <button class="ok">OK</button>
+                                <p>forgot password ?</p>
+                        </div>
+                        <div class="personal">
+                            <div class="title-text">
+                                <h4>PROFESONAL AREA</h4>
+                            </div>
+                            <div class="forms">
+                                <input type="text" value="" placeholder="Client nr.">
+                            </div>
+                            <div class="forms">
+                                <input type="password" value="" placeholder="password">
+                            </div>
+                            <button class="ok">OK</button>
+                            <p>To learn more about our offers</p>
+                        </div>
+                        <div class="social">
+                            <button class="facebook"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                J'aime 176 K</button>
+                            <button class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i>
+                                Suivre</button>
+                            <button class="G"><i class="fa fa-google-plus" aria-hidden="true"></i>
+                                1</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="tree">
+                <div class="container">
+                <div class="col-md-3 col-sm-3 col-xs-12 left-hend text-center">
+                    <div class="title-text text-center">
+                        <h4 class="title">LAST ADVERTISEMENTS</h4>
+                    </div>
+                        <div class="owl-carousel owl-theme ninth-section-carousel">
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <img src="images/slider/1.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <p>Haytech Solutions uses the know-how of solutions that are suitable to your...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <img src="images/slider/2.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <p>Haytech Solutions uses the know-how of solutions that are suitable to your...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <img src="images/slider/3.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <p>Haytech Solutions uses the know-how of solutions that are suitable to your...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <img src="images/slider/5.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <p>Haytech Solutions uses the know-how of solutions that are suitable to your...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 text-center ">
+                     <img class="img-responsive" src="images/icons/mail.png" alt="">
+                        <button class="SUBSCRIBE">SUBSCRIBE TO E-MAIL ALERTS</button>
+                  </div>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-12 ">
+                    <div class="ADVERTISE col-md-12 col-sm-12 col-xs-12">
+                        <div class="title-text text-center col-md-12">
+                            <h4 class="title">ADVERTISE YOUR PROPERTY</h4>
+                            <p>on the most visited regional real estate portal</p>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12 text-right">
+                            <div class="seeMore">
+                                <div class="title-more text-right">
+                                    <h4 class="title">PRIVATE INDIVIDUAL</h4>
+                                    <p>Sell or rent your property fast and simple</p>
+                                    <div class="buton">
+                                        <button>see more...</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="then">+ than <span>840 000</span> monthly visits  </h4>
+                        </div>
+                        <img class="img-responsive see1" src="images/see1.png" alt="">
+                        <div class="col-md-6 col-sm-12 col-xs-12 text-left">
+                            <div class="seeMore">
+                                <div class="title-more text-left">
+                                    <h4 class="title">PROFESSIONALS</h4>
+                                    <p>Sell or rent your property fast and simple</p>
+                                    <button>see more...</button>
+                                </div>
+                            </div>
+                            <h4 class="then">+ than <span>9 million</span> page views  </h4>
+                        </div>
+                        <img class="img-responsive see2" src="images/see2.png" alt="">
+
+                    </div>
+                    <div class="news col-md-12 col-sm-12 col-xs-12">
+                        <div class="title-text text-left">
+                            <h2 class="title"><img  src="images/icons/news-icon.png" alt="">We have news</h2>
+                         </div>
+                        <div class="list-news">
+                            <div class="text-left">
+                                <h4 class="title-news"> The French experts in energy saving <span>06.13.2017</span></h4>
+                            </div>
+                            <div class="text-left">
+                                <p class="title-paragraf"> Many French believe that energy costs have risen over the past few years. The low-income households are the most affected and have changed their usual habits, such as double glazing and insulation of roofs and walls to reduce your energy costs while affecting the competition between energy suppliers. Green energy ...</p>
+                            </div>
+                            <button class="see">see more</button>
+                        </div>
+                        <div class="list-news">
+                            <div class="text-left">
+                                <h4 class="title-news"> Buy new: good reflexes <span>01.11.2017</span></h4>
+                            </div>
+                            <div class="text-left">
+                                <p class="title-paragraf"> Many French believe that energy costs have risen over the past few years. The low-income households are the most affected and have changed their usual habits, such as double glazing and insulation of roofs and walls to reduce your energy costs while affecting the competition between energy suppliers. Green energy ...</p>
+                            </div>
+                            <button class="see">see more</button>
+                        </div>
+                        <div class="list-news">
+                            <div class="text-left">
+                                <h4 class="title-news">Home Staging : sell faster <span>08.14.2017</span></h4>
+                            </div>
+                            <div class="text-left">
+                                <p class="title-paragraf"> Many French believe that energy costs have risen over the past few years. The low-income households are the most affected and have changed their usual habits, such as double glazing and insulation of roofs and walls to reduce your energy costs while affecting the competition between energy suppliers. Green energy ...</p>
+                            </div>
+                            <button class="see">see more</button>
+                        </div>
+                        <div class="list-news">
+                            <div class="text-left">
+                                <h4 class="title-news">Home Staging : sell faster<span>03.19.2017</span></h4>
+                            </div>
+                            <div class="text-left">
+                                <p class="title-paragraf"> Many French believe that energy costs have risen over the past few years. The low-income households are the most affected and have changed their usual habits, such as double glazing and insulation of roofs and walls to reduce your energy costs while affecting the competition between energy suppliers. Green energy ...</p>
+                            </div>
+                            <button class="see">see more</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="four">
+                <div class="container text-center">
+                    <div class="row">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 img-col">
+                        <img src="images/banner.jpg" alt="banner" class="img-thumbnail">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 img-col">
+                        <img src="images/banner1.jpg" alt="banner" class="img-thumbnail">
+                    </div>
+                 </div>
+                </div>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 img-col">
+                            <div class="calcul">
+                               <h4>MY LOAN <br>
+                                   SIMUATION</h4>
+                                <a href="#"><img src="images/icons/calcul.png" alt="calculate"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 img-col">
+                            <img src="images/banner4.jpg" alt="banner" class="img-thumbnail">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 img-col">
+                            <img src="images/banner3.jpg" alt="banner" class="img-thumbnail">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 img-col">
+                            <img src="images/banner2.jpg" alt="banner" class="img-thumbnail">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid list-group">
+                    <div class="container text-center">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 img-col">
+                            <ul>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 img-col">
+                            <ul>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 img-col text-center">
+                            <ul>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+        </section>
+        <section class="footer">
+            <div class="container-fluid text-center  footer-content">
+                <div class="row">
+                    <img class="img-responsive navbar-brend" src="images/logo.png" alt="">
+                        <div class="title-text">
+                             <p> Copyright 1998-2017	- Luxury Real Estate</p>
+                        </div>
+                </div>
+            </div>
+                <div class="container text-left footer-foot">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                            <h4>Search a property</h4>
+                            <a href="#">Search a property</a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                            <h4>Post an ad</h4>
+                            <a href="#">Private advertising</a>
+                            <a href="#">Private advertising</a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                            <h4>E-mail alerts</h4>
+                            <a href="#">New alert</a>
+                            <a href="#">Manage your alerts</a>
+
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                            <h4>Services</h4>
+                            <a href="#">Loan simulation</a>
+                            <a href="#">Your option</a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                            <h4>Company</h4>
+                            <a href="#">Contact</a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 social">
+                            <h4>Post an ad</h4>
+                            <a href="#"><img src="images/icons/facebook.png" alt=""></a>
+                            <a href="#"><img src="images/icons/twitter-icon.png" alt=""></a>
+                            <a href="#"><img src="images/icons/Google-Plus-icon.png" alt=""></a>
+                         </div>
+                    </div>
+                </div>
+
+        </section>
+        <div id="gotop"></div>
+        <!--scroll top-->
+
+        <!-- js -->
+
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/validetta.min.js"></script>
+        <script type="text/javascript" src="js/validettaLang-fr-FR.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+        <script type="text/javascript" src="js/select2.full.min.js"></script>
+
+
+
+    </body>
+</html>
