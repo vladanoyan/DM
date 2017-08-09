@@ -11,7 +11,7 @@ $(document).ready(function(){
         nav:false,
         navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
         dots:false,
-        items:1,
+        items:3,
         mouseDrag:true,
         autoplay:true,
         autoplayTimeout: 5000,
