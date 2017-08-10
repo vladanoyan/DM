@@ -621,7 +621,7 @@ if (typeof Object.create !== "function") {
                 base.singleItemTransition();
                 return false;
             }*/
-			
+
 			if (base.options.transitionStyle !== false && drag !== "drag" && base.options.items === 1) {
 				base.swapSpeed(0);
 				if (base.browser.support3d === true || (base.browser == "msie" && version >= 9)) {
@@ -633,8 +633,8 @@ if (typeof Object.create !== "function") {
 				base.singleItemTransition();
 				return false;
 			}
-			
-			
+
+
             goToPixel = base.positionsInArray[position];
 
             if (base.browser.support3d === true) {
@@ -1212,7 +1212,7 @@ if (typeof Object.create !== "function") {
                 iterations += 1;
                 if (base.completeImg($lazyImg.get(0)) || isBackgroundImg === true) {
                     showImage();
-                } else if (iterations <= 100) {//if image loads in less than 10 seconds 
+                } else if (iterations <= 100) {//if image loads in less than 10 seconds
                     window.setTimeout(checkLazyImage, 100);
                 } else {
                     showImage();
@@ -1241,7 +1241,7 @@ if (typeof Object.create !== "function") {
                 iterations += 1;
                 if (base.completeImg($currentimg.get(0))) {
                     addHeight();
-                } else if (iterations <= 100) { //if image loads in less than 10 seconds 
+                } else if (iterations <= 100) { //if image loads in less than 10 seconds
                     window.setTimeout(checkImage, 100);
                 } else {
                     base.wrapperOuter.css("height", ""); //Else remove height attribute

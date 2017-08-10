@@ -91,9 +91,13 @@ p,a{
 }
 header {
   .serach-bar{
+
     padding-top: 147px;
     .filters{
       background: rgba(0, 0, 0, 0.14);
+      .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+        @include btn-blue;
+      }
       .forms{
         @media(min-width: 746px){
           display: inline-block;
@@ -803,80 +807,94 @@ section.two{
       }
       }
       .left-hend{
-        background:$white;
         border-radius: 5px;
-        #next{
-          transform: rotate(90deg);
-          border-radius: 25px;
-          border: 1px solid #9e9a9a;
-          background: transparent;
-          padding: 0px 10px;
-           margin: 15px;
-          font-size: 20px;
+     .slidshow{
+       background:$white;
+        border-radius: 5px;
+       padding:0 10px 60px 10px;
+       .title-text{
+         h4{
+           padding: 40px 0;
+         }
+       }
+       .bx-wrapper{
+         margin: 0 auto;
+       }
+       .bx-viewport{
+            -moz-box-shadow: 0 0 5px #ccc;
+            -webkit-box-shadow: 0 0 5px #ccc;
+            box-shadow: 0 0 5px #ccc;
+            border: 5px solid #fff;
+          }
+        .bxslider{
 
-        }
-        #prev{
-          transform: rotate(-90deg);
-          border-radius: 25px;
-          border: 1px solid #9e9a9a;
-          background: transparent;
-           padding: 0px 10px;
-          margin: 15px;
-          font-size: 20px;
-        }
-        .items-coarousel{
-          max-width: 370px;
-          margin: 0 auto;
+          a{
 
-          #wrapper{
-            width:100%;
-            max-height: 560px;
-            -webkit-box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.13);
-            -moz-box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.13);
-            box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.13);
-            position:relative;
-             overflow:hidden;
-            padding: 5px 0;
+            text-decoration: none;
+            font-size: 12px;
+            color: #666;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .img-col{
+              padding:0;
+              img{
 
-            .user-actions {
-              text-align: left;
-              width:100% ;
-              height:100%;
-              position:relative !important;
-              float:left;
-              overflow:hidden!important;
-              margin:0;
-              background-color: transparent !important;
-              padding:  0;
-              .item-block{
-                  margin: 0 auto;
-                font-size: 12px;
-                color: #666;
-                padding: 5px 10px;
-                a{
-                  text-decoration: none;
-                  font-size: 12px;
-                  color: #666;
-                  .img-col{
-                    padding:0;
-                  img{
-                     height: 100px;
-                    object-fit: cover;
-                    border:1px solid;
-                  }
-                  }
-                  .disqription{
-                    padding: 0 10px;
-                   }
-                }
-
-
-
+                border:1px solid;
               }
             }
+            .disqription{
+              padding: 0 10px;
+              text-align: left;
+            }
+          }
+        }
+        .bx-prev{
+          margin: 0;
+          bottom: -60px!important;
+          left: 50%;
+           top: inherit!important;
+          transform: translate(-50%, -50%) rotate(-90deg) ;
+          text-decoration: none;
+          color: #8a8484;
+          border:2px solid #8a8484;
+          border-radius: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 700;
+          &:hover{
+            color: $main-blue;
+            border-color: $main-blue;
           }
 
+
         }
+        .bx-next{
+          margin:0;
+          top: -27px!important;
+          left: 50%;
+          transform: translate(-50%, -50%) rotate(-90deg) ;
+          text-decoration: none;
+          color: #8a8484;
+          border:2px solid #8a8484;
+          border-radius: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 700;
+          &:hover{
+            color: $main-blue;
+            border-color: $main-blue;
+          }
+
+
+        }
+
+     }
+      .mail-DM{
+        margin: 30px 0px;
+
         .mail-pic{
 
           margin: 0 auto;
@@ -897,7 +915,7 @@ section.two{
             box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22);
           }
         }
-
+      }
       }
     }
   }
@@ -1022,4 +1040,3 @@ section.footer{
 }
   }
 }
-

@@ -6,18 +6,19 @@
 $(document).ready(function(){
 
 // homepage clients quotes slider
-    $('.ninth-section-carousel').owlCarousel({
-        loop:true,
-        nav:false,
-        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-        dots:false,
-        items:3,
-        mouseDrag:true,
-        autoplay:true,
-        autoplayTimeout: 5000,
-        animateOut: 'slideOutUp',
-        animateIn: 'slideInUp'
-    })
+//     $('.ninth-section-carousel').owlCarousel({
+//
+//         loop:true,
+//         nav:false,
+//         navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+//         dots:false,
+//         items:3,
+//         mouseDrag:true,
+//         autoplay:true,
+//         autoplayTimeout: 5000,
+//         animateOut: 'slideOutUp',
+//         animateIn: 'slideInUp'
+//     })
 // homepage clients quotes slider
 
     // data

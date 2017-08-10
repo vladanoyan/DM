@@ -59,6 +59,10 @@ header {
     padding-top: 147px; }
     header .serach-bar .filters {
       background: rgba(0, 0, 0, 0.14); }
+      header .serach-bar .filters .dropdown-menu > .active > a, header .serach-bar .filters .dropdown-menu > .active > a:focus, header .serach-bar .filters .dropdown-menu > .active > a:hover {
+        background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%); }
       @media (min-width: 746px) {
         header .serach-bar .filters .forms {
           display: inline-block; } }
@@ -636,81 +640,87 @@ header {
           -moz-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22);
           box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22); }
     .content section.tree .container .left-hend {
-      background: #FFF;
       border-radius: 5px; }
-      .content section.tree .container .left-hend #next {
-        transform: rotate(90deg);
-        border-radius: 25px;
-        border: 1px solid #9e9a9a;
-        background: transparent;
-        padding: 0px 10px;
-        margin: 15px;
-        font-size: 20px; }
-      .content section.tree .container .left-hend #prev {
-        transform: rotate(-90deg);
-        border-radius: 25px;
-        border: 1px solid #9e9a9a;
-        background: transparent;
-        padding: 0px 10px;
-        margin: 15px;
-        font-size: 20px; }
-      .content section.tree .container .left-hend .items-coarousel {
-        max-width: 370px;
-        margin: 0 auto; }
-        .content section.tree .container .left-hend .items-coarousel #wrapper {
-          width: 100%;
-          max-height: 560px;
-          -webkit-box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.13);
-          -moz-box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.13);
-          box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.13);
-          position: relative;
-          overflow: hidden;
-          padding: 5px 0; }
-          .content section.tree .container .left-hend .items-coarousel #wrapper .user-actions {
-            text-align: left;
-            width: 100%;
-            height: 100%;
-            position: relative !important;
-            float: left;
-            overflow: hidden !important;
-            margin: 0;
-            background-color: transparent !important;
+      .content section.tree .container .left-hend .slidshow {
+        background: #FFF;
+        border-radius: 5px;
+        padding: 0 10px 60px 10px; }
+        .content section.tree .container .left-hend .slidshow .title-text h4 {
+          padding: 40px 0; }
+        .content section.tree .container .left-hend .slidshow .bx-wrapper {
+          margin: 0 auto; }
+        .content section.tree .container .left-hend .slidshow .bx-viewport {
+          -moz-box-shadow: 0 0 5px #ccc;
+          -webkit-box-shadow: 0 0 5px #ccc;
+          box-shadow: 0 0 5px #ccc;
+          border: 5px solid #fff; }
+        .content section.tree .container .left-hend .slidshow .bxslider a {
+          text-decoration: none;
+          font-size: 12px;
+          color: #666;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center; }
+          .content section.tree .container .left-hend .slidshow .bxslider a .img-col {
             padding: 0; }
-            .content section.tree .container .left-hend .items-coarousel #wrapper .user-actions .item-block {
-              margin: 0 auto;
-              font-size: 12px;
-              color: #666;
-              padding: 5px 10px; }
-              .content section.tree .container .left-hend .items-coarousel #wrapper .user-actions .item-block a {
-                text-decoration: none;
-                font-size: 12px;
-                color: #666; }
-                .content section.tree .container .left-hend .items-coarousel #wrapper .user-actions .item-block a .img-col {
-                  padding: 0; }
-                  .content section.tree .container .left-hend .items-coarousel #wrapper .user-actions .item-block a .img-col img {
-                    height: 100px;
-                    object-fit: cover;
-                    border: 1px solid; }
-                .content section.tree .container .left-hend .items-coarousel #wrapper .user-actions .item-block a .disqription {
-                  padding: 0 10px; }
-      .content section.tree .container .left-hend .mail-pic {
-        margin: 0 auto; }
-      .content section.tree .container .left-hend .SUBSCRIBE {
-        border: none;
-        background-image: -moz-linear-gradient(90deg, #1d1270 0%, #7066bc 100%);
-        background-image: -webkit-linear-gradient(90deg, #1d1270 0%, #7066bc 100%);
-        background-image: -ms-linear-gradient(90deg, #1d1270 0%, #7066bc 100%);
-        color: #FFF;
-        border-radius: 8px;
-        padding: 5px 13px;
-        font-size: 14px;
-        -webkit-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.12);
-        -moz-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.12);
-        box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.12); }
-        .content section.tree .container .left-hend .SUBSCRIBE:hover {
-          -webkit-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22);
-          -moz-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22);
-          box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22); }
+            .content section.tree .container .left-hend .slidshow .bxslider a .img-col img {
+              border: 1px solid; }
+          .content section.tree .container .left-hend .slidshow .bxslider a .disqription {
+            padding: 0 10px;
+            text-align: left; }
+        .content section.tree .container .left-hend .slidshow .bx-prev {
+          margin: 0;
+          bottom: -60px !important;
+          left: 50%;
+          top: inherit !important;
+          transform: translate(-50%, -50%) rotate(-90deg);
+          text-decoration: none;
+          color: #8a8484;
+          border: 2px solid #8a8484;
+          border-radius: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 700; }
+          .content section.tree .container .left-hend .slidshow .bx-prev:hover {
+            color: #1b116a;
+            border-color: #1b116a; }
+        .content section.tree .container .left-hend .slidshow .bx-next {
+          margin: 0;
+          top: -27px !important;
+          left: 50%;
+          transform: translate(-50%, -50%) rotate(-90deg);
+          text-decoration: none;
+          color: #8a8484;
+          border: 2px solid #8a8484;
+          border-radius: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 700; }
+          .content section.tree .container .left-hend .slidshow .bx-next:hover {
+            color: #1b116a;
+            border-color: #1b116a; }
+      .content section.tree .container .left-hend .mail-DM {
+        margin: 30px 0px; }
+        .content section.tree .container .left-hend .mail-DM .mail-pic {
+          margin: 0 auto; }
+        .content section.tree .container .left-hend .mail-DM .SUBSCRIBE {
+          border: none;
+          background-image: -moz-linear-gradient(90deg, #1d1270 0%, #7066bc 100%);
+          background-image: -webkit-linear-gradient(90deg, #1d1270 0%, #7066bc 100%);
+          background-image: -ms-linear-gradient(90deg, #1d1270 0%, #7066bc 100%);
+          color: #FFF;
+          border-radius: 8px;
+          padding: 5px 13px;
+          font-size: 14px;
+          -webkit-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.12);
+          -moz-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.12); }
+          .content section.tree .container .left-hend .mail-DM .SUBSCRIBE:hover {
+            -webkit-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22);
+            -moz-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22);
+            box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22); }
 .content section.four {
   padding: 15px 0 35px 0; }
   .content section.four .container .img-col {
