@@ -298,13 +298,50 @@ header {
 
         }
         .lang{
+            width: 50px;
+            text-align: left;
             display: inline-block;
             font-size: 13px;
-            .selectpicker{
-                border: none;
-                background: transparent;
-                outline: none;
+          #image-dropdown {
+            display: inline-block;
+            position: absolute;
+            height:30px;
+            overflow: hidden;
+            top: 11px;
+            width: 48px;
+            text-align: left;
+            z-index: 99999999;
+            @media(max-width: 430px){
+              top: 43px;
+              width: 42px;
             }
+            .fa-chevron-down{
+              position: absolute;
+              top: 1px;
+              right: 0;
+              color: #1b116a;
+              width: 50px;
+              text-align: end;
+              padding: 7px 0px;
+            }
+          }
+          /*#image-dropdown:hover {} */
+
+          #image-dropdown .img_holder {
+            cursor: pointer;
+            margin-bottom: 5px;
+          }
+          #image-dropdown img.flagimgs {
+            height: 30px;
+            width: 30px;
+            border-radius: 41px;
+            border:1px solid $main-blue;
+            @media(max-width: 430px){
+              height: 25px;
+              width: 25px;
+            }
+          }
+
         }
         #data{
             display: inline-block;
@@ -829,7 +866,9 @@ section.two{
         .bxslider{
 
           a{
-
+            -moz-box-shadow: 0 0 5px #ccc;
+            -webkit-box-shadow: 0 0 5px #ccc;
+            box-shadow: 0 0 5px #ccc;
             text-decoration: none;
             font-size: 12px;
             color: #666;
@@ -840,7 +879,7 @@ section.two{
               padding:0;
               img{
 
-                border:1px solid;
+                border:1px solid #a9a4a4;
               }
             }
             .disqription{
@@ -854,15 +893,18 @@ section.two{
           bottom: -60px!important;
           left: 50%;
            top: inherit!important;
+          -webkit-transform:translate(-50%, -50%) rotate(-90deg) ;/* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+          -ms-transform: translate(-50%, -50%) rotate(-90deg) ;/* IE 9 */
           transform: translate(-50%, -50%) rotate(-90deg) ;
           text-decoration: none;
           color: #8a8484;
           border:2px solid #8a8484;
           border-radius: 25px;
+          padding: 4px;
+          font-weight: 700;
           display: flex;
           justify-content: center;
           align-items: center;
-          font-weight: 700;
           &:hover{
             color: $main-blue;
             border-color: $main-blue;
@@ -874,16 +916,19 @@ section.two{
           margin:0;
           top: -27px!important;
           left: 50%;
+          -webkit-transform:translate(-50%, -50%) rotate(-90deg) ;/* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+          -ms-transform: translate(-50%, -50%) rotate(-90deg) ;/* IE 9 */
           transform: translate(-50%, -50%) rotate(-90deg) ;
           text-decoration: none;
           color: #8a8484;
           border:2px solid #8a8484;
           border-radius: 25px;
+          padding: 4px;
+          font-weight: 700;
           display: flex;
           justify-content: center;
           align-items: center;
-          font-weight: 700;
-          &:hover{
+           &:hover{
             color: $main-blue;
             border-color: $main-blue;
           }
@@ -982,6 +1027,8 @@ section.footer{
     position: relative;
     .navbar-brend{
       position: absolute;
+      -webkit-transform:translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
       transform: translate(-50%,-50%);
       left: 50%;
       bottom: 14px;
@@ -1018,6 +1065,9 @@ section.footer{
       display: block;
       text-decoration: none;
       font-weight: 700;
+      &:hover{
+        color: $main-blue;
+      }
       &:before {
         @media(min-width:767px) {
           content: ".";
@@ -1025,6 +1075,7 @@ section.footer{
           line-height: 5px;
           margin-right: 10px;
         }
+
     }
     }
 .social{
@@ -1039,4 +1090,9 @@ section.footer{
   }
 }
   }
+}
+.fi{
+  overflow: visible !important;
+  height: auto!important;
+
 }

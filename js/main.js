@@ -5,6 +5,25 @@
 
 $(document).ready(function(){
 
+
+
+        $('.bxslider').bxSlider({
+            mode: 'vertical',
+            moveSlides: 1,
+            slideMargin: 5,
+            infiniteLoop: true,
+            slideWidth: 370,
+            minSlides: 5,
+            maxSlides: 5,
+            speed: 500,
+            autoControls: false,
+            touchEnabled:false,
+            auto: true,
+            pager: false,
+
+
+
+        });
 // homepage clients quotes slider
 //     $('.ninth-section-carousel').owlCarousel({
 //
@@ -23,8 +42,8 @@ $(document).ready(function(){
 
     // data
 
-    var d = (new Date()).toString().split(' ').splice(1,3).join(' ');
-    document.getElementById("data").innerHTML = d;
+    var day = (new Date()).toString().split(' ').splice(1,3).join(' ');
+    document.getElementById("data").innerHTML = day;
     // date
 
 
