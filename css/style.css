@@ -678,7 +678,8 @@ header {
         border-radius: 5px;
         padding: 0 10px 60px 10px; }
         .content section.tree .container .left-hend .slidshow .title-text h4 {
-          padding: 40px 0; }
+          padding: 40px 0;
+          margin: 0; }
         .content section.tree .container .left-hend .slidshow .bx-wrapper {
           margin: 0 auto; }
         .content section.tree .container .left-hend .slidshow .bx-viewport {
