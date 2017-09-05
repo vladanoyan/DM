@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Le meilleur de l’immobilier de votre région est ici ! Un large choix d’annonces immobilières en vente, location et location de vacances, nombreux appartements, maisons, villa, commerces, terrains, etc." />
+    <meta name="Author-Corporate" content="DMAISONS.COM" />
+    <meta name="keywords" content="dmaisons.com,immobilier,vente,location,location vacances,appartement,maison,villa,commerce,terrain" />
+    <!-- /favicons -->
+    <title>DMAISONS.COM | Tout l’immobilier : vente, location, location vacances</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.firefox.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/validetta.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/bootstrap-multiselect.css" rel="stylesheet">
+    <link href="css/select2.css" rel="stylesheet">
+    <!-- /stylesheets -->
+
+</head>
+<body>
+<!-- header -->
+<header>
+    <!-- homepage-slider -->
+    <div class="homepage-slider owl-carousel">
+        <div class="item">
+            <img src="images/header-image2.png"  alt=" ">
+            <div class="carousel-caption">
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/header-image2.png"  alt=" ">
+        </div>
+    </div>
+    <!-- /homepage-slider -->
+        <div class="container text-right section-header">
+            <div class="sec-one">
+            <div id="data"></div>
+            <div class="lang">
+                <div id="image-dropdown">
+                    <i onclick="showww()" class="fa fa-chevron-down" aria-hidden="true"></i>
+                    <div class="img_holder" onclick="myfuunc(this);">
+                        <img class="flagimgs second" src="images/icons/United-Kingdom.png" /> <span class="iTEXT"></span>
+                    </div>
+                    <div class="img_holder" onclick="myfuunc(this);" >
+                        <img class="flagimgs second" src="images/icons/France.png" /> <span class="iTEXT"></span>
+                    </div>
+                </div>
+            </div>
+         </div>
+        </div>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid head">
+            <div class="container logo-pos">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img class="img-responsive" src="images/logo.png" alt="">
+                        <p>The site with real estate ads in your region -SALE - RENTAL - HOLIDAY RENTAL</p>
+
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle  active" data-toggle="dropdown" href="#">SEARCH A PROPERTY <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Page 1-1</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">POST AN AD<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Page 1-1</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">E-MAIL ALERTS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Page 1-1</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICES<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Page 1-1</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a class="dropdown-toggle last" data-toggle="dropdown" href="#">MY SELECTION <img src="images/icons/selection.png" alt=""></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container serach-bar">
+        <div class="col-md-10 col-md-offset-1 text-center filters">
+            <div class="forms">
+                <div class="form1">
+                    <select id="select-box2-filter" name="typebiens[]" class="form-control " data-placeholder="Annonce" >
+                        <option value="0">Annonce</option>
+                        <option value="1">Vente</option>
+                        <option value="2">Location</option>
+                        <option value="3">Location saisonnière</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+
+                <div class="form2">
+                    <select id="select-box2-filter2" name="typebiens[]" class="form-control " data-placeholder="Biens" multiple="multiple">
+                        <option value="99">Appartements</option>
+                        <option value="8">Maisons de Villages / Villes</option>
+                        <option value="10">Divers</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+                <div class="form3">
+                    <select name="Localité" id="location" class="form-control select2-sel select2-sel-v2">
+                        <option value="" selected hidden>Ville ou code postal*</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+                <button class="btn-search">search</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid title-text text-center">
+        <div class="container">
+            <div>
+                <p class="title">DMAISONS PROVENCE</p>
+                <p>Number 1 regional website for real estate advertisement</p>
+            </div>
+            <div class="textheader">
+                <p>411 available advertisementsbr</p>
+                <p>  last advertisement added on</p>
+                <p> 2017, june saturday 03</p>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- /header -->
+<section class="content">
+    <section class="two">
+        <div class="container">
+            <div class="col-md-8 col-sm-12 col-xs-12 left">
+                <img class="img-responsive" src="images/DMAISONS-M01.jpg" alt="">
+                <div class="title-text">
+                    <h3>All real estates to buy, sell, rent and holiday rental</h3>
+                </div>
+                <div class="disqription text-justify">
+                    <p>
+                        Welcome to <span>DMAISONS PROVENCE,</span> the website with small real estate advertisements for the purchase, sale, rental
+                        <br> and vacation rental in Bourgogne : Yonne, Côte-d’Or, Nièvre and Saône-et-Loire. Quickyl find real estate
+                        <br> advertisements für the purchase, sale and rental on <span> DMAISONS PROVENCE,</span> without loss of time !	Real estate
+                        <br> Côte-d'Or, Real estate Nièvre, Real estate Saône-et-Loire, Real estate Yonne.
+                    </p>
+                </div>
+                <div class="title-text1">
+                    <h3>Check the real estate advertisement available in :</h3>
+                </div>
+                <div class="disqription text-justify">
+                    <p>
+                        <span>Aix En Provence</span>    Marseille    Pertuis    Marseille 13ème    Nice    Six Fours Les Plages    Cannes    Marignane    Marseille 11ème
+                         Lauris    Vitrolles    Marseille 8ème    La Londe Les Maures    Mallemort.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12 right">
+                <div class="personal">
+                    <div class="title-text">
+                        <h4>PERSONAL AREA</h4>
+                    </div>
+                    <div class="forms">
+                        <input type="text" value="" placeholder="E-mail">
+                    </div>
+                    <div class="forms">
+                        <input type="password" value="" placeholder="password">
+                    </div>
+                    <button class="ok">OK</button>
+                    <p>forgot password ?</p>
+                </div>
+                <div class="personal">
+                    <div class="title-text">
+                        <h4>PROFESONAL AREA</h4>
+                    </div>
+                    <div class="forms">
+                        <input type="text" value="" placeholder="Client nr.">
+                    </div>
+                    <div class="forms">
+                        <input type="password" value="" placeholder="password">
+                    </div>
+                    <button class="ok">OK</button>
+                    <p>To learn more about our offers</p>
+                </div>
+                <div class="social">
+                    <button class="facebook"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                        J'aime 176 K</button>
+                    <button class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i>
+                        Suivre</button>
+                    <button class="G"><i class="fa fa-google-plus" aria-hidden="true"></i>
+                        1</button>
+                </div>
+                <div class="Baneers">
+                    <img src="images/banner5.jpg" alt="banner" class="img-thumbnail">
+                </div>
+                <div class="Baneers">
+                    <img src="images/banner3.jpg" alt="banner" class="img-thumbnail">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tree">
+        <div class="container tree">
+            <div class="col-md-9 col-sm-12 col-xs-12 left">
+                <div class="ADVERTISE col-md-12 col-sm-12 col-xs-12">
+                    <div class="title-text text-center col-md-12">
+                        <h4 class="title">ADVERTISE YOUR PROPERTY</h4>
+                        <p>on the most visited regional real estate portal</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 text-right">
+                        <div class="seeMore">
+                            <div class="title-more text-right">
+                                <h4 class="title">PRIVATE INDIVIDUAL</h4>
+                                <p>Sell or rent your property fast and simple</p>
+                                <div class="buton">
+                                    <button>see more...</button>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="then">+ than <span>840 000</span> monthly visits  </h4>
+                    </div>
+                    <img class="img-responsive see1" src="images/see1.png" alt="">
+                    <div class="col-md-6 col-sm-12 col-xs-12 text-left">
+                        <div class="seeMore">
+                            <div class="title-more text-left">
+                                <h4 class="title">PROFESSIONALS</h4>
+                                <p>Sell or rent your property fast and simple</p>
+                                <button>see more...</button>
+                            </div>
+                        </div>
+                        <h4 class="then">+ than <span>9 million</span> page views  </h4>
+                    </div>
+                    <img class="img-responsive see2" src="images/see2.png" alt="">
+
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-12 left-hend text-center">
+                    <div class="slidshow">
+                        <div class="title-text text-center">
+                            <h4 class="title">RECENTLY ADDED ADVERTISEMENTS</h4>
+                        </div>
+                        <ul class="bxslider">
+                            <li><a href="#">
+                                <div class="img-col pull-left">
+                                    <img class="img-responsive" src="images/slider/1.jpg" alt="">
+                                </div>
+                                <div class="disqription ">
+                                    <div class="donnees">
+                                        <div class="typeAnnonce">Vente</div>
+                                        <div class="ville">Banyuls Dels Aspr...</div>
+                                        <div class="cp">(66300)</div>
+                                        <div class="type_prix">Appartements T3</div>
+                                        <div class="type_prix">190 000 € *</div>
+                                    </div>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="img-col pull-left">
+                                    <img class="img-responsive" src="images/slider/2.jpg" alt="">
+                                </div>
+                                <div class="disqription ">
+                                    <div class="donnees">
+                                        <div class="typeAnnonce">Vente</div>
+                                        <div class="ville">Banyuls Dels Aspr...</div>
+                                        <div class="cp">(66300)</div>
+                                        <div class="type_prix">Appartements T3</div>
+                                        <div class="type_prix">190 000 € *</div>
+                                    </div>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="img-col pull-left">
+                                    <img class="img-responsive" src="images/slider/3.jpg" alt="">
+                                </div>
+                                <div class="disqription ">
+                                    <div class="donnees">
+                                        <div class="typeAnnonce">Vente</div>
+                                        <div class="ville">Banyuls Dels Aspr...</div>
+                                        <div class="cp">(66300)</div>
+                                        <div class="type_prix">Appartements T3</div>
+                                        <div class="type_prix">190 000 € *</div>
+                                    </div>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="img-col pull-left">
+                                    <img class="img-responsive" src="images/slider/4.jpg" alt="">
+                                </div>
+                                <div class="disqription ">
+                                    <div class="donnees">
+                                        <div class="typeAnnonce">Vente</div>
+                                        <div class="ville">Banyuls Dels Aspr...</div>
+                                        <div class="cp">(66300)</div>
+                                        <div class="type_prix">Appartements T3</div>
+                                        <div class="type_prix">190 000 € *</div>
+                                    </div>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="img-col pull-left">
+                                    <img class="img-responsive" src="images/slider/5.jpg" alt="">
+                                </div>
+                                <div class="disqription ">
+                                    <div class="donnees">
+                                        <div class="typeAnnonce">Vente</div>
+                                        <div class="ville">Banyuls Dels Aspr...</div>
+                                        <div class="cp">(66300)</div>
+                                        <div class="type_prix">Appartements T3</div>
+                                        <div class="type_prix">190 000 € *</div>
+                                    </div>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="img-col pull-left">
+                                    <img class="img-responsive" src="images/slider/5.jpg" alt="">
+                                </div>
+                                <div class="disqription ">
+                                    <div class="donnees">
+                                        <div class="typeAnnonce">Vente</div>
+                                        <div class="ville">Banyuls Dels Aspr...</div>
+                                        <div class="cp">(66300)</div>
+                                        <div class="type_prix">Appartements T3</div>
+                                        <div class="type_prix">190 000 € *</div>
+                                    </div>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="img-col pull-left">
+                                    <img class="img-responsive" src="images/slider/5.jpg" alt="">
+                                </div>
+                                <div class="disqription ">
+                                    <div class="donnees">
+                                        <div class="typeAnnonce">Vente</div>
+                                        <div class="ville">Banyuls Dels Aspr...</div>
+                                        <div class="cp">(66300)</div>
+                                        <div class="type_prix">Appartements T3</div>
+                                        <div class="type_prix">190 000 € *</div>
+                                    </div>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="img-col pull-left">
+                                    <img class="img-responsive" src="images/slider/5.jpg" alt="">
+                                </div>
+                                <div class="disqription ">
+                                    <div class="donnees">
+                                        <div class="typeAnnonce">Vente</div>
+                                        <div class="ville">Banyuls Dels Aspr...</div>
+                                        <div class="cp">(66300)</div>
+                                        <div class="type_prix">Appartements T3</div>
+                                        <div class="type_prix">190 000 € *</div>
+                                    </div>
+                                </div>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-12">
+                    <div class="text-center mail-DM">
+                        <img class="img-responsive mail-pic" src="images/icons/mail.png" alt="">
+                        <button class="SUBSCRIBE">SUBSCRIBE TO E-MAIL ALERTS</button>
+                        <div class="list">
+                            <h4 class="title">Real estate advertisements in :</h4>
+                            <a href="#"> >  Barbentane</a>
+                            <a href="#"> >  Frejus</a>
+                            <a href="#"> >  Saint Saturnin Les Apt</a>
+                            <a href="#"> >  Lourmarin</a>
+                            <a href="#"> >  La Trinite</a>
+                            <a href="#"> >  Apt</a>
+                            <a href="#"> >  Rognac</a>
+                            <a href="#"> >  Marseille 6ème</a>
+                            <a href="#"> >  La Ciotat</a>
+                            <a href="#"> >  Martigues</a>
+                            <a href="#"> >  Draguignan</a>
+                            <a href="#"> >  Gordes</a>
+                            <a href="#"> >  Roussillon</a>
+                            <a href="#"> >  La Tour D Aigues</a>
+                            <a href="#"> >  Salon De Provence</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="news col-md-12 col-sm-12 col-xs-12">
+                    <div class="title-text text-left">
+                        <h2 class="title"><img  src="images/icons/news-icon.png" alt="">We have news</h2>
+                    </div>
+                    <div class="list-news">
+                        <div class="text-left">
+                            <h4 class="title-news"> The French experts in energy saving <span>06.13.2017</span></h4>
+                        </div>
+                        <div class="text-left">
+                            <p class="title-paragraf"> Many French believe that energy costs have risen over the past few years. The low-income households are the most affected and have changed their usual habits, such as double glazing and insulation of roofs and walls to reduce your energy costs while affecting the competition between energy suppliers. Green energy ...</p>
+                        </div>
+                        <button class="see">see more</button>
+                    </div>
+                    <div class="list-news">
+                        <div class="text-left">
+                            <h4 class="title-news"> Buy new: good reflexes <span>01.11.2017</span></h4>
+                        </div>
+                        <div class="text-left">
+                            <p class="title-paragraf"> Many French believe that energy costs have risen over the past few years. The low-income households are the most affected and have changed their usual habits, such as double glazing and insulation of roofs and walls to reduce your energy costs while affecting the competition between energy suppliers. Green energy ...</p>
+                        </div>
+                        <button class="see">see more</button>
+                    </div>
+                    <div class="list-news">
+                        <div class="text-left">
+                            <h4 class="title-news">Home Staging : sell faster <span>08.14.2017</span></h4>
+                        </div>
+                        <div class="text-left">
+                            <p class="title-paragraf"> Many French believe that energy costs have risen over the past few years. The low-income households are the most affected and have changed their usual habits, such as double glazing and insulation of roofs and walls to reduce your energy costs while affecting the competition between energy suppliers. Green energy ...</p>
+                        </div>
+                        <button class="see">see more</button>
+                    </div>
+                    <div class="list-news">
+                        <div class="text-left">
+                            <h4 class="title-news">Home Staging : sell faster<span>03.19.2017</span></h4>
+                        </div>
+                        <div class="text-left">
+                            <p class="title-paragraf"> Many French believe that energy costs have risen over the past few years. The low-income households are the most affected and have changed their usual habits, such as double glazing and insulation of roofs and walls to reduce your energy costs while affecting the competition between energy suppliers. Green energy ...</p>
+                        </div>
+                        <button class="see">see more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 col-xs-12 right">
+                <div class="Baneers">
+                    <img src="images/banner4.jpg" alt="banner" class="img-thumbnail">
+                </div>
+                <div class="Baneers">
+                    <div class="calcul">
+                        <h4>MY LOAN <br>
+                            SIMUATION</h4>
+                        <a href="#"><img src="images/icons/calcul.png" alt="calculate"></a>
+                    </div>
+                </div>
+                <div class="Baneers">
+                    <img src="images/banner6.jpg" alt="banner" class="img-thumbnail">
+                </div>
+                <div class="Baneers">
+                    <img src="images/banner7.jpg" alt="banner" class="img-thumbnail">
+                </div>
+                     <div class="disqription text-justify">
+                        <p>
+                           <span>DMAISONS PROVENCE</span>  offers you the latest real estate advertisements of real estate
+                            agencies in your region daily and in real time. The very precise and easily usable tools for
+                            searching real estate guides you to the best offers and hereby helps you to find the property
+                            of your dreams in Provence ! <span>DMAISONS PROVENCE</span> is also a service
+                            for private individuals to publish advertisements efficiently and at the best price, in order to sell or rent with a peaceful mind.
+
+                        </p>
+                    </div>
+             </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 img-col">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="images/banner.jpg" alt="banner" class="img-thumbnail">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="images/banner10.jpg" alt="banner" class="img-thumbnail">
+                    <img src="images/banner11.jpg" alt="banner" class="img-thumbnail">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid list-group">
+            <div class="container text-center">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 img-col">
+                    <ul>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 img-col">
+                    <ul>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 img-col text-center">
+                    <ul>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i>Lorem ispum dollar sumith</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</section>
+<section class="footer">
+    <div class="container-fluid text-center  footer-content">
+        <div class="row">
+            <img class="img-responsive navbar-brend" src="images/logo.png" alt="">
+            <div class="title-text">
+                <p> Copyright 1998-2017	- DMAISONS.COM	- Luxury Real Estate - Logiciel immobilier</p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-left footer-foot">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Search a property</h4>
+                <a href="#">Search a property</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Post an ad</h4>
+                <a href="#">Private advertising</a>
+                <a href="#">Private advertising</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>E-mail alerts</h4>
+                <a href="#">New alert</a>
+                <a href="#">Manage your alerts</a>
+
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Services</h4>
+                <a href="#">Loan simulation</a>
+                <a href="#">Your option</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Company</h4>
+                <a href="#">Contact</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 social">
+                <h4>Post an ad</h4>
+                <a href="#"><img src="images/icons/facebook.png" alt=""></a>
+                <a href="#"><img src="images/icons/twitter-icon.png" alt=""></a>
+                <a href="#"><img src="images/icons/Google-Plus-icon.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+<div id="gotop"></div>
+<!--scroll top-->
+<!-- js -->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/validetta.min.js"></script>
+<script type="text/javascript" src="js/validettaLang-fr-FR.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+<script type="text/javascript" src="js/select2.full.min.js"></script>
+<script>
+
+    var dropd = document.getElementById("image-dropdown");
+
+    function showww() {
+        dropd.style.height = "auto";
+        dropd.style.overflow = "visible";
+    }
+
+    function hideee() {
+        dropd.style.height = "30px";
+        dropd.style.overflow = "hidden";
+    }
+    function myfuunc(imgParent) {
+        hideee();
+        var mainDIVV = document.getElementById("image-dropdown");
+        imgParent.parentNode.removeChild(imgParent);
+        mainDIVV.insertBefore(imgParent, mainDIVV.childNodes[0]);
+    }
+
+</script>
+</body>
+</html>
