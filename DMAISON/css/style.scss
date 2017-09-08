@@ -475,12 +475,20 @@ header {
                     .dropdown-menu{
                       text-align: center;
                       padding: 0;
-                        li{
-                          border:none;
-                            a{
-
-                            }
+                      li{
+                        border:none;
+                        a{
+                          padding: 15px 10px;
+                          line-height: 1;
+                          height: inherit;
+                          @media(min-width: 992px){
+                            text-align: left;
+                          }
+                          span{
+                            margin-right: 10px;
+                          }
                         }
+                      }
                     }
 
                 }

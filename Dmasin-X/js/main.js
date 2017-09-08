@@ -1,4 +1,14 @@
 $(document).ready(function(){
+// chckbox check ALL
+    $("#checkAll").click(function () {
+        $(".check").prop('checked', $(this).prop('checked'));
+    });
+
+// chckbox check ALL
+
+
+
+
 
 // veiw number
     $("#hideNumber").hide();
@@ -358,7 +368,7 @@ $('#localisation_multi').multiselect({
     'use strict';
 
     var defaults = {
-        background : 'rgba(27, 17, 106, 0.86)', // Background color
+        background : '#9696d9', // Background color
         color: '#fff', // Icon color
         rounded: true, // if true make the button rounded
         width: '40px',
