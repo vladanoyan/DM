@@ -36,7 +36,8 @@ body {
   outline: none; }
 
 a, .button {
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s; }
 
 @media (max-width: 767px) {
   h1 {
@@ -144,7 +145,8 @@ header {
       -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.45);
       -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.45);
       box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.45);
-      transition: all 0.5s; }
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s; }
       header .serach-bar .btn-search:hover {
         -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.75);
@@ -488,7 +490,8 @@ header {
         border: none;
         padding: 6px;
         border-radius: 25px;
-        transition: all 0.3s; }
+        transition: all 0.3s;
+        -webkit-transition: all 0.3s; }
         .content section.two .right .personal button.ok:hover {
           -webkit-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22);
           -moz-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22);
@@ -516,7 +519,8 @@ header {
       border-radius: 3px;
       padding: 3px 27px;
       margin: 5px 0;
-      transition: all 0.3s; }
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s; }
       @media (max-width: 360px) {
         .content section.two .right .social .facebook {
           display: block; } }
@@ -531,7 +535,8 @@ header {
       border-radius: 3px;
       padding: 3px 21px;
       margin: 5px 0;
-      transition: all 0.3s; }
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s; }
       .content section.two .right .social .twitter:hover {
         -webkit-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22);
         -moz-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22);
@@ -543,7 +548,8 @@ header {
       background: #FFF;
       border-radius: 2px;
       margin: 5px 0;
-      transition: all 0.3s; }
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s; }
       .content section.two .right .social .G:hover {
         -webkit-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22);
         -moz-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22);
@@ -757,7 +763,7 @@ header {
             color: #1b116a;
             border-color: #1b116a; }
       .content section.tree .container .left-hend .mail-DM {
-        margin: 30px 0px; }
+        margin: 30px 0; }
         .content section.tree .container .left-hend .mail-DM .mail-pic {
           margin: 0 auto; }
         .content section.tree .container .left-hend .mail-DM .SUBSCRIBE {
@@ -769,13 +775,13 @@ header {
           border-radius: 8px;
           padding: 5px 13px;
           font-size: 14px;
-          -webkit-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.12);
-          -moz-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.12); }
+          -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+          -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12); }
           .content section.tree .container .left-hend .mail-DM .SUBSCRIBE:hover {
-            -webkit-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22);
-            -moz-box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22);
-            box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.22); }
+            -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
+            -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
+            box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22); }
 .content section.four {
   padding: 15px 0 35px 0; }
   .content section.four .container .img-col {
@@ -795,7 +801,7 @@ header {
       float: left; }
   .content section.four .list-group {
     background: #e0e0e0;
-    margin: 30px 0px;
+    margin: 30px 0;
     padding: 40px 0; }
     .content section.four .list-group ul {
       list-style-type: none; }

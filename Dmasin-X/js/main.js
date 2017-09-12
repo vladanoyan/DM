@@ -1,9 +1,16 @@
 $(document).ready(function(){
+
+
+
+    // toolTip
+    $('[data-toggle="tooltip"]').tooltip();
+    //toolTip
+
+
 // chckbox check ALL
     $("#checkAll").click(function () {
         $(".check").prop('checked', $(this).prop('checked'));
     });
-
 // chckbox check ALL
 
 
