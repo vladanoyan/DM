@@ -1,6 +1,70 @@
 $(document).ready(function(){
+    // DATAPICKER
 
+    var date_input=$('input[name="date"]'); //our date input has the name "date"
+    var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+    date_input.datepicker({
+        format: 'mm/dd/yyyy',
+        container: container,
+        todayHighlight: true,
+        autoclose: true,
+    })
+    // DATAPICKER
 
+// owl-HomePage
+    $('.owl-HomePage2').owlCarousel({
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout: 4000,
+        responsiveClass:true,
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots:false,
+        nav:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            460:{
+                items:2,
+            },
+            600:{
+                items:3,
+            },
+            1000:{
+                items:3,
+                nav:true,
+            }
+        }
+    })
+
+// owl-HomePage
+// owl-HomePage
+    $('.owl-HomePage').owlCarousel({
+        loop:true,
+        margin:10,
+        autoplay:false,
+        autoplayTimeout: 3000,
+        responsiveClass:true,
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots:false,
+        nav:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            460:{
+                items:2,
+            },
+            600:{
+                items:2,
+            }
+        }
+    })
+
+// owl-HomePage
 
     // toolTip
     $('[data-toggle="tooltip"]').tooltip();

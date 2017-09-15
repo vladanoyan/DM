@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Le meilleur de l’immobilier de votre région est ici ! Un large choix d’annonces immobilières en vente, location et location de vacances, nombreux appartements, maisons, villa, commerces, terrains, etc." />
+    <meta name="Author-Corporate" content="DMAISONS.COM" />
+    <meta name="keywords" content="dmaisons.com,immobilier,vente,location,location vacances,appartement,maison,villa,commerce,terrain" />
+    <!-- /favicons -->
+    <title>DMAISONS.COM | Tout l’immobilier : vente, location, location vacances</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.firefox.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/flexslider.custom.css" type="text/css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/validetta.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/simplelightbox.css" type="text/css">
+    <link href="css/bootstrap-multiselect.css" rel="stylesheet">
+    <link href="css/select2.css" rel="stylesheet">
+    <!-- /stylesheets -->
+
+</head>
+<body>
+<!-- header -->
+<header>
+    <!-- homepage-slider -->
+    <div class="homepage-slider owl-carousel">
+        <div class="item">
+            <img src="images/header-image.png"  alt=" ">
+            <div class="carousel-caption">
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/header-image.png"  alt=" ">
+        </div>
+    </div>
+    <!-- /homepage-slider -->
+    <div class="container text-right section-header">
+        <div class="sec-one">
+            <div id="data"></div>
+            <div class="lang">
+                <div id="image-dropdown">
+                    <i onclick="showww()" class="fa fa-chevron-down" aria-hidden="true"></i>
+                    <div class="img_holder" onclick="myfuunc(this);">
+                        <img class="flagimgs second" src="images/icons/United-Kingdom.png" /> <span class="iTEXT"></span>
+                    </div>
+                    <div class="img_holder" onclick="myfuunc(this);" >
+                        <img class="flagimgs second" src="images/icons/France.png" /> <span class="iTEXT"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid head">
+            <div class="container logo-pos">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img class="img-responsive" src="images/logo.png" alt="">
+                        <p>The site with real estate ads in your region -SALE - RENTAL - HOLIDAY RENTAL</p>
+
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle  active" data-toggle="dropdown" href="#">SEARCH A PROPERTY <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span>Page 1-1</a></li>
+                                <li><a href="#"><span>> </span>Page 1-2</a></li>
+                                <li><a href="#"><span>> </span>Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">POST AN AD<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">E-MAIL ALERTS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span>Page 1-1</a></li>
+                                <li><a href="#"><span>> </span>Page 1-2</a></li>
+                                <li><a href="#"><span>> </span>Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICES<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span>Loan simulation</a></li>
+                                <li><a href="#"><span>> </span>Your comments</a></li>
+                                <li><a href="#"><span>> </span>Our professional services</a></li>
+                                <li><a href="#"><span>> </span>Contact us</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a class="dropdown-toggle last" data-toggle="dropdown" href="#">MY SELECTION <img src="images/icons/selection.png" alt=""></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container serach-bar">
+        <div class="col-md-10 col-md-offset-1 text-center filters">
+            <div class="forms">
+                <div class="form1">
+                    <select id="select-box2-filter" name="typebiens[]" class="form-control " data-placeholder="Annonce" >
+                        <option value="0">Annonce</option>
+                        <option value="1">Vente</option>
+                        <option value="2">Location</option>
+                        <option value="3">Location saisonnière</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+
+                <div class="form2">
+                    <select id="select-box2-filter2" name="typebiens[]" class="form-control " data-placeholder="Biens" multiple="multiple">
+                        <option value="99">Appartements</option>
+                        <option value="8">Maisons de Villages / Villes</option>
+                        <option value="10">Divers</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+                <div class="form3">
+                    <select name="Localité" id="location" class="form-control select2-sel select2-sel-v2">
+                        <option value="" selected hidden>Ville ou code postal*</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+                <button class="btn-search">search</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid title-text text-center">
+        <div class="container">
+            <div class="col-md-3 col-sm-3 col-xs-12"></div>
+            <div class="col-md-6 col-sm-6 col-xs-12 text-center">
+                <div>
+                    <p class="title">DMAISONS PROVENCE</p>
+                    <p>Number 1 regional website for real estate advertisement</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12">
+                <div class="textheader">
+                    <p>411 available advertisementsbr</p>
+                    <p>  last advertisement added on</p>
+                    <p> 2017, june saturday 03</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- /header -->
+<section class="advertisment-tools">
+    <div class="wrapper">
+        <div class="container">
+            <section class="Title">
+                <h3><img src="images/icons/user.png" alt="">PROFESSIONAL  AREA <span>DMAISONS </span></h3>
+            </section>
+        </div>
+        <div class="container">
+            <section class="log">
+                <div class="col-md-3 col-sm-3 col-xs-12 text-left">
+                    <button class="logOut">
+                        <img src="images/icons/logout.png" alt="">
+                        logout
+                    </button>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-12 text-right">
+                    <div class="support">
+                        <span>TECHNICAL SUPPORT : </span>
+                        <span> <i class="fa phone">&#xf095;</i>  +33 (0) 4 13 615 600 </span>
+                        <span> <i class="fa">&#xf1fa;</i> tech@dmaisons.com </span>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <nav class="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Home page<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My advertismants<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My website<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Settings<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My evalution<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+        <div class="HomePage">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12 first-left">
+                        <div class="wel col-sm-12 col-xs-12">
+                            <h3>Welcome, Ms. NOM 30</h3>
+                            <hr>
+                            <span>Number of active advertisements : 5</span>
+                           <div class="prop">
+                                <p>4 to SELL</p>
+                                <p>1 for RENT</p>
+                                <p>0 for VACATION RENTAL</p>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-12 first-right">
+                        <div class="baner-flush">
+                            <img src="images/banner14.jpg" class="img-responsive" alt="banner">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12 second-left">
+                        <div class="col-sm-12 col-xs-12 slider-cont">
+                            <h3>THE DOSSIERS " PROFESSIONALS SIDE "</h3>
+                            <hr>
+                            <div class="owl-carousel owl-theme owl-HomePage">
+                                <div class="item">
+                                    <a href="#">
+                                    <img src="images/HomePageSlider/dossier1-dpe.jpg" class="img-responsive" alt="img">
+                                    <p>DPE : The display obligations</p>
+                                    <span>Find out +</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="images/HomePageSlider/dossier2-salon.jpg" class="img-responsive" alt="img">
+                                        <p>Real estate fair 2013</p>
+                                        <span>Find out +</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="images/HomePageSlider/dossier3-credit.jpg" class="img-responsive" alt="img">
+                                        <p>The new requirements of banks</p>
+                                        <span>Find out +</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="images/HomePageSlider/dossier4-tendance%20(1).jpg" class="img-responsive" alt="img">
+                                        <p>The trends in new housing</p>
+                                        <span>Find out +</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-12 second-right">
+                        <div class="col-sm-12 col-xs-12 slider-cont">
+                             <h3>OUR PROFESSIONAL SERVICES</h3>
+                            <span class="span">Reveice all info services by e-mail</span>
+                             <hr>
+                            <div class="owl-carousel owl-theme owl-HomePage2">
+                                <div class="item">
+                                    <a href="#">
+                                        <p>Why entust us with the search engine optimisation of your site ?</p>
+                                        <span class="find">Find out +</span>
+                                    </a>
+                                        <button>BE CONTACTED</button>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <p>Discover our programme Referencement Export </p>
+                                        <span class="find">Find out +</span>
+                                    </a>
+                                    <button>SERVICE ACTIVE</button>
+                                    <div class="default"></div>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <p>Improve your visibility with banner ads!</p>
+                                        <span class="find">Look</span>
+                                    </a>
+                                    <button>BE CONTACTED</button>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <p>Redevelopment of sites, the key to long-term productivity</p>
+                                        <span class="find">Look</span>
+                                    </a>
+                                    <button>BE CONTACTED</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-8 col-sm-8 col-xs-12">
+                       <div class="col-md-12 col-sm-12 col-xs-12 third-left">
+                           <h4>OUR PROFESSIONAL SERVICESTAKE A LOOK AT : THE PROGRAM "REFERENCEMENT EXPERT"</h4>
+                           <div class="col-md-12 col-sm-12 col-xs-12">
+                               <p class="baner-txt">Or how to boost the visibility of your website</p>
+                           </div>
+                           <div class="col-md-4 col-sm-4 col-xs-12">
+                               <img src="images/googleIMG.png" class="img-responsive" alt="img">
+                           </div>
+                           <div class="col-md-8 col-sm-8 col-xs-12 TXT">
+                            <p>Your agency operates in a competitive area ? You want to improve the <br>
+                                positioning of your website permanently ?</p>
+
+                               <p>Discover today our professional program <span>"Referencement Expert"</span> and download
+                                the documents below. <a href="#">Download the documents</a></p>
+                            </div>
+                           <div class="baner-btn">
+                               <button>PLEASE CONTACT ME ></button>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-4 col-sm-4 col-xs-12 third-right">
+                       <div class="baner-flush">
+                           <img src="images/banner15.jpg" class="img-responsive" alt="banner">
+                           <div class="baner-btn">
+                               <button>PLEASE CONTACT ME ></button>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="container-fluid text-center  footer-content">
+        <div class="row">
+            <img class="img-responsive navbar-brend" src="images/logo.png" alt="">
+            <div class="title-text">
+                <p> Copyright 1998-2017	- DMAISONS.COM	- Luxury Real Estate - Logiciel immobilier</p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-left footer-foot">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Search a property</h4>
+                <a href="#">Search a property</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Post an ad</h4>
+                <a href="#">Private advertising</a>
+                <a href="#">Private advertising</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>E-mail alerts</h4>
+                <a href="#">New alert</a>
+                <a href="#">Manage your alerts</a>
+
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Services</h4>
+                <a href="#">Loan simulation</a>
+                <a href="#">Your option</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Company</h4>
+                <a href="#">Contact</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 social">
+                <h4>Post an ad</h4>
+                <a href="#"><img src="images/icons/facebook.png" alt=""></a>
+                <a href="#"><img src="images/icons/twitter-icon.png" alt=""></a>
+                <a href="#"><img src="images/icons/Google-Plus-icon.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+<div id="gotop"></div>
+<!--scroll top-->
+
+<!-- js -->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/validetta.min.js"></script>
+<script type="text/javascript" src="js/validettaLang-fr-FR.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/flexslider/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/simple-lightbox.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+<script type="text/javascript" src="js/select2.full.min.js"></script>
+<script>
+
+    var dropd = document.getElementById("image-dropdown");
+
+    function showww() {
+        dropd.style.height = "auto";
+        dropd.style.overflow = "visible";
+    }
+
+    function hideee() {
+        dropd.style.height = "30px";
+        dropd.style.overflow = "hidden";
+    }
+    function myfuunc(imgParent) {
+        hideee();
+        var mainDIVV = document.getElementById("image-dropdown");
+        imgParent.parentNode.removeChild(imgParent);
+        mainDIVV.insertBefore(imgParent, mainDIVV.childNodes[0]);
+    }
+
+</script>
+</body>
+</html>

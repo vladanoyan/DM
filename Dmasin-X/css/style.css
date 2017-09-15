@@ -1762,7 +1762,8 @@ header {
     font-size: 14px;
     color: #737373;
     padding: 10px;
-    margin: 0; }
+    margin: 0;
+    text-align: justify; }
 .advertisment-my .setting {
   background-image: -moz-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
   background-image: -webkit-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
@@ -1853,7 +1854,8 @@ header {
     font-size: 14px;
     color: #737373;
     padding: 10px;
-    margin: 0; }
+    margin: 0;
+    text-align: justify; }
 .new-advertisment .setting .navbar {
   border: 1px solid #aca8a8;
   margin-bottom: 0;
@@ -2062,6 +2064,9 @@ header {
     background-size: cover;
     border: 1px solid;
     padding: 0; }
+    @media (min-width: 767px) {
+      .Email .back {
+        background-position: right; } }
     .Email .back button {
       background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
       background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
@@ -2460,6 +2465,1468 @@ header {
   margin-bottom: 10px;
   clear: both;
   text-align: center; }
+
+.evaluation .paddno {
+  padding: 0; }
+.evaluation .Title-text {
+  color: #737373;
+  font-size: 28px;
+  padding: 20px 0; }
+  @media (max-width: 768px) {
+    .evaluation .Title-text {
+      font-size: 20px; } }
+.evaluation .banner {
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px;
+  padding: 10px;
+  position: relative; }
+  .evaluation .banner p {
+    font-size: 14px;
+    color: #737373;
+    padding: 10px;
+    margin: 0;
+    text-align: justify; }
+  .evaluation .banner .tooltip-inner {
+    max-width: 300px; }
+  .evaluation .banner img {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer; }
+.evaluation .left .content {
+  padding: 0;
+  background: #f0f0f0;
+  border: 1px solid #aca8a8; }
+  .evaluation .left .content .group {
+    float: left;
+    margin-bottom: 15px; }
+    @media (min-width: 767px) {
+      .evaluation .left .content .group {
+        margin: 22px 0; } }
+    .evaluation .left .content .group .forms {
+      float: left; }
+      @media (min-width: 767px) {
+        .evaluation .left .content .group .forms {
+          padding: 15px; } }
+      .evaluation .left .content .group .forms .Title-label {
+        color: #737373;
+        font-size: 15px;
+        font-weight: 300;
+        margin: 0;
+        padding-top: 15px;
+        padding-bottom: 0; }
+      .evaluation .left .content .group .forms .form-group {
+        padding: 0;
+        margin-bottom: 5px; }
+        .evaluation .left .content .group .forms .form-group .form-control {
+          border-radius: 0;
+          margin-top: 10px;
+          height: 28px; }
+          .evaluation .left .content .group .forms .form-group .form-control:focus {
+            box-shadow: none;
+            border-color: #aca8a8; }
+  .evaluation .left .content p {
+    color: #737373;
+    margin: 10px 0 0 10px; }
+  .evaluation .left .content .textarea {
+    border-radius: 0;
+    width: 100%;
+    margin: 10px 0;
+    resize: none; }
+    .evaluation .left .content .textarea:focus {
+      box-shadow: none;
+      border-color: #aca8a8; }
+.evaluation .left .btn-confirm {
+  float: right;
+  background-color: #f1f1f1;
+  border: 1px solid #aca8a8;
+  margin: 10px 0;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s; }
+  .evaluation .left .btn-confirm:hover {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
+    background: #8d8dd6; }
+  .evaluation .left .btn-confirm:hover .confirm {
+    color: #fff; }
+  .evaluation .left .btn-confirm input {
+    margin: 6px 0 6px 10px;
+    height: 20px;
+    width: 20px; }
+  .evaluation .left .btn-confirm .confirm {
+    background: transparent;
+    color: #737373;
+    font-size: 15px;
+    border: none;
+    margin: 0 3px;
+    vertical-align: super; }
+
+.Area {
+  padding-top: 30px;
+  padding-bottom: 40px; }
+  .Area .Title {
+    color: #7c7c7c;
+    text-align: left; }
+  .Area .back {
+    background-image: url("../images/Area.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid;
+    padding: 0; }
+    @media (min-width: 767px) {
+      .Area .back {
+        background-position: right; } }
+    .Area .back button {
+      background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      background-image: -ms-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      color: #FFF;
+      border: 1px solid #FFF;
+      padding: 5px 25px;
+      outline: 3px solid #9797da;
+      margin: 15px 0;
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      font-size: 12px; }
+      .Area .back button:hover {
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+    .Area .back .first-section {
+      border-right: 1px dashed; }
+      @media (max-width: 768px) {
+        .Area .back .first-section {
+          border-right: none;
+          border-bottom: 1px dashed; } }
+      .Area .back .first-section .form-control {
+        border-radius: 0;
+        margin-top: 10px; }
+        .Area .back .first-section .form-control:focus {
+          box-shadow: none;
+          border-color: #aca8a8; }
+      .Area .back .first-section .passForgot {
+        color: #7c7c7c;
+        text-align: left;
+        font-size: 14px; }
+    .Area .back .Title-paragraf h3 {
+      color: #7c7c7c;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Stainless'; }
+      @media (max-width: 991px) {
+        .Area .back .Title-paragraf h3 {
+          font-size: 16px; } }
+    .Area .back .Title-paragraf p {
+      padding: 0 26px;
+      color: #7c7c7c;
+      text-align: center;
+      font-size: 16px;
+      font-family: 'Stainless'; }
+      @media (max-width: 991px) {
+        .Area .back .Title-paragraf p {
+          font-size: 14px;
+          padding: 0 10px; } }
+
+.invoice .Title-text {
+  color: #737373;
+  font-size: 28px;
+  padding: 20px 0; }
+  @media (max-width: 768px) {
+    .invoice .Title-text {
+      font-size: 20px; } }
+.invoice .banner {
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px;
+  padding: 10px;
+  position: relative; }
+  .invoice .banner p {
+    font-size: 14px;
+    color: #737373;
+    padding: 10px;
+    margin: 0;
+    text-align: justify; }
+  .invoice .banner .tooltip-inner {
+    max-width: 300px; }
+  .invoice .banner img {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer; }
+.invoice .content {
+  padding: 0;
+  background: #f0f0f0;
+  border: 1px solid #aca8a8; }
+  .invoice .content .forms {
+    float: left; }
+    @media (min-width: 767px) {
+      .invoice .content .forms {
+        padding: 10px; } }
+    .invoice .content .forms .Title-label {
+      color: #737373;
+      font-size: 15px;
+      font-weight: 300;
+      margin: 0;
+      padding-top: 15px;
+      padding-bottom: 0; }
+    .invoice .content .forms .form-group {
+      padding: 0;
+      margin-bottom: 5px; }
+      .invoice .content .forms .form-group .form-control {
+        border-radius: 0;
+        margin-top: 10px;
+        height: 28px; }
+        .invoice .content .forms .form-group .form-control:focus {
+          box-shadow: none;
+          border-color: #aca8a8; }
+.invoice .paddno {
+  padding: 0;
+  border: 1px solid #aca8a8;
+  margin: 30px 0; }
+  .invoice .paddno .invoice-container {
+    min-height: 300px;
+    padding: 15px; }
+    .invoice .paddno .invoice-container h4 {
+      color: #737373;
+      font-size: 16px;
+      text-align: center; }
+.invoice .btn-confirm {
+  float: right;
+  background-color: #f1f1f1;
+  border: 1px solid #aca8a8;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  text-align: right;
+  margin-bottom: 20px; }
+  .invoice .btn-confirm:hover {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
+    background: #8d8dd6; }
+  .invoice .btn-confirm button {
+    background: transparent;
+    color: #737373;
+    font-size: 15px;
+    border: none;
+    padding: 7px 21px; }
+    .invoice .btn-confirm button:hover {
+      color: #FFF; }
+    .invoice .btn-confirm button img {
+      float: left;
+      margin-right: 15px; }
+
+.selection .margin {
+  margin: 15px 0; }
+.selection .paddno {
+  padding: 0; }
+.selection .Title-text {
+  color: #737373;
+  font-size: 28px; }
+  @media (max-width: 768px) {
+    .selection .Title-text {
+      font-size: 20px; } }
+.selection .banner {
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px;
+  padding: 10px;
+  position: relative; }
+  .selection .banner .tooltip-inner {
+    max-width: 300px; }
+  .selection .banner img {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer; }
+  .selection .banner p {
+    font-size: 14px;
+    color: #737373;
+    padding: 10px;
+    margin: 0;
+    text-align: justify; }
+.selection .setting {
+  background-image: -moz-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background-image: -webkit-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background-image: -ms-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px;
+  padding: 10px 0; }
+  .selection .setting .Title-text {
+    color: #737373;
+    font-size: 15px;
+    font-weight: 300; }
+  .selection .setting .form-control {
+    border-radius: 0;
+    max-width: 380px; }
+    .selection .setting .form-control:focus {
+      box-shadow: none;
+      border-color: #aca8a8; }
+  .selection .setting .checkbox {
+    margin: 0 10px; }
+    @media (min-width: 400px) {
+      .selection .setting .checkbox {
+        float: left; } }
+    .selection .setting .checkbox label {
+      color: #737373;
+      font-size: 15px; }
+  .selection .setting .add {
+    background-color: #f1f1f1;
+    border: 1px solid #aca8a8;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    padding: 3px 50px 3px 3px;
+    margin-top: 10px;
+    color: #737373; }
+    .selection .setting .add:hover {
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
+      background: #8d8dd6;
+      color: #FFF; }
+    .selection .setting .add:hover i {
+      color: #FFF;
+      border-color: #FFF; }
+    .selection .setting .add i {
+      margin-right: 10px;
+      border: 1px solid #2d6ea0;
+      font-size: 17px;
+      padding: 3px 5px;
+      color: #2d6ea0;
+      border-radius: 3px;
+      vertical-align: middle;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s; }
+.selection .sum {
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px;
+  padding: 0; }
+  .selection .sum .header {
+    background: #dedede;
+    border-bottom: 1px solid #aca8a8; }
+    .selection .sum .header .nav-tabs {
+      border: none;
+      position: relative;
+      z-index: 25;
+      top: 1px; }
+      .selection .sum .header .nav-tabs li {
+        margin: 13px 0 0 13px; }
+        .selection .sum .header .nav-tabs li a {
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          border-top: 1px solid #aca8a8;
+          border-right: 1px solid #aca8a8;
+          border-left: 1px solid #aca8a8; }
+          .selection .sum .header .nav-tabs li a img {
+            margin-right: 5px; }
+  .selection .sum .span {
+    padding: 10px;
+    color: #737373;
+    font-size: 13px; }
+    @media (max-width: 991px) {
+      .selection .sum .span {
+        font-size: 12px; } }
+  .selection .sum .list {
+    list-style-type: none;
+    margin-top: 15px;
+    padding: 0;
+    max-height: 360px;
+    overflow-y: auto;
+    margin-bottom: 0; }
+    .selection .sum .list li {
+      padding: 10px;
+      color: #737373;
+      font-size: 15px; }
+      .selection .sum .list li:nth-child(2n+1) {
+        background: #f1f1f1; }
+      @media (max-width: 991px) {
+        .selection .sum .list li {
+          font-size: 13px; } }
+
+.HomePage {
+  padding: 50px 0; }
+  .HomePage .owl-HomePage .owl-item {
+    min-height: 120px;
+    text-align: center;
+    padding: 15px; }
+    .HomePage .owl-HomePage .owl-item .item {
+      -moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+      -webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+      box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+      position: relative; }
+      .HomePage .owl-HomePage .owl-item .item a:hover p {
+        font-weight: 700; }
+      .HomePage .owl-HomePage .owl-item .item a:hover span {
+        font-weight: 700; }
+      .HomePage .owl-HomePage .owl-item .item p {
+        position: absolute;
+        top: 0;
+        color: #475eae;
+        z-index: 3;
+        margin: 5px 0 0 5px;
+        text-align: left;
+        line-height: 16px; }
+        @media (max-width: 1200px) {
+          .HomePage .owl-HomePage .owl-item .item p {
+            font-size: 14px; } }
+      .HomePage .owl-HomePage .owl-item .item span {
+        font-size: 14px;
+        position: absolute;
+        bottom: 0;
+        color: #504e4e;
+        z-index: 3;
+        text-align: center;
+        -ms-transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, 0%);
+        transform: translate(-50%, 0%);
+        left: 50%;
+        width: 100%; }
+  .HomePage .owl-HomePage2 .owl-item {
+    padding: 0 35px; }
+    .HomePage .owl-HomePage2 .owl-item .item button {
+      font-size: 13px;
+      padding: 3px 10px;
+      color: #fff;
+      background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      background-image: -ms-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      margin-bottom: 15px; }
+    .HomePage .owl-HomePage2 .owl-item .item .default {
+      position: absolute;
+      background: rgba(243, 242, 242, 0.27);
+      height: 100%;
+      width: 100%;
+      z-index: 9;
+      top: 0; }
+    .HomePage .owl-HomePage2 .owl-item .item a {
+      text-decoration: none; }
+      .HomePage .owl-HomePage2 .owl-item .item a:hover p {
+        font-weight: 700; }
+      .HomePage .owl-HomePage2 .owl-item .item a:hover span {
+        font-weight: 700; }
+    .HomePage .owl-HomePage2 .owl-item .item p {
+      height: 70px;
+      color: #475eae;
+      margin: 10px 0 0 5px;
+      text-align: left;
+      line-height: 20px; }
+      @media (max-width: 1200px) {
+        .HomePage .owl-HomePage2 .owl-item .item p {
+          font-size: 14px; } }
+    .HomePage .owl-HomePage2 .owl-item .item .find {
+      font-size: 14px;
+      color: #504e4e;
+      text-align: left;
+      margin: 12px 5px;
+      display: block; }
+  .HomePage .owl-next {
+    background: transparent !important;
+    color: #000 !important;
+    right: -20px;
+    position: absolute;
+    top: 36%; }
+    .HomePage .owl-next i {
+      font-size: 40px;
+      color: #737373;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s; }
+      .HomePage .owl-next i:hover {
+        color: #475eae; }
+  .HomePage .owl-prev {
+    background: transparent !important;
+    color: #000 !important;
+    left: -20px;
+    position: absolute;
+    top: 36%; }
+    .HomePage .owl-prev i {
+      font-size: 40px;
+      color: #737373;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s; }
+      .HomePage .owl-prev i:hover {
+        color: #475eae; }
+  .HomePage .first-left {
+    margin-bottom: 15px; }
+    .HomePage .first-left .wel {
+      background: #ececec;
+      border: 1px solid #bfbbbb; }
+      .HomePage .first-left .wel h3 {
+        color: #737373;
+        font-size: 20px;
+        margin: 15px 0; }
+      .HomePage .first-left .wel hr {
+        border-top: 2px ridge #f1efef;
+        margin: 10px 0; }
+      .HomePage .first-left .wel .prop {
+        margin: 15px 0; }
+      .HomePage .first-left .wel span, .HomePage .first-left .wel p {
+        color: #737373;
+        font-size: 13px;
+        margin: 0; }
+  .HomePage .first-right {
+    margin-bottom: 15px; }
+    .HomePage .first-right .baner-flush {
+      border: 1px solid #bfbbbb; }
+      .HomePage .first-right .baner-flush img {
+        width: 100%; }
+        @media (min-width: 767px) {
+          .HomePage .first-right .baner-flush img {
+            min-height: 170px; } }
+  .HomePage .slider-cont {
+    background: #fbfbfb;
+    border: 1px solid #bfbbbb;
+    min-height: 235px; }
+  .HomePage .second-left {
+    margin-bottom: 15px; }
+    .HomePage .second-left h3 {
+      color: #475eae;
+      font-size: 14px;
+      margin: 15px 0 0 0;
+      display: inline-block; }
+      @media (min-width: 575px) {
+        .HomePage .second-left h3 {
+          font-size: 16px; } }
+    .HomePage .second-left hr {
+      border-top: 1px solid #bfbbbb;
+      margin: 10px 0; }
+  .HomePage .second-right {
+    margin-bottom: 15px; }
+    .HomePage .second-right h3 {
+      color: #475eae;
+      font-size: 14px;
+      margin: 15px 0 0 0; }
+      @media (min-width: 575px) {
+        .HomePage .second-right h3 {
+          display: inline-block;
+          font-size: 16px; } }
+    .HomePage .second-right hr {
+      border-top: 1px solid #bfbbbb;
+      margin: 10px 0; }
+    .HomePage .second-right .span {
+      color: #737373;
+      font-size: 16px;
+      margin: 15px 0 0 0;
+      clear: both; }
+      @media (min-width: 575px) {
+        .HomePage .second-right .span {
+          float: right; } }
+  .HomePage .third-left {
+    position: relative;
+    padding: 0;
+    border: 1px solid #8d8dd6;
+    background: white;
+    background: -moz-linear-gradient(top, white 0%, white 51%, #e9eef1 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, white), color-stop(51%, white), color-stop(100%, #e9eef1));
+    background: -webkit-linear-gradient(top, white 0%, white 51%, #e9eef1 100%);
+    background: -o-linear-gradient(top, white 0%, white 51%, #e9eef1 100%);
+    background: -ms-linear-gradient(top, white 0%, white 51%, #e9eef1 100%);
+    background: linear-gradient(to bottom, white 0%, white 51%, #e9eef1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e9eef1', GradientType=0 ); }
+    .HomePage .third-left img {
+      margin: 24px auto; }
+    .HomePage .third-left h4 {
+      font-size: 16px;
+      background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      background-image: -ms-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      color: #FFF;
+      padding: 14px 12px;
+      margin: 0; }
+      @media (max-width: 767px) {
+        .HomePage .third-left h4 {
+          font-size: 14px; } }
+    .HomePage .third-left .baner-txt {
+      color: #737373;
+      font-weight: 700;
+      margin: 10px 0 20px 0; }
+    .HomePage .third-left .TXT {
+      margin: 10px 0; }
+      .HomePage .third-left .TXT p {
+        font-size: 15px;
+        color: #737373;
+        margin: 15px 0; }
+        .HomePage .third-left .TXT p span {
+          color: #64c311; }
+      .HomePage .third-left .TXT a {
+        font-size: 15px;
+        color: #737373;
+        text-decoration: underline; }
+    .HomePage .third-left .baner-btn {
+      width: 100%;
+      text-align: center;
+      bottom: -20px;
+      position: absolute; }
+      .HomePage .third-left .baner-btn button {
+        font-size: 16px;
+        border: none;
+        padding: 8px 12px;
+        color: #fff;
+        background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+        background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+        background-image: -ms-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%); }
+        .HomePage .third-left .baner-btn button:hover {
+          -moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+          -webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+          box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22); }
+  @media (max-width: 767px) {
+    .HomePage .third-right {
+      margin: 30px 0; } }
+  .HomePage .third-right .baner-flush {
+    position: relative;
+    border: 1px solid #bfbbbb; }
+    .HomePage .third-right .baner-flush .baner-btn {
+      width: 100%;
+      text-align: center;
+      bottom: -20px;
+      position: absolute; }
+      .HomePage .third-right .baner-flush .baner-btn button {
+        font-size: 16px;
+        border: none;
+        padding: 8px 12px;
+        color: #fff;
+        background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+        background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+        background-image: -ms-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%); }
+        .HomePage .third-right .baner-flush .baner-btn button:hover {
+          -moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+          -webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+          box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22); }
+    .HomePage .third-right .baner-flush img {
+      width: 100%; }
+      @media (min-width: 767px) {
+        .HomePage .third-right .baner-flush img {
+          min-height: 170px; } }
+
+.website .calendar {
+  margin: 15px 0; }
+  .website .calendar .padno {
+    padding: 0; }
+  .website .calendar .input-group {
+    margin: 15px auto;
+    position: relative; }
+    .website .calendar .input-group span {
+      position: absolute;
+      z-index: 23;
+      left: 6px;
+      top: 18%;
+      font-size: 15px;
+      color: #737373; }
+  .website .calendar .calendarIMG {
+    position: absolute;
+    z-index: 23;
+    right: 3px;
+    top: 23%; }
+  .website .calendar .form-control {
+    padding: 6px 22px 6px 60px;
+    height: 30px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin: 0 auto;
+    text-align: right;
+    color: #8d8dd6;
+    font-weight: 700; }
+    .website .calendar .form-control:focus {
+      box-shadow: none;
+      border-color: #aca8a8; }
+  .website .calendar .DATAPICKER {
+     /*!
+* Datepicker for Bootstrap v1.4.1 (https://github.com/eternicode/bootstrap-datepicker)
+*
+* Copyright 2012 Stefan Petre
+* Improvements by Andrew Rowls
+* Licensed under the Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+*/ }
+    .website .calendar .DATAPICKER .datepicker {
+      padding: 4px;
+      border-radius: 4px;
+      direction: ltr; }
+    .website .calendar .DATAPICKER .datepicker-inline {
+      width: 220px; }
+    .website .calendar .DATAPICKER .datepicker.datepicker-rtl {
+      direction: rtl; }
+    .website .calendar .DATAPICKER .datepicker.datepicker-rtl table tr td span {
+      float: right; }
+    .website .calendar .DATAPICKER .datepicker-dropdown {
+      top: 0;
+      left: 0; }
+    .website .calendar .DATAPICKER .datepicker-dropdown:before {
+      content: '';
+      display: inline-block;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-bottom: 7px solid #ccc;
+      border-top: 0;
+      border-bottom-color: rgba(0, 0, 0, 0.2);
+      position: absolute; }
+    .website .calendar .DATAPICKER .datepicker-dropdown:after {
+      content: '';
+      display: inline-block;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-bottom: 6px solid #fff;
+      border-top: 0;
+      position: absolute; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-left:before {
+      left: 6px; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-left:after {
+      left: 7px; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-right:before {
+      right: 6px; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-right:after {
+      right: 7px; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-top:before {
+      top: -7px; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-top:after {
+      top: -6px; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-bottom:before {
+      bottom: -7px;
+      border-bottom: 0;
+      border-top: 7px solid #999; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-bottom:after {
+      bottom: -6px;
+      border-bottom: 0;
+      border-top: 6px solid #fff; }
+    .website .calendar .DATAPICKER .datepicker > div {
+      display: none; }
+    .website .calendar .DATAPICKER .datepicker.days .datepicker-days,
+    .website .calendar .DATAPICKER .datepicker.months .datepicker-months,
+    .website .calendar .DATAPICKER .datepicker.years .datepicker-years {
+      display: block; }
+    .website .calendar .DATAPICKER .datepicker table {
+      margin: 0;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    .website .calendar .DATAPICKER .datepicker table tr td,
+    .website .calendar .DATAPICKER .datepicker table tr th {
+      text-align: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 4px;
+      border: none; }
+    .website .calendar .DATAPICKER .table-striped .datepicker table tr td,
+    .website .calendar .DATAPICKER .table-striped .datepicker table tr th {
+      background-color: transparent; }
+    .website .calendar .DATAPICKER .datepicker table tr td.day:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.day.focused {
+      background: #eeeeee;
+      cursor: pointer; }
+    .website .calendar .DATAPICKER .datepicker table tr td.old,
+    .website .calendar .DATAPICKER .datepicker table tr td.new {
+      color: #999999; }
+    .website .calendar .DATAPICKER .datepicker table tr td.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.disabled:hover {
+      background: none;
+      color: #999999;
+      cursor: default; }
+    .website .calendar .DATAPICKER .datepicker table tr td.today,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover {
+      color: #000000;
+      background-color: #ffdb99;
+      border-color: #ffb733; }
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today.disabled:hover {
+      color: #000000;
+      background-color: #ffcd70;
+      border-color: #f59e00; }
+    .website .calendar .DATAPICKER .datepicker table tr td.today:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today.disabled:hover {
+      background-image: none; }
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.today[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover[disabled],
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover[disabled]:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:hover:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover[disabled]:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:hover:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover[disabled]:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:hover:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover[disabled].active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:hover.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:hover.active {
+      background-color: #ffdb99;
+      border-color: #ffb733; }
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover:hover {
+      color: #000; }
+    .website .calendar .DATAPICKER .datepicker table tr td.today.active:hover {
+      color: #fff; }
+    .website .calendar .DATAPICKER .datepicker table tr td.range,
+    .website .calendar .DATAPICKER .datepicker table tr td.range:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.disabled:hover {
+      background: #eeeeee;
+      border-radius: 0; }
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover {
+      color: #000000;
+      background-color: #f7ca77;
+      border-color: #f1a417;
+      border-radius: 0; }
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today.disabled:hover {
+      color: #000000;
+      background-color: #f4bb51;
+      border-color: #bf800c; }
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today.disabled:hover {
+      background-image: none; }
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover[disabled],
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover[disabled]:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:hover:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover[disabled]:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:hover:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover[disabled]:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:hover:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover[disabled].active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:hover.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:hover.active {
+      background-color: #f7ca77;
+      border-color: #f1a417; }
+    .website .calendar .DATAPICKER .datepicker table tr td.selected,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover {
+      color: #ffffff;
+      background-color: #999999;
+      border-color: #555555;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected.disabled:hover {
+      color: #ffffff;
+      background-color: #858585;
+      border-color: #373737; }
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected.disabled:hover {
+      background-image: none; }
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover[disabled],
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover[disabled]:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:hover:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover[disabled]:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:hover:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover[disabled]:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:hover:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover[disabled].active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:hover.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:hover.active {
+      background-color: #999999;
+      border-color: #555555; }
+    .website .calendar .DATAPICKER .datepicker table tr td.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover {
+      color: #ffffff;
+      background-color: #428bca;
+      border-color: #357ebd;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active.disabled:hover {
+      color: #ffffff;
+      background-color: #3276b1;
+      border-color: #285e8e; }
+    .website .calendar .DATAPICKER .datepicker table tr td.active:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active.disabled:hover {
+      background-image: none; }
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.active[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover[disabled],
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover[disabled]:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:hover:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover[disabled]:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:hover:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover[disabled]:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:hover:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover[disabled].active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:hover.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:hover.active {
+      background-color: #428bca;
+      border-color: #357ebd; }
+    .website .calendar .DATAPICKER .datepicker table tr td span {
+      display: block;
+      width: 23%;
+      height: 54px;
+      line-height: 54px;
+      float: left;
+      margin: 1%;
+      cursor: pointer;
+      border-radius: 4px; }
+    .website .calendar .DATAPICKER .datepicker table tr td span:hover {
+      background: #eeeeee; }
+    .website .calendar .DATAPICKER .datepicker table tr td span.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td span.disabled:hover {
+      background: none;
+      color: #999999;
+      cursor: default; }
+    .website .calendar .DATAPICKER .datepicker table tr td span.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover {
+      color: #ffffff;
+      background-color: #428bca;
+      border-color: #357ebd;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover {
+      color: #ffffff;
+      background-color: #3276b1;
+      border-color: #285e8e; }
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover {
+      background-image: none; }
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover[disabled],
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover[disabled]:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:hover:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover[disabled]:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:hover:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover[disabled]:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:hover:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover[disabled].active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:hover.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
+      background-color: #428bca;
+      border-color: #357ebd; }
+    .website .calendar .DATAPICKER .datepicker table tr td span.old,
+    .website .calendar .DATAPICKER .datepicker table tr td span.new {
+      color: #999999; }
+    .website .calendar .DATAPICKER .datepicker .datepicker-switch {
+      width: 145px; }
+    .website .calendar .DATAPICKER .datepicker thead tr:first-child th,
+    .website .calendar .DATAPICKER .datepicker tfoot tr th {
+      cursor: pointer; }
+    .website .calendar .DATAPICKER .datepicker thead tr:first-child th:hover,
+    .website .calendar .DATAPICKER .datepicker tfoot tr th:hover {
+      background: #eeeeee; }
+    .website .calendar .DATAPICKER .datepicker .cw {
+      font-size: 10px;
+      width: 12px;
+      padding: 0 2px 0 5px;
+      vertical-align: middle; }
+    .website .calendar .DATAPICKER .datepicker thead tr:first-child .cw {
+      cursor: default;
+      background-color: transparent; }
+    .website .calendar .DATAPICKER .input-group.date .input-group-addon {
+      cursor: pointer; }
+    .website .calendar .DATAPICKER .input-daterange {
+      width: 100%; }
+    .website .calendar .DATAPICKER .input-daterange input {
+      text-align: center; }
+    .website .calendar .DATAPICKER .input-daterange input:first-child {
+      border-radius: 3px 0 0 3px; }
+    .website .calendar .DATAPICKER .input-daterange input:last-child {
+      border-radius: 0 3px 3px 0; }
+    .website .calendar .DATAPICKER .input-daterange .input-group-addon {
+      width: auto;
+      min-width: 16px;
+      padding: 4px 5px;
+      font-weight: normal;
+      line-height: 1.42857143;
+      text-align: center;
+      text-shadow: 0 1px 0 #fff;
+      vertical-align: middle;
+      background-color: #eeeeee;
+      border: solid #cccccc;
+      border-width: 1px 0;
+      margin-left: -5px;
+      margin-right: -5px; }
+.website .content .form-control {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #255792;
+  height: 25px;
+  padding: 5px 1px;
+  font-size: 12px;
+  min-width: 45px; }
+  .website .content .form-control:focus {
+    box-shadow: none;
+    border-color: #aca8a8; }
+.website .content .border {
+  padding: 0;
+  border: 1px solid #aca8a8;
+  margin-bottom: 20px; }
+  .website .content .border .listIcon .text-p {
+    font-size: 14px;
+    color: #737373;
+    font-style: italic; }
+  .website .content .border .listIcon img {
+    padding: 1px;
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s; }
+    .website .content .border .listIcon img:hover {
+      -moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+      -webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+      box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22); }
+  .website .content .border .form-group {
+    margin: 0 4px 20px 0; }
+    @media (min-width: 767px) {
+      .website .content .border .form-group {
+        float: right; } }
+  .website .content .border .Title {
+    padding: 6px;
+    margin: 0;
+    color: #FFF;
+    background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+    background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+    background-image: -ms-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+    text-align: left;
+    font-size: 16px; }
+    @media (max-width: 767px) {
+      .website .content .border .Title {
+        font-size: 14px; } }
+  .website .content .border .content-text {
+    text-align: center;
+    border: 1px solid #aca8a8;
+    margin: 8px;
+    min-height: 65px; }
+    .website .content .border .content-text span {
+      text-align: center;
+      font-size: 16px;
+      color: #737373;
+      display: block;
+      padding-top: 3%;
+      font-style: italic; }
+      @media (max-width: 767px) {
+        .website .content .border .content-text span {
+          font-size: 14px; } }
+    .website .content .border .content-text .search {
+      max-width: 190px;
+      text-align: center;
+      margin: 20px auto; }
+      .website .content .border .content-text .search input {
+        padding: 5px;
+        width: 83%;
+        float: left;
+        height: 24px;
+        margin-right: 3px;
+        -moz-box-shadow: inset 0 0 36px 0 rgba(0, 0, 0, 0.22);
+        -webkit-box-shadow: inset 0 0 36px 0 rgba(0, 0, 0, 0.22);
+        box-shadow: inset 0 0 36px 0 rgba(0, 0, 0, 0.22);
+        border: none; }
+      .website .content .border .content-text .search button {
+        width: 15%;
+        text-align: center;
+        font-size: 14px;
+        border: none;
+        padding: 2px 5px;
+        color: #fff;
+        background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+        background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+        background-image: -ms-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%); }
+        .website .content .border .content-text .search button:hover {
+          -moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+          -webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+          box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22); }
+  .website .content .border .content-text-center {
+    text-align: center;
+    border: 1px solid #aca8a8;
+    margin: 8px;
+    min-height: 220px; }
+    .website .content .border .content-text-center h4 {
+      text-align: left;
+      font-size: 16px;
+      color: #737373;
+      margin: 10px;
+      font-weight: 700; }
+  .website .content .border .content-text-center1 {
+    text-align: center;
+    border: 1px solid #aca8a8;
+    margin: 8px;
+    min-height: 180px; }
+  .website .content .border .txt {
+    font-size: 14px;
+    color: #255792;
+    display: block;
+    font-style: italic;
+    text-align: right;
+    float: right; }
 
 section.footer .footer-content {
   background-image: url(../images/background.png);
