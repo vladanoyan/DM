@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+
+
     // DATAPICKER
 
     var date_input=$('input[name="date"]'); //our date input has the name "date"
@@ -375,19 +378,19 @@ ASQ DESQ change icon
     // pagescroll_navbarSize start
 window.onload=function() {
     if (window.pageYOffset >30){
-        $('.navbar').css({'backgroundColor':'','top':'30px'});
+        $('.navbar-inverse').css({'backgroundColor':'','top':'30px'});
     }
     else {
-        $('.navbar').css({'backgroundColor': '','top':''});
+        $('.navbar-inverse').css({'backgroundColor': '','top':''});
     }
 };
 
     window.onscroll = function() {
         if (window.pageYOffset > 30){
-            $('.navbar').css({'backgroundColor':'','top':'30px'});
+            $('.navbar-inverse').css({'backgroundColor':'','top':'30px'});
          }
         else {
-            $('.navbar').css({'backgroundColor': '','top':''});
+            $('.navbar-inverse').css({'backgroundColor': '','top':''});
          }
     }
 

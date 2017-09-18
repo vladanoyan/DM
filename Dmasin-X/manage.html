@@ -207,7 +207,7 @@
                             <li><a href="#">Page 1-3</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My advertismants<span class="caret"></span></a>
+                    <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My advertismants<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Page 1-1</a></li>
                             <li><a href="#">Page 1-2</a></li>
@@ -228,7 +228,7 @@
                             <li><a href="#">Page 1-3</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My evalution<span class="caret"></span></a>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My evalution<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Page 1-1</a></li>
                             <li><a href="#">Page 1-2</a></li>
@@ -239,85 +239,222 @@
             </nav>
         </div>
     </div>
-    <div class="evaluation">
+    <div class="manage">
         <div class="container">
             <div class="col-md-12 col-sm-12 col-xs-12 text-left">
-                <h2 class="Title-text">My evaluation</h2>
+                <h2 class="Title-text">Manage my advertisements</h2>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-9 col-sm-12 col-xs-12 left">
-                   <div class="col-md-12 col-sm-12 col-xs-12 content">
-                       <div class="col-md-7 col-sm-7 col-xs-12">
-                        <p>Your comments concerning this service</p>
-                           <textarea name="text" class="textarea" id="textarea" cols="30" rows="10"></textarea>
-                       </div>
-                       <div class="col-md-5 col-sm-5 col-xs-12">
-                           <form>
-                               <div class="group">
-                               <div class="forms col-xs-12 col-sm-12">
-                                       <div class="form-group col-md-5 col-sm-5 col-xs-12">
-                                           <label class="control-label Title-label" for="select-box111">Usability*</label>
-                                       </div>
-                                       <div class="form-group col-md-7 col-sm-7 col-xs-12">
-                                           <select name="typebiens[]" class="form-control" data-placeholder="Annonce" id="select-box111">
-                                               <option></option>
-                                               <option value="0">5 km</option>
-                                               <option value="1">10 km</option>
-                                               <option value="2">15 km</option>
-                                               <option value="3">20 km</option>
-                                           </select>
-                                       </div>
-                                   </div>
-                               <div class="forms col-xs-12 col-sm-12">
-                                   <div class="form-group col-md-5 col-sm-5 col-xs-12">
-                                       <label class="control-label Title-label" for="select-box11">Design*</label>
-                                   </div>
-                                   <div class="form-group col-md-7 col-sm-7 col-xs-12">
-                                       <select name="typebiens[]" class="form-control" data-placeholder="Annonce" id="select-box11">
-                                           <option></option>
-                                           <option value="0">5 km</option>
-                                           <option value="1">10 km</option>
-                                           <option value="2">15 km</option>
-                                           <option value="3">20 km</option>
-                                       </select>
-                                   </div>
-                               </div>
-                               <div class="forms col-xs-12 col-sm-12">
-                                       <div class="form-group col-md-5 col-sm-5 col-xs-12">
-                                           <label class="control-label Title-label" for="select-box1">Content*</label>
-                                       </div>
-                                       <div class="form-group col-md-7 col-sm-7 col-xs-12">
-                                           <select name="typebiens[]" class="form-control" data-placeholder="Annonce" id="select-box1">
-                                               <option></option>
-                                               <option value="0">5 km</option>
-                                               <option value="1">10 km</option>
-                                               <option value="2">15 km</option>
-                                               <option value="3">20 km</option>
-                                           </select>
-                                       </div>
-                                   </div>
-                               </div>
-                           </form>
-                       </div>
-                   </div>
-                    <div class="btn-confirm">
-                        <input type="checkbox"><button class="confirm">SEND</button>
+                <div class="col-md-9 col-sm-12 col-xs-12">
+                    <div class="setting col-md-12 col-sm-12 col-xs-12">
+                        <div class="row margin">
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <label class="control-label Title-text" for="select-box152">Published by</label>
+                            </div>
+                            <div class="col-md-5 col-sm-5 col-xs-12">
+                                <div class="section">
+                                    <select name="typebiens[]" class="form-control " data-placeholder="Annonce" id="select-box152">
+                                        <option>Professional Area & Software IWS</option>
+                                        <option value="0">5 km</option>
+                                        <option value="1">10 km</option>
+                                        <option value="2">15 km</option>
+                                        <option value="3">20 km</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <label class="control-label Title-text" for="select-box12">Category</label>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-12">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row margin">
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <label class="control-label Title-text" for="select-box12">Ad</label>
+                            </div>
+                            <div class="col-md-5 col-sm-5 col-xs-12">
+                                <div class="section">
+                                    <select name="typebiens[]" class="form-control " data-placeholder="Annonce" id="select-box12">
+                                        <option>Manage my active advertisements(5)</option>
+                                        <option value="0">5 km</option>
+                                        <option value="1">10 km</option>
+                                        <option value="2">15 km</option>
+                                        <option value="3">20 km</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <label class="control-label Title-text" for="select-box12">Type</label>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-12">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row margin">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <label class="control-label Title-text" for="select-box12">Number of ads per page</label>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-12">
+                                <div class="section">
+                                    <select name="typebiens[]" class="form-control " data-placeholder="Annonce" id="select-box12">
+                                        <option value="0">20</option>
+                                        <option value="1">10 km</option>
+                                        <option value="2">15 km</option>
+                                        <option value="3">20 km</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <label class="control-label Title-text" for="select-box12">Ref</label>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-12">
+                                <input type="text" class="form-control">
+                                <div class="btnSearch">
+                                    <button class="btn-search">FILTER ></button>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 Listing-Items">
+                        <div class="col-md-3 col-sm-12 col-xs-12 text-center">
+                            <p class="sale">SALE</p>
+                            <div class="img"><a href="#"><img class="img-responsive" src="images/listing/thumbnails/listing9.jpg" alt="img"></a></div>
+                            <a href="#" class="sale"><img class="more" data-toggle="tooltip" title="" src="images/icons/info.png" alt="info">MORE INFO</a>
+                        </div>
+                        <div class="col-md-5 col-sm-6 col-xs-12 text-left">
+                            <div class="inform">
+                                <p class="txt-title">3-ROOM APARTMENT STRASBOURG</p>
+                                <span class="txtSpan">BAS-RHIN(67)</span>
+                                <p class="txt-p">Price: 120 000</p>
+                                <p class="txtProps"><b>Nr. of bedrooms</b>: 2</p>
+                                <p class="txtProps"><b>Nr. of rooms</b>: 3</p>
+                                <p class="txtProps"><b>Living area</b>: 65 m</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                            <div class="inform">
+                                <button class="listingBTN"><img src="images/icons/aye.png" class="img-responsive" alt="aye">ACTIVATED ADVERTISEMENT</button>
+                                <button class="listingBTN2"><img src="images/icons/pencil.png" class="img-responsive" alt="pencil">MODIFY ADVERTISEMENT</button>
+                                <div class="col-sm-12 col-xs-12 text-left">
+                                    <p class="txt-p">Published on 04/02/2016</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 foot ">
+                            <div class="col-md-5 col-sm-5 col-xs-12 ">
+                                <p> <b> IWS Ref. </b> : 2135   |  <b> Ref. 30 </b> / 644385</p>
+                            </div>
+                            <div class="col-md-7 col-sm-7 col-xs-12 ">
+                                <p> <b>Number of displays : 0   |   Number of detailed requests :</b></p>
+                            </div>
+                        </div>
                     </div>
-                 </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 Listing-Items">
+                        <div class="col-md-3 col-sm-12 col-xs-12 text-center">
+                            <p class="sale">SALE</p>
+                            <div class="img"><a href="#"><img class="img-responsive" src="images/listing/thumbnails/listing9.jpg" alt="img"></a></div>
+                            <a href="#" class="sale"><img class="more" data-toggle="tooltip" title="" src="images/icons/info.png" alt="info">MORE INFO</a>
+                        </div>
+                        <div class="col-md-5 col-sm-6 col-xs-12 text-left">
+                            <div class="inform">
+                                <p class="txt-title">3-ROOM APARTMENT STRASBOURG</p>
+                                <span class="txtSpan">BAS-RHIN(67)</span>
+                                <p class="txt-p">Price: 120 000</p>
+                                <p class="txtProps"><b>Nr. of bedrooms</b>: 2</p>
+                                <p class="txtProps"><b>Nr. of rooms</b>: 3</p>
+                                <p class="txtProps"><b>Living area</b>: 65 m</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                            <div class="inform">
+                                <button class="listingBTN"><img src="images/icons/aye.png" class="img-responsive" alt="aye">ACTIVATED ADVERTISEMENT</button>
+                                <button class="listingBTN2"><img src="images/icons/pencil.png" class="img-responsive" alt="pencil">MODIFY ADVERTISEMENT</button>
+                                <div class="col-sm-12 col-xs-12 text-left">
+                                    <p class="txt-p">Published on 04/02/2016</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 foot ">
+                            <div class="col-md-5 col-sm-5 col-xs-12 ">
+                                <p> <b> IWS Ref. </b> : 2135   |  <b> Ref. 30 </b> / 644385</p>
+                            </div>
+                            <div class="col-md-7 col-sm-7 col-xs-12 ">
+                                <p> <b>Number of displays : 0   |   Number of detailed requests :</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 Listing-Items">
+                        <div class="col-md-3 col-sm-12 col-xs-12 text-center">
+                            <p class="sale">SALE</p>
+                            <div class="img"><a href="#"><img class="img-responsive" src="images/listing/thumbnails/listing9.jpg" alt="img"></a></div>
+                            <a href="#" class="sale"><img class="more" data-toggle="tooltip" title="" src="images/icons/info.png" alt="info">MORE INFO</a>
+                        </div>
+                        <div class="col-md-5 col-sm-6 col-xs-12 text-left">
+                            <div class="inform">
+                                <p class="txt-title">3-ROOM APARTMENT STRASBOURG</p>
+                                <span class="txtSpan">BAS-RHIN(67)</span>
+                                <p class="txt-p">Price: 120 000</p>
+                                <p class="txtProps"><b>Nr. of bedrooms</b>: 2</p>
+                                <p class="txtProps"><b>Nr. of rooms</b>: 3</p>
+                                <p class="txtProps"><b>Living area</b>: 65 m</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                            <div class="inform">
+                                <button class="listingBTN"><img src="images/icons/aye.png" class="img-responsive" alt="aye">ACTIVATED ADVERTISEMENT</button>
+                                <button class="listingBTN2"><img src="images/icons/pencil.png" class="img-responsive" alt="pencil">MODIFY ADVERTISEMENT</button>
+                                <div class="col-sm-12 col-xs-12 text-left">
+                                    <p class="txt-p">Published on 04/02/2016</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 foot ">
+                            <div class="col-md-5 col-sm-5 col-xs-12 ">
+                                <p> <b> IWS Ref. </b> : 2135   |  <b> Ref. 30 </b> / 644385</p>
+                            </div>
+                            <div class="col-md-7 col-sm-7 col-xs-12 ">
+                                <p> <b>Number of displays : 0   |   Number of detailed requests :</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-3 col-sm-12 col-xs-12">
                     <div class="banner">
                         <img data-toggle="tooltip" title="This table shows the rates of long duration home loans in France." src="images/icons/info.png" alt="info">
-                        <p>In order to better meet your expectations,
-                            and as part of our quality initiative, we invite
-                            you to send us your comments and
-                            suggestions on the Professional Area
-                            DMAISONS.
+                        <p>The number of displays is the number
+                            of visualizations of your property
+                            through the listing of advertisements.
+                        </p>
+                        <p>
+                            The number of detailed consultations
+                            is the number of clicks on your
+                            advertisement  by users,
+                            in order to display its detail.
                         </p>
                     </div>
                 </div>
         </div>
+            <div class="page-Row col-md-12 col-sm-12 col-xs-12">
+                <section id="pagination" class="text-center pagination-m3">
+                    <div class="section-bg">
+                        <div class="row-col marg-btm-5 pagination-bg">
+                            <ul class="pagination">
+                                <li class="prev-page"><a href="#">&lt; <span> Previous</span></a></li>
+                                <li><a href="#">1</a></li>
+                                <li class="active"><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">6</a></li>
+                                <li class="next-page"><a href="#"><span>Next </span> &gt; </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
     </div>
 </section>

@@ -1692,25 +1692,25 @@ header {
         border: none;
         margin: 0 3px;
         vertical-align: super; }
-    .advertisment-tools .advertisment-setting .container-setting .setting {
+    .advertisment-tools .advertisment-setting .container-setting .setting, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items {
       max-width: 780px;
       background: #fafafa;
       border: 1px solid #aca8a8; }
-      .advertisment-tools .advertisment-setting .container-setting .setting .section .form-control {
+      .advertisment-tools .advertisment-setting .container-setting .setting .section .form-control, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .section .form-control, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .section .form-control {
         border-radius: 0; }
-        .advertisment-tools .advertisment-setting .container-setting .setting .section .form-control:focus {
+        .advertisment-tools .advertisment-setting .container-setting .setting .section .form-control:focus, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .section .form-control:focus, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .section .form-control:focus {
           box-shadow: none;
           border-color: #aca8a8; }
-      .advertisment-tools .advertisment-setting .container-setting .setting .section .Title-text {
+      .advertisment-tools .advertisment-setting .container-setting .setting .section .Title-text, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .section .Title-text, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .section .Title-text {
         color: #737373;
         font-size: 15px;
         padding: 20px 0 0 0; }
-      .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE {
+      .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .MY-ADVERTISE, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .MY-ADVERTISE {
         margin: 20px 0;
         border: 1px solid #aca8a8;
         max-height: 280px;
         overflow-y: auto; }
-        .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE p {
+        .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE p, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .MY-ADVERTISE p, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .MY-ADVERTISE p {
           color: #737373;
           font-size: 15px;
           text-align: center;
@@ -1718,23 +1718,23 @@ header {
           background: #d2d2d2;
           font-weight: 700;
           margin: 0; }
-        .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE .list {
+        .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE .list, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .MY-ADVERTISE .list, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .MY-ADVERTISE .list {
           list-style-type: none;
           margin: 0;
           padding: 0; }
-          .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE .list li.active {
+          .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE .list li.active, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .MY-ADVERTISE .list li.active, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .MY-ADVERTISE .list li.active {
             background: #8d8dd6 !important;
             color: #fff !important; }
-          .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE .list li {
+          .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE .list li, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .MY-ADVERTISE .list li, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .MY-ADVERTISE .list li {
             cursor: pointer;
             padding: 10px;
             width: 100%;
             color: #737373;
             font-size: 15px; }
-            .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE .list li:nth-child(2n) {
+            .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE .list li:nth-child(2n), .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .MY-ADVERTISE .list li:nth-child(2n), .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .MY-ADVERTISE .list li:nth-child(2n) {
               background: #f1f1f1; }
             @media (max-width: 991px) {
-              .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE .list li {
+              .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE .list li, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .MY-ADVERTISE .list li, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .MY-ADVERTISE .list li {
                 font-size: 13px; } }
 
 .advertisment-my .paddno {
@@ -1764,24 +1764,24 @@ header {
     padding: 10px;
     margin: 0;
     text-align: justify; }
-.advertisment-my .setting {
+.advertisment-my .setting, .advertisment-my .manage .Listing-Items, .manage .advertisment-my .Listing-Items {
   background-image: -moz-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
   background-image: -webkit-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
   background-image: -ms-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
   border: 1px solid #aca8a8;
   margin-bottom: 15px; }
-  .advertisment-my .setting .Title-text {
+  .advertisment-my .setting .Title-text, .advertisment-my .manage .Listing-Items .Title-text, .manage .advertisment-my .Listing-Items .Title-text {
     color: #737373;
     font-size: 15px;
     padding: 20px 50px 0 10px;
     font-weight: 300;
     float: left;
     margin: 0; }
-  .advertisment-my .setting .form-control {
+  .advertisment-my .setting .form-control, .advertisment-my .manage .Listing-Items .form-control, .manage .advertisment-my .Listing-Items .form-control {
     border-radius: 0;
     max-width: 190px;
     margin: 12px; }
-    .advertisment-my .setting .form-control:focus {
+    .advertisment-my .setting .form-control:focus, .advertisment-my .manage .Listing-Items .form-control:focus, .manage .advertisment-my .Listing-Items .form-control:focus {
       box-shadow: none;
       border-color: #aca8a8; }
 .advertisment-my .sum {
@@ -1856,60 +1856,60 @@ header {
     padding: 10px;
     margin: 0;
     text-align: justify; }
-.new-advertisment .setting .navbar {
+.new-advertisment .setting .navbar, .new-advertisment .manage .Listing-Items .navbar, .manage .new-advertisment .Listing-Items .navbar {
   border: 1px solid #aca8a8;
   margin-bottom: 0;
   top: 0 !important;
   border-radius: 0; }
-  .new-advertisment .setting .navbar ul {
+  .new-advertisment .setting .navbar ul, .new-advertisment .manage .Listing-Items .navbar ul, .manage .new-advertisment .Listing-Items .navbar ul {
     width: 100%;
     text-align: center;
     margin: 0; }
-    .new-advertisment .setting .navbar ul .open > a, .new-advertisment .setting .navbar ul .open > a:focus, .new-advertisment .setting .navbar ul .open > a:hover {
+    .new-advertisment .setting .navbar ul .open > a, .new-advertisment .manage .Listing-Items .navbar ul .open > a, .manage .new-advertisment .Listing-Items .navbar ul .open > a, .new-advertisment .setting .navbar ul .open > a:focus, .new-advertisment .manage .Listing-Items .navbar ul .open > a:focus, .manage .new-advertisment .Listing-Items .navbar ul .open > a:focus, .new-advertisment .setting .navbar ul .open > a:hover, .new-advertisment .manage .Listing-Items .navbar ul .open > a:hover, .manage .new-advertisment .Listing-Items .navbar ul .open > a:hover {
       background: #8d8dd6;
       color: #fff; }
-    .new-advertisment .setting .navbar ul .first {
+    .new-advertisment .setting .navbar ul .first, .new-advertisment .manage .Listing-Items .navbar ul .first, .manage .new-advertisment .Listing-Items .navbar ul .first {
       width: 50%;
       background: #8d8dd6; }
       @media (max-width: 767px) {
-        .new-advertisment .setting .navbar ul .first {
+        .new-advertisment .setting .navbar ul .first, .new-advertisment .manage .Listing-Items .navbar ul .first, .manage .new-advertisment .Listing-Items .navbar ul .first {
           width: 100%; } }
-      .new-advertisment .setting .navbar ul .first a {
+      .new-advertisment .setting .navbar ul .first a, .new-advertisment .manage .Listing-Items .navbar ul .first a, .manage .new-advertisment .Listing-Items .navbar ul .first a {
         color: #FFF; }
-        .new-advertisment .setting .navbar ul .first a:hover, .new-advertisment .setting .navbar ul .first a:focus {
+        .new-advertisment .setting .navbar ul .first a:hover, .new-advertisment .manage .Listing-Items .navbar ul .first a:hover, .manage .new-advertisment .Listing-Items .navbar ul .first a:hover, .new-advertisment .setting .navbar ul .first a:focus, .new-advertisment .manage .Listing-Items .navbar ul .first a:focus, .manage .new-advertisment .Listing-Items .navbar ul .first a:focus {
           background: #8d8dd6;
           color: #fff; }
-      .new-advertisment .setting .navbar ul .first .dropdown-menu {
+      .new-advertisment .setting .navbar ul .first .dropdown-menu, .new-advertisment .manage .Listing-Items .navbar ul .first .dropdown-menu, .manage .new-advertisment .Listing-Items .navbar ul .first .dropdown-menu {
         width: 100%;
         text-align: center; }
-        .new-advertisment .setting .navbar ul .first .dropdown-menu li {
+        .new-advertisment .setting .navbar ul .first .dropdown-menu li, .new-advertisment .manage .Listing-Items .navbar ul .first .dropdown-menu li, .manage .new-advertisment .Listing-Items .navbar ul .first .dropdown-menu li {
           width: 100%; }
-          .new-advertisment .setting .navbar ul .first .dropdown-menu li a {
+          .new-advertisment .setting .navbar ul .first .dropdown-menu li a, .new-advertisment .manage .Listing-Items .navbar ul .first .dropdown-menu li a, .manage .new-advertisment .Listing-Items .navbar ul .first .dropdown-menu li a {
             color: #737373; }
             @media (max-width: 767px) {
-              .new-advertisment .setting .navbar ul .first .dropdown-menu li a {
+              .new-advertisment .setting .navbar ul .first .dropdown-menu li a, .new-advertisment .manage .Listing-Items .navbar ul .first .dropdown-menu li a, .manage .new-advertisment .Listing-Items .navbar ul .first .dropdown-menu li a {
                 color: #fff; } }
-            .new-advertisment .setting .navbar ul .first .dropdown-menu li a:hover {
+            .new-advertisment .setting .navbar ul .first .dropdown-menu li a:hover, .new-advertisment .manage .Listing-Items .navbar ul .first .dropdown-menu li a:hover, .manage .new-advertisment .Listing-Items .navbar ul .first .dropdown-menu li a:hover {
               background: #8d8dd6;
               color: #FFF; }
               @media (max-width: 767px) {
-                .new-advertisment .setting .navbar ul .first .dropdown-menu li a:hover {
+                .new-advertisment .setting .navbar ul .first .dropdown-menu li a:hover, .new-advertisment .manage .Listing-Items .navbar ul .first .dropdown-menu li a:hover, .manage .new-advertisment .Listing-Items .navbar ul .first .dropdown-menu li a:hover {
                   color: #fff;
                   background: rgba(255, 255, 255, 0.35); } }
-    .new-advertisment .setting .navbar ul .second {
+    .new-advertisment .setting .navbar ul .second, .new-advertisment .manage .Listing-Items .navbar ul .second, .manage .new-advertisment .Listing-Items .navbar ul .second {
       width: 50%;
       background: #d9d9d9; }
       @media (max-width: 767px) {
-        .new-advertisment .setting .navbar ul .second {
+        .new-advertisment .setting .navbar ul .second, .new-advertisment .manage .Listing-Items .navbar ul .second, .manage .new-advertisment .Listing-Items .navbar ul .second {
           width: 100%; } }
-      .new-advertisment .setting .navbar ul .second a {
+      .new-advertisment .setting .navbar ul .second a, .new-advertisment .manage .Listing-Items .navbar ul .second a, .manage .new-advertisment .Listing-Items .navbar ul .second a {
         color: #737373; }
-      .new-advertisment .setting .navbar ul .second .dropdown-menu {
+      .new-advertisment .setting .navbar ul .second .dropdown-menu, .new-advertisment .manage .Listing-Items .navbar ul .second .dropdown-menu, .manage .new-advertisment .Listing-Items .navbar ul .second .dropdown-menu {
         width: 100%;
         text-align: center; }
-        .new-advertisment .setting .navbar ul .second .dropdown-menu li {
+        .new-advertisment .setting .navbar ul .second .dropdown-menu li, .new-advertisment .manage .Listing-Items .navbar ul .second .dropdown-menu li, .manage .new-advertisment .Listing-Items .navbar ul .second .dropdown-menu li {
           width: 100%; }
-          .new-advertisment .setting .navbar ul .second .dropdown-menu li a:hover {
+          .new-advertisment .setting .navbar ul .second .dropdown-menu li a:hover, .new-advertisment .manage .Listing-Items .navbar ul .second .dropdown-menu li a:hover, .manage .new-advertisment .Listing-Items .navbar ul .second .dropdown-menu li a:hover {
             background: #8d8dd6;
             color: #FFF; }
 .new-advertisment .sum {
@@ -2740,32 +2740,32 @@ header {
     padding: 10px;
     margin: 0;
     text-align: justify; }
-.selection .setting {
+.selection .setting, .selection .manage .Listing-Items, .manage .selection .Listing-Items {
   background-image: -moz-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
   background-image: -webkit-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
   background-image: -ms-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
   border: 1px solid #aca8a8;
   margin-bottom: 15px;
   padding: 10px 0; }
-  .selection .setting .Title-text {
+  .selection .setting .Title-text, .selection .manage .Listing-Items .Title-text, .manage .selection .Listing-Items .Title-text {
     color: #737373;
     font-size: 15px;
     font-weight: 300; }
-  .selection .setting .form-control {
+  .selection .setting .form-control, .selection .manage .Listing-Items .form-control, .manage .selection .Listing-Items .form-control {
     border-radius: 0;
     max-width: 380px; }
-    .selection .setting .form-control:focus {
+    .selection .setting .form-control:focus, .selection .manage .Listing-Items .form-control:focus, .manage .selection .Listing-Items .form-control:focus {
       box-shadow: none;
       border-color: #aca8a8; }
-  .selection .setting .checkbox {
+  .selection .setting .checkbox, .selection .manage .Listing-Items .checkbox, .manage .selection .Listing-Items .checkbox {
     margin: 0 10px; }
     @media (min-width: 400px) {
-      .selection .setting .checkbox {
+      .selection .setting .checkbox, .selection .manage .Listing-Items .checkbox, .manage .selection .Listing-Items .checkbox {
         float: left; } }
-    .selection .setting .checkbox label {
+    .selection .setting .checkbox label, .selection .manage .Listing-Items .checkbox label, .manage .selection .Listing-Items .checkbox label {
       color: #737373;
       font-size: 15px; }
-  .selection .setting .add {
+  .selection .setting .add, .selection .manage .Listing-Items .add, .manage .selection .Listing-Items .add {
     background-color: #f1f1f1;
     border: 1px solid #aca8a8;
     transition: all 0.3s;
@@ -2773,14 +2773,14 @@ header {
     padding: 3px 50px 3px 3px;
     margin-top: 10px;
     color: #737373; }
-    .selection .setting .add:hover {
+    .selection .setting .add:hover, .selection .manage .Listing-Items .add:hover, .manage .selection .Listing-Items .add:hover {
       box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
       background: #8d8dd6;
       color: #FFF; }
-    .selection .setting .add:hover i {
+    .selection .setting .add:hover i, .selection .manage .Listing-Items .add:hover i, .manage .selection .Listing-Items .add:hover i {
       color: #FFF;
       border-color: #FFF; }
-    .selection .setting .add i {
+    .selection .setting .add i, .selection .manage .Listing-Items .add i, .manage .selection .Listing-Items .add i {
       margin-right: 10px;
       border: 1px solid #2d6ea0;
       font-size: 17px;
@@ -3927,6 +3927,226 @@ header {
     font-style: italic;
     text-align: right;
     float: right; }
+  .website .content .border .widget #leftcolumn, .website .content .border .widget #rightcolumn {
+    float: left;
+    padding: 0 10px;
+    width: auto; }
+  .website .content .border div .sparkline {
+    float: left;
+    clear: both;
+    padding-bottom: 1px;
+    margin-top: 10px;
+    border-bottom: 1px solid white; }
+  .website .content .border .report {
+    color: #737373;
+    font-size: 18px; }
+.website #contentHover {
+  display: inline-block !important;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  vertical-align: top; }
+.website #contentHover:hover {
+  width: 80px; }
+
+.manage .Title-text {
+  color: #737373;
+  font-size: 28px; }
+  @media (max-width: 768px) {
+    .manage .Title-text {
+      font-size: 20px; } }
+.manage .banner {
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px;
+  padding: 10px;
+  position: relative; }
+  .manage .banner .tooltip-inner {
+    max-width: 300px; }
+  .manage .banner img {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer; }
+  .manage .banner p {
+    font-size: 14px;
+    color: #737373;
+    padding: 10px;
+    margin: 0;
+    text-align: justify; }
+.manage .setting, .manage .Listing-Items {
+  background: #f4f4f4;
+  border: 1px solid #aca8a8;
+  margin-bottom: 20px;
+  padding: 10px 0; }
+  .manage .setting .margin, .manage .Listing-Items .margin {
+    margin: 15px 0; }
+  .manage .setting .paddno, .manage .Listing-Items .paddno {
+    padding: 0; }
+  .manage .setting .Title-text, .manage .Listing-Items .Title-text {
+    color: #737373;
+    font-size: 15px;
+    font-weight: 300; }
+  .manage .setting .form-control, .manage .Listing-Items .form-control {
+    border-radius: 0;
+    max-width: 380px; }
+    .manage .setting .form-control:focus, .manage .Listing-Items .form-control:focus {
+      box-shadow: none;
+      border-color: #aca8a8; }
+  .manage .setting .checkbox, .manage .Listing-Items .checkbox {
+    margin: 0 10px; }
+    @media (min-width: 400px) {
+      .manage .setting .checkbox, .manage .Listing-Items .checkbox {
+        float: left; } }
+    .manage .setting .checkbox label, .manage .Listing-Items .checkbox label {
+      color: #737373;
+      font-size: 15px; }
+  .manage .setting .btnSearch, .manage .Listing-Items .btnSearch {
+    padding: 15px 0 0 0; }
+    .manage .setting .btnSearch .btn-search, .manage .Listing-Items .btnSearch .btn-search {
+      background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      background-image: -ms-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      color: #FFF;
+      border: 1px solid #FFF;
+      padding: 6px 0;
+      outline: 3px solid #9797da;
+      margin: 0;
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      width: 100%;
+      font-size: 18px; }
+      .manage .setting .btnSearch .btn-search:hover, .manage .Listing-Items .btnSearch .btn-search:hover {
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.62);
+        -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.62);
+        -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.62); }
+.manage .Listing-Items {
+  background-image: -moz-linear-gradient(-90deg, #e1e1e1 0%, white 69%);
+  background-image: -webkit-linear-gradient(-90deg, #e1e1e1 0%, white 69%);
+  background-image: -ms-linear-gradient(-90deg, #e1e1e1 0%, white 69%);
+  padding: 0; }
+  .manage .Listing-Items .inform {
+    padding: 35px 0; }
+    @media (max-width: 767px) {
+      .manage .Listing-Items .inform {
+        padding: 15px 0; } }
+  .manage .Listing-Items .img img {
+    margin: 0 auto;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12); }
+  .manage .Listing-Items .foot {
+    background: #c7c7c7; }
+    .manage .Listing-Items .foot p {
+      margin: 10px 0;
+      color: #737373;
+      font-size: 15px; }
+  .manage .Listing-Items .listingBTN {
+    max-width: 230px;
+    border: none;
+    width: 100%;
+    background: #b5d845;
+    border-radius: 8px;
+    padding: 5px 0;
+    color: #fff;
+    margin: 5px 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.4s;
+    font-size: 12px;
+    box-shadow: inset 0 -7px 4px 0 rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: inset 0 -7px 4px 0 rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: inset 0 -7px 4px 0 rgba(0, 0, 0, 0.22); }
+    .manage .Listing-Items .listingBTN:hover {
+      background: #bfc0bd;
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+      -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+      -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+    .manage .Listing-Items .listingBTN img {
+      display: inline-block;
+      margin-right: 10px; }
+  .manage .Listing-Items .listingBTN2 {
+    max-width: 230px;
+    width: 100%;
+    border: none;
+    background: #6a70ab;
+    border-radius: 8px;
+    padding: 5px 0;
+    color: #fff;
+    margin: 5px 0;
+    transition: all 0.4s;
+    -webkit-transition: all 0.5s;
+    font-size: 12px;
+    box-shadow: inset 0 -7px 4px 0 rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: inset 0 -7px 4px 0 rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: inset 0 -7px 4px 0 rgba(0, 0, 0, 0.22); }
+    .manage .Listing-Items .listingBTN2:hover {
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+      -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+      -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+    .manage .Listing-Items .listingBTN2 img {
+      display: inline-block;
+      margin-right: 10px; }
+  .manage .Listing-Items .txt-title {
+    color: #8282ac;
+    font-weight: 700;
+    margin: 0; }
+  .manage .Listing-Items .txtSpan {
+    color: #8282ac;
+    font-weight: 700;
+    margin: 0;
+    display: block;
+    font-size: 14px; }
+  .manage .Listing-Items .txt-p {
+    color: #3e3c3c;
+    font-size: 13px;
+    margin: 10px 0; }
+  .manage .Listing-Items .txtProps {
+    color: #3e3c3c;
+    font-size: 14px;
+    margin: 0; }
+  .manage .Listing-Items .sale {
+    color: #8282ac;
+    font-weight: 700;
+    margin: 10px 0;
+    display: block; }
+  .manage .Listing-Items .more {
+    margin-right: 10px; }
+.manage .page-Row {
+  background: #c7c7c7;
+  position: relative; }
+  .manage .page-Row .pagination {
+    margin: 10px 0 5px 0; }
+    .manage .page-Row .pagination .next-page {
+      position: absolute;
+      right: 10px; }
+    .manage .page-Row .pagination .prev-page {
+      position: absolute;
+      left: 10px; }
+    .manage .page-Row .pagination .prev-page a, .manage .page-Row .pagination .next-page a {
+      border: 1px solid #989898;
+      color: #0e0e0e; }
+      .manage .page-Row .pagination .prev-page a span, .manage .page-Row .pagination .next-page a span {
+        color: #737373;
+        font-size: 15px; }
+        @media (max-width: 500px) {
+          .manage .page-Row .pagination .prev-page a span, .manage .page-Row .pagination .next-page a span {
+            display: none; } }
+      .manage .page-Row .pagination .prev-page a:hover, .manage .page-Row .pagination .next-page a:hover {
+        background: #ededed; }
+    .manage .page-Row .pagination .active a {
+      padding: 3px 10px;
+      border-radius: 0;
+      border: 1px solid #989898;
+      background: #ededed; }
+    .manage .page-Row .pagination li a {
+      margin: 0 2px;
+      padding: 3px 10px;
+      color: #737373;
+      border-radius: 0; }
 
 section.footer .footer-content {
   background-image: url(../images/background.png);

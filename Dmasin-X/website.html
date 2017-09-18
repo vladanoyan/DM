@@ -259,19 +259,19 @@
         <div class="container-fluid content">
             <div class="row">
                 <div class="col-md-4 col-sm-4 col-xs-12">
-                    <div class="border col-sm-12 col-xs-12">
+                    <div class="border col-md-12 col-sm-12 col-xs-12">
                         <h4 class="Title">Visitor countries (world map)</h4>
                         <div class="content-text">
                             <span>Il n'y a pas de donnee pour ce rapport.</span>
                         </div>
-                        <div class="col-sm-6 col-xs-12 listIcon">
+                        <div class="col-md-6 col-sm-12 col-xs-12 listIcon">
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/1.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/2.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/3.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/4.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/5.jpg" alt="icon"></a>
                         </div>
-                        <div class="col-sm-6 col-xs-12">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
                             <form action="post">
                                 <div class="form-group">
                                     <select class="form-control" id="sel1">
@@ -292,7 +292,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="border col-sm-12 col-xs-12">
+                    <div class="border col-md-12 col-sm-12 col-xs-12">
                         <h4 class="Title">Continents of visitors</h4>
                         <div class="content-text">
                             <span>Il n'y a pas de donnee pour ce rapport.</span>
@@ -305,7 +305,7 @@
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/5.jpg" alt="icon"></a>
                         </div>
                     </div>
-                    <div class="border col-sm-12 col-xs-12">
+                    <div class="border col-md-12 col-sm-12 col-xs-12">
                         <h4 class="Title">Visitor countries</h4>
                         <div class="content-text">
                             <span>Il n'y a pas de donnee pour ce rapport.</span>
@@ -316,14 +316,14 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-xs-12 listIcon">
+                        <div class="col-md-6 col-sm-12 col-xs-12 listIcon">
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/1.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/2.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/3.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/4.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/5.jpg" alt="icon"></a>
                         </div>
-                        <div class="col-sm-6 col-xs-12">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
                             <form action="post">
                                 <div class="form-group">
                                     <select class="form-control" id="sel777">
@@ -336,7 +336,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="border col-sm-12 col-xs-12">
+                    <div class="border col-md-12 col-sm-12 col-xs-12">
                         <h4 class="Title">Visits by timezone of server</h4>
                         <div class="content-text">
                             <span>Il n'y a pas de donnee pour ce rapport.</span>
@@ -349,7 +349,7 @@
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/5.jpg" alt="icon"></a>
                         </div>
                     </div>
-                    <div class="border col-sm-12 col-xs-12">
+                    <div class="border col-md-12 col-sm-12 col-xs-12">
                         <h4 class="Title">Pages per visit</h4>
                         <div class="content-text">
                             <span>Il n'y a pas de donnee pour ce rapport.</span>
@@ -363,17 +363,17 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12">
-                    <div class="border col-sm-12 col-xs-12 ">
+                    <div class="border col-md-12 col-sm-12 col-xs-12 ">
                         <h4 class="Title">Graphical overview</h4>
 
                     <div class="content-text-center">
                         <h4>Evolution sur la periode</h4>
                     </div>
-                    <div class="col-sm-6 col-xs-12 listIcon">
+                    <div class="col-md-6 col-sm-12 col-xs-12 listIcon">
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/5.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/6.jpg" alt="icon"></a>
                         </div>
-                        <div class="col-sm-6 col-xs-12">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
                             <span class="txt">Annotations</span>
                             <form>
                                 <div class="form-group">
@@ -386,8 +386,59 @@
                                 </div>
                             </form>
                         </div>
+                        <div class="col-sm-12 col-xs-12">
+                            <h2 class="report">Rapport</h2>
+                            <div id="leftcolumn">
+                                <div class="sparkline" loaded="1" style="cursor: pointer; border-bottom: 1px solid white;">
+                                    <img class="sparkline" alt="" src="?module=VisitsSummary&amp;action=getEvolutionGraph&amp;disableLink=1&amp;language=fr&amp;idSite=4&amp;token_auth=79faa796c698e9da788090617ec72a62&amp;moduleToWidgetize=VisitsSummary&amp;actionToWidgetize=index&amp;period=month&amp;date=2015-04-01,2017-09-30&amp;viewDataTable=sparkline&amp;columns=nb_visits%2Cnb_uniq_visitors" width="100" height="25">
+                                    <strong>0</strong> visites,
+                                    <strong>0</strong> visiteurs uniques    </div>
+                                <div class="sparkline" loaded="1" style="cursor: pointer; border-bottom: 1px solid white;">
+                                    <img class="sparkline" alt="" src="?module=VisitsSummary&amp;action=getEvolutionGraph&amp;disableLink=1&amp;language=fr&amp;idSite=4&amp;token_auth=79faa796c698e9da788090617ec72a62&amp;moduleToWidgetize=VisitsSummary&amp;actionToWidgetize=index&amp;period=month&amp;date=2015-04-01,2017-09-30&amp;viewDataTable=sparkline&amp;columns=avg_time_on_site" width="100" height="25">
+                                    <strong>0s</strong> durée moyenne de la visite
+                                </div>
+                                <div class="sparkline" loaded="1" style="cursor: pointer; border-bottom: 1px solid white;">
+                                    <img class="sparkline" alt="" src="?module=VisitsSummary&amp;action=getEvolutionGraph&amp;disableLink=1&amp;language=fr&amp;idSite=4&amp;token_auth=79faa796c698e9da788090617ec72a62&amp;moduleToWidgetize=VisitsSummary&amp;actionToWidgetize=index&amp;period=month&amp;date=2015-04-01,2017-09-30&amp;viewDataTable=sparkline&amp;columns=bounce_rate" width="100" height="25">
+                                    <strong>0%</strong> visiteurs ont survolé (quitté le site après une page)
+                                </div>
+                                <div class="sparkline" loaded="1" style="cursor: pointer; border-bottom: 1px solid white;">
+                                    <img class="sparkline" alt="" src="?module=VisitsSummary&amp;action=getEvolutionGraph&amp;disableLink=1&amp;language=fr&amp;idSite=4&amp;token_auth=79faa796c698e9da788090617ec72a62&amp;moduleToWidgetize=VisitsSummary&amp;actionToWidgetize=index&amp;period=month&amp;date=2015-04-01,2017-09-30&amp;viewDataTable=sparkline&amp;columns=nb_actions_per_visit" width="100" height="25">
+                                    <strong>0</strong> actions par visite
+                                </div>
+                                <div class="sparkline" loaded="1" style="cursor: pointer; border-bottom: 1px solid white;">
+                                    <img class="sparkline" alt="" src="?module=VisitsSummary&amp;action=getEvolutionGraph&amp;disableLink=1&amp;language=fr&amp;idSite=4&amp;token_auth=79faa796c698e9da788090617ec72a62&amp;moduleToWidgetize=VisitsSummary&amp;actionToWidgetize=index&amp;period=month&amp;date=2015-04-01,2017-09-30&amp;viewDataTable=sparkline&amp;columns=avg_time_generation" width="100" height="25">
+                                    <strong>0s</strong> délais de génération moyen
+                                </div>
+                            </div>
+                            <div id="rightcolumn">
+                                <div class="sparkline" loaded="1" style="cursor: pointer; border-bottom: 1px solid white;">
+                                    <img class="sparkline" alt="" src="?module=VisitsSummary&amp;action=getEvolutionGraph&amp;disableLink=1&amp;language=fr&amp;idSite=4&amp;token_auth=79faa796c698e9da788090617ec72a62&amp;moduleToWidgetize=VisitsSummary&amp;actionToWidgetize=index&amp;period=month&amp;date=2015-04-01,2017-09-30&amp;viewDataTable=sparkline&amp;columns=nb_pageviews%2Cnb_uniq_pageviews" width="100" height="25">
+                                    <strong>0</strong> pages vues,
+                                    <strong>0</strong> pages vues uniques
+                                </div>
+                                <div class="sparkline" loaded="1" style="cursor: pointer; border-bottom: 1px solid white;">
+                                    <img class="sparkline" alt="" src="?module=VisitsSummary&amp;action=getEvolutionGraph&amp;disableLink=1&amp;language=fr&amp;idSite=4&amp;token_auth=79faa796c698e9da788090617ec72a62&amp;moduleToWidgetize=VisitsSummary&amp;actionToWidgetize=index&amp;period=month&amp;date=2015-04-01,2017-09-30&amp;viewDataTable=sparkline&amp;columns=nb_searches%2Cnb_keywords" width="100" height="25">
+                                    <strong>0</strong> au total recherches sur votre site web,
+                                    <strong>0</strong> mots clés unique
+                                </div>
+                                <div class="sparkline" loaded="1" style="cursor: pointer; border-bottom: 1px solid white;">
+                                    <img class="sparkline" alt="" src="?module=VisitsSummary&amp;action=getEvolutionGraph&amp;disableLink=1&amp;language=fr&amp;idSite=4&amp;token_auth=79faa796c698e9da788090617ec72a62&amp;moduleToWidgetize=VisitsSummary&amp;actionToWidgetize=index&amp;period=month&amp;date=2015-04-01,2017-09-30&amp;viewDataTable=sparkline&amp;columns=nb_downloads%2Cnb_uniq_downloads" width="100" height="25">
+                                    <strong>0</strong> téléchargements,
+                                    <strong>0</strong> téléchargements unique
+                                </div>
+                                <div class="sparkline" loaded="1" style="cursor: pointer; border-bottom: 1px solid white;">
+                                    <img class="sparkline" alt="" src="?module=VisitsSummary&amp;action=getEvolutionGraph&amp;disableLink=1&amp;language=fr&amp;idSite=4&amp;token_auth=79faa796c698e9da788090617ec72a62&amp;moduleToWidgetize=VisitsSummary&amp;actionToWidgetize=index&amp;period=month&amp;date=2015-04-01,2017-09-30&amp;viewDataTable=sparkline&amp;columns=nb_outlinks%2Cnb_uniq_outlinks" width="100" height="25">
+                                    <strong>0</strong> liens sortant,
+                                    <strong>0</strong> liens sortant unique
+                                </div>
+                                <div class="sparkline" loaded="1" style="cursor: pointer; border-bottom: 1px solid white;">
+                                    <img class="sparkline" alt="" src="?module=VisitsSummary&amp;action=getEvolutionGraph&amp;disableLink=1&amp;language=fr&amp;idSite=4&amp;token_auth=79faa796c698e9da788090617ec72a62&amp;moduleToWidgetize=VisitsSummary&amp;actionToWidgetize=index&amp;period=month&amp;date=2015-04-01,2017-09-30&amp;viewDataTable=sparkline&amp;columns=max_actions" width="100" height="25">
+                                    <strong>0</strong> actions maximums en une visite
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="border col-sm-12 col-xs-12">
+                    <div class="border col-md-12 col-sm-12 col-xs-12">
                         <h4 class="Title">Visit duration</h4>
                         <div class="content-text">
                             <span>Il n'y a pas de donnee pour ce rapport.</span>
@@ -399,16 +450,16 @@
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/6.jpg" alt="icon"></a>
                         </div>
                     </div>
-                    <div class="border col-sm-12 col-xs-12 ">
+                    <div class="border col-md-12 col-sm-12 col-xs-12 ">
                         <h4 class="Title">Visitors graphic (repeat visitors)</h4>
 
                         <div class="content-text-center1">
                         </div>
-                        <div class="col-sm-6 col-xs-12 listIcon">
+                        <div class="col-md-6 col-sm-12 col-xs-12 listIcon">
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/5.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/6.jpg" alt="icon"></a>
                         </div>
-                        <div class="col-sm-6 col-xs-12">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
                             <span class="txt">Annotations</span>
                             <form>
                                 <div class="form-group">
@@ -422,35 +473,35 @@
                             </form>
                         </div>
                     </div>
-                    <div class="border col-sm-12 col-xs-12">
+                    <div class="border col-md-12 col-sm-12 col-xs-12">
                         <h4 class="Title">Summary</h4>
                         <div class="content-text">
                             <span>Il n'y a pas de donnee pour ce rapport.</span>
                         </div>
-                        <div class="col-sm-8 col-xs-12 listIcon">
+                        <div class="col-md-8 col-sm-12 col-xs-12 listIcon">
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/1.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/2.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/3.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/4.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/5.jpg" alt="icon"></a>
                         </div>
-                        <div class="col-sm-4 col-xs-12 listIcon text-right">
+                        <div class="col-md-4 col-sm-12 col-xs-12 listIcon text-right">
                             <img class="img-responsive thumbnail" src="images/icons/listIcons/9.png" alt="icon">
                         </div>
                     </div>
-                    <div class="border col-sm-12 col-xs-12">
+                    <div class="border col-md-12 col-sm-12 col-xs-12">
                         <h4 class="Title">Best search engines</h4>
                         <div class="content-text">
                             <span>Il n'y a pas de donnee pour ce rapport.</span>
                         </div>
-                        <div class="col-sm-6 col-xs-12 listIcon">
+                        <div class="col-md-6 col-sm-12 col-xs-12 listIcon">
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/1.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/2.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/3.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/4.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/5.jpg" alt="icon"></a>
                         </div>
-                        <div class="col-sm-6 col-xs-12">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
                             <form action="post">
                                 <div class="form-group">
                                     <select class="form-control" id="sel777">
@@ -463,7 +514,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="border col-sm-12 col-xs-12">
+                    <div class="border col-md-12 col-sm-12 col-xs-12">
                         <h4 class="Title">Key words list</h4>
                         <div class="content-text">
                             <span>Il n'y a pas de donnee pour ce rapport.</span>
@@ -474,14 +525,14 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-xs-12 listIcon">
+                        <div class="col-md-6 col-sm-12 col-xs-12 listIcon">
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/1.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/2.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/3.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/4.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/5.jpg" alt="icon"></a>
                         </div>
-                        <div class="col-sm-6 col-xs-12">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
                             <form action="post">
                                 <div class="form-group">
                                     <select class="form-control" id="sel777">
@@ -496,18 +547,18 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12">
-                    <div class="border col-sm-12 col-xs-12">
+                    <div class="border col-md-12 col-sm-12 col-xs-12">
                         <h4 class="Title">Operating systems</h4>
                         <div class="content-text">
                             <span>Il n'y a pas de donnee pour ce rapport.</span>
                         </div>
-                        <div class="col-sm-6 col-xs-12 listIcon">
+                        <div class="col-md-6 col-sm-12 col-xs-12 listIcon">
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/1.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/2.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/4.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/5.jpg" alt="icon"></a>
                         </div>
-                        <div class="col-sm-6 col-xs-12">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
                             <form action="post">
                                 <div class="form-group">
                                     <select class="form-control" id="sel77">
@@ -520,18 +571,18 @@
                             </form>
                         </div>
                     </div>
-                    <div class="border col-sm-12 col-xs-12">
+                    <div class="border col-md-12 col-sm-12 col-xs-12">
                         <h4 class="Title">Visitor browser</h4>
                         <div class="content-text">
                             <span>Il n'y a pas de donnee pour ce rapport.</span>
                         </div>
-                        <div class="col-sm-6 col-xs-12 listIcon">
+                        <div class="col-md-6 col-sm-12 col-xs-12 listIcon">
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/1.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/2.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/4.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/5.jpg" alt="icon"></a>
                         </div>
-                        <div class="col-sm-6 col-xs-12">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
                             <form action="post">
                                 <div class="form-group">
                                     <select class="form-control" id="sel6">
@@ -544,18 +595,18 @@
                             </form>
                         </div>
                     </div>
-                    <div class="border col-sm-12 col-xs-12">
+                    <div class="border col-md-12 col-sm-12 col-xs-12">
                         <h4 class="Title">Screen resolution</h4>
                         <div class="content-text">
                             <span>Il n'y a pas de donnee pour ce rapport.</span>
                         </div>
-                        <div class="col-sm-6 col-xs-12 listIcon">
+                        <div class="col-md-6 col-sm-12 col-xs-12 listIcon">
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/1.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/2.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/4.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/5.jpg" alt="icon"></a>
                         </div>
-                        <div class="col-sm-6 col-xs-12">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
                             <form action="post">
                                 <div class="form-group">
                                     <select class="form-control" id="sel5">
@@ -568,7 +619,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="border col-sm-12 col-xs-12">
+                    <div class="border col-md-12 col-sm-12 col-xs-12">
                         <h4 class="Title">Normal / Large screen</h4>
                         <div class="content-text">
                             <span>Il n'y a pas de donnee pour ce rapport.</span>
@@ -576,11 +627,15 @@
                         <div class="col-sm-12 col-xs-12 listIcon">
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/1.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/2.jpg" alt="icon"></a>
-                            <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/4.jpg" alt="icon"></a>
+                            <div id="contentHover">
+                                <a onclick="myfuunc1(this);"><img class="img-responsive thumbnail" src="images/icons/listIcons/4.jpg" alt="icon"></a>
+                                <a onclick="myfuunc1(this);"><img class="img-responsive thumbnail" src="images/icons/listIcons/cloudIMG.png" alt="icon"></a>
+                                <a onclick="myfuunc1(this);"><img class="img-responsive thumbnail" src="images/icons/listIcons/7.jpg" alt="icon"></a>
+                            </div>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/5.jpg" alt="icon"></a>
                         </div>
                     </div>
-                    <div class="border col-sm-12 col-xs-12">
+                    <div class="border col-md-12 col-sm-12 col-xs-12">
                         <h4 class="Title">Normal / Large screen</h4>
                         <div class="content-text">
                             <span>Il n'y a pas de donnee pour ce rapport.</span>
@@ -594,7 +649,7 @@
                                 est base sur les navigateurs non-IE.</p>
                         </div>
                     </div>
-                    <div class="border col-sm-12 col-xs-12">
+                    <div class="border col-md-12 col-sm-12 col-xs-12">
                         <h4 class="Title">Internet access providers</h4>
                         <div class="content-text">
                             <span>Il n'y a pas de donnee pour ce rapport.</span>
@@ -605,13 +660,18 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-xs-12 listIcon">
+                        <div class="col-md-6 col-sm-12 col-xs-12 listIcon">
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/1.jpg" alt="icon"></a>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/2.jpg" alt="icon"></a>
-                            <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/4.jpg" alt="icon"></a>
+                            <div id="contentHover">
+                                <a onclick="myfuunc1(this);"><img class="img-responsive thumbnail" src="images/icons/listIcons/4.jpg" alt="icon"></a>
+                                <a onclick="myfuunc1(this);"><img class="img-responsive thumbnail" src="images/icons/listIcons/cloudIMG.png" alt="icon"></a>
+                                <a onclick="myfuunc1(this);"><img class="img-responsive thumbnail" src="images/icons/listIcons/7.jpg" alt="icon"></a>
+                            </div>
                             <a href="#"><img class="img-responsive thumbnail" src="images/icons/listIcons/5.jpg" alt="icon"></a>
                         </div>
-                        <div class="col-sm-6 col-xs-12">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <img class="img-responsive thumbnail pull-right" src="images/icons/listIcons/9.png" alt="icon">
                             <form action="post">
                                 <div class="form-group">
                                     <select class="form-control" id="sel777">
@@ -696,7 +756,14 @@
 <script type="text/javascript" src="js/DatePicker.min.js"></script>
 
 <script>
-
+    //website page icons
+    function myfuunc1(imgParent) {
+        var mainDIVV = document.getElementById("contentHover");
+        imgParent.parentNode.removeChild(imgParent);
+        event.target.insertBefore(imgParent, mainDIVV.childNodes[0]);
+    }
+    //website page icons
+//    language
     var dropd = document.getElementById("image-dropdown");
 
     function showww() {
@@ -714,6 +781,7 @@
         imgParent.parentNode.removeChild(imgParent);
         mainDIVV.insertBefore(imgParent, mainDIVV.childNodes[0]);
     }
+
 
 </script>
 </body>
