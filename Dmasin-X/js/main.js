@@ -1,6 +1,25 @@
 $(document).ready(function(){
 
+// carousels
+    $('.flip-carousel').flipster({
+        style: 'carousel',
+        start:4,
+        loop: true,
+        autoplay: 3000,
+        scrollwheel: false,
+        spacing: -0.5,
+        buttons: false,
 
+    });
+// /carousels
+    //website page icons
+    function myfuunc1() {
+        var elem = $(this).clone();
+        $(this).parent().prepend(elem);
+        $(this).remove();
+    }
+    $('.cont').on('click', 'a', myfuunc1);
+    //website page icons
 
     // DATAPICKER
 
