@@ -5318,7 +5318,9 @@ header {
         -webkit-transition: all 0.5s;
         font-size: 14px;
         &:hover {
-          box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+           box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+          -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+          -webkit-box-shadow:  0 4px 16px 0 rgba(0, 0, 0, 0.42);
         }
       }
     }
@@ -5395,13 +5397,13 @@ header {
         //border-right: 2px ridge #f1efef;
         text-align: center;
         margin: 5px 1px;
-        height: 120px;
+        height: 80px;
         &::after {
-          top: 60px;
+          top: 43px;
           content: '';
-          width: 50%;
+          width: 36%;
           position: absolute;
-          left: 75%;
+          left: 83%;
           height: 1px;
           background: #333;
           background: -webkit-gradient(linear, left top, right top, color-stop(0%, hsla(0, 0%, 0%, 0)), color-stop(50%, rgba(97, 91, 90, 0.75)), color-stop(100%, hsla(291, 47%, 66%, 0)));
@@ -5458,12 +5460,11 @@ header {
         }
 
         a{
-          font-size: 18px;
+          font-size: 17px;
           color:#737373;
           transition: all 0.3s;
           -webkit-transition: all 0.3s;
-          padding-top: 12px;
-          padding-bottom: 12px;
+          padding: 8px 0;
           position: absolute;
           transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%);
@@ -5489,6 +5490,7 @@ header {
     }
   }
 }
+
 .OurService{
   .Title{
     color:#7c7c7c;
@@ -5561,7 +5563,11 @@ header {
 
   }
 }
+
 .OurServiceWebsite{
+  .paddno{
+    padding: 0;
+  }
   .Title{
     color:#7c7c7c;
     text-align: left;
@@ -5571,9 +5577,11 @@ header {
     text-align: center;
     color:#7c7c7c;
   }
-  p{
+  .p{
     text-align:center;
     color:#7c7c7c;
+    font-weight:700;
+
     span{
       color: $main-blue;
     }
@@ -5616,6 +5624,12 @@ header {
     .contact-form{
       border:1px solid;
       padding:0;
+      @media(min-width: 767px){
+        position: sticky;
+        position: -webkit-sticky;
+        top: 100px;
+      }
+
       .mondatory{
         padding-right: 0;
         span{
@@ -5640,11 +5654,14 @@ header {
         color:#7c7c7c;
       }
       .colBTN{
-        border: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        border-top: 10px solid $main-blue;
         background: transparent;
         width: 100%;
         font-size: 16px;
-        color:#7c7c7c;
+        color: #7c7c7c;
         i{
           font-size: 30px;
           color: #8d8dd6;
@@ -5673,11 +5690,903 @@ header {
           font-size: 12px;
           &:hover {
             box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+            -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+            -webkit-box-shadow:  0 4px 16px 0 rgba(0, 0, 0, 0.42);
           }
       }
     }
+    .left-hand{
+       @media(max-width:767px){
+        padding:0;
+      }
+      .OurNews{
+        float: left;
+        border-bottom: 2px dotted #d4d0d0;
+       padding: 20px 0;
+        .img{
+          margin:0 auto;
+        }
+        .title-block{
+          .title-TXT{
+            font-size: 25px;
+            color:rgb(124, 124, 124);
+            margin: 0 0 25px 0;
+            @media(max-width:991px){
+              font-size: 18px;
+            }
+          }
+          .title-img{
+            display: inline-block;
+            margin-right: 10px;
+          }
+        }
+          .prgf{
+            color:rgb(124, 124, 124);
+            font-size:17px;
+            @media(max-width:991px){
+              font-size:15px;
+            }
+          }
+        .prgf-ul{
+          color:rgb(124, 124, 124);
+          font-size:17px;
+          @media(max-width:991px){
+            font-size:15px;
+          }
+          &:before{
+            content: ".";
+            font-size: 90px;
+            line-height: 5px;
+            margin-right: 10px;
+            color:$main-blue;
+          }
+        }
+
+          span{
+            color:$main-blue;
+          }
+      }
+      .footer-foot{
+        padding: 20px 0;
+        p{
+          color:rgb(124, 124, 124);
+          font-size:17px;
+          @media(max-width:991px){
+            font-size:15px;
+          }
+        }
+      a{
+        text-decoration: none;
+        span{
+          color:$main-blue;
+          font-size:17px;
+          @media(max-width:991px){
+            font-size:15px;
+          }
+          .fa-play{
+            color: #fff;
+            background: #8d8dd6;
+            font-size: 20px;
+            padding: 8px 8px 8px 11px;
+            margin-right: 10px;
+          }
+        }
+      }
+
+      }
+        .contact-baner{
+          float: left;
+          width: 100%;
+          border-bottom: 2px dotted #d4d0d0;
+          padding: 20px 0;
+          .div-baner{
+            border-width: 1px;
+            border-color: rgb(94, 94, 94);
+            border-style: solid;
+            background-image: -moz-linear-gradient( 90deg, rgb(219,219,219) 0%, rgb(255,255,255) 100%);
+            background-image: -webkit-linear-gradient( 90deg, rgb(219,219,219) 0%, rgb(255,255,255) 100%);
+            background-image: -ms-linear-gradient( 90deg, rgb(219,219,219) 0%, rgb(255,255,255) 100%);
+            color:rgb(124, 124, 124);
+            padding: 20px 0;
+            span{
+              color:$main-blue;
+            }
+          }
+        }
+    }
   }
   }
+
+.OurServiceAdvertising{
+  .paddno{
+    padding: 0;
+  }
+  .Title{
+    color:#7c7c7c;
+    text-align: left;
+  }
+  .h0{
+    font-size:40px;
+    text-align: center;
+    color:#7c7c7c;
+  }
+  .p{
+    text-align:center;
+    color:#7c7c7c;
+    font-weight:700;
+
+    span{
+      color: $main-blue;
+    }
+  }
+  .form-control {
+    border-radius: 0;
+    margin-top: 10px;
+
+    &:focus {
+      box-shadow: none;
+      border-color: #aca8a8;
+    }
+  }
+
+  .textarea{
+    border-radius: 0;
+    width: 100%;
+    margin-top: 10px;
+    resize: none;
+    padding: 10px;
+  }
+
+  .carousel-area {
+    padding: 30px 0;
+    float: left;
+    width: 100%;
+    img {
+      width: 350px;
+      border: 3px solid #d4d4d4;
+    }
+    .flip-carousel {
+      li{
+        text-align: center;
+      }
+    }
+    .link {
+      display: block;
+      color: $black;
+      font-family: 'Stainless';
+      font-size: 18px;
+      margin-top: 7px;
+      text-align: center;
+
+      &::first-letter {
+        font-size: 25px;
+      }
+
+      &:hover {
+        font-size: 20px;
+        text-decoration: none;
+      }
+      &:focus {
+        text-decoration: none;
+      }
+
+      &.dm-national {color: #1d126e}
+      &.dm-alsace {color: #412B24}
+      &.dm-aquitaine {color: #7f1337}
+      &.dm-auvergne {color: #6ca534}
+      &.dm-bassenormandie {color: #5c84f7}
+      &.dm-bourgogne {color: #a80c17}
+      &.dm-bretagne {color: #9e714c}
+      &.dm-centre {color: #c1ba49}
+      &.dm-champagneardenne {color: #d5be8a}
+      &.dm-corse {color: #87ace6}
+      &.dm-franchecomte {color: #ABB99B}
+      &.dm-hautenormandie {color: #01642e}
+      &.dm-languedoc {color: #fe7117}
+      &.dm-limousin {color: #c0d95b}
+      &.dm-lorraine {color: #ffa800}
+      &.dm-midipyrenees {color: #DD0A20}
+      &.dm-nordpascalais {color: #6e418e}
+      &.dm-paris {color: #2950ab}
+      &.dm-paysloire {color: #98A4B4}
+      &.dm-picardie {color: #605855}
+      &.dm-poitou {color: #9E80B5}
+      &.dm-provence {color: #8d8dd6}
+      &.dm-rhonealpes {color: #99438E}
+      &.dm-dpf {color: #a5250c;font-family: Georgia;}
+    }
+    p {
+      font-size: 16px;
+
+      &.dpf {
+        font-family: Georgia;
+      }
+    }
+    .flipster__item--past-1, .flipster__item--future-1 {
+      opacity: .4;
+    }
+    .flipster__item--past-2, .flipster__item--future-2 {
+      opacity: .3;
+    }
+    .flipster__button {
+      color: $main-blue;
+      opacity: 1;
+      transition: all .5s;
+
+      &:hover {
+        color: $main-red;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  .content{
+    padding: 25px 0;
+    border-top:8px solid #ebebeb;
+    .contact-form{
+      border:1px solid;
+      padding:0;
+      @media(min-width: 767px){
+        position: sticky;
+        position: -webkit-sticky;
+        top: 100px;
+      }
+
+      .mondatory{
+        padding-right: 0;
+        span{
+          padding: 13px 0;
+          display: block;
+          font-size: 12px;
+          color: #878787;
+        }
+      }
+      .pad-r{
+        @media(min-width: 991px){
+          padding-right: 5px;
+        }
+      }
+      .pad-l{
+        @media(min-width: 991px){
+          padding-left: 5px;
+        }
+      }
+      h3,p{
+        text-align:center;
+        color:#7c7c7c;
+      }
+      .colBTN{
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        border-top: 10px solid $main-blue;
+        background: transparent;
+        width: 100%;
+        font-size: 16px;
+        color: #7c7c7c;
+        i{
+          font-size: 30px;
+          color: #8d8dd6;
+          vertical-align: middle;
+        }
+
+      }
+      .text-title-paragraf{
+        border-top:2px dotted #d4d0d0;
+        p{
+          text-align:center;
+          color:#7c7c7c;
+          margin: 15px 0;
+        }
+      }
+      .BTN-SEND{
+        @include btn-blue;
+        color: #FFF;
+        border: 1px solid #FFF;
+        padding: 3px 24px;
+        outline: 1px solid #9797da;
+        margin:15px 0;
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        font-size: 12px;
+        &:hover {
+          box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+          -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+          -webkit-box-shadow:  0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        }
+      }
+    }
+    .left-hand{
+      @media(max-width:767px){
+        padding:0;
+      }
+      .OurNews{
+        float: left;
+        border-bottom: 2px dotted #d4d0d0;
+        padding: 20px 0;
+        .img{
+          margin:0 auto;
+        }
+        .title-block{
+          .title-TXT{
+            font-size: 25px;
+            color:rgb(124, 124, 124);
+            margin: 0 0 25px 0;
+            @media(max-width:991px){
+              font-size: 18px;
+            }
+          }
+          .title-img{
+            display: inline-block;
+            margin-right: 10px;
+          }
+        }
+        .prgf{
+          color:rgb(124, 124, 124);
+          font-size:17px;
+          @media(max-width:991px){
+            font-size:15px;
+          }
+        }
+       span{
+          color:$main-blue;
+        }
+        .min{
+          color:rgb(124, 124, 124);
+          font-size:12px;
+          text-align:center;
+          margin-top: 20px;
+        }
+      }
+      .footer-foot{
+        padding: 20px 0;
+      }
+    }
+  }
+}
+
+.OurServiceBanners{
+  .paddno{
+    padding: 0;
+  }
+  .Title{
+    color:#7c7c7c;
+    text-align: left;
+  }
+  .h0{
+    font-size:40px;
+    text-align: center;
+    color:#7c7c7c;
+  }
+  .p{
+    text-align:center;
+    color:#7c7c7c;
+    font-weight:700;
+
+    span{
+      color: #6da428;
+    }
+  }
+  .form-control {
+    border-radius: 0;
+    margin-top: 10px;
+
+    &:focus {
+      box-shadow: none;
+      border-color: #aca8a8;
+    }
+  }
+
+  .textarea{
+    border-radius: 0;
+    width: 100%;
+    margin-top: 10px;
+    resize: none;
+    padding: 10px;
+  }
+
+  .carousel-area {
+    padding: 30px 0;
+    float: left;
+    width: 100%;
+    img {
+      width: 350px;
+      border: 3px solid #d4d4d4;
+    }
+    .flip-carousel {
+      li{
+        text-align: center;
+      }
+    }
+    .link {
+      display: block;
+      color: $black;
+      font-family: 'Stainless';
+      font-size: 18px;
+      margin-top: 7px;
+      text-align: center;
+
+      &::first-letter {
+        font-size: 25px;
+      }
+
+      &:hover {
+        font-size: 20px;
+        text-decoration: none;
+      }
+      &:focus {
+        text-decoration: none;
+      }
+
+      &.dm-national {color: #1d126e}
+      &.dm-alsace {color: #412B24}
+      &.dm-aquitaine {color: #7f1337}
+      &.dm-auvergne {color: #6ca534}
+      &.dm-bassenormandie {color: #5c84f7}
+      &.dm-bourgogne {color: #a80c17}
+      &.dm-bretagne {color: #9e714c}
+      &.dm-centre {color: #c1ba49}
+      &.dm-champagneardenne {color: #d5be8a}
+      &.dm-corse {color: #87ace6}
+      &.dm-franchecomte {color: #ABB99B}
+      &.dm-hautenormandie {color: #01642e}
+      &.dm-languedoc {color: #fe7117}
+      &.dm-limousin {color: #c0d95b}
+      &.dm-lorraine {color: #ffa800}
+      &.dm-midipyrenees {color: #DD0A20}
+      &.dm-nordpascalais {color: #6e418e}
+      &.dm-paris {color: #2950ab}
+      &.dm-paysloire {color: #98A4B4}
+      &.dm-picardie {color: #605855}
+      &.dm-poitou {color: #9E80B5}
+      &.dm-provence {color: #8d8dd6}
+      &.dm-rhonealpes {color: #99438E}
+      &.dm-dpf {color: #a5250c;font-family: Georgia;}
+    }
+    p {
+      font-size: 16px;
+
+      &.dpf {
+        font-family: Georgia;
+      }
+    }
+    .flipster__item--past-1, .flipster__item--future-1 {
+      opacity: .4;
+    }
+    .flipster__item--past-2, .flipster__item--future-2 {
+      opacity: .3;
+    }
+    .flipster__button {
+      color: $main-blue;
+      opacity: 1;
+      transition: all .5s;
+
+      &:hover {
+        color: $main-red;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  .content{
+    padding: 25px 0;
+    border-top:8px solid #ebebeb;
+    .contact-form{
+      border:1px solid;
+      padding:0;
+      @media(min-width: 767px){
+        position: sticky;
+        position: -webkit-sticky;
+        top: 100px;
+      }
+
+      .mondatory{
+        padding-right: 0;
+        span{
+          padding: 13px 0;
+          display: block;
+          font-size: 12px;
+          color: #878787;
+        }
+      }
+      .pad-r{
+        @media(min-width: 991px){
+          padding-right: 5px;
+        }
+      }
+      .pad-l{
+        @media(min-width: 991px){
+          padding-left: 5px;
+        }
+      }
+      h3,p{
+        text-align:center;
+        color:#7c7c7c;
+      }
+      .colBTN{
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        border-top: 10px solid $main-blue;
+        background: transparent;
+        width: 100%;
+        font-size: 16px;
+        color: #7c7c7c;
+        i{
+          font-size: 30px;
+          color: #8d8dd6;
+          vertical-align: middle;
+        }
+
+      }
+      .text-title-paragraf{
+        border-top:2px dotted #d4d0d0;
+        p{
+          text-align:center;
+          color:#7c7c7c;
+          margin: 15px 0;
+        }
+      }
+      .BTN-SEND{
+        @include btn-blue;
+        color: #FFF;
+        border: 1px solid #FFF;
+        padding: 3px 24px;
+        outline: 1px solid #9797da;
+        margin:15px 0;
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        font-size: 12px;
+        &:hover {
+          box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+          -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+          -webkit-box-shadow:  0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        }
+      }
+    }
+    .left-hand{
+      @media(max-width:767px){
+        padding:0;
+      }
+      .OurNews{
+        float: left;
+        border-bottom: 2px dotted #d4d0d0;
+        padding: 20px 0;
+        .img{
+          margin:0 auto;
+        }
+        .title-block{
+          .title-TXT{
+            font-size: 25px;
+            color:rgb(124, 124, 124);
+            margin: 0 0 25px 0;
+            text-align: center;
+            @media(max-width:991px){
+              font-size: 18px;
+            }
+          }
+          .title-img{
+            display: inline-block;
+            margin-right: 10px;
+          }
+        }
+        .title-TXT2{
+          font-size: 20px;
+          color: #3b3737;
+          text-align: left;
+          margin: 10px 0;
+          @media(max-width:991px){
+            font-size: 16px;
+          }
+        }
+        .prgf{
+          color:rgb(124, 124, 124);
+          font-size:17px;
+          @media(max-width:991px){
+            font-size:15px;
+          }
+          span.num{
+            color:#fff;
+            background:#6da428;
+            font-size:14px;
+            margin-right: 10px;
+            border-radius: 30px;
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            text-align: center;
+          }
+        }
+        span{
+          color:#6da428;
+        }
+        .min{
+          color:rgb(124, 124, 124);
+          font-size:12px;
+          text-align:center;
+          margin-top: 20px;
+        }
+      }
+      .footer-foot{
+        padding: 20px 0;
+        .title-TXT2{
+          font-size: 25px;
+          color:rgb(124, 124, 124);
+          margin: 0 0 25px 0;
+          text-align: center;
+          @media(max-width:991px){
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.OurServiceReference{
+  .paddno{
+    padding: 0;
+  }
+  .Title{
+    color:#7c7c7c;
+    text-align: left;
+  }
+  .h0{
+    font-size:40px;
+    text-align: center;
+    color:#7c7c7c;
+  }
+  .p{
+    text-align:center;
+    color:#7c7c7c;
+    font-weight:700;
+    span{
+      color: #d53a69;
+    }
+  }
+  .form-control {
+    border-radius: 0;
+    margin-top: 10px;
+
+    &:focus {
+      box-shadow: none;
+      border-color: #aca8a8;
+    }
+  }
+
+  .textarea{
+    border-radius: 0;
+    width: 100%;
+    margin-top: 10px;
+    resize: none;
+    padding: 10px;
+  }
+
+  .carousel-area {
+    padding: 30px 0;
+    float: left;
+    width: 100%;
+    img {
+      width: 350px;
+      border: 3px solid #d4d4d4;
+    }
+    .flip-carousel {
+      li{
+        text-align: center;
+      }
+    }
+    .link {
+      display: block;
+      color: $black;
+      font-family: 'Stainless';
+      font-size: 18px;
+      margin-top: 7px;
+      text-align: center;
+
+      &::first-letter {
+        font-size: 25px;
+      }
+
+      &:hover {
+        font-size: 20px;
+        text-decoration: none;
+      }
+      &:focus {
+        text-decoration: none;
+      }
+
+      &.dm-national {color: #1d126e}
+      &.dm-alsace {color: #412B24}
+      &.dm-aquitaine {color: #7f1337}
+      &.dm-auvergne {color: #6ca534}
+      &.dm-bassenormandie {color: #5c84f7}
+      &.dm-bourgogne {color: #a80c17}
+      &.dm-bretagne {color: #9e714c}
+      &.dm-centre {color: #c1ba49}
+      &.dm-champagneardenne {color: #d5be8a}
+      &.dm-corse {color: #87ace6}
+      &.dm-franchecomte {color: #ABB99B}
+      &.dm-hautenormandie {color: #01642e}
+      &.dm-languedoc {color: #fe7117}
+      &.dm-limousin {color: #c0d95b}
+      &.dm-lorraine {color: #ffa800}
+      &.dm-midipyrenees {color: #DD0A20}
+      &.dm-nordpascalais {color: #6e418e}
+      &.dm-paris {color: #2950ab}
+      &.dm-paysloire {color: #98A4B4}
+      &.dm-picardie {color: #605855}
+      &.dm-poitou {color: #9E80B5}
+      &.dm-provence {color: #8d8dd6}
+      &.dm-rhonealpes {color: #99438E}
+      &.dm-dpf {color: #a5250c;font-family: Georgia;}
+    }
+    p {
+      font-size: 16px;
+
+      &.dpf {
+        font-family: Georgia;
+      }
+    }
+    .flipster__item--past-1, .flipster__item--future-1 {
+      opacity: .4;
+    }
+    .flipster__item--past-2, .flipster__item--future-2 {
+      opacity: .3;
+    }
+    .flipster__button {
+      color: $main-blue;
+      opacity: 1;
+      transition: all .5s;
+
+      &:hover {
+        color: $main-red;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  .content{
+    padding: 25px 0;
+    border-top:8px solid #ebebeb;
+    .contact-form{
+      border:1px solid;
+      padding:0;
+      @media(min-width: 767px){
+        position: sticky;
+        position: -webkit-sticky;
+        top: 100px;
+      }
+
+      .mondatory{
+        padding-right: 0;
+        span{
+          padding: 13px 0;
+          display: block;
+          font-size: 12px;
+          color: #878787;
+        }
+      }
+      .pad-r{
+        @media(min-width: 991px){
+          padding-right: 5px;
+        }
+      }
+      .pad-l{
+        @media(min-width: 991px){
+          padding-left: 5px;
+        }
+      }
+      h3,p{
+        text-align:center;
+        color:#7c7c7c;
+      }
+      .colBTN{
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        border-top: 10px solid $main-blue;
+        background: transparent;
+        width: 100%;
+        font-size: 16px;
+        color: #7c7c7c;
+        i{
+          font-size: 30px;
+          color: #8d8dd6;
+          vertical-align: middle;
+        }
+
+      }
+      .text-title-paragraf{
+        border-top:2px dotted #d4d0d0;
+        p{
+          text-align:center;
+          color:#7c7c7c;
+          margin: 15px 0;
+        }
+      }
+      .BTN-SEND{
+        @include btn-blue;
+        color: #FFF;
+        border: 1px solid #FFF;
+        padding: 3px 24px;
+        outline: 1px solid #9797da;
+        margin:15px 0;
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        font-size: 12px;
+        &:hover {
+          box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+          -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+          -webkit-box-shadow:  0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        }
+      }
+    }
+    .left-hand{
+      @media(max-width:767px){
+        padding:0;
+      }
+      .OurNews{
+        float: left;
+        border-bottom: 2px dotted #d4d0d0;
+        padding: 20px 0;
+        .img{
+          margin:0 auto;
+        }
+        .title-block{
+          .title-TXT{
+            font-size: 25px;
+            color:rgb(124, 124, 124);
+            margin: 0 0 25px 0;
+            text-align: center;
+            @media(max-width:991px){
+              font-size: 18px;
+            }
+          }
+          .title-img{
+            display: inline-block;
+            margin-right: 10px;
+          }
+        }
+        .title-TXT2{
+          font-size: 20px;
+          color: #3b3737;
+          text-align: left;
+          margin: 10px 0;
+          @media(max-width:991px){
+            font-size: 16px;
+          }
+        }
+        .prgf{
+          color:rgb(124, 124, 124);
+          font-size:17px;
+          @media(max-width:991px){
+            font-size:15px;
+          }
+        }
+        span{
+          color:#d53a69;
+        }
+        .min{
+          color:rgb(124, 124, 124);
+          font-size:12px;
+          text-align:center;
+          margin-top: 20px;
+        }
+      }
+      .footer-foot{
+        padding: 20px 0;
+
+      }
+    }
+  }
+}
+
 section.footer{
 
   .footer-content{

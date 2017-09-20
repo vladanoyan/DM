@@ -4200,7 +4200,9 @@ header {
       -webkit-transition: all 0.5s;
       font-size: 14px; }
       .comment .content .btn-block .button:hover {
-        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
   .comment .content .group-list {
     padding: 30px 10px; }
   .comment .content .first-section {
@@ -4256,13 +4258,13 @@ header {
       width: 19.8%;
       text-align: center;
       margin: 5px 1px;
-      height: 120px; }
+      height: 80px; }
       .OurSerNavbar .navbar .nav li::after {
-        top: 60px;
+        top: 43px;
         content: '';
-        width: 50%;
+        width: 36%;
         position: absolute;
-        left: 75%;
+        left: 83%;
         height: 1px;
         background: #333;
         background: -webkit-gradient(linear, left top, right top, color-stop(0%, transparent), color-stop(50%, rgba(97, 91, 90, 0.75)), color-stop(100%, rgba(197, 128, 209, 0)));
@@ -4309,12 +4311,11 @@ header {
               background: #8d8dd6;
               color: #FFF; }
       .OurSerNavbar .navbar .nav li a {
-        font-size: 18px;
+        font-size: 17px;
         color: #737373;
         transition: all 0.3s;
         -webkit-transition: all 0.3s;
-        padding-top: 12px;
-        padding-bottom: 12px;
+        padding: 8px 0;
         position: absolute;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -4384,6 +4385,8 @@ header {
       bottom: 0;
       top: inherit; }
 
+.OurServiceWebsite .paddno {
+  padding: 0; }
 .OurServiceWebsite .Title {
   color: #7c7c7c;
   text-align: left; }
@@ -4391,10 +4394,11 @@ header {
   font-size: 40px;
   text-align: center;
   color: #7c7c7c; }
-.OurServiceWebsite p {
+.OurServiceWebsite .p {
   text-align: center;
-  color: #7c7c7c; }
-  .OurServiceWebsite p span {
+  color: #7c7c7c;
+  font-weight: 700; }
+  .OurServiceWebsite .p span {
     color: #8d8dd6; }
 .OurServiceWebsite .form-control {
   border-radius: 0;
@@ -4425,6 +4429,11 @@ header {
   .OurServiceWebsite .content .contact-form {
     border: 1px solid;
     padding: 0; }
+    @media (min-width: 767px) {
+      .OurServiceWebsite .content .contact-form {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 100px; } }
     .OurServiceWebsite .content .contact-form .mondatory {
       padding-right: 0; }
       .OurServiceWebsite .content .contact-form .mondatory span {
@@ -4442,7 +4451,10 @@ header {
       text-align: center;
       color: #7c7c7c; }
     .OurServiceWebsite .content .contact-form .colBTN {
-      border: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: none;
+      border-top: 10px solid #8d8dd6;
       background: transparent;
       width: 100%;
       font-size: 16px;
@@ -4471,7 +4483,761 @@ header {
       -webkit-transition: all 0.5s;
       font-size: 12px; }
       .OurServiceWebsite .content .contact-form .BTN-SEND:hover {
-        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+  @media (max-width: 767px) {
+    .OurServiceWebsite .content .left-hand {
+      padding: 0; } }
+  .OurServiceWebsite .content .left-hand .OurNews {
+    float: left;
+    border-bottom: 2px dotted #d4d0d0;
+    padding: 20px 0; }
+    .OurServiceWebsite .content .left-hand .OurNews .img {
+      margin: 0 auto; }
+    .OurServiceWebsite .content .left-hand .OurNews .title-block .title-TXT {
+      font-size: 25px;
+      color: #7c7c7c;
+      margin: 0 0 25px 0; }
+      @media (max-width: 991px) {
+        .OurServiceWebsite .content .left-hand .OurNews .title-block .title-TXT {
+          font-size: 18px; } }
+    .OurServiceWebsite .content .left-hand .OurNews .title-block .title-img {
+      display: inline-block;
+      margin-right: 10px; }
+    .OurServiceWebsite .content .left-hand .OurNews .prgf {
+      color: #7c7c7c;
+      font-size: 17px; }
+      @media (max-width: 991px) {
+        .OurServiceWebsite .content .left-hand .OurNews .prgf {
+          font-size: 15px; } }
+    .OurServiceWebsite .content .left-hand .OurNews .prgf-ul {
+      color: #7c7c7c;
+      font-size: 17px; }
+      @media (max-width: 991px) {
+        .OurServiceWebsite .content .left-hand .OurNews .prgf-ul {
+          font-size: 15px; } }
+      .OurServiceWebsite .content .left-hand .OurNews .prgf-ul:before {
+        content: ".";
+        font-size: 90px;
+        line-height: 5px;
+        margin-right: 10px;
+        color: #8d8dd6; }
+    .OurServiceWebsite .content .left-hand .OurNews span {
+      color: #8d8dd6; }
+  .OurServiceWebsite .content .left-hand .footer-foot {
+    padding: 20px 0; }
+    .OurServiceWebsite .content .left-hand .footer-foot p {
+      color: #7c7c7c;
+      font-size: 17px; }
+      @media (max-width: 991px) {
+        .OurServiceWebsite .content .left-hand .footer-foot p {
+          font-size: 15px; } }
+    .OurServiceWebsite .content .left-hand .footer-foot a {
+      text-decoration: none; }
+      .OurServiceWebsite .content .left-hand .footer-foot a span {
+        color: #8d8dd6;
+        font-size: 17px; }
+        @media (max-width: 991px) {
+          .OurServiceWebsite .content .left-hand .footer-foot a span {
+            font-size: 15px; } }
+        .OurServiceWebsite .content .left-hand .footer-foot a span .fa-play {
+          color: #fff;
+          background: #8d8dd6;
+          font-size: 20px;
+          padding: 8px 8px 8px 11px;
+          margin-right: 10px; }
+  .OurServiceWebsite .content .left-hand .contact-baner {
+    float: left;
+    width: 100%;
+    border-bottom: 2px dotted #d4d0d0;
+    padding: 20px 0; }
+    .OurServiceWebsite .content .left-hand .contact-baner .div-baner {
+      border-width: 1px;
+      border-color: #5e5e5e;
+      border-style: solid;
+      background-image: -moz-linear-gradient(90deg, #dbdbdb 0%, white 100%);
+      background-image: -webkit-linear-gradient(90deg, #dbdbdb 0%, white 100%);
+      background-image: -ms-linear-gradient(90deg, #dbdbdb 0%, white 100%);
+      color: #7c7c7c;
+      padding: 20px 0; }
+      .OurServiceWebsite .content .left-hand .contact-baner .div-baner span {
+        color: #8d8dd6; }
+
+.OurServiceAdvertising .paddno {
+  padding: 0; }
+.OurServiceAdvertising .Title {
+  color: #7c7c7c;
+  text-align: left; }
+.OurServiceAdvertising .h0 {
+  font-size: 40px;
+  text-align: center;
+  color: #7c7c7c; }
+.OurServiceAdvertising .p {
+  text-align: center;
+  color: #7c7c7c;
+  font-weight: 700; }
+  .OurServiceAdvertising .p span {
+    color: #8d8dd6; }
+.OurServiceAdvertising .form-control {
+  border-radius: 0;
+  margin-top: 10px; }
+  .OurServiceAdvertising .form-control:focus {
+    box-shadow: none;
+    border-color: #aca8a8; }
+.OurServiceAdvertising .textarea {
+  border-radius: 0;
+  width: 100%;
+  margin-top: 10px;
+  resize: none;
+  padding: 10px; }
+.OurServiceAdvertising .carousel-area {
+  padding: 30px 0;
+  float: left;
+  width: 100%; }
+  .OurServiceAdvertising .carousel-area img {
+    width: 350px;
+    border: 3px solid #d4d4d4; }
+  .OurServiceAdvertising .carousel-area .flip-carousel li {
+    text-align: center; }
+  .OurServiceAdvertising .carousel-area .link {
+    display: block;
+    color: #000;
+    font-family: 'Stainless';
+    font-size: 18px;
+    margin-top: 7px;
+    text-align: center; }
+    .OurServiceAdvertising .carousel-area .link::first-letter {
+      font-size: 25px; }
+    .OurServiceAdvertising .carousel-area .link:hover {
+      font-size: 20px;
+      text-decoration: none; }
+    .OurServiceAdvertising .carousel-area .link:focus {
+      text-decoration: none; }
+    .OurServiceAdvertising .carousel-area .link.dm-national {
+      color: #1d126e; }
+    .OurServiceAdvertising .carousel-area .link.dm-alsace {
+      color: #412B24; }
+    .OurServiceAdvertising .carousel-area .link.dm-aquitaine {
+      color: #7f1337; }
+    .OurServiceAdvertising .carousel-area .link.dm-auvergne {
+      color: #6ca534; }
+    .OurServiceAdvertising .carousel-area .link.dm-bassenormandie {
+      color: #5c84f7; }
+    .OurServiceAdvertising .carousel-area .link.dm-bourgogne {
+      color: #a80c17; }
+    .OurServiceAdvertising .carousel-area .link.dm-bretagne {
+      color: #9e714c; }
+    .OurServiceAdvertising .carousel-area .link.dm-centre {
+      color: #c1ba49; }
+    .OurServiceAdvertising .carousel-area .link.dm-champagneardenne {
+      color: #d5be8a; }
+    .OurServiceAdvertising .carousel-area .link.dm-corse {
+      color: #87ace6; }
+    .OurServiceAdvertising .carousel-area .link.dm-franchecomte {
+      color: #ABB99B; }
+    .OurServiceAdvertising .carousel-area .link.dm-hautenormandie {
+      color: #01642e; }
+    .OurServiceAdvertising .carousel-area .link.dm-languedoc {
+      color: #fe7117; }
+    .OurServiceAdvertising .carousel-area .link.dm-limousin {
+      color: #c0d95b; }
+    .OurServiceAdvertising .carousel-area .link.dm-lorraine {
+      color: #ffa800; }
+    .OurServiceAdvertising .carousel-area .link.dm-midipyrenees {
+      color: #DD0A20; }
+    .OurServiceAdvertising .carousel-area .link.dm-nordpascalais {
+      color: #6e418e; }
+    .OurServiceAdvertising .carousel-area .link.dm-paris {
+      color: #2950ab; }
+    .OurServiceAdvertising .carousel-area .link.dm-paysloire {
+      color: #98A4B4; }
+    .OurServiceAdvertising .carousel-area .link.dm-picardie {
+      color: #605855; }
+    .OurServiceAdvertising .carousel-area .link.dm-poitou {
+      color: #9E80B5; }
+    .OurServiceAdvertising .carousel-area .link.dm-provence {
+      color: #8d8dd6; }
+    .OurServiceAdvertising .carousel-area .link.dm-rhonealpes {
+      color: #99438E; }
+    .OurServiceAdvertising .carousel-area .link.dm-dpf {
+      color: #a5250c;
+      font-family: Georgia; }
+  .OurServiceAdvertising .carousel-area p {
+    font-size: 16px; }
+    .OurServiceAdvertising .carousel-area p.dpf {
+      font-family: Georgia; }
+  .OurServiceAdvertising .carousel-area .flipster__item--past-1, .OurServiceAdvertising .carousel-area .flipster__item--future-1 {
+    opacity: .4; }
+  .OurServiceAdvertising .carousel-area .flipster__item--past-2, .OurServiceAdvertising .carousel-area .flipster__item--future-2 {
+    opacity: .3; }
+  .OurServiceAdvertising .carousel-area .flipster__button {
+    color: #8d8dd6;
+    opacity: 1;
+    transition: all .5s; }
+    .OurServiceAdvertising .carousel-area .flipster__button:hover {
+      color: red; }
+    .OurServiceAdvertising .carousel-area .flipster__button:focus {
+      outline: none; }
+.OurServiceAdvertising .content {
+  padding: 25px 0;
+  border-top: 8px solid #ebebeb; }
+  .OurServiceAdvertising .content .contact-form {
+    border: 1px solid;
+    padding: 0; }
+    @media (min-width: 767px) {
+      .OurServiceAdvertising .content .contact-form {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 100px; } }
+    .OurServiceAdvertising .content .contact-form .mondatory {
+      padding-right: 0; }
+      .OurServiceAdvertising .content .contact-form .mondatory span {
+        padding: 13px 0;
+        display: block;
+        font-size: 12px;
+        color: #878787; }
+    @media (min-width: 991px) {
+      .OurServiceAdvertising .content .contact-form .pad-r {
+        padding-right: 5px; } }
+    @media (min-width: 991px) {
+      .OurServiceAdvertising .content .contact-form .pad-l {
+        padding-left: 5px; } }
+    .OurServiceAdvertising .content .contact-form h3, .OurServiceAdvertising .content .contact-form p {
+      text-align: center;
+      color: #7c7c7c; }
+    .OurServiceAdvertising .content .contact-form .colBTN {
+      border-left: none;
+      border-right: none;
+      border-bottom: none;
+      border-top: 10px solid #8d8dd6;
+      background: transparent;
+      width: 100%;
+      font-size: 16px;
+      color: #7c7c7c; }
+      .OurServiceAdvertising .content .contact-form .colBTN i {
+        font-size: 30px;
+        color: #8d8dd6;
+        vertical-align: middle; }
+    .OurServiceAdvertising .content .contact-form .text-title-paragraf {
+      border-top: 2px dotted #d4d0d0; }
+      .OurServiceAdvertising .content .contact-form .text-title-paragraf p {
+        text-align: center;
+        color: #7c7c7c;
+        margin: 15px 0; }
+    .OurServiceAdvertising .content .contact-form .BTN-SEND {
+      background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      background-image: -ms-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      color: #FFF;
+      border: 1px solid #FFF;
+      padding: 3px 24px;
+      outline: 1px solid #9797da;
+      margin: 15px 0;
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      font-size: 12px; }
+      .OurServiceAdvertising .content .contact-form .BTN-SEND:hover {
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+  @media (max-width: 767px) {
+    .OurServiceAdvertising .content .left-hand {
+      padding: 0; } }
+  .OurServiceAdvertising .content .left-hand .OurNews {
+    float: left;
+    border-bottom: 2px dotted #d4d0d0;
+    padding: 20px 0; }
+    .OurServiceAdvertising .content .left-hand .OurNews .img {
+      margin: 0 auto; }
+    .OurServiceAdvertising .content .left-hand .OurNews .title-block .title-TXT {
+      font-size: 25px;
+      color: #7c7c7c;
+      margin: 0 0 25px 0; }
+      @media (max-width: 991px) {
+        .OurServiceAdvertising .content .left-hand .OurNews .title-block .title-TXT {
+          font-size: 18px; } }
+    .OurServiceAdvertising .content .left-hand .OurNews .title-block .title-img {
+      display: inline-block;
+      margin-right: 10px; }
+    .OurServiceAdvertising .content .left-hand .OurNews .prgf {
+      color: #7c7c7c;
+      font-size: 17px; }
+      @media (max-width: 991px) {
+        .OurServiceAdvertising .content .left-hand .OurNews .prgf {
+          font-size: 15px; } }
+    .OurServiceAdvertising .content .left-hand .OurNews span {
+      color: #8d8dd6; }
+    .OurServiceAdvertising .content .left-hand .OurNews .min {
+      color: #7c7c7c;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 20px; }
+  .OurServiceAdvertising .content .left-hand .footer-foot {
+    padding: 20px 0; }
+
+.OurServiceBanners .paddno {
+  padding: 0; }
+.OurServiceBanners .Title {
+  color: #7c7c7c;
+  text-align: left; }
+.OurServiceBanners .h0 {
+  font-size: 40px;
+  text-align: center;
+  color: #7c7c7c; }
+.OurServiceBanners .p {
+  text-align: center;
+  color: #7c7c7c;
+  font-weight: 700; }
+  .OurServiceBanners .p span {
+    color: #6da428; }
+.OurServiceBanners .form-control {
+  border-radius: 0;
+  margin-top: 10px; }
+  .OurServiceBanners .form-control:focus {
+    box-shadow: none;
+    border-color: #aca8a8; }
+.OurServiceBanners .textarea {
+  border-radius: 0;
+  width: 100%;
+  margin-top: 10px;
+  resize: none;
+  padding: 10px; }
+.OurServiceBanners .carousel-area {
+  padding: 30px 0;
+  float: left;
+  width: 100%; }
+  .OurServiceBanners .carousel-area img {
+    width: 350px;
+    border: 3px solid #d4d4d4; }
+  .OurServiceBanners .carousel-area .flip-carousel li {
+    text-align: center; }
+  .OurServiceBanners .carousel-area .link {
+    display: block;
+    color: #000;
+    font-family: 'Stainless';
+    font-size: 18px;
+    margin-top: 7px;
+    text-align: center; }
+    .OurServiceBanners .carousel-area .link::first-letter {
+      font-size: 25px; }
+    .OurServiceBanners .carousel-area .link:hover {
+      font-size: 20px;
+      text-decoration: none; }
+    .OurServiceBanners .carousel-area .link:focus {
+      text-decoration: none; }
+    .OurServiceBanners .carousel-area .link.dm-national {
+      color: #1d126e; }
+    .OurServiceBanners .carousel-area .link.dm-alsace {
+      color: #412B24; }
+    .OurServiceBanners .carousel-area .link.dm-aquitaine {
+      color: #7f1337; }
+    .OurServiceBanners .carousel-area .link.dm-auvergne {
+      color: #6ca534; }
+    .OurServiceBanners .carousel-area .link.dm-bassenormandie {
+      color: #5c84f7; }
+    .OurServiceBanners .carousel-area .link.dm-bourgogne {
+      color: #a80c17; }
+    .OurServiceBanners .carousel-area .link.dm-bretagne {
+      color: #9e714c; }
+    .OurServiceBanners .carousel-area .link.dm-centre {
+      color: #c1ba49; }
+    .OurServiceBanners .carousel-area .link.dm-champagneardenne {
+      color: #d5be8a; }
+    .OurServiceBanners .carousel-area .link.dm-corse {
+      color: #87ace6; }
+    .OurServiceBanners .carousel-area .link.dm-franchecomte {
+      color: #ABB99B; }
+    .OurServiceBanners .carousel-area .link.dm-hautenormandie {
+      color: #01642e; }
+    .OurServiceBanners .carousel-area .link.dm-languedoc {
+      color: #fe7117; }
+    .OurServiceBanners .carousel-area .link.dm-limousin {
+      color: #c0d95b; }
+    .OurServiceBanners .carousel-area .link.dm-lorraine {
+      color: #ffa800; }
+    .OurServiceBanners .carousel-area .link.dm-midipyrenees {
+      color: #DD0A20; }
+    .OurServiceBanners .carousel-area .link.dm-nordpascalais {
+      color: #6e418e; }
+    .OurServiceBanners .carousel-area .link.dm-paris {
+      color: #2950ab; }
+    .OurServiceBanners .carousel-area .link.dm-paysloire {
+      color: #98A4B4; }
+    .OurServiceBanners .carousel-area .link.dm-picardie {
+      color: #605855; }
+    .OurServiceBanners .carousel-area .link.dm-poitou {
+      color: #9E80B5; }
+    .OurServiceBanners .carousel-area .link.dm-provence {
+      color: #8d8dd6; }
+    .OurServiceBanners .carousel-area .link.dm-rhonealpes {
+      color: #99438E; }
+    .OurServiceBanners .carousel-area .link.dm-dpf {
+      color: #a5250c;
+      font-family: Georgia; }
+  .OurServiceBanners .carousel-area p {
+    font-size: 16px; }
+    .OurServiceBanners .carousel-area p.dpf {
+      font-family: Georgia; }
+  .OurServiceBanners .carousel-area .flipster__item--past-1, .OurServiceBanners .carousel-area .flipster__item--future-1 {
+    opacity: .4; }
+  .OurServiceBanners .carousel-area .flipster__item--past-2, .OurServiceBanners .carousel-area .flipster__item--future-2 {
+    opacity: .3; }
+  .OurServiceBanners .carousel-area .flipster__button {
+    color: #8d8dd6;
+    opacity: 1;
+    transition: all .5s; }
+    .OurServiceBanners .carousel-area .flipster__button:hover {
+      color: red; }
+    .OurServiceBanners .carousel-area .flipster__button:focus {
+      outline: none; }
+.OurServiceBanners .content {
+  padding: 25px 0;
+  border-top: 8px solid #ebebeb; }
+  .OurServiceBanners .content .contact-form {
+    border: 1px solid;
+    padding: 0; }
+    @media (min-width: 767px) {
+      .OurServiceBanners .content .contact-form {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 100px; } }
+    .OurServiceBanners .content .contact-form .mondatory {
+      padding-right: 0; }
+      .OurServiceBanners .content .contact-form .mondatory span {
+        padding: 13px 0;
+        display: block;
+        font-size: 12px;
+        color: #878787; }
+    @media (min-width: 991px) {
+      .OurServiceBanners .content .contact-form .pad-r {
+        padding-right: 5px; } }
+    @media (min-width: 991px) {
+      .OurServiceBanners .content .contact-form .pad-l {
+        padding-left: 5px; } }
+    .OurServiceBanners .content .contact-form h3, .OurServiceBanners .content .contact-form p {
+      text-align: center;
+      color: #7c7c7c; }
+    .OurServiceBanners .content .contact-form .colBTN {
+      border-left: none;
+      border-right: none;
+      border-bottom: none;
+      border-top: 10px solid #8d8dd6;
+      background: transparent;
+      width: 100%;
+      font-size: 16px;
+      color: #7c7c7c; }
+      .OurServiceBanners .content .contact-form .colBTN i {
+        font-size: 30px;
+        color: #8d8dd6;
+        vertical-align: middle; }
+    .OurServiceBanners .content .contact-form .text-title-paragraf {
+      border-top: 2px dotted #d4d0d0; }
+      .OurServiceBanners .content .contact-form .text-title-paragraf p {
+        text-align: center;
+        color: #7c7c7c;
+        margin: 15px 0; }
+    .OurServiceBanners .content .contact-form .BTN-SEND {
+      background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      background-image: -ms-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      color: #FFF;
+      border: 1px solid #FFF;
+      padding: 3px 24px;
+      outline: 1px solid #9797da;
+      margin: 15px 0;
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      font-size: 12px; }
+      .OurServiceBanners .content .contact-form .BTN-SEND:hover {
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+  @media (max-width: 767px) {
+    .OurServiceBanners .content .left-hand {
+      padding: 0; } }
+  .OurServiceBanners .content .left-hand .OurNews {
+    float: left;
+    border-bottom: 2px dotted #d4d0d0;
+    padding: 20px 0; }
+    .OurServiceBanners .content .left-hand .OurNews .img {
+      margin: 0 auto; }
+    .OurServiceBanners .content .left-hand .OurNews .title-block .title-TXT {
+      font-size: 25px;
+      color: #7c7c7c;
+      margin: 0 0 25px 0;
+      text-align: center; }
+      @media (max-width: 991px) {
+        .OurServiceBanners .content .left-hand .OurNews .title-block .title-TXT {
+          font-size: 18px; } }
+    .OurServiceBanners .content .left-hand .OurNews .title-block .title-img {
+      display: inline-block;
+      margin-right: 10px; }
+    .OurServiceBanners .content .left-hand .OurNews .title-TXT2 {
+      font-size: 20px;
+      color: #3b3737;
+      text-align: left;
+      margin: 10px 0; }
+      @media (max-width: 991px) {
+        .OurServiceBanners .content .left-hand .OurNews .title-TXT2 {
+          font-size: 16px; } }
+    .OurServiceBanners .content .left-hand .OurNews .prgf {
+      color: #7c7c7c;
+      font-size: 17px; }
+      @media (max-width: 991px) {
+        .OurServiceBanners .content .left-hand .OurNews .prgf {
+          font-size: 15px; } }
+      .OurServiceBanners .content .left-hand .OurNews .prgf span.num {
+        color: #fff;
+        background: #6da428;
+        font-size: 14px;
+        margin-right: 10px;
+        border-radius: 30px;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        text-align: center; }
+    .OurServiceBanners .content .left-hand .OurNews span {
+      color: #6da428; }
+    .OurServiceBanners .content .left-hand .OurNews .min {
+      color: #7c7c7c;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 20px; }
+  .OurServiceBanners .content .left-hand .footer-foot {
+    padding: 20px 0; }
+    .OurServiceBanners .content .left-hand .footer-foot .title-TXT2 {
+      font-size: 25px;
+      color: #7c7c7c;
+      margin: 0 0 25px 0;
+      text-align: center; }
+      @media (max-width: 991px) {
+        .OurServiceBanners .content .left-hand .footer-foot .title-TXT2 {
+          font-size: 18px; } }
+
+.OurServiceReference .paddno {
+  padding: 0; }
+.OurServiceReference .Title {
+  color: #7c7c7c;
+  text-align: left; }
+.OurServiceReference .h0 {
+  font-size: 40px;
+  text-align: center;
+  color: #7c7c7c; }
+.OurServiceReference .p {
+  text-align: center;
+  color: #7c7c7c;
+  font-weight: 700; }
+  .OurServiceReference .p span {
+    color: #d53a69; }
+.OurServiceReference .form-control {
+  border-radius: 0;
+  margin-top: 10px; }
+  .OurServiceReference .form-control:focus {
+    box-shadow: none;
+    border-color: #aca8a8; }
+.OurServiceReference .textarea {
+  border-radius: 0;
+  width: 100%;
+  margin-top: 10px;
+  resize: none;
+  padding: 10px; }
+.OurServiceReference .carousel-area {
+  padding: 30px 0;
+  float: left;
+  width: 100%; }
+  .OurServiceReference .carousel-area img {
+    width: 350px;
+    border: 3px solid #d4d4d4; }
+  .OurServiceReference .carousel-area .flip-carousel li {
+    text-align: center; }
+  .OurServiceReference .carousel-area .link {
+    display: block;
+    color: #000;
+    font-family: 'Stainless';
+    font-size: 18px;
+    margin-top: 7px;
+    text-align: center; }
+    .OurServiceReference .carousel-area .link::first-letter {
+      font-size: 25px; }
+    .OurServiceReference .carousel-area .link:hover {
+      font-size: 20px;
+      text-decoration: none; }
+    .OurServiceReference .carousel-area .link:focus {
+      text-decoration: none; }
+    .OurServiceReference .carousel-area .link.dm-national {
+      color: #1d126e; }
+    .OurServiceReference .carousel-area .link.dm-alsace {
+      color: #412B24; }
+    .OurServiceReference .carousel-area .link.dm-aquitaine {
+      color: #7f1337; }
+    .OurServiceReference .carousel-area .link.dm-auvergne {
+      color: #6ca534; }
+    .OurServiceReference .carousel-area .link.dm-bassenormandie {
+      color: #5c84f7; }
+    .OurServiceReference .carousel-area .link.dm-bourgogne {
+      color: #a80c17; }
+    .OurServiceReference .carousel-area .link.dm-bretagne {
+      color: #9e714c; }
+    .OurServiceReference .carousel-area .link.dm-centre {
+      color: #c1ba49; }
+    .OurServiceReference .carousel-area .link.dm-champagneardenne {
+      color: #d5be8a; }
+    .OurServiceReference .carousel-area .link.dm-corse {
+      color: #87ace6; }
+    .OurServiceReference .carousel-area .link.dm-franchecomte {
+      color: #ABB99B; }
+    .OurServiceReference .carousel-area .link.dm-hautenormandie {
+      color: #01642e; }
+    .OurServiceReference .carousel-area .link.dm-languedoc {
+      color: #fe7117; }
+    .OurServiceReference .carousel-area .link.dm-limousin {
+      color: #c0d95b; }
+    .OurServiceReference .carousel-area .link.dm-lorraine {
+      color: #ffa800; }
+    .OurServiceReference .carousel-area .link.dm-midipyrenees {
+      color: #DD0A20; }
+    .OurServiceReference .carousel-area .link.dm-nordpascalais {
+      color: #6e418e; }
+    .OurServiceReference .carousel-area .link.dm-paris {
+      color: #2950ab; }
+    .OurServiceReference .carousel-area .link.dm-paysloire {
+      color: #98A4B4; }
+    .OurServiceReference .carousel-area .link.dm-picardie {
+      color: #605855; }
+    .OurServiceReference .carousel-area .link.dm-poitou {
+      color: #9E80B5; }
+    .OurServiceReference .carousel-area .link.dm-provence {
+      color: #8d8dd6; }
+    .OurServiceReference .carousel-area .link.dm-rhonealpes {
+      color: #99438E; }
+    .OurServiceReference .carousel-area .link.dm-dpf {
+      color: #a5250c;
+      font-family: Georgia; }
+  .OurServiceReference .carousel-area p {
+    font-size: 16px; }
+    .OurServiceReference .carousel-area p.dpf {
+      font-family: Georgia; }
+  .OurServiceReference .carousel-area .flipster__item--past-1, .OurServiceReference .carousel-area .flipster__item--future-1 {
+    opacity: .4; }
+  .OurServiceReference .carousel-area .flipster__item--past-2, .OurServiceReference .carousel-area .flipster__item--future-2 {
+    opacity: .3; }
+  .OurServiceReference .carousel-area .flipster__button {
+    color: #8d8dd6;
+    opacity: 1;
+    transition: all .5s; }
+    .OurServiceReference .carousel-area .flipster__button:hover {
+      color: red; }
+    .OurServiceReference .carousel-area .flipster__button:focus {
+      outline: none; }
+.OurServiceReference .content {
+  padding: 25px 0;
+  border-top: 8px solid #ebebeb; }
+  .OurServiceReference .content .contact-form {
+    border: 1px solid;
+    padding: 0; }
+    @media (min-width: 767px) {
+      .OurServiceReference .content .contact-form {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 100px; } }
+    .OurServiceReference .content .contact-form .mondatory {
+      padding-right: 0; }
+      .OurServiceReference .content .contact-form .mondatory span {
+        padding: 13px 0;
+        display: block;
+        font-size: 12px;
+        color: #878787; }
+    @media (min-width: 991px) {
+      .OurServiceReference .content .contact-form .pad-r {
+        padding-right: 5px; } }
+    @media (min-width: 991px) {
+      .OurServiceReference .content .contact-form .pad-l {
+        padding-left: 5px; } }
+    .OurServiceReference .content .contact-form h3, .OurServiceReference .content .contact-form p {
+      text-align: center;
+      color: #7c7c7c; }
+    .OurServiceReference .content .contact-form .colBTN {
+      border-left: none;
+      border-right: none;
+      border-bottom: none;
+      border-top: 10px solid #8d8dd6;
+      background: transparent;
+      width: 100%;
+      font-size: 16px;
+      color: #7c7c7c; }
+      .OurServiceReference .content .contact-form .colBTN i {
+        font-size: 30px;
+        color: #8d8dd6;
+        vertical-align: middle; }
+    .OurServiceReference .content .contact-form .text-title-paragraf {
+      border-top: 2px dotted #d4d0d0; }
+      .OurServiceReference .content .contact-form .text-title-paragraf p {
+        text-align: center;
+        color: #7c7c7c;
+        margin: 15px 0; }
+    .OurServiceReference .content .contact-form .BTN-SEND {
+      background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      background-image: -ms-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+      color: #FFF;
+      border: 1px solid #FFF;
+      padding: 3px 24px;
+      outline: 1px solid #9797da;
+      margin: 15px 0;
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      font-size: 12px; }
+      .OurServiceReference .content .contact-form .BTN-SEND:hover {
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+  @media (max-width: 767px) {
+    .OurServiceReference .content .left-hand {
+      padding: 0; } }
+  .OurServiceReference .content .left-hand .OurNews {
+    float: left;
+    border-bottom: 2px dotted #d4d0d0;
+    padding: 20px 0; }
+    .OurServiceReference .content .left-hand .OurNews .img {
+      margin: 0 auto; }
+    .OurServiceReference .content .left-hand .OurNews .title-block .title-TXT {
+      font-size: 25px;
+      color: #7c7c7c;
+      margin: 0 0 25px 0;
+      text-align: center; }
+      @media (max-width: 991px) {
+        .OurServiceReference .content .left-hand .OurNews .title-block .title-TXT {
+          font-size: 18px; } }
+    .OurServiceReference .content .left-hand .OurNews .title-block .title-img {
+      display: inline-block;
+      margin-right: 10px; }
+    .OurServiceReference .content .left-hand .OurNews .title-TXT2 {
+      font-size: 20px;
+      color: #3b3737;
+      text-align: left;
+      margin: 10px 0; }
+      @media (max-width: 991px) {
+        .OurServiceReference .content .left-hand .OurNews .title-TXT2 {
+          font-size: 16px; } }
+    .OurServiceReference .content .left-hand .OurNews .prgf {
+      color: #7c7c7c;
+      font-size: 17px; }
+      @media (max-width: 991px) {
+        .OurServiceReference .content .left-hand .OurNews .prgf {
+          font-size: 15px; } }
+    .OurServiceReference .content .left-hand .OurNews span {
+      color: #d53a69; }
+    .OurServiceReference .content .left-hand .OurNews .min {
+      color: #7c7c7c;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 20px; }
+  .OurServiceReference .content .left-hand .footer-foot {
+    padding: 20px 0; }
 
 section.footer .footer-content {
   background-image: url(../images/background.png);
