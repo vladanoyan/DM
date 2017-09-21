@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Le meilleur de l’immobilier de votre région est ici ! Un large choix d’annonces immobilières en vente, location et location de vacances, nombreux appartements, maisons, villa, commerces, terrains, etc." />
+    <meta name="Author-Corporate" content="DMAISONS.COM" />
+    <meta name="keywords" content="dmaisons.com,immobilier,vente,location,location vacances,appartement,maison,villa,commerce,terrain" />
+    <!-- /favicons -->
+    <title>DMAISONS.COM | Tout l’immobilier : vente, location, location vacances</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.firefox.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/flexslider.custom.css" type="text/css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.flipster.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/validetta.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/simplelightbox.css" type="text/css">
+    <link href="css/bootstrap-multiselect.css" rel="stylesheet">
+    <link href="css/select2.css" rel="stylesheet">
+    <!-- /stylesheets -->
+
+</head>
+<body>
+<!-- header -->
+<header>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container text-right">
+            <div class="textheader">
+                <p>16 678 online real estate advertisements,
+                    Last advertisement today in 05:00 PM</p>
+            </div>
+            <div id="data"></div>
+            <div class="lang">
+                <div id="image-dropdown">
+                    <i onclick="showww()" class="fa fa-chevron-down" aria-hidden="true"></i>
+                    <div class="img_holder" onclick="myfuunc(this);">
+                        <img class="flagimgs second" src="images/icons/United-Kingdom.png" /> <span class="iTEXT"></span>
+                    </div>
+                    <div class="img_holder" onclick="myfuunc(this);" >
+                        <img class="flagimgs second" src="images/icons/France.png" /> <span class="iTEXT"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid head">
+            <div class="container logo-pos">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img class="img-responsive" src="images/logo.png" alt="">
+                        <p>All real estate of your region | SALE - RENTAL - HOLIDAY RENTAL</p>
+
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle  active" data-toggle="dropdown" href="#"><img src="images/icons/icon-home.png">SEARCH A PROPERTY <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/post.png">POST AN AD<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/email.png">E-MAIL ALERTS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/setting.png">SERVICES<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span>Loan simulation</a></li>
+                                <li><a href="#"><span>> </span>Your comments</a></li>
+                                <li><a href="#"><span>> </span>Our professional services</a></li>
+                                <li><a href="#"><span>> </span>Contact us</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container serach-bar">
+        <div class="col-md-10 col-md-offset-1 text-center filters">
+            <div class="forms">
+                <div class="form1">
+                    <select id="select-box2-filter" name="typebiens[]" class="form-control " data-placeholder="Annonce" >
+                        <option value="0">Annonce</option>
+                        <option value="1">Vente</option>
+                        <option value="2">Location</option>
+                        <option value="3">Location saisonnière</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+
+                <div class="form2">
+                    <select id="select-box2-filter2" name="typebiens[]" class="form-control " data-placeholder="Biens" multiple="multiple">
+                        <option value="99">Appartements</option>
+                        <option value="8">Maisons de Villages / Villes</option>
+                        <option value="10">Divers</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+                <div class="form3">
+                    <select name="Localité" id="location" class="form-control select2-sel select2-sel-v2">
+                        <option value="" selected hidden>Ville ou code postal*</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+                <button class="btn-search">search</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="container title-text text-center">
+        <h1 class="title">Welcome on <p>DMAISONS.COM</p></h1>
+        <p>THE BEST PRPERTIES, REGION BY REGION</p>
+    </div>
+</header>
+<!-- /header -->
+<section class="advertisment-tools">
+    <div class="wrapper">
+        <div class="container">
+            <section class="Title">
+                <h3><img src="images/icons/user.png" alt="">PROFESSIONAL  AREA <span>DMAISONS </span></h3>
+            </section>
+        </div>
+        <div class="container">
+            <section class="log">
+                <div class="col-md-3 col-sm-3 col-xs-12 text-left">
+                    <button class="logOut">
+                        <img src="images/icons/logout.png" alt="">
+                        logout
+                    </button>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-12 text-right">
+                    <div class="support">
+                        <span>TECHNICAL SUPPORT : </span>
+                        <span> <i class="fa phone">&#xf095;</i>  +33 (0) 4 13 615 600 </span>
+                        <span> <i class="fa">&#xf1fa;</i> tech@dmaisons.com </span>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <nav class="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Home page<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My advertismants<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My website<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Settings<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My evalution<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="invoice">
+        <div class="container">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-left">
+                <h2 class="Title-text">Invoice</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-12 col-xs-12">
+                   <div class="col-md-12 col-sm-12 col-xs-12 content">
+                       <form>
+                           <div class="forms col-xs-12 col-sm-4">
+                               <div class="form-group col-md-5 col-sm-5 col-xs-12 text-center">
+                                   <label class="control-label Title-label" for="select-box111">Year</label>
+                               </div>
+                               <div class="form-group col-md-7 col-sm-7 col-xs-12">
+                                   <select name="typebiens[]" class="form-control" data-placeholder="Annonce" id="select-box111">
+                                       <option value="0">2010</option>
+                                       <option value="1">2011</option>
+                                       <option value="2">2012</option>
+                                       <option value="3">2013</option>
+                                       <option value="4">2014</option>
+                                       <option value="5">2015</option>
+                                       <option value="6">2016</option>
+                                       <option value="7">2017</option>
+                                   </select>
+                               </div>
+                           </div>
+                           <div class="forms col-xs-12 col-sm-4">
+                               <div class="form-group col-md-5 col-sm-5 col-xs-12 text-center">
+                                   <label class="control-label Title-label" for="select-box11">Mounth</label>
+                               </div>
+                               <div class="form-group col-md-7 col-sm-7 col-xs-12">
+                                   <select name="typebiens[]" class="form-control" data-placeholder="Annonce" id="select-box11">
+                                       <option value="0">January</option>
+                                       <option value="1">February</option>
+                                       <option value="2">March</option>
+                                       <option value="3">April</option>
+                                       <option value="4">May</option>
+                                       <option value="5">June</option>
+                                       <option value="6">July</option>
+                                   </select>
+                               </div>
+                           </div>
+                           <div class="forms col-xs-12 col-sm-4">
+                               <div class="form-group col-md-5 col-sm-5 col-xs-12 text-center">
+                                   <label class="control-label Title-label" for="select-box1">Services</label>
+                               </div>
+                               <div class="form-group col-md-7 col-sm-7 col-xs-12">
+                                   <select name="typebiens[]" class="form-control" data-placeholder="Annonce" id="select-box1">
+                                       <option>(All services)</option>
+                                       <option value="0">5 km</option>
+                                       <option value="1">10 km</option>
+                                       <option value="2">15 km</option>
+                                       <option value="3">20 km</option>
+                                   </select>
+                               </div>
+                           </div>
+                       </form>
+                   </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 paddno">
+                        <div class="invoice-container">
+                            <h4>NO INVOICE</h4>
+                        </div>
+                    </div>
+                    <div class="btn-confirm">
+                       <button class="confirm"> <img src="images/listingPrint.png" class="img-responsive" alt="print">Edit</button>
+                    </div>
+                 </div>
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                    <div class="banner">
+                        <img data-toggle="tooltip" title="This table shows the rates of long duration home loans in France." src="images/icons/info.png" alt="info">
+                        <p>All invoices are sent by e-mail at the date of
+                            issuance. Invoices monthly withdrawal are
+                            sent by e-mail in arrears. You can also edit
+                            them via this page.
+                            <br>
+                            For more information, do not hesitate to
+                            contact the billing department under :
+                            +33 (0) 4 13 615 615
+                        </p>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="container-fluid text-center  footer-content">
+        <div class="row">
+            <img class="img-responsive navbar-brend" src="images/logo.png" alt="">
+            <div class="title-text">
+                <p> Copyright 1998-2017	- DMAISONS.COM	- Luxury Real Estate - Logiciel immobilier</p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-left footer-foot">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Search a property</h4>
+                <a href="#">Search a property</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Post an ad</h4>
+                <a href="#">Private advertising</a>
+                <a href="#">Private advertising</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>E-mail alerts</h4>
+                <a href="#">New alert</a>
+                <a href="#">Manage your alerts</a>
+
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Services</h4>
+                <a href="#">Loan simulation</a>
+                <a href="#">Your option</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Company</h4>
+                <a href="#">Contact</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 social">
+                <h4>Post an ad</h4>
+                <a href="#"><img src="images/icons/facebook.png" alt=""></a>
+                <a href="#"><img src="images/icons/twitter-icon.png" alt=""></a>
+                <a href="#"><img src="images/icons/Google-Plus-icon.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+<div id="gotop"></div>
+<!--scroll top-->
+
+<!-- js -->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/validetta.min.js"></script>
+<script type="text/javascript" src="js/validettaLang-fr-FR.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.flipster.min.js"></script>
+<script type="text/javascript" src="js/flexslider/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/simple-lightbox.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+<script type="text/javascript" src="js/select2.full.min.js"></script>
+<script type="text/javascript" src="js/DatePicker.min.js"></script>
+
+<script>
+
+    var dropd = document.getElementById("image-dropdown");
+
+    function showww() {
+        dropd.style.height = "auto";
+        dropd.style.overflow = "visible";
+    }
+
+    function hideee() {
+        dropd.style.height = "30px";
+        dropd.style.overflow = "hidden";
+    }
+    function myfuunc(imgParent) {
+        hideee();
+        var mainDIVV = document.getElementById("image-dropdown");
+        imgParent.parentNode.removeChild(imgParent);
+        mainDIVV.insertBefore(imgParent, mainDIVV.childNodes[0]);
+    }
+
+</script>
+</body>
+</html>

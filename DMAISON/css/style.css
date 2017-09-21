@@ -820,6 +820,4346 @@ header {
           color: #1b116a;
           margin-right: 15px; }
 
+.content-listing {
+  padding-top: 30px; }
+  .content-listing section.listing-first .container .list-group {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+    background: #ededed;
+    border-radius: 0;
+    border-bottom: 1px solid #bfbfbf;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .content-listing section.listing-first .container .list-group h4 {
+      font-size: 18px;
+      color: #1b116a;
+      display: inline-block; }
+    .content-listing section.listing-first .container .list-group h6 {
+      font-size: 14px;
+      display: inline-block;
+      color: #7c7c7c;
+      margin: 10px; }
+    .content-listing section.listing-first .container .list-group ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+      .content-listing section.listing-first .container .list-group ul li {
+        display: inline-block;
+        margin: 10px 0; }
+        @media (min-width: 567px) {
+          .content-listing section.listing-first .container .list-group ul li {
+            border-right: 1px solid #7c7c7c; } }
+        .content-listing section.listing-first .container .list-group ul li:last-child {
+          border-right: none; }
+        .content-listing section.listing-first .container .list-group ul li a {
+          color: #7c7c7c;
+          margin: 6px; }
+          .content-listing section.listing-first .container .list-group ul li a:hover {
+            color: #1b116a;
+            text-decoration: none; }
+  .content-listing section.listing-sort .list-group-sort {
+    border-radius: 0;
+    border: 1px solid #bfbfbf;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12); }
+    @media (max-width: 991px) {
+      .content-listing section.listing-sort .list-group-sort {
+        padding: 20px; } }
+    .content-listing section.listing-sort .list-group-sort h4 {
+      font-size: 18px;
+      color: #7c7c7c;
+      display: inline-block;
+      margin: 10px; }
+    .content-listing section.listing-sort .list-group-sort .sort {
+      width: 100%; }
+      @media (min-width: 991px) {
+        .content-listing section.listing-sort .list-group-sort .sort {
+          width: 20%; } }
+      .content-listing section.listing-sort .list-group-sort .sort .pagination {
+        margin: 8px; }
+        .content-listing section.listing-sort .list-group-sort .sort .pagination .prev-page a, .content-listing section.listing-sort .list-group-sort .sort .pagination .next-page a {
+          color: #0e0e0e;
+          background: #dcdcdc; }
+          .content-listing section.listing-sort .list-group-sort .sort .pagination .prev-page a:hover, .content-listing section.listing-sort .list-group-sort .sort .pagination .next-page a:hover {
+            background: #ededed; }
+        .content-listing section.listing-sort .list-group-sort .sort .pagination .active a {
+          background: #ededed;
+          border-color: #dcdcdc; }
+        .content-listing section.listing-sort .list-group-sort .sort .pagination li a {
+          padding: 3px 10px;
+          color: #9292d8;
+          border-radius: 0; }
+      .content-listing section.listing-sort .list-group-sort .sort .asc-desc {
+        margin: 10px; }
+        .content-listing section.listing-sort .list-group-sort .sort .asc-desc a {
+          text-decoration: none;
+          color: #7c7c7c; }
+          .content-listing section.listing-sort .list-group-sort .sort .asc-desc a i {
+            color: #7c7c7c;
+            margin: 8px; }
+      .content-listing section.listing-sort .list-group-sort .sort .form-control {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        background: #dcdcdc; }
+        .content-listing section.listing-sort .list-group-sort .sort .form-control:focus {
+          box-shadow: none;
+          border-color: #aca8a8; }
+  .content-listing section.listing {
+    padding: 20px 0; }
+    .content-listing section.listing .container {
+      padding: 0; }
+    .content-listing section.listing .left .wrapper {
+      background-image: -moz-linear-gradient(0deg, #9f9f9f 0%, #cecece 50%, #9f9f9f 100%);
+      background-image: -webkit-linear-gradient(0deg, #9f9f9f 0%, #cecece 50%, #9f9f9f 100%);
+      background-image: -ms-linear-gradient(0deg, #9f9f9f 0%, #cecece 50%, #9f9f9f 100%);
+      border: 1px solid #a0a0a0; }
+      .content-listing section.listing .left .wrapper h3 {
+        display: inline-block;
+        color: #FFF;
+        margin: 0;
+        padding: 10px 0; }
+        @media (max-width: 1199px) {
+          .content-listing section.listing .left .wrapper h3 {
+            font-size: 20px; } }
+        @media (max-width: 440px) {
+          .content-listing section.listing .left .wrapper h3 {
+            font-size: 16px; } }
+      .content-listing section.listing .left .wrapper .icons img {
+        margin: 9px 5px; }
+      .content-listing section.listing .left .wrapper .icons .like {
+        color: #FFF;
+        font-size: 22px;
+        vertical-align: sub; }
+      .content-listing section.listing .left .wrapper .icons .fa-star {
+        font-size: 25px;
+        color: #ffe764;
+        vertical-align: middle;
+        margin-right: 5px; }
+    .content-listing section.listing .left .listing-item {
+      position: relative;
+      border: 1px solid #5f5f5f;
+      background-image: -moz-linear-gradient(-90deg, #e1e1e1 0%, white 69%);
+      background-image: -webkit-linear-gradient(-90deg, #e1e1e1 0%, white 69%);
+      background-image: -ms-linear-gradient(-90deg, #e1e1e1 0%, white 69%);
+      margin-bottom: 20px; }
+      .content-listing section.listing .left .listing-item .padd {
+        padding: 15px 0;
+        position: relative; }
+        .content-listing section.listing .left .listing-item .padd .fa-star {
+          font-size: 25px;
+          color: #ffe764;
+          vertical-align: middle;
+          margin-right: 5px;
+          position: absolute;
+          top: 25px;
+          z-index: 22;
+          right: 6px; }
+        .content-listing section.listing .left .listing-item .padd .ref {
+          display: inline-block; }
+        .content-listing section.listing .left .listing-item .padd .phot {
+          float: right;
+          display: inline-block; }
+        .content-listing section.listing .left .listing-item .padd .photo {
+          display: inline-block; }
+        .content-listing section.listing .left .listing-item .padd .fa-camera {
+          font-size: 15px; }
+      .content-listing section.listing .left .listing-item #counter {
+        position: absolute;
+        background: rgba(16, 16, 16, 0.72);
+        color: #fff;
+        display: inline-block;
+        padding: 4px 10px;
+        bottom: 40px;
+        z-index: 99;
+        left: 32px;
+        width: 65px;
+        text-align: center; }
+      .content-listing section.listing .left .listing-item .owl-carousel-listing .owl-nav {
+        position: absolute;
+        bottom: 0;
+        left: 0; }
+        .content-listing section.listing .left .listing-item .owl-carousel-listing .owl-nav .owl-next, .content-listing section.listing .left .listing-item .owl-carousel-listing .owl-nav .owl-prev {
+          color: #FFF;
+          font-size: 20px;
+          margin: 5px;
+          padding: 0 10px;
+          background: #5e5e5e;
+          display: inline-block;
+          cursor: pointer;
+          border-radius: 0; }
+        .content-listing section.listing .left .listing-item .owl-carousel-listing .owl-nav .owl-next {
+          margin-left: 60px; }
+      @media (min-width: 991px) {
+        .content-listing section.listing .left .listing-item .info-block {
+          padding: 0; } }
+      .content-listing section.listing .left .listing-item .info-block .information {
+        padding: 0; }
+        .content-listing section.listing .left .listing-item .info-block .information .title {
+          border-bottom: 1px solid #b1abab; }
+          .content-listing section.listing .left .listing-item .info-block .information .title h3 {
+            font-size: 23px;
+            color: #717171;
+            text-align: left;
+            margin-bottom: 0; }
+          .content-listing section.listing .left .listing-item .info-block .information .title p {
+            color: #8c8b8b;
+            text-align: left;
+            font-size: 13px;
+            margin-bottom: 5px; }
+        .content-listing section.listing .left .listing-item .info-block .information .disqription p {
+          color: #717171;
+          text-align: left;
+          font-size: 14px;
+          line-height: 18px;
+          margin-top: 10px; }
+        .content-listing section.listing .left .listing-item .info-block .information .btn-block {
+          margin-bottom: 10px; }
+          .content-listing section.listing .left .listing-item .info-block .information .btn-block .info-details {
+            background: #FFF;
+            border: 1px solid #717171;
+            text-decoration: none;
+            color: #717171;
+            padding: 6px 20px;
+            font-size: 16px; }
+            .content-listing section.listing .left .listing-item .info-block .information .btn-block .info-details:hover {
+              box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22); }
+        .content-listing section.listing .left .listing-item .info-block .information .Dpe-Ges img {
+          border: 1px solid; }
+      .content-listing section.listing .left .listing-item .info-block .flag-block {
+        padding: 15px; }
+        .content-listing section.listing .left .listing-item .info-block .flag-block .back-img {
+          box-shadow: 0 -14px 16px 0 rgba(0, 0, 0, 0.12);
+          border-top: 1px solid #b1abab; }
+          .content-listing section.listing .left .listing-item .info-block .flag-block .back-img .price h3 {
+            color: #717171;
+            font-size: 22px;
+            margin: 0 auto;
+            text-align: center;
+            background: #f1f1f1;
+            width: 100%;
+            padding: 8px 0; }
+          .content-listing section.listing .left .listing-item .info-block .flag-block .back-img #flag {
+            background-image: url("../images/icons/Untitled-2.png");
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 160px; }
+            .content-listing section.listing .left .listing-item .info-block .flag-block .back-img #flag ul {
+              padding: 10px 0 0 10px;
+              list-style-type: none; }
+              .content-listing section.listing .left .listing-item .info-block .flag-block .back-img #flag ul li {
+                color: #717171;
+                font-size: 13px;
+                line-height: 10px; }
+                .content-listing section.listing .left .listing-item .info-block .flag-block .back-img #flag ul li::before {
+                  content: ".";
+                  font-size: 50px;
+                  line-height: 5px;
+                  margin-right: 5px;
+                  color: #1b116a; }
+      .content-listing section.listing .left .listing-item .footer-text {
+        border-top: 1px solid #b1abab; }
+        .content-listing section.listing .left .listing-item .footer-text h3 {
+          color: #717171;
+          font-size: 16px;
+          text-align: left;
+          margin: 10px 0;
+          margin-bottom: 28px; }
+        .content-listing section.listing .left .listing-item .footer-text span {
+          color: #717171;
+          font-size: 12px;
+          text-align: left; }
+      .content-listing section.listing .left .listing-item .Call {
+        text-align: center; }
+        .content-listing section.listing .left .listing-item .Call i {
+          color: #8d8dd6;
+          border: 2px solid #8d8dd6;
+          border-radius: 50px;
+          font-size: 25px;
+          padding: 4px 7px;
+          text-align: center;
+          box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22); }
+        .content-listing section.listing .left .listing-item .Call .btn-request {
+          background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+          background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+          background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+          color: #FFF;
+          border: 1px solid #FFF;
+          padding: 6px 0;
+          outline: 3px solid #9797da;
+          margin: 15px 0;
+          box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+          transition: all 0.5s;
+          -webkit-transition: all 0.5s;
+          width: 100%;
+          font-size: 12px; }
+          .content-listing section.listing .left .listing-item .Call .btn-request:hover {
+            box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.62); }
+    .content-listing section.listing .right .btnSearch {
+      padding: 3px; }
+      .content-listing section.listing .right .btnSearch .btn-search {
+        background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        color: #FFF;
+        border: 1px solid #FFF;
+        padding: 6px 0;
+        outline: 3px solid #9797da;
+        margin: 0;
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        width: 100%;
+        font-size: 18px; }
+        .content-listing section.listing .right .btnSearch .btn-search:hover {
+          box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.62); }
+    .content-listing section.listing .right .search-select {
+      background: #efecec;
+      text-align: center;
+      padding: 20px; }
+      .content-listing section.listing .right .search-select h4 {
+        color: #7c7c7c;
+        margin: 0; }
+      .content-listing section.listing .right .search-select .form1, .content-listing section.listing .right .search-select .form2 {
+        margin: 10px 0;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        border: 1px solid #bfbfbf; }
+      .content-listing section.listing .right .search-select .btn-group {
+        width: 100%; }
+      .content-listing section.listing .right .search-select .multiselect, .content-listing section.listing .right .search-select #location, .content-listing section.listing .right .search-select .select2 {
+        width: 100%;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0 !important;
+        height: 30px !important;
+        outline: none !important;
+        box-shadow: none !important;
+        border: none;
+        background: #fff;
+        color: #1b116a !important;
+        font-weight: 700;
+        text-align: left;
+        font-size: 12px; }
+        @media (min-width: 1200px) {
+          .content-listing section.listing .right .search-select .multiselect, .content-listing section.listing .right .search-select #location, .content-listing section.listing .right .search-select .select2 {
+            font-size: 14px; } }
+        .content-listing section.listing .right .search-select .multiselect .caret, .content-listing section.listing .right .search-select #location .caret, .content-listing section.listing .right .search-select .select2 .caret {
+          position: absolute;
+          right: 7px;
+          top: 13px; }
+      .content-listing section.listing .right .search-select .dropdown-menu > .active > a, .content-listing section.listing .right .search-select .dropdown-menu > .active > a:focus, .content-listing section.listing .right .search-select .dropdown-menu > .active > a:hover {
+        background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%); }
+    .content-listing section.listing .right .optional {
+      background: #efecec;
+      margin-bottom: 20px; }
+      .content-listing section.listing .right .optional h4 {
+        color: #7c7c7c;
+        margin: 0;
+        text-align: center;
+        padding: 15px 0;
+        font-size: 16px; }
+        .content-listing section.listing .right .optional h4 span {
+          color: #7c7c7c;
+          font-size: 13px; }
+      .content-listing section.listing .right .optional .h4 {
+        background: #ccc9c9;
+        color: #787878 !important; }
+      .content-listing section.listing .right .optional .one {
+        margin-bottom: 0; }
+        .content-listing section.listing .right .optional .one input {
+          width: 65px;
+          height: 20px; }
+        .content-listing section.listing .right .optional .one tr {
+          background: #ccc9c9; }
+        .content-listing section.listing .right .optional .one td {
+          padding: 0 3px;
+          border-top: 4px solid #efecec; }
+      .content-listing section.listing .right .optional .two {
+        margin-bottom: 0; }
+        .content-listing section.listing .right .optional .two .form-control {
+          height: 20px;
+          padding: 2px 8px;
+          border-radius: 0; }
+          .content-listing section.listing .right .optional .two .form-control:focus {
+            box-shadow: none;
+            border-color: #aca8a8; }
+        .content-listing section.listing .right .optional .two input {
+          width: 65px;
+          height: 20px; }
+        .content-listing section.listing .right .optional .two tr {
+          background: #efecec;
+          box-shadow: inset 0 4px 18px 0 rgba(0, 0, 0, 0.19); }
+        .content-listing section.listing .right .optional .two td {
+          border-top: 4px solid #efecec; }
+    .content-listing section.listing .right .mail {
+      border: 1px solid #969090;
+      float: left;
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 3px; }
+      .content-listing section.listing .right .mail .alertmail {
+        padding: 10px 0;
+        width: 100%;
+        float: left; }
+        .content-listing section.listing .right .mail .alertmail img {
+          width: 55%;
+          max-width: 150px;
+          float: left; }
+        .content-listing section.listing .right .mail .alertmail p {
+          font-size: 15px;
+          color: #52525c;
+          text-align: left;
+          width: 40%;
+          float: left; }
+          @media (min-width: 991px) and (max-width: 1199px) {
+            .content-listing section.listing .right .mail .alertmail p {
+              font-size: 12px; } }
+      .content-listing section.listing .right .mail p {
+        font-size: 13px;
+        color: #52525c;
+        text-align: center; }
+      .content-listing section.listing .right .mail .mailsend {
+        padding: 15px;
+        padding-top: 0;
+        float: left;
+        width: 100%; }
+        .content-listing section.listing .right .mail .mailsend input {
+          width: 80%;
+          height: 26px;
+          float: left; }
+        .content-listing section.listing .right .mail .mailsend .btnsend {
+          border-color: #adade2;
+          width: 20%;
+          color: #FFF;
+          background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+          background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+          background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+          border-radius: 0;
+          height: 26px;
+          float: left; }
+    .content-listing section.listing .right .Banners {
+      margin: 10px 0;
+      clear: both;
+      text-align: center; }
+
+.ListingDetails {
+  padding-top: 30px; }
+  .ListingDetails section.listing {
+    padding: 20px 0; }
+    .ListingDetails section.listing .container {
+      padding: 0; }
+    .ListingDetails section.listing .left .list-group {
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      background: #ededed;
+      border-radius: 0;
+      border-bottom: 1px solid #bfbfbf;
+      float: right;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap; }
+      .ListingDetails section.listing .left .list-group ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none; }
+        .ListingDetails section.listing .left .list-group ul li {
+          display: inline-block;
+          margin: 10px 0; }
+          @media (min-width: 567px) {
+            .ListingDetails section.listing .left .list-group ul li {
+              border-right: 1px solid #7c7c7c; } }
+          .ListingDetails section.listing .left .list-group ul li:last-child {
+            border-right: none; }
+          .ListingDetails section.listing .left .list-group ul li a {
+            color: #7c7c7c;
+            margin: 24px; }
+            .ListingDetails section.listing .left .list-group ul li a:hover {
+              color: #1b116a;
+              text-decoration: none; }
+    .ListingDetails section.listing .left .wrapper {
+      background-image: -moz-linear-gradient(0deg, #9f9f9f 0%, #cecece 50%, #9f9f9f 100%);
+      background-image: -webkit-linear-gradient(0deg, #9f9f9f 0%, #cecece 50%, #9f9f9f 100%);
+      background-image: -ms-linear-gradient(0deg, #9f9f9f 0%, #cecece 50%, #9f9f9f 100%);
+      border: 1px solid #a0a0a0; }
+      .ListingDetails section.listing .left .wrapper h3 {
+        display: inline-block;
+        color: #FFF;
+        margin: 0;
+        padding: 10px 0; }
+        @media (max-width: 1199px) {
+          .ListingDetails section.listing .left .wrapper h3 {
+            font-size: 20px; } }
+        @media (max-width: 440px) {
+          .ListingDetails section.listing .left .wrapper h3 {
+            font-size: 16px; } }
+      .ListingDetails section.listing .left .wrapper .icons img {
+        margin: 9px 5px; }
+      .ListingDetails section.listing .left .wrapper .icons .like {
+        color: #FFF;
+        font-size: 22px;
+        vertical-align: sub; }
+      .ListingDetails section.listing .left .wrapper .icons .fa-star {
+        font-size: 25px;
+        color: #ffe764;
+        vertical-align: middle;
+        margin-right: 5px; }
+    .ListingDetails section.listing .left .listing-item {
+      position: relative;
+      border: 1px solid #5f5f5f;
+      background-image: -moz-linear-gradient(-90deg, #e1e1e1 0%, white 69%);
+      background-image: -webkit-linear-gradient(-90deg, #e1e1e1 0%, white 69%);
+      background-image: -ms-linear-gradient(-90deg, #e1e1e1 0%, white 69%);
+      margin-bottom: 20px; }
+      .ListingDetails section.listing .left .listing-item .paddno {
+        padding: 0; }
+        .ListingDetails section.listing .left .listing-item .paddno .title {
+          font-size: 23px;
+          color: #717171;
+          text-align: left;
+          margin-bottom: 0;
+          margin-top: 15px; }
+        .ListingDetails section.listing .left .listing-item .paddno p {
+          color: #8c8b8b;
+          text-align: left;
+          font-size: 13px;
+          margin-bottom: 5px; }
+        .ListingDetails section.listing .left .listing-item .paddno .price h3 {
+          color: #717171;
+          font-size: 22px;
+          margin: 0 auto;
+          text-align: center;
+          background: #f1f1f1;
+          width: 100%;
+          padding: 8px 0;
+          margin-top: 15px; }
+      .ListingDetails section.listing .left .listing-item .list-items {
+        padding: 0 15px 15px 15px; }
+        .ListingDetails section.listing .left .listing-item .list-items .listDetails-group {
+          padding: 0; }
+          .ListingDetails section.listing .left .listing-item .list-items .listDetails-group ul {
+            padding: 10px 0 0 10px;
+            list-style-type: none; }
+            .ListingDetails section.listing .left .listing-item .list-items .listDetails-group ul li {
+              color: #717171;
+              font-size: 14px;
+              line-height: 10px; }
+              .ListingDetails section.listing .left .listing-item .list-items .listDetails-group ul li::before {
+                content: ".";
+                font-size: 50px;
+                line-height: 5px;
+                margin-right: 5px;
+                color: #1b116a; }
+          .ListingDetails section.listing .left .listing-item .list-items .listDetails-group .Dpe-Ges {
+            padding: 20px 0; }
+            .ListingDetails section.listing .left .listing-item .list-items .listDetails-group .Dpe-Ges img {
+              border: 1px solid; }
+      .ListingDetails section.listing .left .listing-item .disqription {
+        padding: 15px;
+        background: #f3f3f3;
+        max-height: 200px;
+        overflow-y: scroll;
+        margin-bottom: 15px; }
+        .ListingDetails section.listing .left .listing-item .disqription p {
+          color: #717171;
+          text-align: justify; }
+      .ListingDetails section.listing .left .listing-item .contact-form {
+        padding: 15px; }
+        .ListingDetails section.listing .left .listing-item .contact-form .btn-request {
+          background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+          background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+          background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+          color: #FFF;
+          border: 1px solid #FFF;
+          padding: 6px 0;
+          outline: 3px solid #9797da;
+          margin: 0;
+          box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+          transition: all 0.5s;
+          -webkit-transition: all 0.5s;
+          width: 100%;
+          font-size: 16px;
+          text-align: center; }
+        .ListingDetails section.listing .left .listing-item .contact-form .forms {
+          padding-top: 10px;
+          border: 1px solid #5f5f5f;
+          float: right; }
+          .ListingDetails section.listing .left .listing-item .contact-form .forms .logo-contact {
+            border: 1px solid #b5aeae;
+            text-align: center;
+            margin: 0 auto;
+            width: 150px;
+            padding: 5px 10px; }
+          .ListingDetails section.listing .left .listing-item .contact-form .forms .pagecontacts p {
+            margin: 0;
+            color: #717171;
+            font-size: 14px; }
+          .ListingDetails section.listing .left .listing-item .contact-form .forms .pagecontacts .number {
+            margin: 15px 0;
+            text-align: center; }
+            .ListingDetails section.listing .left .listing-item .contact-form .forms .pagecontacts .number button {
+              padding-left: 0;
+              border-top-left-radius: 25px;
+              border-bottom-left-radius: 25px;
+              border: none;
+              color: #FFF;
+              box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
+              transition: all 0.5s;
+              -webkit-transition: all 0.5s;
+              background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+              background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+              background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%); }
+              .ListingDetails section.listing .left .listing-item .contact-form .forms .pagecontacts .number button:hover {
+                box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+              .ListingDetails section.listing .left .listing-item .contact-form .forms .pagecontacts .number button i {
+                vertical-align: middle;
+                color: #8d8dd6;
+                border: 2px solid #8d8dd6;
+                border-radius: 50px;
+                font-size: 25px;
+                padding: 4px 7px;
+                text-align: center;
+                box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
+                background: #FFF;
+                margin-right: 5px; }
+          .ListingDetails section.listing .left .listing-item .contact-form .forms #details_form .formItem {
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-bottom: 10px; }
+          .ListingDetails section.listing .left .listing-item .contact-form .forms #details_form .form-control {
+            border-radius: 0;
+            resize: none;
+            border-color: #c5c3c3;
+            height: 35px;
+            background: #f2f2f2; }
+          .ListingDetails section.listing .left .listing-item .contact-form .forms #details_form #form_client_demande {
+            height: 100px !important;
+            overflow-y: auto; }
+          .ListingDetails section.listing .left .listing-item .contact-form .forms #details_form .btn-div {
+            width: 100%;
+            text-align: right;
+            padding: 0 10px; }
+            .ListingDetails section.listing .left .listing-item .contact-form .forms #details_form .btn-div .btn-send {
+              background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+              background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+              background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+              color: #FFF;
+              border: 1px solid #FFF;
+              padding: 3px 30px;
+              outline: 3px solid #9797da;
+              margin: 0 0 20px 0;
+              box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+              transition: all 0.5s;
+              -webkit-transition: all 0.5s;
+              font-size: 14px;
+              text-align: right; }
+              .ListingDetails section.listing .left .listing-item .contact-form .forms #details_form .btn-div .btn-send:hover {
+                box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.62); }
+    .ListingDetails section.listing .right .Banners {
+      margin: 10px 0;
+      clear: both;
+      text-align: center; }
+    .ListingDetails section.listing .right .calcul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background: #e5e5e5;
+      border: 1px solid #969494;
+      border-radius: 4px;
+      padding: 10px;
+      max-width: 300px; }
+      @media (max-width: 991px) {
+        .ListingDetails section.listing .right .calcul {
+          margin: 0 auto; } }
+      .ListingDetails section.listing .right .calcul img {
+        max-width: 67px !important; }
+      .ListingDetails section.listing .right .calcul h4 {
+        color: #1b116a;
+        float: left; }
+    .ListingDetails section.listing .right .mail {
+      border: 1px solid #969090;
+      float: left;
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      margin-top: 10px; }
+      .ListingDetails section.listing .right .mail .alertmail {
+        padding: 10px 0;
+        width: 100%;
+        float: left; }
+        .ListingDetails section.listing .right .mail .alertmail img {
+          width: 55%;
+          max-width: 150px;
+          float: left; }
+        .ListingDetails section.listing .right .mail .alertmail p {
+          font-size: 15px;
+          color: #52525c;
+          text-align: left;
+          width: 40%;
+          float: left; }
+          @media (min-width: 991px) and (max-width: 1199px) {
+            .ListingDetails section.listing .right .mail .alertmail p {
+              font-size: 12px; } }
+      .ListingDetails section.listing .right .mail p {
+        font-size: 13px;
+        color: #52525c;
+        text-align: center; }
+      .ListingDetails section.listing .right .mail .mailsend {
+        padding: 15px;
+        padding-top: 0;
+        float: left;
+        width: 100%; }
+        .ListingDetails section.listing .right .mail .mailsend input {
+          width: 80%;
+          height: 26px;
+          float: left; }
+        .ListingDetails section.listing .right .mail .mailsend .btnsend {
+          border-color: #adade2;
+          width: 20%;
+          color: #FFF;
+          background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+          background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+          background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+          border-radius: 0;
+          height: 26px;
+          float: left; }
+
+.advertisment-tools {
+  padding-top: 20px;
+  padding-bottom: 40px; }
+  .advertisment-tools .wrapper {
+    position: relative; }
+    .advertisment-tools .wrapper .Title {
+      text-align: center;
+      position: relative; }
+      @media (min-width: 377px) {
+        .advertisment-tools .wrapper .Title:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          background: #aca8a8;
+          top: 60%;
+          left: 0; } }
+      .advertisment-tools .wrapper .Title h3 {
+        color: #737373;
+        text-transform: uppercase;
+        font-size: 18px;
+        display: inline-block;
+        position: relative;
+        z-index: 2;
+        background: #FFF;
+        padding: 0 15px; }
+        @media (max-width: 376px) {
+          .advertisment-tools .wrapper .Title h3 {
+            background: transparent; } }
+        .advertisment-tools .wrapper .Title h3 img {
+          vertical-align: bottom;
+          margin: 0 10px; }
+        .advertisment-tools .wrapper .Title h3 span {
+          color: #737373;
+          text-transform: uppercase;
+          font-size: 22px;
+          font-family: 'Stainless'; }
+    .advertisment-tools .wrapper .log .logOut {
+      margin: 10px 0;
+      border: 1px solid #aca8a8;
+      background: #FFF;
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      padding: 1px 11px;
+      color: #737373; }
+      .advertisment-tools .wrapper .log .logOut:hover {
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22); }
+      .advertisment-tools .wrapper .log .logOut img {
+        margin-right: 5px; }
+    .advertisment-tools .wrapper .log .support {
+      margin: 10px 0;
+      border: 1px solid #aca8a8;
+      float: right; }
+      .advertisment-tools .wrapper .log .support .fa {
+        color: #8d8dd6;
+        font-size: 16px;
+        vertical-align: middle; }
+      .advertisment-tools .wrapper .log .support .phone {
+        padding: 0 2px;
+        font-size: 13px;
+        border: 1px solid #1b116a;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px; }
+      .advertisment-tools .wrapper .log .support span {
+        color: #737373;
+        margin: 0 10px;
+        padding: 0 10px; }
+        @media (max-width: 991px) {
+          .advertisment-tools .wrapper .log .support span {
+            float: left; } }
+        @media (min-width: 991px) {
+          .advertisment-tools .wrapper .log .support span:last-child {
+            border-left: 1px solid #aca8a8; } }
+    .advertisment-tools .wrapper .navbar {
+      background-image: -moz-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
+      background-image: -webkit-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
+      background-image: -ms-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
+      border-bottom: 1px solid #a8a4a4;
+      border-radius: 0;
+      border-top: none; }
+      .advertisment-tools .wrapper .navbar .nav {
+        margin: 0;
+        width: 100%; }
+        .advertisment-tools .wrapper .navbar .nav .open > a {
+          background: #1b116a;
+          color: #FFF; }
+          .advertisment-tools .wrapper .navbar .nav .open > a:hover, .advertisment-tools .wrapper .navbar .nav .open > a:focus {
+            background: #1b116a;
+            color: #FFF; }
+        .advertisment-tools .wrapper .navbar .nav li {
+          width: 19.8%;
+          border-right: 2px ridge #f1efef;
+          text-align: center;
+          margin: 5px 1px; }
+          .advertisment-tools .wrapper .navbar .nav li:last-child {
+            border: none; }
+          @media (max-width: 1200px) {
+            .advertisment-tools .wrapper .navbar .nav li {
+              width: 19.7%; } }
+          @media (max-width: 991px) {
+            .advertisment-tools .wrapper .navbar .nav li {
+              border: none; } }
+          @media (max-width: 991px) {
+            .advertisment-tools .wrapper .navbar .nav li {
+              width: 100%;
+              margin: 2px 0; } }
+          .advertisment-tools .wrapper .navbar .nav li .dropdown-menu {
+            padding: 0;
+            background: #fdfdfd;
+            width: 100%; }
+            .advertisment-tools .wrapper .navbar .nav li .dropdown-menu li {
+              width: 100%; }
+              .advertisment-tools .wrapper .navbar .nav li .dropdown-menu li a {
+                font-size: 16px;
+                color: #737373;
+                transition: all 0.5s;
+                -webkit-transition: all 0.5s;
+                padding: 5px 5px; }
+                .advertisment-tools .wrapper .navbar .nav li .dropdown-menu li a:hover {
+                  background: #1b116a;
+                  color: #FFF; }
+          .advertisment-tools .wrapper .navbar .nav li a {
+            font-size: 18px;
+            color: #737373;
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            padding-top: 12px;
+            padding-bottom: 12px; }
+            @media (max-width: 991px) {
+              .advertisment-tools .wrapper .navbar .nav li a {
+                font-size: 14px; } }
+            .advertisment-tools .wrapper .navbar .nav li a:hover {
+              background: #1b116a;
+              color: #FFF; }
+            @media (min-width: 991px) {
+              .advertisment-tools .wrapper .navbar .nav li a .caret {
+                display: none; } }
+        .advertisment-tools .wrapper .navbar .nav li.active {
+          background: #1b116a; }
+          .advertisment-tools .wrapper .navbar .nav li.active a {
+            color: #FFF; }
+  .advertisment-tools .advertisment-setting .Title-text {
+    color: #737373;
+    font-size: 28px;
+    padding: 20px 0; }
+    @media (max-width: 768px) {
+      .advertisment-tools .advertisment-setting .Title-text {
+        font-size: 20px; } }
+  .advertisment-tools .advertisment-setting .container-setting {
+    max-width: 780px;
+    padding: 0; }
+    .advertisment-tools .advertisment-setting .container-setting .btn-confirm {
+      float: right;
+      background-color: #f1f1f1;
+      border: 1px solid #aca8a8;
+      margin-top: 10px;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s; }
+      .advertisment-tools .advertisment-setting .container-setting .btn-confirm:hover {
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
+        background: #1b116a; }
+      .advertisment-tools .advertisment-setting .container-setting .btn-confirm:hover .confirm {
+        color: #fff; }
+      .advertisment-tools .advertisment-setting .container-setting .btn-confirm input {
+        margin: 6px 0 6px 10px;
+        height: 20px;
+        width: 20px; }
+      .advertisment-tools .advertisment-setting .container-setting .btn-confirm .confirm {
+        background: transparent;
+        color: #737373;
+        font-size: 15px;
+        border: none;
+        margin: 0 3px;
+        vertical-align: super; }
+    .advertisment-tools .advertisment-setting .container-setting .setting, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items {
+      max-width: 780px;
+      background: #fafafa;
+      border: 1px solid #aca8a8; }
+      .advertisment-tools .advertisment-setting .container-setting .setting .section .form-control, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .section .form-control, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .section .form-control {
+        border-radius: 0; }
+        .advertisment-tools .advertisment-setting .container-setting .setting .section .form-control:focus, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .section .form-control:focus, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .section .form-control:focus {
+          box-shadow: none;
+          border-color: #aca8a8; }
+      .advertisment-tools .advertisment-setting .container-setting .setting .section .Title-text, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .section .Title-text, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .section .Title-text {
+        color: #737373;
+        font-size: 15px;
+        padding: 20px 0 0 0; }
+      .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .MY-ADVERTISE, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .MY-ADVERTISE {
+        margin: 20px 0;
+        border: 1px solid #aca8a8;
+        max-height: 280px;
+        overflow-y: auto; }
+        .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE p, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .MY-ADVERTISE p, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .MY-ADVERTISE p {
+          color: #737373;
+          font-size: 15px;
+          text-align: center;
+          padding: 5px 0;
+          background: #d2d2d2;
+          font-weight: 700;
+          margin: 0; }
+        .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE .list, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .MY-ADVERTISE .list, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .MY-ADVERTISE .list {
+          list-style-type: none;
+          margin: 0;
+          padding: 0; }
+          .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE .list li.active, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .MY-ADVERTISE .list li.active, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .MY-ADVERTISE .list li.active {
+            background: #1b116a !important;
+            color: #fff !important; }
+          .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE .list li, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .MY-ADVERTISE .list li, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .MY-ADVERTISE .list li {
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            color: #737373;
+            font-size: 15px; }
+            .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE .list li:nth-child(2n), .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .MY-ADVERTISE .list li:nth-child(2n), .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .MY-ADVERTISE .list li:nth-child(2n) {
+              background: #f1f1f1; }
+            @media (max-width: 991px) {
+              .advertisment-tools .advertisment-setting .container-setting .setting .MY-ADVERTISE .list li, .advertisment-tools .advertisment-setting .container-setting .manage .Listing-Items .MY-ADVERTISE .list li, .manage .advertisment-tools .advertisment-setting .container-setting .Listing-Items .MY-ADVERTISE .list li {
+                font-size: 13px; } }
+
+.advertisment-my .paddno {
+  padding: 0; }
+.advertisment-my .Title-text {
+  color: #737373;
+  font-size: 28px;
+  padding: 20px 0; }
+  @media (max-width: 768px) {
+    .advertisment-my .Title-text {
+      font-size: 20px; } }
+.advertisment-my .banner {
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px;
+  padding: 10px;
+  position: relative; }
+  .advertisment-my .banner .tooltip-inner {
+    max-width: 300px; }
+  .advertisment-my .banner img {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer; }
+  .advertisment-my .banner p {
+    font-size: 14px;
+    color: #737373;
+    padding: 10px;
+    margin: 0;
+    text-align: justify; }
+.advertisment-my .setting, .advertisment-my .manage .Listing-Items, .manage .advertisment-my .Listing-Items {
+  background-image: -moz-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background-image: -webkit-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background-image: -ms-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px; }
+  .advertisment-my .setting .Title-text, .advertisment-my .manage .Listing-Items .Title-text, .manage .advertisment-my .Listing-Items .Title-text {
+    color: #737373;
+    font-size: 15px;
+    padding: 20px 50px 0 10px;
+    font-weight: 300;
+    float: left;
+    margin: 0; }
+  .advertisment-my .setting .form-control, .advertisment-my .manage .Listing-Items .form-control, .manage .advertisment-my .Listing-Items .form-control {
+    border-radius: 0;
+    max-width: 190px;
+    margin: 12px; }
+    .advertisment-my .setting .form-control:focus, .advertisment-my .manage .Listing-Items .form-control:focus, .manage .advertisment-my .Listing-Items .form-control:focus {
+      box-shadow: none;
+      border-color: #aca8a8; }
+.advertisment-my .sum {
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px; }
+  .advertisment-my .sum .header {
+    background: #dedede;
+    border-bottom: 1px solid #aca8a8; }
+    .advertisment-my .sum .header .nav-tabs {
+      border: none;
+      position: relative;
+      z-index: 25;
+      top: 1px; }
+      .advertisment-my .sum .header .nav-tabs li {
+        margin: 13px 0 0 13px; }
+        .advertisment-my .sum .header .nav-tabs li a {
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          border-top: 1px solid #aca8a8;
+          border-right: 1px solid #aca8a8;
+          border-left: 1px solid #aca8a8; }
+          .advertisment-my .sum .header .nav-tabs li a img {
+            margin-right: 5px; }
+  .advertisment-my .sum .span {
+    padding: 10px;
+    color: #737373;
+    font-size: 13px; }
+    @media (max-width: 991px) {
+      .advertisment-my .sum .span {
+        font-size: 12px; } }
+  .advertisment-my .sum .list {
+    list-style-type: none;
+    margin-top: 15px;
+    padding: 0;
+    max-height: 360px;
+    overflow-y: auto; }
+    .advertisment-my .sum .list li {
+      padding: 10px; }
+      .advertisment-my .sum .list li:nth-child(2n+1) {
+        background: #f1f1f1; }
+      .advertisment-my .sum .list li a {
+        color: #737373;
+        font-size: 15px; }
+        @media (max-width: 991px) {
+          .advertisment-my .sum .list li a {
+            font-size: 13px; } }
+
+.new-advertisment .paddno {
+  padding: 0; }
+.new-advertisment .Title-text {
+  color: #737373;
+  font-size: 28px;
+  padding: 20px 0; }
+  @media (max-width: 768px) {
+    .new-advertisment .Title-text {
+      font-size: 20px; } }
+.new-advertisment .banner {
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px;
+  padding: 10px;
+  position: relative; }
+  .new-advertisment .banner .tooltip-inner {
+    max-width: 300px; }
+  .new-advertisment .banner img {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer; }
+  .new-advertisment .banner p {
+    font-size: 14px;
+    color: #737373;
+    padding: 10px;
+    margin: 0;
+    text-align: justify; }
+.new-advertisment .setting .navbar, .new-advertisment .manage .Listing-Items .navbar, .manage .new-advertisment .Listing-Items .navbar {
+  border: 1px solid #aca8a8;
+  margin-bottom: 0;
+  top: 0 !important;
+  border-radius: 0; }
+  .new-advertisment .setting .navbar ul, .new-advertisment .manage .Listing-Items .navbar ul, .manage .new-advertisment .Listing-Items .navbar ul {
+    width: 100%;
+    text-align: center;
+    margin: 0; }
+    .new-advertisment .setting .navbar ul .open > a, .new-advertisment .manage .Listing-Items .navbar ul .open > a, .manage .new-advertisment .Listing-Items .navbar ul .open > a, .new-advertisment .setting .navbar ul .open > a:focus, .new-advertisment .manage .Listing-Items .navbar ul .open > a:focus, .manage .new-advertisment .Listing-Items .navbar ul .open > a:focus, .new-advertisment .setting .navbar ul .open > a:hover, .new-advertisment .manage .Listing-Items .navbar ul .open > a:hover, .manage .new-advertisment .Listing-Items .navbar ul .open > a:hover {
+      background: #1b116a;
+      color: #fff; }
+    .new-advertisment .setting .navbar ul .first, .new-advertisment .manage .Listing-Items .navbar ul .first, .manage .new-advertisment .Listing-Items .navbar ul .first {
+      width: 50%;
+      background: #1b116a; }
+      @media (max-width: 767px) {
+        .new-advertisment .setting .navbar ul .first, .new-advertisment .manage .Listing-Items .navbar ul .first, .manage .new-advertisment .Listing-Items .navbar ul .first {
+          width: 100%; } }
+      .new-advertisment .setting .navbar ul .first a, .new-advertisment .manage .Listing-Items .navbar ul .first a, .manage .new-advertisment .Listing-Items .navbar ul .first a {
+        color: #FFF; }
+        .new-advertisment .setting .navbar ul .first a:hover, .new-advertisment .manage .Listing-Items .navbar ul .first a:hover, .manage .new-advertisment .Listing-Items .navbar ul .first a:hover, .new-advertisment .setting .navbar ul .first a:focus, .new-advertisment .manage .Listing-Items .navbar ul .first a:focus, .manage .new-advertisment .Listing-Items .navbar ul .first a:focus {
+          background: #1b116a;
+          color: #fff; }
+      .new-advertisment .setting .navbar ul .first .dropdown-menu, .new-advertisment .manage .Listing-Items .navbar ul .first .dropdown-menu, .manage .new-advertisment .Listing-Items .navbar ul .first .dropdown-menu {
+        width: 100%;
+        text-align: center; }
+        .new-advertisment .setting .navbar ul .first .dropdown-menu li, .new-advertisment .manage .Listing-Items .navbar ul .first .dropdown-menu li, .manage .new-advertisment .Listing-Items .navbar ul .first .dropdown-menu li {
+          width: 100%; }
+          .new-advertisment .setting .navbar ul .first .dropdown-menu li a, .new-advertisment .manage .Listing-Items .navbar ul .first .dropdown-menu li a, .manage .new-advertisment .Listing-Items .navbar ul .first .dropdown-menu li a {
+            color: #737373; }
+            @media (max-width: 767px) {
+              .new-advertisment .setting .navbar ul .first .dropdown-menu li a, .new-advertisment .manage .Listing-Items .navbar ul .first .dropdown-menu li a, .manage .new-advertisment .Listing-Items .navbar ul .first .dropdown-menu li a {
+                color: #fff; } }
+            .new-advertisment .setting .navbar ul .first .dropdown-menu li a:hover, .new-advertisment .manage .Listing-Items .navbar ul .first .dropdown-menu li a:hover, .manage .new-advertisment .Listing-Items .navbar ul .first .dropdown-menu li a:hover {
+              background: #1b116a;
+              color: #FFF; }
+              @media (max-width: 767px) {
+                .new-advertisment .setting .navbar ul .first .dropdown-menu li a:hover, .new-advertisment .manage .Listing-Items .navbar ul .first .dropdown-menu li a:hover, .manage .new-advertisment .Listing-Items .navbar ul .first .dropdown-menu li a:hover {
+                  color: #fff;
+                  background: rgba(255, 255, 255, 0.35); } }
+    .new-advertisment .setting .navbar ul .second, .new-advertisment .manage .Listing-Items .navbar ul .second, .manage .new-advertisment .Listing-Items .navbar ul .second {
+      width: 50%;
+      background: #d9d9d9; }
+      @media (max-width: 767px) {
+        .new-advertisment .setting .navbar ul .second, .new-advertisment .manage .Listing-Items .navbar ul .second, .manage .new-advertisment .Listing-Items .navbar ul .second {
+          width: 100%; } }
+      .new-advertisment .setting .navbar ul .second a, .new-advertisment .manage .Listing-Items .navbar ul .second a, .manage .new-advertisment .Listing-Items .navbar ul .second a {
+        color: #737373; }
+      .new-advertisment .setting .navbar ul .second .dropdown-menu, .new-advertisment .manage .Listing-Items .navbar ul .second .dropdown-menu, .manage .new-advertisment .Listing-Items .navbar ul .second .dropdown-menu {
+        width: 100%;
+        text-align: center; }
+        .new-advertisment .setting .navbar ul .second .dropdown-menu li, .new-advertisment .manage .Listing-Items .navbar ul .second .dropdown-menu li, .manage .new-advertisment .Listing-Items .navbar ul .second .dropdown-menu li {
+          width: 100%; }
+          .new-advertisment .setting .navbar ul .second .dropdown-menu li a:hover, .new-advertisment .manage .Listing-Items .navbar ul .second .dropdown-menu li a:hover, .manage .new-advertisment .Listing-Items .navbar ul .second .dropdown-menu li a:hover {
+            background: #1b116a;
+            color: #FFF; }
+.new-advertisment .sum {
+  padding: 0;
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px;
+  background: #f8f8f8; }
+  .new-advertisment .sum .header {
+    background: #f0f0f0;
+    border-bottom: 1px solid #aca8a8; }
+    .new-advertisment .sum .header .nav-tabs {
+      border: none;
+      position: relative;
+      z-index: 25;
+      top: 1px; }
+      .new-advertisment .sum .header .nav-tabs li {
+        margin: 13px 0 0 13px; }
+        .new-advertisment .sum .header .nav-tabs li a {
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          border-top: 1px solid #aca8a8;
+          border-right: 1px solid #aca8a8;
+          border-left: 1px solid #aca8a8;
+          background: #f8f8f8; }
+          .new-advertisment .sum .header .nav-tabs li a img {
+            margin-right: 5px; }
+  .new-advertisment .sum .span {
+    padding: 10px;
+    color: #737373;
+    font-size: 13px; }
+    @media (max-width: 991px) {
+      .new-advertisment .sum .span {
+        font-size: 12px; } }
+  .new-advertisment .sum .selectors {
+    float: left;
+    width: 100%;
+    padding: 20px; }
+  .new-advertisment .sum .listcheckbox {
+    background: #f0f0f0;
+    overflow-y: scroll; }
+    .new-advertisment .sum .listcheckbox .blue label {
+      color: #1b116a !important; }
+    .new-advertisment .sum .listcheckbox .checkbox label {
+      color: #737373;
+      font-size: 15px; }
+  .new-advertisment .sum .endspan {
+    color: #737373;
+    padding: 0 0 10px 10px;
+    clear: both;
+    float: left; }
+  .new-advertisment .sum .list {
+    float: left;
+    width: 100%; }
+    .new-advertisment .sum .list .form-group {
+      padding: 0;
+      margin-bottom: 0; }
+      .new-advertisment .sum .list .form-group .Title-label {
+        color: #737373;
+        font-size: 15px;
+        font-weight: 300;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 0; }
+      .new-advertisment .sum .list .form-group .Title-euro {
+        width: 20%;
+        display: inline-block;
+        padding: 13px 0 0 13px; }
+        .new-advertisment .sum .list .form-group .Title-euro span {
+          color: #737373;
+          font-size: 20px;
+          font-weight: 300;
+          margin: 0;
+          padding-top: 12px;
+          padding-bottom: 0; }
+      .new-advertisment .sum .list .form-group .ckeckbox {
+        height: 20px;
+        width: 20px;
+        margin: 15px 0 0 13px; }
+      .new-advertisment .sum .list .form-group .form-control {
+        border-radius: 0;
+        max-width: 380px;
+        margin-top: 10px; }
+        .new-advertisment .sum .list .form-group .form-control:focus {
+          box-shadow: none;
+          border-color: #aca8a8; }
+      .new-advertisment .sum .list .form-group .textarea {
+        border-radius: 0;
+        width: 100%;
+        margin-top: 10px;
+        resize: none; }
+        .new-advertisment .sum .list .form-group .textarea:focus {
+          box-shadow: none;
+          border-color: #aca8a8; }
+      .new-advertisment .sum .list .form-group .euro {
+        width: 80%;
+        float: left; }
+      .new-advertisment .sum .list .form-group .details {
+        width: 48%;
+        float: left; }
+    .new-advertisment .sum .list .selectAll {
+      color: #8d8dd6;
+      margin-bottom: 0;
+      margin-top: 0;
+      font-weight: 700; }
+    .new-advertisment .sum .list .checkbox {
+      font-size: 15px; }
+  .new-advertisment .sum hr {
+    clear: both;
+    border-top: 1px dashed #b5a8a8;
+    margin: 30px 0 15px 0; }
+  .new-advertisment .sum .paragraf h3 {
+    font-size: 17px;
+    color: #1b116a;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-weight: 700; }
+.new-advertisment .btn-confirm {
+  float: right;
+  background-color: #f1f1f1;
+  border: 1px solid #aca8a8;
+  margin: 10px 0;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s; }
+  .new-advertisment .btn-confirm:hover {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
+    background: #1b116a; }
+  .new-advertisment .btn-confirm:hover .confirm {
+    color: #fff; }
+  .new-advertisment .btn-confirm input {
+    margin: 6px 0 6px 10px;
+    height: 20px;
+    width: 20px; }
+  .new-advertisment .btn-confirm .confirm {
+    background: transparent;
+    color: #737373;
+    font-size: 15px;
+    border: none;
+    margin: 0 3px;
+    vertical-align: super; }
+
+.Email {
+  padding-top: 30px;
+  padding-bottom: 40px; }
+  .Email .Title {
+    color: #7c7c7c;
+    text-align: left; }
+  .Email .back {
+    background-image: url("../images/EmailAlert.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid;
+    padding: 0; }
+    @media (min-width: 767px) {
+      .Email .back {
+        background-position: right; } }
+    .Email .back button {
+      background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      color: #FFF;
+      border: 1px solid #FFF;
+      padding: 5px 25px;
+      outline: 3px solid #9797da;
+      margin: 15px 0;
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      font-size: 12px; }
+      .Email .back button:hover {
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+    .Email .back .first-section {
+      border-right: 1px dashed; }
+      @media (max-width: 768px) {
+        .Email .back .first-section {
+          border-right: none;
+          border-bottom: 1px dashed; } }
+      .Email .back .first-section .form-control {
+        border-radius: 0;
+        margin-top: 10px; }
+        .Email .back .first-section .form-control:focus {
+          box-shadow: none;
+          border-color: #aca8a8; }
+      .Email .back .first-section .passForgot {
+        color: #7c7c7c;
+        text-align: left;
+        font-size: 14px; }
+    .Email .back .Title-paragraf h3 {
+      color: #7c7c7c;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Stainless'; }
+      @media (max-width: 991px) {
+        .Email .back .Title-paragraf h3 {
+          font-size: 16px; } }
+    .Email .back .Title-paragraf p {
+      padding: 0 26px;
+      color: #7c7c7c;
+      text-align: center;
+      font-size: 16px;
+      font-family: 'Stainless'; }
+      @media (max-width: 991px) {
+        .Email .back .Title-paragraf p {
+          font-size: 14px;
+          padding: 0 10px; } }
+
+.contact .Title {
+  color: #7c7c7c;
+  text-align: left; }
+.contact .margin {
+  margin-top: 40px;
+  margin-bottom: 80px; }
+.contact .header {
+  border: 1px solid; }
+  .contact .header .contact-text {
+    padding: 45px 10px; }
+    @media (max-width: 768px) {
+      .contact .header .contact-text {
+        padding: 45px 0; } }
+    .contact .header .contact-text h3 {
+      font-size: 18px;
+      color: #7c7c7c; }
+.contact .content {
+  border: 1px solid; }
+  .contact .content .wrapper {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid; }
+    .contact .content .wrapper h3 {
+      font-size: 18px;
+      color: #7c7c7c;
+      margin: 15px; }
+  .contact .content .btn-block {
+    background: #e3e3e3; }
+    .contact .content .btn-block .button {
+      background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      color: #FFF;
+      border: 1px solid #FFF;
+      padding: 5px 60px;
+      outline: 3px solid #9797da;
+      margin: 15px 0;
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      font-size: 14px; }
+      .contact .content .btn-block .button:hover {
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+  .contact .content .first-section {
+    border-right: 1px dashed #a9a9a9; }
+    @media (max-width: 768px) {
+      .contact .content .first-section {
+        border: none; } }
+    .contact .content .first-section .form-group {
+      padding: 0;
+      margin-bottom: 0; }
+      .contact .content .first-section .form-group .form-control {
+        border-radius: 0;
+        margin-top: 15px; }
+        @media (max-width: 991px) {
+          .contact .content .first-section .form-group .form-control {
+            margin-top: 10px; } }
+        .contact .content .first-section .form-group .form-control:focus {
+          box-shadow: none;
+          border-color: #aca8a8; }
+  .contact .content .content-window {
+    margin: 35px 0; }
+  .contact .content .Title-label {
+    color: #737373;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 0; }
+  .contact .content .textarea {
+    border-radius: 0;
+    width: 100%;
+    margin-top: 10px;
+    resize: none; }
+    .contact .content .textarea:focus {
+      box-shadow: none;
+      border-color: #aca8a8; }
+
+.real .Title h3 {
+  color: #7c7c7c;
+  text-align: left;
+  margin-bottom: 0;
+  font-size: 24px; }
+.real .Title h4 {
+  color: #7c7c7c;
+  text-align: left;
+  margin-bottom: 0;
+  font-size: 21px;
+  margin-top: 10px; }
+.real .content {
+  border: 1px solid;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  position: relative;
+  background-image: url("../images/backgrondReal.png");
+  background-repeat: no-repeat; }
+  @media (max-width: 584px) {
+    .real .content {
+      margin-top: 65px; } }
+  .real .content .headerIMG {
+    position: absolute;
+    right: 0;
+    top: -84px; }
+  .real .content h2 {
+    color: #7c7c7c;
+    margin-bottom: 25px;
+    margin-top: 25px; }
+    @media (max-width: 991px) {
+      .real .content h2 {
+        font-size: 25px;
+        margin-top: 83px; } }
+    @media (max-width: 474px) {
+      .real .content h2 {
+        font-size: 18px; } }
+  .real .content .tarif {
+    margin-bottom: 30px; }
+    .real .content .tarif a img {
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      margin: 10px auto;
+      -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2); }
+      .real .content .tarif a img:hover {
+        -ms-transform: scale(1.1, 1.1);
+        /* IE 9 */
+        -webkit-transform: scale(1.1, 1.1);
+        /* Safari */
+        transform: scale(1.1, 1.1);
+        -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5); }
+  .real .content .real-footer {
+    padding: 0; }
+    .real .content .real-footer h2 {
+      color: #7c7c7c;
+      font-size: 25px;
+      text-align: left;
+      font-family: 'Stainless'; }
+      @media (max-width: 474px) {
+        .real .content .real-footer h2 {
+          font-size: 18px; } }
+    .real .content .real-footer .footer-dis {
+      padding: 0; }
+      .real .content .real-footer .footer-dis p {
+        color: #717171; }
+        @media (max-width: 1199px) {
+          .real .content .real-footer .footer-dis p {
+            font-size: 14px; } }
+        .real .content .real-footer .footer-dis p span {
+          color: #1b116a; }
+    .real .content .real-footer .customer {
+      padding: 0; }
+      .real .content .real-footer .customer .img {
+        padding: 0; }
+        .real .content .real-footer .customer .img img {
+          padding-top: 59px; }
+          @media (max-width: 1199px) {
+            .real .content .real-footer .customer .img img {
+              padding-top: 48px; } }
+      .real .content .real-footer .customer .login {
+        border: 1px solid;
+        position: relative;
+        padding: 5px;
+        float: left;
+        margin: 10px 0;
+        -webkit-box-shadow: 7px 7px 7px 0 rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 7px 7px 7px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 7px 7px 7px 0 rgba(0, 0, 0, 0.2); }
+        .real .content .real-footer .customer .login a {
+          text-decoration: none; }
+        .real .content .real-footer .customer .login img {
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          /* IE 9 */
+          -webkit-transform: translate(-50%, -50%);
+          /* Safari */ }
+        .real .content .real-footer .customer .login p {
+          color: #7c7c7c;
+          font-size: 14px;
+          margin-top: 10px;
+          margin-bottom: 0; }
+        .real .content .real-footer .customer .login span {
+          color: #7c7c7c;
+          font-size: 12px; }
+          .real .content .real-footer .customer .login span:hover {
+            text-decoration: none; }
+        .real .content .real-footer .customer .login .form-control {
+          border-radius: 0;
+          margin-top: 5px;
+          height: 25px; }
+          .real .content .real-footer .customer .login .form-control:focus {
+            box-shadow: none;
+            border-color: #aca8a8; }
+        .real .content .real-footer .customer .login button {
+          background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+          background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+          background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+          color: #FFF;
+          border: 1px solid #FFF;
+          padding: 3px 20px;
+          outline: 3px solid #9797da;
+          margin: 6px 0;
+          box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+          transition: all 0.5s;
+          -webkit-transition: all 0.5s;
+          font-size: 12px; }
+          .real .content .real-footer .customer .login button:hover {
+            box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+
+.simulation .info {
+  position: absolute;
+  right: 5px;
+  top: 20px;
+  cursor: pointer; }
+.simulation .Title h3 {
+  color: #7c7c7c;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 24px; }
+.simulation .content {
+  margin-bottom: 20px; }
+  .simulation .content .paragraf {
+    position: relative; }
+    .simulation .content .paragraf .tooltip-inner {
+      max-width: 300px; }
+    .simulation .content .paragraf h3 {
+      color: #7c7c7c;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 20px; }
+      @media (max-width: 768px) {
+        .simulation .content .paragraf h3 {
+          font-size: 18px; } }
+  .simulation .content .header2 {
+    padding: 15px;
+    border: 1px solid; }
+    .simulation .content .header2 .contact-text {
+      padding: 22px 0; }
+      @media (max-width: 768px) {
+        .simulation .content .header2 .contact-text {
+          padding: 45px 0; } }
+      .simulation .content .header2 .contact-text p {
+        color: #7c7c7c;
+        margin: 0; }
+  .simulation .content .table-info {
+    overflow-x: auto;
+    margin-bottom: 30px; }
+    .simulation .content .table-info .table-bordered {
+      border: 1px solid;
+      text-align: center; }
+    .simulation .content .table-info .table-bordered > tbody > tr > td, .simulation .content .table-info .table-bordered > tbody > tr > th, .simulation .content .table-info .table-bordered > tfoot > tr > td, .simulation .content .table-info .table-bordered > tfoot > tr > th, .simulation .content .table-info .table-bordered > thead > tr > td, .simulation .content .table-info .table-bordered > thead > tr > th {
+      border: 1px solid;
+      text-align: center;
+      font-weight: 300;
+      font-size: 15px; }
+      @media (max-width: 550px) {
+        .simulation .content .table-info .table-bordered > tbody > tr > td, .simulation .content .table-info .table-bordered > tbody > tr > th, .simulation .content .table-info .table-bordered > tfoot > tr > td, .simulation .content .table-info .table-bordered > tfoot > tr > th, .simulation .content .table-info .table-bordered > thead > tr > td, .simulation .content .table-info .table-bordered > thead > tr > th {
+          font-size: 11px; } }
+    .simulation .content .table-info .tr th {
+      background: #f7f7f7;
+      text-align: center; }
+    .simulation .content .table-info td {
+      padding: 10px 0; }
+    .simulation .content .table-info .pad th:nth-child(2), .simulation .content .table-info .pad th:nth-child(3), .simulation .content .table-info .pad th:nth-child(4), .simulation .content .table-info .pad th:nth-child(5) {
+      padding: 18px 0; }
+  .simulation .content .paragraf-text {
+    position: relative;
+    border: 1px solid;
+    background: #f7f7f7; }
+    .simulation .content .paragraf-text .tooltip-inner {
+      max-width: 300px; }
+    .simulation .content .paragraf-text h3 {
+      color: #7c7c7c;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 20px; }
+      @media (max-width: 768px) {
+        .simulation .content .paragraf-text h3 {
+          font-size: 18px; } }
+  .simulation .content .calcul {
+    border: 1px solid;
+    border-top: none;
+    margin-bottom: 30px; }
+    .simulation .content .calcul .Title-label {
+      color: #737373;
+      font-size: 14px;
+      font-weight: 300;
+      padding-top: 12px;
+      padding-bottom: 0;
+      margin-bottom: 0; }
+    .simulation .content .calcul .Title-euro {
+      padding: 9px 0 0 5px; }
+      .simulation .content .calcul .Title-euro span {
+        color: #737373;
+        font-size: 20px;
+        font-weight: 300;
+        margin: 0; }
+    .simulation .content .calcul .forms {
+      float: left;
+      padding: 15px 0; }
+      .simulation .content .calcul .forms .group {
+        padding: 0; }
+        .simulation .content .calcul .forms .group .form-group {
+          padding: 0;
+          margin-bottom: 5px; }
+          .simulation .content .calcul .forms .group .form-group .form-control {
+            border-radius: 0;
+            margin-top: 10px;
+            height: 25px; }
+            .simulation .content .calcul .forms .group .form-group .form-control:focus {
+              box-shadow: none;
+              border-color: #aca8a8; }
+    .simulation .content .calcul .imgArrow {
+      margin: 0 auto; }
+      @media (min-width: 767px) {
+        .simulation .content .calcul .imgArrow {
+          padding-top: 50%; } }
+    .simulation .content .calcul .paddno {
+      padding: 10px 15px; }
+      @media (min-width: 767px) {
+        .simulation .content .calcul .paddno {
+          padding: 20px 0; } }
+    .simulation .content .calcul .calculate {
+      padding: 0;
+      text-align: center;
+      background: #e3e3e3; }
+      .simulation .content .calcul .calculate .calculBTN {
+        background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        color: #FFF;
+        border: 1px solid #FFF;
+        padding: 2px 40px;
+        outline: 3px solid #9797da;
+        margin: 20px 0;
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        font-size: 14px; }
+        .simulation .content .calcul .calculate .calculBTN:hover {
+          box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+.simulation .Banners {
+  margin-bottom: 10px;
+  clear: both;
+  text-align: center; }
+
+.evaluation .paddno {
+  padding: 0; }
+.evaluation .Title-text {
+  color: #737373;
+  font-size: 28px;
+  padding: 20px 0; }
+  @media (max-width: 768px) {
+    .evaluation .Title-text {
+      font-size: 20px; } }
+.evaluation .banner {
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px;
+  padding: 10px;
+  position: relative; }
+  .evaluation .banner p {
+    font-size: 14px;
+    color: #737373;
+    padding: 10px;
+    margin: 0;
+    text-align: justify; }
+  .evaluation .banner .tooltip-inner {
+    max-width: 300px; }
+  .evaluation .banner img {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer; }
+.evaluation .left .content {
+  padding: 0;
+  background: #f0f0f0;
+  border: 1px solid #aca8a8; }
+  .evaluation .left .content .group {
+    float: left;
+    margin-bottom: 15px; }
+    @media (min-width: 767px) {
+      .evaluation .left .content .group {
+        margin: 22px 0; } }
+    .evaluation .left .content .group .forms {
+      float: left; }
+      @media (min-width: 767px) {
+        .evaluation .left .content .group .forms {
+          padding: 15px; } }
+      .evaluation .left .content .group .forms .Title-label {
+        color: #737373;
+        font-size: 15px;
+        font-weight: 300;
+        margin: 0;
+        padding-top: 15px;
+        padding-bottom: 0; }
+      .evaluation .left .content .group .forms .form-group {
+        padding: 0;
+        margin-bottom: 5px; }
+        .evaluation .left .content .group .forms .form-group .form-control {
+          border-radius: 0;
+          margin-top: 10px;
+          height: 28px; }
+          .evaluation .left .content .group .forms .form-group .form-control:focus {
+            box-shadow: none;
+            border-color: #aca8a8; }
+  .evaluation .left .content p {
+    color: #737373;
+    margin: 10px 0 0 10px; }
+  .evaluation .left .content .textarea {
+    border-radius: 0;
+    width: 100%;
+    margin: 10px 0;
+    resize: none; }
+    .evaluation .left .content .textarea:focus {
+      box-shadow: none;
+      border-color: #aca8a8; }
+.evaluation .left .btn-confirm {
+  float: right;
+  background-color: #f1f1f1;
+  border: 1px solid #aca8a8;
+  margin: 10px 0;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s; }
+  .evaluation .left .btn-confirm:hover {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
+    background: #1b116a; }
+  .evaluation .left .btn-confirm:hover .confirm {
+    color: #fff; }
+  .evaluation .left .btn-confirm input {
+    margin: 6px 0 6px 10px;
+    height: 20px;
+    width: 20px; }
+  .evaluation .left .btn-confirm .confirm {
+    background: transparent;
+    color: #737373;
+    font-size: 15px;
+    border: none;
+    margin: 0 3px;
+    vertical-align: super; }
+
+.Area {
+  padding-top: 30px;
+  padding-bottom: 40px; }
+  .Area .Title {
+    color: #7c7c7c;
+    text-align: left; }
+  .Area .back {
+    background-image: url("../images/Area.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid;
+    padding: 0; }
+    @media (min-width: 767px) {
+      .Area .back {
+        background-position: right; } }
+    .Area .back button {
+      background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      color: #FFF;
+      border: 1px solid #FFF;
+      padding: 5px 25px;
+      outline: 3px solid #9797da;
+      margin: 15px 0;
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      font-size: 12px; }
+      .Area .back button:hover {
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+    .Area .back .first-section {
+      border-right: 1px dashed; }
+      @media (max-width: 768px) {
+        .Area .back .first-section {
+          border-right: none;
+          border-bottom: 1px dashed; } }
+      .Area .back .first-section .form-control {
+        border-radius: 0;
+        margin-top: 10px; }
+        .Area .back .first-section .form-control:focus {
+          box-shadow: none;
+          border-color: #aca8a8; }
+      .Area .back .first-section .passForgot {
+        color: #7c7c7c;
+        text-align: left;
+        font-size: 14px; }
+    .Area .back .Title-paragraf h3 {
+      color: #7c7c7c;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Stainless'; }
+      @media (max-width: 991px) {
+        .Area .back .Title-paragraf h3 {
+          font-size: 16px; } }
+    .Area .back .Title-paragraf p {
+      padding: 0 26px;
+      color: #7c7c7c;
+      text-align: center;
+      font-size: 16px;
+      font-family: 'Stainless'; }
+      @media (max-width: 991px) {
+        .Area .back .Title-paragraf p {
+          font-size: 14px;
+          padding: 0 10px; } }
+
+.invoice .Title-text {
+  color: #737373;
+  font-size: 28px;
+  padding: 20px 0; }
+  @media (max-width: 768px) {
+    .invoice .Title-text {
+      font-size: 20px; } }
+.invoice .banner {
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px;
+  padding: 10px;
+  position: relative; }
+  .invoice .banner p {
+    font-size: 14px;
+    color: #737373;
+    padding: 10px;
+    margin: 0;
+    text-align: justify; }
+  .invoice .banner .tooltip-inner {
+    max-width: 300px; }
+  .invoice .banner img {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer; }
+.invoice .content {
+  padding: 0;
+  background: #f0f0f0;
+  border: 1px solid #aca8a8; }
+  .invoice .content .forms {
+    float: left; }
+    @media (min-width: 767px) {
+      .invoice .content .forms {
+        padding: 10px; } }
+    .invoice .content .forms .Title-label {
+      color: #737373;
+      font-size: 15px;
+      font-weight: 300;
+      margin: 0;
+      padding-top: 15px;
+      padding-bottom: 0; }
+    .invoice .content .forms .form-group {
+      padding: 0;
+      margin-bottom: 5px; }
+      .invoice .content .forms .form-group .form-control {
+        border-radius: 0;
+        margin-top: 10px;
+        height: 28px; }
+        .invoice .content .forms .form-group .form-control:focus {
+          box-shadow: none;
+          border-color: #aca8a8; }
+.invoice .paddno {
+  padding: 0;
+  border: 1px solid #aca8a8;
+  margin: 30px 0; }
+  .invoice .paddno .invoice-container {
+    min-height: 300px;
+    padding: 15px; }
+    .invoice .paddno .invoice-container h4 {
+      color: #737373;
+      font-size: 16px;
+      text-align: center; }
+.invoice .btn-confirm {
+  float: right;
+  background-color: #f1f1f1;
+  border: 1px solid #aca8a8;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  text-align: right;
+  margin-bottom: 20px; }
+  .invoice .btn-confirm:hover {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
+    background: #8d8dd6; }
+  .invoice .btn-confirm button {
+    background: transparent;
+    color: #737373;
+    font-size: 15px;
+    border: none;
+    padding: 7px 21px; }
+    .invoice .btn-confirm button:hover {
+      color: #FFF; }
+    .invoice .btn-confirm button img {
+      float: left;
+      margin-right: 15px; }
+
+.selection .margin {
+  margin: 15px 0; }
+.selection .paddno {
+  padding: 0; }
+.selection .Title-text {
+  color: #737373;
+  font-size: 28px; }
+  @media (max-width: 768px) {
+    .selection .Title-text {
+      font-size: 20px; } }
+.selection .banner {
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px;
+  padding: 10px;
+  position: relative; }
+  .selection .banner .tooltip-inner {
+    max-width: 300px; }
+  .selection .banner img {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer; }
+  .selection .banner p {
+    font-size: 14px;
+    color: #737373;
+    padding: 10px;
+    margin: 0;
+    text-align: justify; }
+.selection .setting, .selection .manage .Listing-Items, .manage .selection .Listing-Items {
+  background-image: -moz-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background-image: -webkit-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background-image: -ms-linear-gradient(-90deg, rgba(202, 202, 202, 0.23) 0%, rgba(0, 0, 0, 0.2) 100%);
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px;
+  padding: 10px 0; }
+  .selection .setting .Title-text, .selection .manage .Listing-Items .Title-text, .manage .selection .Listing-Items .Title-text {
+    color: #737373;
+    font-size: 15px;
+    font-weight: 300; }
+  .selection .setting .form-control, .selection .manage .Listing-Items .form-control, .manage .selection .Listing-Items .form-control {
+    border-radius: 0;
+    max-width: 380px; }
+    .selection .setting .form-control:focus, .selection .manage .Listing-Items .form-control:focus, .manage .selection .Listing-Items .form-control:focus {
+      box-shadow: none;
+      border-color: #aca8a8; }
+  .selection .setting .checkbox, .selection .manage .Listing-Items .checkbox, .manage .selection .Listing-Items .checkbox {
+    margin: 0 10px; }
+    @media (min-width: 400px) {
+      .selection .setting .checkbox, .selection .manage .Listing-Items .checkbox, .manage .selection .Listing-Items .checkbox {
+        float: left; } }
+    .selection .setting .checkbox label, .selection .manage .Listing-Items .checkbox label, .manage .selection .Listing-Items .checkbox label {
+      color: #737373;
+      font-size: 15px; }
+  .selection .setting .add, .selection .manage .Listing-Items .add, .manage .selection .Listing-Items .add {
+    background-color: #f1f1f1;
+    border: 1px solid #aca8a8;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    padding: 3px 50px 3px 3px;
+    margin-top: 10px;
+    color: #737373; }
+    .selection .setting .add:hover, .selection .manage .Listing-Items .add:hover, .manage .selection .Listing-Items .add:hover {
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
+      background: #1b116a;
+      color: #FFF; }
+    .selection .setting .add:hover i, .selection .manage .Listing-Items .add:hover i, .manage .selection .Listing-Items .add:hover i {
+      color: #FFF;
+      border-color: #FFF; }
+    .selection .setting .add i, .selection .manage .Listing-Items .add i, .manage .selection .Listing-Items .add i {
+      margin-right: 10px;
+      border: 1px solid #2d6ea0;
+      font-size: 17px;
+      padding: 3px 5px;
+      color: #2d6ea0;
+      border-radius: 3px;
+      vertical-align: middle;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s; }
+.selection .sum {
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px;
+  padding: 0; }
+  .selection .sum .header {
+    background: #dedede;
+    border-bottom: 1px solid #aca8a8; }
+    .selection .sum .header .nav-tabs {
+      border: none;
+      position: relative;
+      z-index: 25;
+      top: 1px; }
+      .selection .sum .header .nav-tabs li {
+        margin: 13px 0 0 13px; }
+        .selection .sum .header .nav-tabs li a {
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          border-top: 1px solid #aca8a8;
+          border-right: 1px solid #aca8a8;
+          border-left: 1px solid #aca8a8; }
+          .selection .sum .header .nav-tabs li a img {
+            margin-right: 5px; }
+  .selection .sum .span {
+    padding: 10px;
+    color: #737373;
+    font-size: 13px; }
+    @media (max-width: 991px) {
+      .selection .sum .span {
+        font-size: 12px; } }
+  .selection .sum .list {
+    list-style-type: none;
+    margin-top: 15px;
+    padding: 0;
+    max-height: 360px;
+    overflow-y: auto;
+    margin-bottom: 0; }
+    .selection .sum .list li {
+      padding: 10px;
+      color: #737373;
+      font-size: 15px; }
+      .selection .sum .list li:nth-child(2n+1) {
+        background: #f1f1f1; }
+      @media (max-width: 991px) {
+        .selection .sum .list li {
+          font-size: 13px; } }
+
+.HomePage {
+  padding: 50px 0; }
+  .HomePage .owl-HomePage .owl-item {
+    min-height: 120px;
+    text-align: center;
+    padding: 15px; }
+    .HomePage .owl-HomePage .owl-item .item {
+      -moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+      -webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+      box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+      position: relative; }
+      .HomePage .owl-HomePage .owl-item .item a:hover p {
+        font-weight: 700; }
+      .HomePage .owl-HomePage .owl-item .item a:hover span {
+        font-weight: 700; }
+      .HomePage .owl-HomePage .owl-item .item p {
+        position: absolute;
+        top: 0;
+        color: #475eae;
+        z-index: 3;
+        margin: 5px 0 0 5px;
+        text-align: left;
+        line-height: 16px; }
+        @media (max-width: 1200px) {
+          .HomePage .owl-HomePage .owl-item .item p {
+            font-size: 14px; } }
+      .HomePage .owl-HomePage .owl-item .item span {
+        font-size: 14px;
+        position: absolute;
+        bottom: 0;
+        color: #504e4e;
+        z-index: 3;
+        text-align: center;
+        -ms-transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, 0%);
+        transform: translate(-50%, 0%);
+        left: 50%;
+        width: 100%; }
+  .HomePage .owl-HomePage2 .owl-item {
+    padding: 0 35px; }
+    .HomePage .owl-HomePage2 .owl-item .item button {
+      font-size: 13px;
+      padding: 3px 10px;
+      color: #fff;
+      background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      margin-bottom: 15px; }
+    .HomePage .owl-HomePage2 .owl-item .item .default {
+      position: absolute;
+      background: rgba(243, 242, 242, 0.27);
+      height: 100%;
+      width: 100%;
+      z-index: 9;
+      top: 0; }
+    .HomePage .owl-HomePage2 .owl-item .item a {
+      text-decoration: none; }
+      .HomePage .owl-HomePage2 .owl-item .item a:hover p {
+        font-weight: 700; }
+      .HomePage .owl-HomePage2 .owl-item .item a:hover span {
+        font-weight: 700; }
+    .HomePage .owl-HomePage2 .owl-item .item p {
+      height: 70px;
+      color: #475eae;
+      margin: 10px 0 0 5px;
+      text-align: left;
+      line-height: 20px; }
+      @media (max-width: 1200px) {
+        .HomePage .owl-HomePage2 .owl-item .item p {
+          font-size: 14px; } }
+    .HomePage .owl-HomePage2 .owl-item .item .find {
+      font-size: 14px;
+      color: #504e4e;
+      text-align: left;
+      margin: 12px 5px;
+      display: block; }
+  .HomePage .owl-next {
+    background: transparent !important;
+    color: #000 !important;
+    right: -20px;
+    position: absolute;
+    top: 36%; }
+    .HomePage .owl-next i {
+      font-size: 40px;
+      color: #737373;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s; }
+      .HomePage .owl-next i:hover {
+        color: #475eae; }
+  .HomePage .owl-prev {
+    background: transparent !important;
+    color: #000 !important;
+    left: -20px;
+    position: absolute;
+    top: 36%; }
+    .HomePage .owl-prev i {
+      font-size: 40px;
+      color: #737373;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s; }
+      .HomePage .owl-prev i:hover {
+        color: #475eae; }
+  .HomePage .first-left {
+    margin-bottom: 15px; }
+    .HomePage .first-left .wel {
+      background: #ececec;
+      border: 1px solid #bfbbbb; }
+      .HomePage .first-left .wel h3 {
+        color: #737373;
+        font-size: 20px;
+        margin: 15px 0; }
+      .HomePage .first-left .wel hr {
+        border-top: 2px ridge #f1efef;
+        margin: 10px 0; }
+      .HomePage .first-left .wel .prop {
+        margin: 15px 0; }
+      .HomePage .first-left .wel span, .HomePage .first-left .wel p {
+        color: #737373;
+        font-size: 13px;
+        margin: 0; }
+  .HomePage .first-right {
+    margin-bottom: 15px; }
+    .HomePage .first-right .baner-flush {
+      border: 1px solid #bfbbbb; }
+      .HomePage .first-right .baner-flush img {
+        width: 100%; }
+        @media (min-width: 767px) {
+          .HomePage .first-right .baner-flush img {
+            min-height: 170px; } }
+  .HomePage .slider-cont {
+    background: #fbfbfb;
+    border: 1px solid #bfbbbb;
+    min-height: 235px; }
+  .HomePage .second-left {
+    margin-bottom: 15px; }
+    .HomePage .second-left h3 {
+      color: #475eae;
+      font-size: 14px;
+      margin: 15px 0 0 0;
+      display: inline-block; }
+      @media (min-width: 575px) {
+        .HomePage .second-left h3 {
+          font-size: 16px; } }
+    .HomePage .second-left hr {
+      border-top: 1px solid #bfbbbb;
+      margin: 10px 0; }
+  .HomePage .second-right {
+    margin-bottom: 15px; }
+    .HomePage .second-right h3 {
+      color: #475eae;
+      font-size: 14px;
+      margin: 15px 0 0 0; }
+      @media (min-width: 575px) {
+        .HomePage .second-right h3 {
+          display: inline-block;
+          font-size: 16px; } }
+    .HomePage .second-right hr {
+      border-top: 1px solid #bfbbbb;
+      margin: 10px 0; }
+    .HomePage .second-right .span {
+      color: #737373;
+      font-size: 16px;
+      margin: 15px 0 0 0;
+      clear: both; }
+      @media (min-width: 575px) {
+        .HomePage .second-right .span {
+          float: right; } }
+  .HomePage .third-left {
+    position: relative;
+    padding: 0;
+    border: 1px solid #1b116a;
+    background: white;
+    background: -moz-linear-gradient(top, white 0%, white 51%, #e9eef1 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, white), color-stop(51%, white), color-stop(100%, #e9eef1));
+    background: -webkit-linear-gradient(top, white 0%, white 51%, #e9eef1 100%);
+    background: -o-linear-gradient(top, white 0%, white 51%, #e9eef1 100%);
+    background: -ms-linear-gradient(top, white 0%, white 51%, #e9eef1 100%);
+    background: linear-gradient(to bottom, white 0%, white 51%, #e9eef1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e9eef1', GradientType=0 ); }
+    .HomePage .third-left img {
+      margin: 24px auto; }
+    .HomePage .third-left h4 {
+      font-size: 16px;
+      background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      color: #FFF;
+      padding: 14px 12px;
+      margin: 0; }
+      @media (max-width: 767px) {
+        .HomePage .third-left h4 {
+          font-size: 14px; } }
+    .HomePage .third-left .baner-txt {
+      color: #737373;
+      font-weight: 700;
+      margin: 10px 0 20px 0; }
+    .HomePage .third-left .TXT {
+      margin: 10px 0; }
+      .HomePage .third-left .TXT p {
+        font-size: 15px;
+        color: #737373;
+        margin: 15px 0; }
+        .HomePage .third-left .TXT p span {
+          color: #64c311; }
+      .HomePage .third-left .TXT a {
+        font-size: 15px;
+        color: #737373;
+        text-decoration: underline; }
+    .HomePage .third-left .baner-btn {
+      width: 100%;
+      text-align: center;
+      bottom: -20px;
+      position: absolute; }
+      .HomePage .third-left .baner-btn button {
+        font-size: 16px;
+        border: none;
+        padding: 8px 12px;
+        color: #fff;
+        background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%); }
+        .HomePage .third-left .baner-btn button:hover {
+          -moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+          -webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+          box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22); }
+  @media (max-width: 767px) {
+    .HomePage .third-right {
+      margin: 30px 0; } }
+  .HomePage .third-right .baner-flush {
+    position: relative;
+    border: 1px solid #bfbbbb; }
+    .HomePage .third-right .baner-flush .baner-btn {
+      width: 100%;
+      text-align: center;
+      bottom: -20px;
+      position: absolute; }
+      .HomePage .third-right .baner-flush .baner-btn button {
+        font-size: 16px;
+        border: none;
+        padding: 8px 12px;
+        color: #fff;
+        background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%); }
+        .HomePage .third-right .baner-flush .baner-btn button:hover {
+          -moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+          -webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+          box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22); }
+    .HomePage .third-right .baner-flush img {
+      width: 100%; }
+      @media (min-width: 767px) {
+        .HomePage .third-right .baner-flush img {
+          min-height: 170px; } }
+
+.website .calendar {
+  margin: 15px 0; }
+  .website .calendar .padno {
+    padding: 0; }
+  .website .calendar .input-group {
+    margin: 15px auto;
+    position: relative; }
+    .website .calendar .input-group span {
+      position: absolute;
+      z-index: 23;
+      left: 6px;
+      top: 18%;
+      font-size: 15px;
+      color: #737373; }
+  .website .calendar .calendarIMG {
+    position: absolute;
+    z-index: 23;
+    right: 3px;
+    top: 23%; }
+  .website .calendar .form-control {
+    padding: 6px 22px 6px 60px;
+    height: 30px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin: 0 auto;
+    text-align: right;
+    color: #1b116a;
+    font-weight: 700; }
+    .website .calendar .form-control:focus {
+      box-shadow: none;
+      border-color: #aca8a8; }
+  .website .calendar .DATAPICKER {
+     /*!
+* Datepicker for Bootstrap v1.4.1 (https://github.com/eternicode/bootstrap-datepicker)
+*
+* Copyright 2012 Stefan Petre
+* Improvements by Andrew Rowls
+* Licensed under the Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+*/ }
+    .website .calendar .DATAPICKER .datepicker {
+      padding: 4px;
+      border-radius: 4px;
+      direction: ltr; }
+    .website .calendar .DATAPICKER .datepicker-inline {
+      width: 220px; }
+    .website .calendar .DATAPICKER .datepicker.datepicker-rtl {
+      direction: rtl; }
+    .website .calendar .DATAPICKER .datepicker.datepicker-rtl table tr td span {
+      float: right; }
+    .website .calendar .DATAPICKER .datepicker-dropdown {
+      top: 0;
+      left: 0; }
+    .website .calendar .DATAPICKER .datepicker-dropdown:before {
+      content: '';
+      display: inline-block;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-bottom: 7px solid #ccc;
+      border-top: 0;
+      border-bottom-color: rgba(0, 0, 0, 0.2);
+      position: absolute; }
+    .website .calendar .DATAPICKER .datepicker-dropdown:after {
+      content: '';
+      display: inline-block;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-bottom: 6px solid #fff;
+      border-top: 0;
+      position: absolute; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-left:before {
+      left: 6px; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-left:after {
+      left: 7px; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-right:before {
+      right: 6px; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-right:after {
+      right: 7px; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-top:before {
+      top: -7px; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-top:after {
+      top: -6px; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-bottom:before {
+      bottom: -7px;
+      border-bottom: 0;
+      border-top: 7px solid #999; }
+    .website .calendar .DATAPICKER .datepicker-dropdown.datepicker-orient-bottom:after {
+      bottom: -6px;
+      border-bottom: 0;
+      border-top: 6px solid #fff; }
+    .website .calendar .DATAPICKER .datepicker > div {
+      display: none; }
+    .website .calendar .DATAPICKER .datepicker.days .datepicker-days,
+    .website .calendar .DATAPICKER .datepicker.months .datepicker-months,
+    .website .calendar .DATAPICKER .datepicker.years .datepicker-years {
+      display: block; }
+    .website .calendar .DATAPICKER .datepicker table {
+      margin: 0;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    .website .calendar .DATAPICKER .datepicker table tr td,
+    .website .calendar .DATAPICKER .datepicker table tr th {
+      text-align: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 4px;
+      border: none; }
+    .website .calendar .DATAPICKER .table-striped .datepicker table tr td,
+    .website .calendar .DATAPICKER .table-striped .datepicker table tr th {
+      background-color: transparent; }
+    .website .calendar .DATAPICKER .datepicker table tr td.day:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.day.focused {
+      background: #eeeeee;
+      cursor: pointer; }
+    .website .calendar .DATAPICKER .datepicker table tr td.old,
+    .website .calendar .DATAPICKER .datepicker table tr td.new {
+      color: #999999; }
+    .website .calendar .DATAPICKER .datepicker table tr td.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.disabled:hover {
+      background: none;
+      color: #999999;
+      cursor: default; }
+    .website .calendar .DATAPICKER .datepicker table tr td.today,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover {
+      color: #000000;
+      background-color: #ffdb99;
+      border-color: #ffb733; }
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today.disabled:hover {
+      color: #000000;
+      background-color: #ffcd70;
+      border-color: #f59e00; }
+    .website .calendar .DATAPICKER .datepicker table tr td.today:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.today.disabled:hover {
+      background-image: none; }
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.today[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover[disabled],
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover[disabled]:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:hover:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover[disabled]:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:hover:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover[disabled]:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:hover:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.today.disabled:hover[disabled].active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today:hover.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.today.disabled:hover.active {
+      background-color: #ffdb99;
+      border-color: #ffb733; }
+    .website .calendar .DATAPICKER .datepicker table tr td.today:hover:hover {
+      color: #000; }
+    .website .calendar .DATAPICKER .datepicker table tr td.today.active:hover {
+      color: #fff; }
+    .website .calendar .DATAPICKER .datepicker table tr td.range,
+    .website .calendar .DATAPICKER .datepicker table tr td.range:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.disabled:hover {
+      background: #eeeeee;
+      border-radius: 0; }
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover {
+      color: #000000;
+      background-color: #f7ca77;
+      border-color: #f1a417;
+      border-radius: 0; }
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today.disabled:hover {
+      color: #000000;
+      background-color: #f4bb51;
+      border-color: #bf800c; }
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.range.today.disabled:hover {
+      background-image: none; }
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover[disabled],
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover[disabled]:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:hover:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover[disabled]:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:hover:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover[disabled]:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:hover:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today:hover[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.range.today.disabled:hover[disabled].active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today:hover.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.range.today.disabled:hover.active {
+      background-color: #f7ca77;
+      border-color: #f1a417; }
+    .website .calendar .DATAPICKER .datepicker table tr td.selected,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover {
+      color: #ffffff;
+      background-color: #999999;
+      border-color: #555555;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected.disabled:hover {
+      color: #ffffff;
+      background-color: #858585;
+      border-color: #373737; }
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.selected.disabled:hover {
+      background-image: none; }
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover[disabled],
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover[disabled]:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:hover:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover[disabled]:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:hover:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover[disabled]:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:hover:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected:hover[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.selected.disabled:hover[disabled].active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected:hover.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.selected.disabled:hover.active {
+      background-color: #999999;
+      border-color: #555555; }
+    .website .calendar .DATAPICKER .datepicker table tr td.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover {
+      color: #ffffff;
+      background-color: #428bca;
+      border-color: #357ebd;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active.disabled:hover {
+      color: #ffffff;
+      background-color: #3276b1;
+      border-color: #285e8e; }
+    .website .calendar .DATAPICKER .datepicker table tr td.active:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td.active.disabled:hover {
+      background-image: none; }
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td.active[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover[disabled],
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover[disabled]:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:hover:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover[disabled]:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:hover:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover[disabled]:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:hover:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active:hover[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td.active.disabled:hover[disabled].active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active:hover.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td.active.disabled:hover.active {
+      background-color: #428bca;
+      border-color: #357ebd; }
+    .website .calendar .DATAPICKER .datepicker table tr td span {
+      display: block;
+      width: 23%;
+      height: 54px;
+      line-height: 54px;
+      float: left;
+      margin: 1%;
+      cursor: pointer;
+      border-radius: 4px; }
+    .website .calendar .DATAPICKER .datepicker table tr td span:hover {
+      background: #eeeeee; }
+    .website .calendar .DATAPICKER .datepicker table tr td span.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td span.disabled:hover {
+      background: none;
+      color: #999999;
+      cursor: default; }
+    .website .calendar .DATAPICKER .datepicker table tr td span.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover {
+      color: #ffffff;
+      background-color: #428bca;
+      border-color: #357ebd;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover {
+      color: #ffffff;
+      background-color: #3276b1;
+      border-color: #285e8e; }
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active:hover,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active.disabled,
+    .website .calendar .DATAPICKER .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover {
+      background-image: none; }
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover.disabled,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled[disabled],
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover[disabled],
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover.disabled:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled[disabled]:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover[disabled]:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:hover:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:hover,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:hover:hover,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover.disabled:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled[disabled]:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover[disabled]:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:hover:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:focus,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:hover:focus,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover.disabled:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled[disabled]:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover[disabled]:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:hover:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:hover:active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover.disabled.active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active:hover[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled[disabled].active,
+    .website .calendar .DATAPICKER .datepicker table tr td span.active.disabled:hover[disabled].active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active:hover.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled.active,
+    .website .calendar .DATAPICKER fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
+      background-color: #428bca;
+      border-color: #357ebd; }
+    .website .calendar .DATAPICKER .datepicker table tr td span.old,
+    .website .calendar .DATAPICKER .datepicker table tr td span.new {
+      color: #999999; }
+    .website .calendar .DATAPICKER .datepicker .datepicker-switch {
+      width: 145px; }
+    .website .calendar .DATAPICKER .datepicker thead tr:first-child th,
+    .website .calendar .DATAPICKER .datepicker tfoot tr th {
+      cursor: pointer; }
+    .website .calendar .DATAPICKER .datepicker thead tr:first-child th:hover,
+    .website .calendar .DATAPICKER .datepicker tfoot tr th:hover {
+      background: #eeeeee; }
+    .website .calendar .DATAPICKER .datepicker .cw {
+      font-size: 10px;
+      width: 12px;
+      padding: 0 2px 0 5px;
+      vertical-align: middle; }
+    .website .calendar .DATAPICKER .datepicker thead tr:first-child .cw {
+      cursor: default;
+      background-color: transparent; }
+    .website .calendar .DATAPICKER .input-group.date .input-group-addon {
+      cursor: pointer; }
+    .website .calendar .DATAPICKER .input-daterange {
+      width: 100%; }
+    .website .calendar .DATAPICKER .input-daterange input {
+      text-align: center; }
+    .website .calendar .DATAPICKER .input-daterange input:first-child {
+      border-radius: 3px 0 0 3px; }
+    .website .calendar .DATAPICKER .input-daterange input:last-child {
+      border-radius: 0 3px 3px 0; }
+    .website .calendar .DATAPICKER .input-daterange .input-group-addon {
+      width: auto;
+      min-width: 16px;
+      padding: 4px 5px;
+      font-weight: normal;
+      line-height: 1.42857143;
+      text-align: center;
+      text-shadow: 0 1px 0 #fff;
+      vertical-align: middle;
+      background-color: #eeeeee;
+      border: solid #cccccc;
+      border-width: 1px 0;
+      margin-left: -5px;
+      margin-right: -5px; }
+.website .content .form-control {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #255792;
+  height: 25px;
+  padding: 5px 1px;
+  font-size: 12px;
+  min-width: 45px; }
+  .website .content .form-control:focus {
+    box-shadow: none;
+    border-color: #aca8a8; }
+.website .content .border {
+  padding: 0;
+  border: 1px solid #aca8a8;
+  margin-bottom: 20px; }
+  .website .content .border .listIcon .text-p {
+    font-size: 14px;
+    color: #737373;
+    font-style: italic; }
+  .website .content .border .listIcon img {
+    padding: 1px;
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s; }
+    .website .content .border .listIcon img:hover {
+      -moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+      -webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+      box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22); }
+  .website .content .border .form-group {
+    margin: 0 4px 20px 0; }
+    @media (min-width: 767px) {
+      .website .content .border .form-group {
+        float: right; } }
+  .website .content .border .Title {
+    padding: 6px;
+    margin: 0;
+    color: #FFF;
+    background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+    background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+    background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+    text-align: left;
+    font-size: 16px; }
+    @media (max-width: 767px) {
+      .website .content .border .Title {
+        font-size: 14px; } }
+  .website .content .border .content-text {
+    text-align: center;
+    border: 1px solid #aca8a8;
+    margin: 8px;
+    min-height: 65px; }
+    .website .content .border .content-text span {
+      text-align: center;
+      font-size: 16px;
+      color: #737373;
+      display: block;
+      padding-top: 3%;
+      font-style: italic; }
+      @media (max-width: 767px) {
+        .website .content .border .content-text span {
+          font-size: 14px; } }
+    .website .content .border .content-text .search {
+      max-width: 190px;
+      text-align: center;
+      margin: 20px auto; }
+      .website .content .border .content-text .search input {
+        padding: 5px;
+        width: 83%;
+        float: left;
+        height: 24px;
+        margin-right: 3px;
+        -moz-box-shadow: inset 0 0 36px 0 rgba(0, 0, 0, 0.22);
+        -webkit-box-shadow: inset 0 0 36px 0 rgba(0, 0, 0, 0.22);
+        box-shadow: inset 0 0 36px 0 rgba(0, 0, 0, 0.22);
+        border: none; }
+      .website .content .border .content-text .search button {
+        width: 15%;
+        text-align: center;
+        font-size: 14px;
+        border: none;
+        padding: 2px 5px;
+        color: #fff;
+        background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+        background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%); }
+        .website .content .border .content-text .search button:hover {
+          -moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+          -webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22);
+          box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.22); }
+  .website .content .border .content-text-center {
+    text-align: center;
+    border: 1px solid #aca8a8;
+    margin: 8px;
+    min-height: 220px; }
+    .website .content .border .content-text-center h4 {
+      text-align: left;
+      font-size: 16px;
+      color: #737373;
+      margin: 10px;
+      font-weight: 700; }
+  .website .content .border .content-text-center1 {
+    text-align: center;
+    border: 1px solid #aca8a8;
+    margin: 8px;
+    min-height: 180px; }
+  .website .content .border .txt {
+    font-size: 14px;
+    color: #255792;
+    display: block;
+    font-style: italic;
+    text-align: right;
+    float: right; }
+  .website .content .border .widget #leftcolumn, .website .content .border .widget #rightcolumn {
+    float: left;
+    padding: 0 10px;
+    width: auto; }
+  .website .content .border div .sparkline {
+    float: left;
+    clear: both;
+    padding-bottom: 1px;
+    margin-top: 10px;
+    border-bottom: 1px solid white; }
+  .website .content .border .report {
+    color: #737373;
+    font-size: 18px; }
+.website #contentHover {
+  display: inline-block !important;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  vertical-align: top; }
+.website #contentHover:hover {
+  width: 80px; }
+
+.manage .Title-text {
+  color: #737373;
+  font-size: 28px; }
+  @media (max-width: 768px) {
+    .manage .Title-text {
+      font-size: 20px; } }
+.manage .banner {
+  border: 1px solid #aca8a8;
+  margin-bottom: 15px;
+  padding: 10px;
+  position: relative; }
+  .manage .banner .tooltip-inner {
+    max-width: 300px; }
+  .manage .banner img {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer; }
+  .manage .banner p {
+    font-size: 14px;
+    color: #737373;
+    padding: 10px;
+    margin: 0;
+    text-align: justify; }
+.manage .setting, .manage .Listing-Items {
+  background: #f4f4f4;
+  border: 1px solid #aca8a8;
+  margin-bottom: 20px;
+  padding: 10px 0; }
+  .manage .setting .margin, .manage .Listing-Items .margin {
+    margin: 15px 0; }
+  .manage .setting .paddno, .manage .Listing-Items .paddno {
+    padding: 0; }
+  .manage .setting .Title-text, .manage .Listing-Items .Title-text {
+    color: #737373;
+    font-size: 15px;
+    font-weight: 300; }
+  .manage .setting .form-control, .manage .Listing-Items .form-control {
+    border-radius: 0;
+    max-width: 380px; }
+    .manage .setting .form-control:focus, .manage .Listing-Items .form-control:focus {
+      box-shadow: none;
+      border-color: #aca8a8; }
+  .manage .setting .checkbox, .manage .Listing-Items .checkbox {
+    margin: 0 10px; }
+    @media (min-width: 400px) {
+      .manage .setting .checkbox, .manage .Listing-Items .checkbox {
+        float: left; } }
+    .manage .setting .checkbox label, .manage .Listing-Items .checkbox label {
+      color: #737373;
+      font-size: 15px; }
+  .manage .setting .btnSearch, .manage .Listing-Items .btnSearch {
+    padding: 15px 0 0 0; }
+    .manage .setting .btnSearch .btn-search, .manage .Listing-Items .btnSearch .btn-search {
+      background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      color: #FFF;
+      border: 1px solid #FFF;
+      padding: 6px 0;
+      outline: 3px solid #9797da;
+      margin: 0;
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      width: 100%;
+      font-size: 18px; }
+      .manage .setting .btnSearch .btn-search:hover, .manage .Listing-Items .btnSearch .btn-search:hover {
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.62);
+        -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.62);
+        -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.62); }
+.manage .Listing-Items {
+  background-image: -moz-linear-gradient(-90deg, #e1e1e1 0%, white 69%);
+  background-image: -webkit-linear-gradient(-90deg, #e1e1e1 0%, white 69%);
+  background-image: -ms-linear-gradient(-90deg, #e1e1e1 0%, white 69%);
+  padding: 0; }
+  .manage .Listing-Items .inform {
+    padding: 35px 0; }
+    @media (max-width: 767px) {
+      .manage .Listing-Items .inform {
+        padding: 15px 0; } }
+  .manage .Listing-Items .img img {
+    margin: 0 auto;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12); }
+  .manage .Listing-Items .foot {
+    background: #c7c7c7; }
+    .manage .Listing-Items .foot p {
+      margin: 10px 0;
+      color: #737373;
+      font-size: 15px; }
+  .manage .Listing-Items .listingBTN {
+    max-width: 230px;
+    border: none;
+    width: 100%;
+    background: #b5d845;
+    border-radius: 8px;
+    padding: 5px 0;
+    color: #fff;
+    margin: 5px 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.4s;
+    font-size: 12px;
+    box-shadow: inset 0 -7px 4px 0 rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: inset 0 -7px 4px 0 rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: inset 0 -7px 4px 0 rgba(0, 0, 0, 0.22); }
+    .manage .Listing-Items .listingBTN:hover {
+      background: #bfc0bd;
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+      -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+      -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+    .manage .Listing-Items .listingBTN img {
+      display: inline-block;
+      margin-right: 10px; }
+  .manage .Listing-Items .listingBTN2 {
+    max-width: 230px;
+    width: 100%;
+    border: none;
+    background: #6a70ab;
+    border-radius: 8px;
+    padding: 5px 0;
+    color: #fff;
+    margin: 5px 0;
+    transition: all 0.4s;
+    -webkit-transition: all 0.5s;
+    font-size: 12px;
+    box-shadow: inset 0 -7px 4px 0 rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: inset 0 -7px 4px 0 rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: inset 0 -7px 4px 0 rgba(0, 0, 0, 0.22); }
+    .manage .Listing-Items .listingBTN2:hover {
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+      -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+      -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+    .manage .Listing-Items .listingBTN2 img {
+      display: inline-block;
+      margin-right: 10px; }
+  .manage .Listing-Items .txt-title {
+    color: #8282ac;
+    font-weight: 700;
+    margin: 0; }
+  .manage .Listing-Items .txtSpan {
+    color: #8282ac;
+    font-weight: 700;
+    margin: 0;
+    display: block;
+    font-size: 14px; }
+  .manage .Listing-Items .txt-p {
+    color: #3e3c3c;
+    font-size: 13px;
+    margin: 10px 0; }
+  .manage .Listing-Items .txtProps {
+    color: #3e3c3c;
+    font-size: 14px;
+    margin: 0; }
+  .manage .Listing-Items .sale {
+    color: #8282ac;
+    font-weight: 700;
+    margin: 10px 0;
+    display: block; }
+  .manage .Listing-Items .more {
+    margin-right: 10px; }
+.manage .page-Row {
+  background: #c7c7c7;
+  position: relative; }
+  .manage .page-Row .pagination {
+    margin: 10px 0 5px 0; }
+    .manage .page-Row .pagination .next-page {
+      position: absolute;
+      right: 10px; }
+    .manage .page-Row .pagination .prev-page {
+      position: absolute;
+      left: 10px; }
+    .manage .page-Row .pagination .prev-page a, .manage .page-Row .pagination .next-page a {
+      border: 1px solid #989898;
+      color: #0e0e0e; }
+      .manage .page-Row .pagination .prev-page a span, .manage .page-Row .pagination .next-page a span {
+        color: #737373;
+        font-size: 15px; }
+        @media (max-width: 500px) {
+          .manage .page-Row .pagination .prev-page a span, .manage .page-Row .pagination .next-page a span {
+            display: none; } }
+      .manage .page-Row .pagination .prev-page a:hover, .manage .page-Row .pagination .next-page a:hover {
+        background: #ededed; }
+    .manage .page-Row .pagination .active a {
+      padding: 3px 10px;
+      border-radius: 0;
+      border: 1px solid #989898;
+      background: #ededed; }
+    .manage .page-Row .pagination li a {
+      margin: 0 2px;
+      padding: 3px 10px;
+      color: #737373;
+      border-radius: 0; }
+
+.comment .Title {
+  color: #7c7c7c;
+  text-align: left; }
+.comment .margin {
+  margin-top: 40px;
+  margin-bottom: 80px; }
+.comment .header {
+  border: 1px solid; }
+  .comment .header img {
+    padding: 25px 0; }
+    @media (max-width: 768px) {
+      .comment .header img {
+        padding: 10px 0; } }
+  .comment .header .contact-text {
+    padding: 5px 10px; }
+    .comment .header .contact-text h3 {
+      font-size: 18px;
+      color: #7c7c7c; }
+    .comment .header .contact-text h2 {
+      font-size: 24px;
+      color: #7c7c7c;
+      font-weight: 700;
+      margin: 17px 0;
+      font-style: italic; }
+      @media (max-width: 768px) {
+        .comment .header .contact-text h2 {
+          font-size: 18px; } }
+.comment .content {
+  border: 1px solid; }
+  .comment .content .wrapper {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid; }
+    .comment .content .wrapper h3 {
+      font-size: 18px;
+      color: #7c7c7c;
+      margin: 15px; }
+  .comment .content .btn-block {
+    background: #e3e3e3; }
+    .comment .content .btn-block .button {
+      background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      color: #FFF;
+      border: 1px solid #FFF;
+      padding: 5px 60px;
+      outline: 3px solid #9797da;
+      margin: 15px 0;
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      font-size: 14px; }
+      .comment .content .btn-block .button:hover {
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+  .comment .content .group-list {
+    padding: 30px 10px; }
+  .comment .content .first-section {
+    padding: 0; }
+    .comment .content .first-section .form-group {
+      padding: 0;
+      margin-bottom: 0; }
+      .comment .content .first-section .form-group .form-control {
+        border-radius: 0;
+        margin-top: 15px; }
+        @media (max-width: 991px) {
+          .comment .content .first-section .form-group .form-control {
+            margin-top: 10px; } }
+        .comment .content .first-section .form-group .form-control:focus {
+          box-shadow: none;
+          border-color: #aca8a8; }
+  .comment .content .content-window {
+    padding: 0; }
+    .comment .content .content-window .paddno {
+      padding: 0; }
+      .comment .content .content-window .paddno .form-group {
+        padding: 10px 30px; }
+  .comment .content .Title-label {
+    color: #737373;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 0; }
+  .comment .content .textarea {
+    border-radius: 0;
+    width: 100%;
+    margin-top: 10px;
+    resize: none; }
+    .comment .content .textarea:focus {
+      box-shadow: none;
+      border-color: #aca8a8; }
+
+.OurSerNavbar .navbar {
+  background: #f7f7f7;
+  border-radius: 0;
+  border: 1px solid; }
+  .OurSerNavbar .navbar .nav {
+    margin: 0;
+    width: 100%; }
+    .OurSerNavbar .navbar .nav .open > a {
+      background: #1b116a;
+      color: #FFF; }
+      .OurSerNavbar .navbar .nav .open > a:hover, .OurSerNavbar .navbar .nav .open > a:focus {
+        background: #1b116a;
+        color: #FFF; }
+    .OurSerNavbar .navbar .nav li {
+      width: 19.8%;
+      text-align: center;
+      margin: 5px 1px;
+      height: 80px; }
+      .OurSerNavbar .navbar .nav li::after {
+        top: 43px;
+        content: '';
+        width: 36%;
+        position: absolute;
+        left: 83%;
+        height: 1px;
+        background: #333;
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%, transparent), color-stop(50%, rgba(97, 91, 90, 0.75)), color-stop(100%, rgba(197, 128, 209, 0)));
+        background: -webkit-linear-gradient(left, transparent 0%, rgba(97, 91, 90, 0.75) 50%, transparent 100%);
+        background: -moz-linear-gradient(left, transparent 0%, rgba(97, 91, 90, 0.75) 50%, transparent 100%);
+        background: -ms-linear-gradient(left, transparent 0%, rgba(97, 91, 90, 0.75) 50%, transparent 100%);
+        background: -o-linear-gradient(left, transparent 0%, rgba(97, 91, 90, 0.75) 50%, transparent 100%);
+        background: linear-gradient(left, transparent 0%, rgba(97, 91, 90, 0.75) 50%, transparent 100%);
+        transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg); }
+        @media (max-width: 991px) {
+          .OurSerNavbar .navbar .nav li::after {
+            display: none; } }
+      @media (max-width: 991px) {
+        .OurSerNavbar .navbar .nav li {
+          height: 50px; } }
+      .OurSerNavbar .navbar .nav li:last-child::after {
+        display: none; }
+      @media (max-width: 1200px) {
+        .OurSerNavbar .navbar .nav li {
+          width: 19.7%; } }
+      @media (max-width: 991px) {
+        .OurSerNavbar .navbar .nav li {
+          border: none; } }
+      @media (max-width: 991px) {
+        .OurSerNavbar .navbar .nav li {
+          width: 100%;
+          margin: 2px 0; } }
+      .OurSerNavbar .navbar .nav li .dropdown-menu {
+        padding: 0;
+        background: #fdfdfd;
+        width: 100%;
+        position: relative; }
+        .OurSerNavbar .navbar .nav li .dropdown-menu li {
+          width: 100%; }
+          .OurSerNavbar .navbar .nav li .dropdown-menu li a {
+            font-size: 16px;
+            color: #737373;
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            padding: 5px 5px; }
+            .OurSerNavbar .navbar .nav li .dropdown-menu li a:hover {
+              background: #1b116a;
+              color: #FFF; }
+      .OurSerNavbar .navbar .nav li a {
+        font-size: 17px;
+        color: #737373;
+        transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        padding: 8px 0;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        width: 90%; }
+        @media (max-width: 991px) {
+          .OurSerNavbar .navbar .nav li a {
+            font-size: 14px; } }
+        .OurSerNavbar .navbar .nav li a:hover {
+          border: 2px solid #1b116a;
+          color: #1b116a; }
+    .OurSerNavbar .navbar .nav li.active a {
+      color: #1b116a;
+      border: 2px solid #1b116a; }
+
+.OurService .Title {
+  color: #7c7c7c;
+  text-align: left; }
+.OurService .content-section {
+  padding: 30px 15px; }
+  .OurService .content-section .second-section {
+    margin-bottom: 30px;
+    border: 1px solid; }
+    .OurService .content-section .second-section .header h1, .OurService .content-section .second-section .header p {
+      color: #7c7c7c;
+      text-align: center; }
+    .OurService .content-section .second-section .footer {
+      background: url(../images/ourService.png);
+      height: 230px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+      .OurService .content-section .second-section .footer a {
+        color: #8d8dd6;
+        text-align: right;
+        position: absolute;
+        right: 0;
+        bottom: 10px; }
+        .OurService .content-section .second-section .footer a:hover {
+          font-weight: bolder; }
+  .OurService .content-section .footer-text {
+    position: relative; }
+  .OurService .content-section .h3 {
+    color: #7c7c7c;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0; }
+    .OurService .content-section .h3 span {
+      color: #919191; }
+    .OurService .content-section .h3::after, .OurService .content-section .h3::before {
+      top: 0;
+      content: '';
+      width: 100%;
+      position: absolute;
+      left: 0;
+      height: 1px;
+      background: #333;
+      background: -webkit-gradient(linear, left top, right top, color-stop(0%, transparent), color-stop(50%, black), color-stop(100%, rgba(197, 128, 209, 0)));
+      background: -webkit-linear-gradient(left, transparent 0%, black 50%, transparent 100%);
+      background: -moz-linear-gradient(left, transparent 0%, black 50%, transparent 100%);
+      background: -ms-linear-gradient(left, transparent 0%, black 50%, transparent 100%);
+      background: -o-linear-gradient(left, transparent 0%, black 50%, transparent 100%);
+      background: linear-gradient(left, transparent 0%, black 50%, transparent 100%); }
+    .OurService .content-section .h3::before {
+      bottom: 0;
+      top: inherit; }
+
+.OurServiceWebsite .contact-form, .OurServiceBanners .contact-form, .OurServiceReference .contact-form, .OurServiceAdvertising .contact-form {
+  border: 1px solid;
+  padding: 0; }
+  @media (min-width: 767px) {
+    .OurServiceWebsite .contact-form, .OurServiceBanners .contact-form, .OurServiceReference .contact-form, .OurServiceAdvertising .contact-form {
+      position: sticky;
+      position: -webkit-sticky;
+      top: 100px; } }
+  .OurServiceWebsite .contact-form .mondatory, .OurServiceBanners .contact-form .mondatory, .OurServiceReference .contact-form .mondatory, .OurServiceAdvertising .contact-form .mondatory {
+    padding-right: 0; }
+    .OurServiceWebsite .contact-form .mondatory span, .OurServiceBanners .contact-form .mondatory span, .OurServiceReference .contact-form .mondatory span, .OurServiceAdvertising .contact-form .mondatory span {
+      padding: 13px 0;
+      display: block;
+      font-size: 12px;
+      color: #878787; }
+  @media (min-width: 991px) {
+    .OurServiceWebsite .contact-form .pad-r, .OurServiceBanners .contact-form .pad-r, .OurServiceReference .contact-form .pad-r, .OurServiceAdvertising .contact-form .pad-r {
+      padding-right: 5px; } }
+  @media (min-width: 991px) {
+    .OurServiceWebsite .contact-form .pad-l, .OurServiceBanners .contact-form .pad-l, .OurServiceReference .contact-form .pad-l, .OurServiceAdvertising .contact-form .pad-l {
+      padding-left: 5px; } }
+  .OurServiceWebsite .contact-form p, .OurServiceBanners .contact-form p, .OurServiceReference .contact-form p, .OurServiceAdvertising .contact-form p {
+    text-align: center;
+    color: #7c7c7c; }
+  .OurServiceWebsite .contact-form h3, .OurServiceBanners .contact-form h3, .OurServiceReference .contact-form h3, .OurServiceAdvertising .contact-form h3 {
+    text-align: center;
+    color: #7c7c7c; }
+    @media (max-width: 768px) {
+      .OurServiceWebsite .contact-form h3, .OurServiceBanners .contact-form h3, .OurServiceReference .contact-form h3, .OurServiceAdvertising .contact-form h3 {
+        font-size: 20px; } }
+  .OurServiceWebsite .contact-form .colBTN, .OurServiceBanners .contact-form .colBTN, .OurServiceReference .contact-form .colBTN, .OurServiceAdvertising .contact-form .colBTN {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 10px solid #1b116a;
+    background: transparent;
+    width: 100%;
+    font-size: 16px;
+    color: #7c7c7c; }
+    .OurServiceWebsite .contact-form .colBTN i, .OurServiceBanners .contact-form .colBTN i, .OurServiceReference .contact-form .colBTN i, .OurServiceAdvertising .contact-form .colBTN i {
+      font-size: 30px;
+      color: #8d8dd6;
+      vertical-align: middle; }
+  .OurServiceWebsite .contact-form .text-title-paragraf, .OurServiceBanners .contact-form .text-title-paragraf, .OurServiceReference .contact-form .text-title-paragraf, .OurServiceAdvertising .contact-form .text-title-paragraf {
+    border-top: 2px dotted #d4d0d0; }
+    .OurServiceWebsite .contact-form .text-title-paragraf p, .OurServiceBanners .contact-form .text-title-paragraf p, .OurServiceReference .contact-form .text-title-paragraf p, .OurServiceAdvertising .contact-form .text-title-paragraf p {
+      text-align: center;
+      color: #7c7c7c;
+      margin: 15px 0; }
+  .OurServiceWebsite .contact-form .BTN-SEND, .OurServiceBanners .contact-form .BTN-SEND, .OurServiceReference .contact-form .BTN-SEND, .OurServiceAdvertising .contact-form .BTN-SEND {
+    background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+    background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+    background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+    color: #FFF;
+    border: 1px solid #FFF;
+    padding: 3px 24px;
+    outline: 1px solid #9797da;
+    margin: 15px 0;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    font-size: 12px; }
+    .OurServiceWebsite .contact-form .BTN-SEND:hover, .OurServiceBanners .contact-form .BTN-SEND:hover, .OurServiceReference .contact-form .BTN-SEND:hover, .OurServiceAdvertising .contact-form .BTN-SEND:hover {
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+      -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+      -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+
+.OurServiceWebsite .paddno {
+  padding: 0; }
+.OurServiceWebsite .Title {
+  color: #7c7c7c;
+  text-align: left; }
+.OurServiceWebsite .h0 {
+  font-size: 40px;
+  text-align: center;
+  color: #7c7c7c; }
+  @media (max-width: 991px) {
+    .OurServiceWebsite .h0 {
+      font-size: 30px; } }
+  @media (max-width: 768px) {
+    .OurServiceWebsite .h0 {
+      font-size: 22px; } }
+.OurServiceWebsite .p {
+  text-align: center;
+  color: #7c7c7c;
+  font-weight: 700; }
+  .OurServiceWebsite .p span {
+    color: #1b116a; }
+.OurServiceWebsite .form-control {
+  border-radius: 0;
+  margin-top: 10px; }
+  .OurServiceWebsite .form-control:focus {
+    box-shadow: none;
+    border-color: #aca8a8; }
+.OurServiceWebsite .textarea {
+  border-radius: 0;
+  width: 100%;
+  margin-top: 10px;
+  resize: none;
+  padding: 10px; }
+.OurServiceWebsite .carousel-area {
+  padding: 30px 0; }
+  .OurServiceWebsite .carousel-area .link {
+    display: block;
+    color: #737373;
+    font-family: "Stainless";
+    font-size: 16px;
+    margin-top: 7px;
+    text-align: center; }
+    .OurServiceWebsite .carousel-area .link:hover {
+      text-decoration: none; }
+.OurServiceWebsite .content {
+  padding: 25px 0;
+  border-top: 8px solid #ebebeb; }
+  @media (max-width: 767px) {
+    .OurServiceWebsite .content .left-hand {
+      padding: 0; } }
+  .OurServiceWebsite .content .left-hand .OurNews {
+    float: left;
+    border-bottom: 2px dotted #d4d0d0;
+    padding: 20px 0; }
+    .OurServiceWebsite .content .left-hand .OurNews .img {
+      margin: 0 auto; }
+    .OurServiceWebsite .content .left-hand .OurNews .title-block .title-TXT {
+      font-size: 25px;
+      color: #7c7c7c;
+      margin: 0 0 25px 0; }
+      @media (max-width: 991px) {
+        .OurServiceWebsite .content .left-hand .OurNews .title-block .title-TXT {
+          font-size: 18px; } }
+    .OurServiceWebsite .content .left-hand .OurNews .title-block .title-img {
+      display: inline-block;
+      margin-right: 10px; }
+    .OurServiceWebsite .content .left-hand .OurNews .prgf {
+      color: #7c7c7c;
+      font-size: 17px; }
+      @media (max-width: 991px) {
+        .OurServiceWebsite .content .left-hand .OurNews .prgf {
+          font-size: 15px; } }
+    .OurServiceWebsite .content .left-hand .OurNews .prgf-ul {
+      color: #7c7c7c;
+      font-size: 17px; }
+      @media (max-width: 991px) {
+        .OurServiceWebsite .content .left-hand .OurNews .prgf-ul {
+          font-size: 15px; } }
+      .OurServiceWebsite .content .left-hand .OurNews .prgf-ul:before {
+        content: ".";
+        font-size: 90px;
+        line-height: 5px;
+        margin-right: 10px;
+        color: #1b116a; }
+    .OurServiceWebsite .content .left-hand .OurNews span {
+      color: #1b116a; }
+  .OurServiceWebsite .content .left-hand .footer-foot {
+    padding: 20px 0; }
+    .OurServiceWebsite .content .left-hand .footer-foot p {
+      color: #7c7c7c;
+      font-size: 17px; }
+      @media (max-width: 991px) {
+        .OurServiceWebsite .content .left-hand .footer-foot p {
+          font-size: 15px; } }
+    .OurServiceWebsite .content .left-hand .footer-foot a {
+      text-decoration: none; }
+      .OurServiceWebsite .content .left-hand .footer-foot a span {
+        color: #1b116a;
+        font-size: 17px; }
+        @media (max-width: 991px) {
+          .OurServiceWebsite .content .left-hand .footer-foot a span {
+            font-size: 15px; } }
+        .OurServiceWebsite .content .left-hand .footer-foot a span .fa-play {
+          color: #fff;
+          background: #8d8dd6;
+          font-size: 20px;
+          padding: 8px 8px 8px 11px;
+          margin-right: 10px; }
+  .OurServiceWebsite .content .left-hand .contact-baner {
+    float: left;
+    width: 100%;
+    border-bottom: 2px dotted #d4d0d0;
+    padding: 20px 0; }
+    .OurServiceWebsite .content .left-hand .contact-baner .div-baner {
+      border-width: 1px;
+      border-color: #5e5e5e;
+      border-style: solid;
+      background-image: -moz-linear-gradient(90deg, #dbdbdb 0%, white 100%);
+      background-image: -webkit-linear-gradient(90deg, #dbdbdb 0%, white 100%);
+      background-image: -ms-linear-gradient(90deg, #dbdbdb 0%, white 100%);
+      color: #7c7c7c;
+      padding: 20px 0; }
+      .OurServiceWebsite .content .left-hand .contact-baner .div-baner span {
+        color: #1b116a; }
+
+.OurServiceAdvertising .paddno {
+  padding: 0; }
+.OurServiceAdvertising .Title {
+  color: #7c7c7c;
+  text-align: left; }
+.OurServiceAdvertising .h0 {
+  font-size: 40px;
+  text-align: center;
+  color: #7c7c7c; }
+  @media (max-width: 991px) {
+    .OurServiceAdvertising .h0 {
+      font-size: 30px; } }
+  @media (max-width: 768px) {
+    .OurServiceAdvertising .h0 {
+      font-size: 22px; } }
+.OurServiceAdvertising .p {
+  text-align: center;
+  color: #7c7c7c;
+  font-weight: 700; }
+  .OurServiceAdvertising .p span {
+    color: #1b116a; }
+.OurServiceAdvertising .form-control {
+  border-radius: 0;
+  margin-top: 10px; }
+  .OurServiceAdvertising .form-control:focus {
+    box-shadow: none;
+    border-color: #aca8a8; }
+.OurServiceAdvertising .textarea {
+  border-radius: 0;
+  width: 100%;
+  margin-top: 10px;
+  resize: none;
+  padding: 10px; }
+.OurServiceAdvertising .carousel-area {
+  padding: 30px 0;
+  float: left;
+  width: 100%; }
+  .OurServiceAdvertising .carousel-area img {
+    width: 350px; }
+  .OurServiceAdvertising .carousel-area .flip-carousel li {
+    text-align: center; }
+  .OurServiceAdvertising .carousel-area .link {
+    display: block;
+    color: #000;
+    font-family: 'Stainless';
+    font-size: 18px;
+    margin-top: 7px;
+    text-align: center; }
+    .OurServiceAdvertising .carousel-area .link::first-letter {
+      font-size: 25px; }
+    .OurServiceAdvertising .carousel-area .link:hover {
+      font-size: 20px;
+      text-decoration: none; }
+    .OurServiceAdvertising .carousel-area .link:focus {
+      text-decoration: none; }
+    .OurServiceAdvertising .carousel-area .link.dm-national {
+      color: #1d126e; }
+    .OurServiceAdvertising .carousel-area .link.dm-alsace {
+      color: #412B24; }
+    .OurServiceAdvertising .carousel-area .link.dm-aquitaine {
+      color: #7f1337; }
+    .OurServiceAdvertising .carousel-area .link.dm-auvergne {
+      color: #6ca534; }
+    .OurServiceAdvertising .carousel-area .link.dm-bassenormandie {
+      color: #5c84f7; }
+    .OurServiceAdvertising .carousel-area .link.dm-bourgogne {
+      color: #a80c17; }
+    .OurServiceAdvertising .carousel-area .link.dm-bretagne {
+      color: #9e714c; }
+    .OurServiceAdvertising .carousel-area .link.dm-centre {
+      color: #c1ba49; }
+    .OurServiceAdvertising .carousel-area .link.dm-champagneardenne {
+      color: #d5be8a; }
+    .OurServiceAdvertising .carousel-area .link.dm-corse {
+      color: #87ace6; }
+    .OurServiceAdvertising .carousel-area .link.dm-franchecomte {
+      color: #ABB99B; }
+    .OurServiceAdvertising .carousel-area .link.dm-hautenormandie {
+      color: #01642e; }
+    .OurServiceAdvertising .carousel-area .link.dm-languedoc {
+      color: #fe7117; }
+    .OurServiceAdvertising .carousel-area .link.dm-limousin {
+      color: #c0d95b; }
+    .OurServiceAdvertising .carousel-area .link.dm-lorraine {
+      color: #ffa800; }
+    .OurServiceAdvertising .carousel-area .link.dm-midipyrenees {
+      color: #DD0A20; }
+    .OurServiceAdvertising .carousel-area .link.dm-nordpascalais {
+      color: #6e418e; }
+    .OurServiceAdvertising .carousel-area .link.dm-paris {
+      color: #2950ab; }
+    .OurServiceAdvertising .carousel-area .link.dm-paysloire {
+      color: #98A4B4; }
+    .OurServiceAdvertising .carousel-area .link.dm-picardie {
+      color: #605855; }
+    .OurServiceAdvertising .carousel-area .link.dm-poitou {
+      color: #9E80B5; }
+    .OurServiceAdvertising .carousel-area .link.dm-provence {
+      color: #8d8dd6; }
+    .OurServiceAdvertising .carousel-area .link.dm-rhonealpes {
+      color: #99438E; }
+    .OurServiceAdvertising .carousel-area .link.dm-dpf {
+      color: #a5250c;
+      font-family: Georgia; }
+  .OurServiceAdvertising .carousel-area p {
+    font-size: 16px; }
+    .OurServiceAdvertising .carousel-area p.dpf {
+      font-family: Georgia; }
+  .OurServiceAdvertising .carousel-area .flipster__item--past-1, .OurServiceAdvertising .carousel-area .flipster__item--future-1 {
+    opacity: .4; }
+  .OurServiceAdvertising .carousel-area .flipster__item--past-2, .OurServiceAdvertising .carousel-area .flipster__item--future-2 {
+    opacity: .3; }
+  .OurServiceAdvertising .carousel-area .flipster__button {
+    color: #1b116a;
+    opacity: 1;
+    transition: all .5s; }
+    .OurServiceAdvertising .carousel-area .flipster__button:hover {
+      color: red; }
+    .OurServiceAdvertising .carousel-area .flipster__button:focus {
+      outline: none; }
+.OurServiceAdvertising .content {
+  padding: 25px 0;
+  border-top: 8px solid #ebebeb; }
+  .OurServiceAdvertising .content .contact-form {
+    border: 1px solid;
+    padding: 0; }
+    @media (min-width: 767px) {
+      .OurServiceAdvertising .content .contact-form {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 100px; } }
+    .OurServiceAdvertising .content .contact-form .mondatory {
+      padding-right: 0; }
+      .OurServiceAdvertising .content .contact-form .mondatory span {
+        padding: 13px 0;
+        display: block;
+        font-size: 12px;
+        color: #878787; }
+    @media (min-width: 991px) {
+      .OurServiceAdvertising .content .contact-form .pad-r {
+        padding-right: 5px; } }
+    @media (min-width: 991px) {
+      .OurServiceAdvertising .content .contact-form .pad-l {
+        padding-left: 5px; } }
+    .OurServiceAdvertising .content .contact-form h3, .OurServiceAdvertising .content .contact-form p {
+      text-align: center;
+      color: #7c7c7c; }
+    .OurServiceAdvertising .content .contact-form .colBTN {
+      border-left: none;
+      border-right: none;
+      border-bottom: none;
+      border-top: 10px solid #1b116a;
+      background: transparent;
+      width: 100%;
+      font-size: 16px;
+      color: #7c7c7c; }
+      .OurServiceAdvertising .content .contact-form .colBTN i {
+        font-size: 30px;
+        color: #8d8dd6;
+        vertical-align: middle; }
+    .OurServiceAdvertising .content .contact-form .text-title-paragraf {
+      border-top: 2px dotted #d4d0d0; }
+      .OurServiceAdvertising .content .contact-form .text-title-paragraf p {
+        text-align: center;
+        color: #7c7c7c;
+        margin: 15px 0; }
+    .OurServiceAdvertising .content .contact-form .BTN-SEND {
+      background-image: -moz-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -webkit-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      background-image: -ms-linear-gradient(-90deg, #8e88b6 0%, #1d1270 100%);
+      color: #FFF;
+      border: 1px solid #FFF;
+      padding: 3px 24px;
+      outline: 1px solid #9797da;
+      margin: 15px 0;
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      font-size: 12px; }
+      .OurServiceAdvertising .content .contact-form .BTN-SEND:hover {
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+        -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+  @media (max-width: 767px) {
+    .OurServiceAdvertising .content .left-hand {
+      padding: 0; } }
+  .OurServiceAdvertising .content .left-hand .OurNews {
+    float: left;
+    border-bottom: 2px dotted #d4d0d0;
+    padding: 20px 0; }
+    .OurServiceAdvertising .content .left-hand .OurNews .img {
+      margin: 0 auto; }
+    .OurServiceAdvertising .content .left-hand .OurNews .title-block .title-TXT {
+      font-size: 25px;
+      color: #7c7c7c;
+      margin: 0 0 25px 0; }
+      @media (max-width: 991px) {
+        .OurServiceAdvertising .content .left-hand .OurNews .title-block .title-TXT {
+          font-size: 18px; } }
+    .OurServiceAdvertising .content .left-hand .OurNews .title-block .title-img {
+      display: inline-block;
+      margin-right: 10px; }
+    .OurServiceAdvertising .content .left-hand .OurNews .prgf {
+      color: #7c7c7c;
+      font-size: 17px; }
+      @media (max-width: 991px) {
+        .OurServiceAdvertising .content .left-hand .OurNews .prgf {
+          font-size: 15px; } }
+    .OurServiceAdvertising .content .left-hand .OurNews span {
+      color: #1b116a; }
+    .OurServiceAdvertising .content .left-hand .OurNews .min {
+      color: #7c7c7c;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 20px; }
+  .OurServiceAdvertising .content .left-hand .footer-foot {
+    padding: 20px 0; }
+
+.OurServiceBanners .paddno {
+  padding: 0; }
+.OurServiceBanners .Title {
+  color: #7c7c7c;
+  text-align: left; }
+.OurServiceBanners .h0 {
+  font-size: 40px;
+  text-align: center;
+  color: #7c7c7c; }
+  @media (max-width: 991px) {
+    .OurServiceBanners .h0 {
+      font-size: 30px; } }
+  @media (max-width: 768px) {
+    .OurServiceBanners .h0 {
+      font-size: 22px; } }
+.OurServiceBanners .p {
+  text-align: center;
+  color: #7c7c7c;
+  font-weight: 700; }
+  .OurServiceBanners .p span {
+    color: #6da428; }
+.OurServiceBanners .form-control {
+  border-radius: 0;
+  margin-top: 10px; }
+  .OurServiceBanners .form-control:focus {
+    box-shadow: none;
+    border-color: #aca8a8; }
+.OurServiceBanners .textarea {
+  border-radius: 0;
+  width: 100%;
+  margin-top: 10px;
+  resize: none;
+  padding: 10px; }
+.OurServiceBanners .carousel-area {
+  padding: 30px 0;
+  float: left;
+  width: 100%; }
+  .OurServiceBanners .carousel-area img {
+    width: 350px; }
+  .OurServiceBanners .carousel-area .flip-carousel li {
+    text-align: center; }
+  .OurServiceBanners .carousel-area .link {
+    display: block;
+    color: #000;
+    font-family: 'Stainless';
+    font-size: 18px;
+    margin-top: 7px;
+    text-align: center; }
+    .OurServiceBanners .carousel-area .link::first-letter {
+      font-size: 25px; }
+    .OurServiceBanners .carousel-area .link:hover {
+      font-size: 20px;
+      text-decoration: none; }
+    .OurServiceBanners .carousel-area .link:focus {
+      text-decoration: none; }
+    .OurServiceBanners .carousel-area .link.dm-national {
+      color: #1d126e; }
+    .OurServiceBanners .carousel-area .link.dm-alsace {
+      color: #412B24; }
+    .OurServiceBanners .carousel-area .link.dm-aquitaine {
+      color: #7f1337; }
+    .OurServiceBanners .carousel-area .link.dm-auvergne {
+      color: #6ca534; }
+    .OurServiceBanners .carousel-area .link.dm-bassenormandie {
+      color: #5c84f7; }
+    .OurServiceBanners .carousel-area .link.dm-bourgogne {
+      color: #a80c17; }
+    .OurServiceBanners .carousel-area .link.dm-bretagne {
+      color: #9e714c; }
+    .OurServiceBanners .carousel-area .link.dm-centre {
+      color: #c1ba49; }
+    .OurServiceBanners .carousel-area .link.dm-champagneardenne {
+      color: #d5be8a; }
+    .OurServiceBanners .carousel-area .link.dm-corse {
+      color: #87ace6; }
+    .OurServiceBanners .carousel-area .link.dm-franchecomte {
+      color: #ABB99B; }
+    .OurServiceBanners .carousel-area .link.dm-hautenormandie {
+      color: #01642e; }
+    .OurServiceBanners .carousel-area .link.dm-languedoc {
+      color: #fe7117; }
+    .OurServiceBanners .carousel-area .link.dm-limousin {
+      color: #c0d95b; }
+    .OurServiceBanners .carousel-area .link.dm-lorraine {
+      color: #ffa800; }
+    .OurServiceBanners .carousel-area .link.dm-midipyrenees {
+      color: #DD0A20; }
+    .OurServiceBanners .carousel-area .link.dm-nordpascalais {
+      color: #6e418e; }
+    .OurServiceBanners .carousel-area .link.dm-paris {
+      color: #2950ab; }
+    .OurServiceBanners .carousel-area .link.dm-paysloire {
+      color: #98A4B4; }
+    .OurServiceBanners .carousel-area .link.dm-picardie {
+      color: #605855; }
+    .OurServiceBanners .carousel-area .link.dm-poitou {
+      color: #9E80B5; }
+    .OurServiceBanners .carousel-area .link.dm-provence {
+      color: #8d8dd6; }
+    .OurServiceBanners .carousel-area .link.dm-rhonealpes {
+      color: #99438E; }
+    .OurServiceBanners .carousel-area .link.dm-dpf {
+      color: #a5250c;
+      font-family: Georgia; }
+  .OurServiceBanners .carousel-area p {
+    font-size: 16px; }
+    .OurServiceBanners .carousel-area p.dpf {
+      font-family: Georgia; }
+  .OurServiceBanners .carousel-area .flipster__item--past-1, .OurServiceBanners .carousel-area .flipster__item--future-1 {
+    opacity: .4; }
+  .OurServiceBanners .carousel-area .flipster__item--past-2, .OurServiceBanners .carousel-area .flipster__item--future-2 {
+    opacity: .3; }
+  .OurServiceBanners .carousel-area .flipster__button {
+    color: #1b116a;
+    opacity: 1;
+    transition: all .5s; }
+    .OurServiceBanners .carousel-area .flipster__button:hover {
+      color: red; }
+    .OurServiceBanners .carousel-area .flipster__button:focus {
+      outline: none; }
+.OurServiceBanners .content {
+  padding: 25px 0;
+  border-top: 8px solid #ebebeb; }
+  @media (max-width: 767px) {
+    .OurServiceBanners .content .left-hand {
+      padding: 0; } }
+  .OurServiceBanners .content .left-hand .OurNews {
+    float: left;
+    border-bottom: 2px dotted #d4d0d0;
+    padding: 20px 0; }
+    .OurServiceBanners .content .left-hand .OurNews .img {
+      margin: 0 auto; }
+    .OurServiceBanners .content .left-hand .OurNews .title-block .title-TXT {
+      font-size: 25px;
+      color: #7c7c7c;
+      margin: 0 0 25px 0;
+      text-align: center; }
+      @media (max-width: 991px) {
+        .OurServiceBanners .content .left-hand .OurNews .title-block .title-TXT {
+          font-size: 18px; } }
+    .OurServiceBanners .content .left-hand .OurNews .title-block .title-img {
+      display: inline-block;
+      margin-right: 10px; }
+    .OurServiceBanners .content .left-hand .OurNews .title-TXT2 {
+      font-size: 20px;
+      color: #3b3737;
+      text-align: left;
+      margin: 10px 0; }
+      @media (max-width: 991px) {
+        .OurServiceBanners .content .left-hand .OurNews .title-TXT2 {
+          font-size: 16px; } }
+    .OurServiceBanners .content .left-hand .OurNews .prgf {
+      color: #7c7c7c;
+      font-size: 17px; }
+      @media (max-width: 991px) {
+        .OurServiceBanners .content .left-hand .OurNews .prgf {
+          font-size: 15px; } }
+      .OurServiceBanners .content .left-hand .OurNews .prgf span.num {
+        color: #fff;
+        background: #6da428;
+        font-size: 14px;
+        margin-right: 10px;
+        border-radius: 30px;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        text-align: center; }
+    .OurServiceBanners .content .left-hand .OurNews span {
+      color: #6da428; }
+    .OurServiceBanners .content .left-hand .OurNews .min {
+      color: #7c7c7c;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 20px; }
+  .OurServiceBanners .content .left-hand .footer-foot {
+    padding: 20px 0; }
+    .OurServiceBanners .content .left-hand .footer-foot .title-TXT2 {
+      font-size: 25px;
+      color: #7c7c7c;
+      margin: 0 0 25px 0;
+      text-align: center; }
+      @media (max-width: 991px) {
+        .OurServiceBanners .content .left-hand .footer-foot .title-TXT2 {
+          font-size: 18px; } }
+
+.OurServiceReference .paddno {
+  padding: 0; }
+.OurServiceReference .Title {
+  color: #7c7c7c;
+  text-align: left; }
+.OurServiceReference .h0 {
+  font-size: 40px;
+  text-align: center;
+  color: #7c7c7c;
+  margin: 10px 0; }
+  @media (max-width: 991px) {
+    .OurServiceReference .h0 {
+      font-size: 30px; } }
+  @media (max-width: 768px) {
+    .OurServiceReference .h0 {
+      font-size: 22px; } }
+.OurServiceReference .p {
+  text-align: center;
+  color: #7c7c7c;
+  font-weight: 700; }
+  .OurServiceReference .p span {
+    color: #d53a69; }
+.OurServiceReference .form-control {
+  border-radius: 0;
+  margin-top: 10px; }
+  .OurServiceReference .form-control:focus {
+    box-shadow: none;
+    border-color: #aca8a8; }
+.OurServiceReference .textarea {
+  border-radius: 0;
+  width: 100%;
+  margin-top: 10px;
+  resize: none;
+  padding: 10px; }
+.OurServiceReference .logo {
+  padding-top: 30px;
+  padding-bottom: 20px; }
+  .OurServiceReference .logo img {
+    margin: 0 auto; }
+.OurServiceReference .carousel-area {
+  padding: 30px 0;
+  float: left;
+  width: 100%; }
+  .OurServiceReference .carousel-area img {
+    width: 350px; }
+  .OurServiceReference .carousel-area .flip-carousel li {
+    text-align: center; }
+  .OurServiceReference .carousel-area p {
+    font-size: 16px; }
+    .OurServiceReference .carousel-area p.dpf {
+      font-family: Georgia; }
+  .OurServiceReference .carousel-area .flipster__item--past-1, .OurServiceReference .carousel-area .flipster__item--future-1 {
+    opacity: .4; }
+  .OurServiceReference .carousel-area .flipster__item--past-2, .OurServiceReference .carousel-area .flipster__item--future-2 {
+    opacity: .3; }
+  .OurServiceReference .carousel-area .flipster__button {
+    color: #1b116a;
+    opacity: 1;
+    transition: all .5s; }
+    .OurServiceReference .carousel-area .flipster__button:hover {
+      color: red; }
+    .OurServiceReference .carousel-area .flipster__button:focus {
+      outline: none; }
+.OurServiceReference .content {
+  padding: 25px 0;
+  border-top: 8px solid #ebebeb; }
+  .OurServiceReference .content .title-block .title-TXT {
+    font-size: 25px;
+    color: #7c7c7c;
+    margin: 0 0 25px 0; }
+    @media (max-width: 991px) {
+      .OurServiceReference .content .title-block .title-TXT {
+        font-size: 18px; } }
+  .OurServiceReference .content .ok {
+    padding-bottom: 25px; }
+    .OurServiceReference .content .ok img {
+      margin: 0 auto; }
+  .OurServiceReference .content .border {
+    border-bottom: 8px solid #ebebeb; }
+  @media (max-width: 767px) {
+    .OurServiceReference .content .left-hand {
+      padding: 0; } }
+  .OurServiceReference .content .left-hand .OurNews {
+    float: left;
+    border-bottom: 2px dotted #d4d0d0;
+    padding: 20px 0; }
+    .OurServiceReference .content .left-hand .OurNews .img {
+      margin: 0 auto; }
+    @media (min-width: 767px) {
+      .OurServiceReference .content .left-hand .OurNews .imgpad {
+        padding-top: 50px; } }
+    .OurServiceReference .content .left-hand .OurNews .title-TXT2 {
+      font-size: 20px;
+      color: #3b3737;
+      text-align: left;
+      margin: 10px 0; }
+      @media (max-width: 991px) {
+        .OurServiceReference .content .left-hand .OurNews .title-TXT2 {
+          font-size: 16px; } }
+    .OurServiceReference .content .left-hand .OurNews .title-block-cont {
+      padding-bottom: 20px; }
+    .OurServiceReference .content .left-hand .OurNews .prgf {
+      color: #7c7c7c;
+      font-size: 17px; }
+      @media (max-width: 991px) {
+        .OurServiceReference .content .left-hand .OurNews .prgf {
+          font-size: 15px; } }
+    .OurServiceReference .content .left-hand .OurNews .prgf-ul {
+      color: #7c7c7c;
+      font-size: 16px;
+      margin: 0; }
+      @media (max-width: 991px) {
+        .OurServiceReference .content .left-hand .OurNews .prgf-ul {
+          font-size: 15px; } }
+      .OurServiceReference .content .left-hand .OurNews .prgf-ul:before {
+        content: ".";
+        font-size: 90px;
+        line-height: 0;
+        margin-right: 10px;
+        color: #d53a69; }
+    .OurServiceReference .content .left-hand .OurNews span {
+      color: #d53a69; }
+    .OurServiceReference .content .left-hand .OurNews .min {
+      color: #7c7c7c;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 20px; }
+    .OurServiceReference .content .left-hand .OurNews .pad10 {
+      padding: 15px 0; }
+      .OurServiceReference .content .left-hand .OurNews .pad10 .banerTXT {
+        color: #FFF;
+        background: #7c7c7c;
+        text-align: center;
+        padding: 11px 0;
+        margin: 20px 0; }
+  .OurServiceReference .content .left-hand .footer-foot {
+    padding: 20px 0;
+    border: 1px solid #5e5e5e;
+    background-image: -moz-linear-gradient(90deg, #dbdbdb 0%, white 100%);
+    background-image: -webkit-linear-gradient(90deg, #dbdbdb 0%, white 100%);
+    background-image: -ms-linear-gradient(90deg, #dbdbdb 0%, white 100%);
+    margin: 35px 0; }
+    .OurServiceReference .content .left-hand .footer-foot .title-TXT3 {
+      font-size: 18px;
+      color: #d53a69;
+      text-align: center;
+      margin: 10px 0; }
+      @media (max-width: 991px) {
+        .OurServiceReference .content .left-hand .footer-foot .title-TXT3 {
+          font-size: 16px; } }
+  .OurServiceReference .content .first-section {
+    border-right: 1px dashed #b8b2b2; }
+    @media (max-width: 768px) {
+      .OurServiceReference .content .first-section {
+        border-right: none; } }
+
 section.footer .footer-content {
   background-image: url(../images/background.png);
   background-repeat: no-repeat;

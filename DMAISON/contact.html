@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Le meilleur de l’immobilier de votre région est ici ! Un large choix d’annonces immobilières en vente, location et location de vacances, nombreux appartements, maisons, villa, commerces, terrains, etc." />
+    <meta name="Author-Corporate" content="DMAISONS.COM" />
+    <meta name="keywords" content="dmaisons.com,immobilier,vente,location,location vacances,appartement,maison,villa,commerce,terrain" />
+    <!-- /favicons -->
+    <title>DMAISONS.COM | Tout l’immobilier : vente, location, location vacances</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.firefox.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/flexslider.custom.css" type="text/css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.flipster.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/validetta.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/simplelightbox.css" type="text/css">
+    <link href="css/bootstrap-multiselect.css" rel="stylesheet">
+    <link href="css/select2.css" rel="stylesheet">
+    <!-- /stylesheets -->
+
+</head>
+<body>
+<!-- header -->
+<header>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container text-right">
+            <div class="textheader">
+                <p>16 678 online real estate advertisements,
+                    Last advertisement today in 05:00 PM</p>
+            </div>
+            <div id="data"></div>
+            <div class="lang">
+                <div id="image-dropdown">
+                    <i onclick="showww()" class="fa fa-chevron-down" aria-hidden="true"></i>
+                    <div class="img_holder" onclick="myfuunc(this);">
+                        <img class="flagimgs second" src="images/icons/United-Kingdom.png" /> <span class="iTEXT"></span>
+                    </div>
+                    <div class="img_holder" onclick="myfuunc(this);" >
+                        <img class="flagimgs second" src="images/icons/France.png" /> <span class="iTEXT"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid head">
+            <div class="container logo-pos">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img class="img-responsive" src="images/logo.png" alt="">
+                        <p>All real estate of your region | SALE - RENTAL - HOLIDAY RENTAL</p>
+
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle  active" data-toggle="dropdown" href="#"><img src="images/icons/icon-home.png">SEARCH A PROPERTY <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/post.png">POST AN AD<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/email.png">E-MAIL ALERTS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/setting.png">SERVICES<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span>Loan simulation</a></li>
+                                <li><a href="#"><span>> </span>Your comments</a></li>
+                                <li><a href="#"><span>> </span>Our professional services</a></li>
+                                <li><a href="#"><span>> </span>Contact us</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container serach-bar">
+        <div class="col-md-10 col-md-offset-1 text-center filters">
+            <div class="forms">
+                <div class="form1">
+                    <select id="select-box2-filter" name="typebiens[]" class="form-control " data-placeholder="Annonce" >
+                        <option value="0">Annonce</option>
+                        <option value="1">Vente</option>
+                        <option value="2">Location</option>
+                        <option value="3">Location saisonnière</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+
+                <div class="form2">
+                    <select id="select-box2-filter2" name="typebiens[]" class="form-control " data-placeholder="Biens" multiple="multiple">
+                        <option value="99">Appartements</option>
+                        <option value="8">Maisons de Villages / Villes</option>
+                        <option value="10">Divers</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+                <div class="form3">
+                    <select name="Localité" id="location" class="form-control select2-sel select2-sel-v2">
+                        <option value="" selected hidden>Ville ou code postal*</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+                <button class="btn-search">search</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="container title-text text-center">
+        <h1 class="title">Welcome on <p>DMAISONS.COM</p></h1>
+        <p>THE BEST PRPERTIES, REGION BY REGION</p>
+    </div>
+</header>
+<!-- /header -->
+<section class="contact">
+    <div class="container">
+        <section class="Title">
+            <h3>Contact us</h3>
+        </section>
+    </div>
+    <div class="container">
+        <div class="row header">
+            <div class="col-md-7 col-xs-12 col-sm-7">
+                <div class="contact-text">
+                    <h3>You have a technical question ? You need more business information ? </h3>
+                    <h3>Contact our team, we will respond quickly and tailored to your needs.</h3>
+                 </div>
+            </div>
+            <div class="col-md-5 col-xs-12 col-sm-5 text-right">
+                <img class="img-responsive pull-right" src="images/contactUs.png" alt="contact">
+            </div>
+        </div>
+    </div>
+    <div class="container margin">
+        <div class="row content">
+            <div class="col-md-12 col-xs-12 col-sm-12 text-center wrapper">
+                    <h3>BY E-MAIL</h3>
+            </div>
+            <div class="col-md-12 col-xs-12 col-sm-12 content-window">
+                <div>
+                    <div class="col-md-5 col-sm-5 col-xs-12 first-section">
+                        <form>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class=" col-md-4 col-sm-4 col-xs-12">
+                                    <label class="control-label Title-label" for="select-box1">You are *</label>
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
+                                    <select name="typebiens[]" class="form-control " data-placeholder="Annonce" id="select-box1">
+                                        <option>select</option>
+                                        <option value="0">A company</option>
+                                        <option value="1">Private individual</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class=" col-md-4 col-sm-4 col-xs-12">
+                                    <label class="control-label Title-label" for="select-box2">Last name *</label>
+                                </div>
+                                <div class="col-md-3 col-sm-8 col-xs-12">
+                                    <select name="typebiens[]" class="form-control " data-placeholder="Annonce" id="select-box2">
+                                        <option>Title</option>
+                                        <option value="0">Mr.</option>
+                                        <option value="1">Mrs.</option>
+                                        <option value="2">Ms.</option>
+                                     </select>
+                                </div>
+                                <div class="col-md-5 col-sm-8 col-xs-12">
+                                    <input class="form-control"  type="text" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class=" col-md-4 col-sm-4 col-xs-12">
+                                    <label class="control-label Title-label" for="phone">Telephone *</label>
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
+                                    <input class="form-control" id="phone" type="text" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class=" col-md-4 col-sm-4 col-xs-12">
+                                    <label class="control-label Title-label" for="mail">E-mail *</label>
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
+                                    <input class="form-control" id="mail" type="text" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class=" col-md-4 col-sm-4 col-xs-12">
+                                    <label class="control-label Title-label" for="city">City</label>
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
+                                    <input class="form-control"  id="city" type="text" placeholder="">
+                                </div>
+                            </div>
+
+
+                        </form>
+                    </div>
+                    <div class="col-md-7 col-sm-7 col-xs-12">
+                        <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                            <label class="control-label Title-label" for="textarea">Message *</label>
+                            <textarea name="text" class="textarea" id="textarea" cols="30" rows="9"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-xs-12 col-sm-12 text-center btn-block">
+                <button class="button">SEND</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="container-fluid text-center  footer-content">
+        <div class="row">
+            <img class="img-responsive navbar-brend" src="images/logo.png" alt="">
+            <div class="title-text">
+                <p> Copyright 1998-2017	- DMAISONS.COM	- Luxury Real Estate - Logiciel immobilier</p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-left footer-foot">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Search a property</h4>
+                <a href="#">Search a property</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Post an ad</h4>
+                <a href="#">Private advertising</a>
+                <a href="#">Private advertising</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>E-mail alerts</h4>
+                <a href="#">New alert</a>
+                <a href="#">Manage your alerts</a>
+
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Services</h4>
+                <a href="#">Loan simulation</a>
+                <a href="#">Your option</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Company</h4>
+                <a href="#">Contact</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 social">
+                <h4>Post an ad</h4>
+                <a href="#"><img src="images/icons/facebook.png" alt=""></a>
+                <a href="#"><img src="images/icons/twitter-icon.png" alt=""></a>
+                <a href="#"><img src="images/icons/Google-Plus-icon.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+<div id="gotop"></div>
+<!--scroll top-->
+
+<!-- js -->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/validetta.min.js"></script>
+<script type="text/javascript" src="js/validettaLang-fr-FR.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.flipster.min.js"></script>
+<script type="text/javascript" src="js/flexslider/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/simple-lightbox.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+<script type="text/javascript" src="js/select2.full.min.js"></script>
+<script type="text/javascript" src="js/DatePicker.min.js"></script>
+
+<script>
+
+    var dropd = document.getElementById("image-dropdown");
+
+    function showww() {
+        dropd.style.height = "auto";
+        dropd.style.overflow = "visible";
+    }
+
+    function hideee() {
+        dropd.style.height = "30px";
+        dropd.style.overflow = "hidden";
+    }
+    function myfuunc(imgParent) {
+        hideee();
+        var mainDIVV = document.getElementById("image-dropdown");
+        imgParent.parentNode.removeChild(imgParent);
+        mainDIVV.insertBefore(imgParent, mainDIVV.childNodes[0]);
+    }
+
+</script>
+</body>
+</html>

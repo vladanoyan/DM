@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Le meilleur de l’immobilier de votre région est ici ! Un large choix d’annonces immobilières en vente, location et location de vacances, nombreux appartements, maisons, villa, commerces, terrains, etc." />
+    <meta name="Author-Corporate" content="DMAISONS.COM" />
+    <meta name="keywords" content="dmaisons.com,immobilier,vente,location,location vacances,appartement,maison,villa,commerce,terrain" />
+    <!-- /favicons -->
+    <title>DMAISONS.COM | Tout l’immobilier : vente, location, location vacances</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.firefox.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/flexslider.custom.css" type="text/css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.flipster.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/validetta.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/simplelightbox.css" type="text/css">
+    <link href="css/bootstrap-multiselect.css" rel="stylesheet">
+    <link href="css/select2.css" rel="stylesheet">
+    <!-- /stylesheets -->
+
+</head>
+<body>
+<!-- header -->
+<header>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container text-right">
+            <div class="textheader">
+                <p>16 678 online real estate advertisements,
+                    Last advertisement today in 05:00 PM</p>
+            </div>
+            <div id="data"></div>
+            <div class="lang">
+                <div id="image-dropdown">
+                    <i onclick="showww()" class="fa fa-chevron-down" aria-hidden="true"></i>
+                    <div class="img_holder" onclick="myfuunc(this);">
+                        <img class="flagimgs second" src="images/icons/United-Kingdom.png" /> <span class="iTEXT"></span>
+                    </div>
+                    <div class="img_holder" onclick="myfuunc(this);" >
+                        <img class="flagimgs second" src="images/icons/France.png" /> <span class="iTEXT"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid head">
+            <div class="container logo-pos">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img class="img-responsive" src="images/logo.png" alt="">
+                        <p>All real estate of your region | SALE - RENTAL - HOLIDAY RENTAL</p>
+
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle  active" data-toggle="dropdown" href="#"><img src="images/icons/icon-home.png">SEARCH A PROPERTY <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/post.png">POST AN AD<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/email.png">E-MAIL ALERTS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/setting.png">SERVICES<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span>Loan simulation</a></li>
+                                <li><a href="#"><span>> </span>Your comments</a></li>
+                                <li><a href="#"><span>> </span>Our professional services</a></li>
+                                <li><a href="#"><span>> </span>Contact us</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container serach-bar">
+        <div class="col-md-10 col-md-offset-1 text-center filters">
+            <div class="forms">
+                <div class="form1">
+                    <select id="select-box2-filter" name="typebiens[]" class="form-control " data-placeholder="Annonce" >
+                        <option value="0">Annonce</option>
+                        <option value="1">Vente</option>
+                        <option value="2">Location</option>
+                        <option value="3">Location saisonnière</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+
+                <div class="form2">
+                    <select id="select-box2-filter2" name="typebiens[]" class="form-control " data-placeholder="Biens" multiple="multiple">
+                        <option value="99">Appartements</option>
+                        <option value="8">Maisons de Villages / Villes</option>
+                        <option value="10">Divers</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+                <div class="form3">
+                    <select name="Localité" id="location" class="form-control select2-sel select2-sel-v2">
+                        <option value="" selected hidden>Ville ou code postal*</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+                <button class="btn-search">search</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="container title-text text-center">
+        <h1 class="title">Welcome on <p>DMAISONS.COM</p></h1>
+        <p>THE BEST PRPERTIES, REGION BY REGION</p>
+    </div>
+</header>
+<!-- /header -->
+<section class="advertisment-tools">
+    <div class="wrapper">
+        <div class="container">
+            <section class="Title">
+                <h3><img src="images/icons/user.png" alt="">PROFESSIONAL  AREA <span>DMAISONS </span></h3>
+            </section>
+        </div>
+        <div class="container">
+            <section class="log">
+                <div class="col-md-3 col-sm-3 col-xs-12 text-left">
+                    <button class="logOut">
+                        <img src="images/icons/logout.png" alt="">
+                        logout
+                    </button>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-12 text-right">
+                    <div class="support">
+                        <span>TECHNICAL SUPPORT : </span>
+                        <span> <i class="fa phone">&#xf095;</i>  +33 (0) 4 13 615 600 </span>
+                        <span> <i class="fa">&#xf1fa;</i> tech@dmaisons.com </span>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <nav class="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Home page<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My advertismants<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My website<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Settings<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My evalution<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="new-advertisment">
+        <div class="container">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-left">
+                <h2 class="Title-text">Create a new advertisement</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-12 col-xs-12">
+                    <div class="setting">
+                        <nav class="navbar">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown first"><a class="dropdown-toggle" data-toggle="dropdown" href="#">1 Enter my advertisment<span class="caret"></span></a>
+                                    <!--<ul class="dropdown-menu">-->
+                                        <!--<li><a href="#">Page 1-1</a></li>-->
+                                        <!--<li><a href="#">Page 1-2</a></li>-->
+                                        <!--<li><a href="#">Page 1-3</a></li>-->
+                                    <!--</ul>-->
+                                </li>
+                                <li class="dropdown active second"><a class="dropdown-toggle" data-toggle="dropdown" href="#">2 Manage my photos.<span class="caret"></span></a>
+                                    <!--<ul class="dropdown-menu">-->
+                                        <!--<li><a href="#">Page 1-1</a></li>-->
+                                        <!--<li><a href="#">Page 1-2</a></li>-->
+                                        <!--<li><a href="#">Page 1-3</a></li>-->
+                                    <!--</ul>-->
+                                </li>
+                            </ul>
+                        </nav>
+                </div>
+                    <div class="sum col-sm-12 col-xs-12">
+                        <div class="header">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a><img src="images/icons/hom.png" alt="summary">MY ADVERTISEMENT</a></li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <div class="paragraf col-md-12 col-sm-12 col-xs-12 ">
+                                <h3>GENERAL INFORMATION :</h3>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class=" col-md-4 col-sm-4 col-xs-12">
+                                     <label class="control-label Title-label" for="select-box111">Category of advertisement *</label>
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
+                                    <select name="typebiens[]" class="form-control " data-placeholder="Annonce" id="select-box111">
+                                        <option>(Choose)</option>
+                                        <option value="0">5 km</option>
+                                        <option value="1">10 km</option>
+                                        <option value="2">15 km</option>
+                                        <option value="3">20 km</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class=" col-md-4 col-sm-4 col-xs-12">
+                                    <label class="control-label Title-label" for="select-box1">Property type *</label>
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
+                                    <select name="typebiens[]" class="form-control " data-placeholder="Annonce" id="select-box1">
+                                        <option>(Choose)</option>
+                                        <option value="0">5 km</option>
+                                        <option value="1">10 km</option>
+                                        <option value="2">15 km</option>
+                                        <option value="3">20 km</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class=" col-md-4 col-sm-4 col-xs-12">
+                                    <label class="control-label Title-label" for="select-box2">Countries *</label>
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
+                                    <select name="typebiens[]" id="select-box2" class="form-control " data-placeholder="Annonce">
+                                        <option>FRANCE</option>
+                                        <option value="0">5 km</option>
+                                        <option value="1">10 km</option>
+                                        <option value="2">15 km</option>
+                                        <option value="3">20 km</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class=" col-md-4 col-sm-4 col-xs-12">
+                                    <label class="control-label Title-label" for="select-box3">Place *</label>
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
+                                    <input class="form-control" id="select-box3"  type="text" placeholder="Enter a city or postcode">
+                                </div>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class=" col-md-4 col-sm-4 col-xs-12">
+                                    <label class="control-label Title-label" for="select-box4">Mandate number</label>
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
+                                    <input class="form-control" id="select-box4" type="text" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <hr>
+                        </div>
+                        <div class="list">
+                            <div class="paragraf col-md-12 col-sm-12 col-xs-12 ">
+                                <h3>PRICE :</h3>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <label class="control-label Title-label" for="select-box5">Price *</label>
+                                </div>
+                                <div class="col-md-5 col-sm-5 col-xs-9">
+                                    <input class="form-control euro" id="select-box5"  type="text" placeholder="">
+                                <div class="Title-euro">
+                                    <span>€</span>
+                                </div>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                    <input class="ckeckbox" type="checkbox" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <hr>
+                        </div>
+                        <div class="list">
+                            <div class="paragraf col-md-12 col-sm-12 col-xs-12 ">
+                                <h3>DETAILS :</h3>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <label class="control-label Title-label" for="select-box7">Number of rooms</label>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <input class="form-control" id="select-box7" type="text" placeholder="">
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <label class="control-label Title-label" for="select-box6">Number of rooms</label>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <input class="form-control" id="select-box6" type="text" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <label class="control-label Title-label" for="select-box8">Number of bedrooms</label>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <input class="form-control" type="text" id="select-box8" placeholder="">
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <label class="control-label Title-label" for="select-box9">Number of rooms</label>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <input class="form-control" id="select-box9" type="text" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <label class="control-label Title-label" for="select-box11">Energy consumption</label>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <input class="form-control" id="select-box11" type="text" placeholder="">
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <hr>
+                        </div>
+                        <div class="list">
+                            <div class="paragraf col-md-12 col-sm-12 col-xs-12 ">
+                                <h3>DESCRIPTION :</h3>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <label class="control-label Title-label" for="select-box12">Number of rooms</label>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <select name="typebiens[]" class="form-control " data-placeholder="Annonce" id="select-box12">
+                                        <option>French</option>
+                                        <option value="0">5 km</option>
+                                        <option value="1">10 km</option>
+                                        <option value="2">15 km</option>
+                                        <option value="3">20 km</option>
+                                    </select>                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <label class="control-label Title-label" for="select-box1">1500 characters left</label>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <textarea name="text" class="textarea" id="textarea" cols="30" rows="10"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <hr>
+                        </div>
+                        <div class="list">
+                            <div class="paragraf col-md-12 col-sm-12 col-xs-12 ">
+                                <h3>MANAGE ADVERTISEMENT TOOLS :</h3>
+                            </div>
+                        </div>
+                        <div class="selectors">
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12 listcheckbox">
+                                <div class="col-md-12 col-sm-12 col-xs-12 blue">
+                                    <form role="form">
+                                        <div class="checkbox">
+                                            <label class="selectAll">
+                                                <input type="checkbox" class="check" id="checkAll">Select All
+                                            </label>
+                                        </div>
+                                    </form>
+                                </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <form role="form">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" class="check">Demeures of propriertes de France
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" class="check">Dmaisons Provance
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" class="check">Site internet personalise
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" class="check">Seloger
+                                                </label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <form role="form">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" class="check">Demeures of propriertes de France
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" class="check">Dmaisons Provance
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" class="check">Site internet personalise
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" class="check">Seloger
+                                        </label>
+                                    </div>
+                                    </form>
+                                </div>
+                            </div>
+                            </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 ">
+                            <span class="endspan">* Mandatory fields</span>
+                        </div>
+                        </div>
+                    <div class="btn-confirm">
+                        <input type="checkbox"><button class="confirm">Confirm and go to next step</button>
+                    </div>
+            </div>
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                    <div class="banner">
+                        <img data-toggle="tooltip" title="This table shows the rates of long duration home loans in France." src="images/icons/info.png" alt="info">
+                        <p>You must state the price of the good ; you can
+                            choose not to appear by checking the
+                            "Hide price." The phrase "Price: Upon
+                            request" will be displayed on the ad.
+                        </p>
+                    </div>
+                    <div class="banner">
+                        <img data-toggle="tooltip" title="This table shows the rates of long duration home loans in France." src="images/icons/info.png" alt="info">
+                        <p>1500 characters maximum.</p>
+                    </div>
+                        <div class="banner">
+                            <img data-toggle="tooltip" title="This table shows the rates of long duration home loans in France." src="images/icons/info.png" alt="info">
+                            <p>Warning: You are using the IWS Software</p>
+                        <p>
+                             We recommend that you perform this
+                            operation from the IWS Software.
+                            This will allow you to keep syncing your
+                            property on the site and in the Software IWS.
+                        </p>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="container-fluid text-center  footer-content">
+        <div class="row">
+            <img class="img-responsive navbar-brend" src="images/logo.png" alt="">
+            <div class="title-text">
+                <p> Copyright 1998-2017	- DMAISONS.COM	- Luxury Real Estate - Logiciel immobilier</p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-left footer-foot">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Search a property</h4>
+                <a href="#">Search a property</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Post an ad</h4>
+                <a href="#">Private advertising</a>
+                <a href="#">Private advertising</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>E-mail alerts</h4>
+                <a href="#">New alert</a>
+                <a href="#">Manage your alerts</a>
+
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Services</h4>
+                <a href="#">Loan simulation</a>
+                <a href="#">Your option</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Company</h4>
+                <a href="#">Contact</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 social">
+                <h4>Post an ad</h4>
+                <a href="#"><img src="images/icons/facebook.png" alt=""></a>
+                <a href="#"><img src="images/icons/twitter-icon.png" alt=""></a>
+                <a href="#"><img src="images/icons/Google-Plus-icon.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+<div id="gotop"></div>
+<!--scroll top-->
+
+<!-- js -->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/validetta.min.js"></script>
+<script type="text/javascript" src="js/validettaLang-fr-FR.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.flipster.min.js"></script>
+<script type="text/javascript" src="js/flexslider/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/simple-lightbox.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+<script type="text/javascript" src="js/select2.full.min.js"></script>
+<script type="text/javascript" src="js/DatePicker.min.js"></script>
+<script>
+
+    var dropd = document.getElementById("image-dropdown");
+
+    function showww() {
+        dropd.style.height = "auto";
+        dropd.style.overflow = "visible";
+    }
+
+    function hideee() {
+        dropd.style.height = "30px";
+        dropd.style.overflow = "hidden";
+    }
+    function myfuunc(imgParent) {
+        hideee();
+        var mainDIVV = document.getElementById("image-dropdown");
+        imgParent.parentNode.removeChild(imgParent);
+        mainDIVV.insertBefore(imgParent, mainDIVV.childNodes[0]);
+    }
+
+</script>
+</body>
+</html>

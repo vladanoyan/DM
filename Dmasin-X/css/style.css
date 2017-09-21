@@ -4385,6 +4385,73 @@ header {
       bottom: 0;
       top: inherit; }
 
+.OurServiceWebsite .contact-form, .OurServiceBanners .contact-form, .OurServiceReference .contact-form, .OurServiceAdvertising .contact-form {
+  border: 1px solid;
+  padding: 0; }
+  @media (min-width: 767px) {
+    .OurServiceWebsite .contact-form, .OurServiceBanners .contact-form, .OurServiceReference .contact-form, .OurServiceAdvertising .contact-form {
+      position: sticky;
+      position: -webkit-sticky;
+      top: 100px; } }
+  .OurServiceWebsite .contact-form .mondatory, .OurServiceBanners .contact-form .mondatory, .OurServiceReference .contact-form .mondatory, .OurServiceAdvertising .contact-form .mondatory {
+    padding-right: 0; }
+    .OurServiceWebsite .contact-form .mondatory span, .OurServiceBanners .contact-form .mondatory span, .OurServiceReference .contact-form .mondatory span, .OurServiceAdvertising .contact-form .mondatory span {
+      padding: 13px 0;
+      display: block;
+      font-size: 12px;
+      color: #878787; }
+  @media (min-width: 991px) {
+    .OurServiceWebsite .contact-form .pad-r, .OurServiceBanners .contact-form .pad-r, .OurServiceReference .contact-form .pad-r, .OurServiceAdvertising .contact-form .pad-r {
+      padding-right: 5px; } }
+  @media (min-width: 991px) {
+    .OurServiceWebsite .contact-form .pad-l, .OurServiceBanners .contact-form .pad-l, .OurServiceReference .contact-form .pad-l, .OurServiceAdvertising .contact-form .pad-l {
+      padding-left: 5px; } }
+  .OurServiceWebsite .contact-form p, .OurServiceBanners .contact-form p, .OurServiceReference .contact-form p, .OurServiceAdvertising .contact-form p {
+    text-align: center;
+    color: #7c7c7c; }
+  .OurServiceWebsite .contact-form h3, .OurServiceBanners .contact-form h3, .OurServiceReference .contact-form h3, .OurServiceAdvertising .contact-form h3 {
+    text-align: center;
+    color: #7c7c7c; }
+    @media (max-width: 768px) {
+      .OurServiceWebsite .contact-form h3, .OurServiceBanners .contact-form h3, .OurServiceReference .contact-form h3, .OurServiceAdvertising .contact-form h3 {
+        font-size: 20px; } }
+  .OurServiceWebsite .contact-form .colBTN, .OurServiceBanners .contact-form .colBTN, .OurServiceReference .contact-form .colBTN, .OurServiceAdvertising .contact-form .colBTN {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 10px solid #8d8dd6;
+    background: transparent;
+    width: 100%;
+    font-size: 16px;
+    color: #7c7c7c; }
+    .OurServiceWebsite .contact-form .colBTN i, .OurServiceBanners .contact-form .colBTN i, .OurServiceReference .contact-form .colBTN i, .OurServiceAdvertising .contact-form .colBTN i {
+      font-size: 30px;
+      color: #8d8dd6;
+      vertical-align: middle; }
+  .OurServiceWebsite .contact-form .text-title-paragraf, .OurServiceBanners .contact-form .text-title-paragraf, .OurServiceReference .contact-form .text-title-paragraf, .OurServiceAdvertising .contact-form .text-title-paragraf {
+    border-top: 2px dotted #d4d0d0; }
+    .OurServiceWebsite .contact-form .text-title-paragraf p, .OurServiceBanners .contact-form .text-title-paragraf p, .OurServiceReference .contact-form .text-title-paragraf p, .OurServiceAdvertising .contact-form .text-title-paragraf p {
+      text-align: center;
+      color: #7c7c7c;
+      margin: 15px 0; }
+  .OurServiceWebsite .contact-form .BTN-SEND, .OurServiceBanners .contact-form .BTN-SEND, .OurServiceReference .contact-form .BTN-SEND, .OurServiceAdvertising .contact-form .BTN-SEND {
+    background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+    background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+    background-image: -ms-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
+    color: #FFF;
+    border: 1px solid #FFF;
+    padding: 3px 24px;
+    outline: 1px solid #9797da;
+    margin: 15px 0;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    font-size: 12px; }
+    .OurServiceWebsite .contact-form .BTN-SEND:hover, .OurServiceBanners .contact-form .BTN-SEND:hover, .OurServiceReference .contact-form .BTN-SEND:hover, .OurServiceAdvertising .contact-form .BTN-SEND:hover {
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+      -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
+      -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+
 .OurServiceWebsite .paddno {
   padding: 0; }
 .OurServiceWebsite .Title {
@@ -4394,6 +4461,12 @@ header {
   font-size: 40px;
   text-align: center;
   color: #7c7c7c; }
+  @media (max-width: 991px) {
+    .OurServiceWebsite .h0 {
+      font-size: 30px; } }
+  @media (max-width: 768px) {
+    .OurServiceWebsite .h0 {
+      font-size: 22px; } }
 .OurServiceWebsite .p {
   text-align: center;
   color: #7c7c7c;
@@ -4426,66 +4499,6 @@ header {
 .OurServiceWebsite .content {
   padding: 25px 0;
   border-top: 8px solid #ebebeb; }
-  .OurServiceWebsite .content .contact-form {
-    border: 1px solid;
-    padding: 0; }
-    @media (min-width: 767px) {
-      .OurServiceWebsite .content .contact-form {
-        position: sticky;
-        position: -webkit-sticky;
-        top: 100px; } }
-    .OurServiceWebsite .content .contact-form .mondatory {
-      padding-right: 0; }
-      .OurServiceWebsite .content .contact-form .mondatory span {
-        padding: 13px 0;
-        display: block;
-        font-size: 12px;
-        color: #878787; }
-    @media (min-width: 991px) {
-      .OurServiceWebsite .content .contact-form .pad-r {
-        padding-right: 5px; } }
-    @media (min-width: 991px) {
-      .OurServiceWebsite .content .contact-form .pad-l {
-        padding-left: 5px; } }
-    .OurServiceWebsite .content .contact-form h3, .OurServiceWebsite .content .contact-form p {
-      text-align: center;
-      color: #7c7c7c; }
-    .OurServiceWebsite .content .contact-form .colBTN {
-      border-left: none;
-      border-right: none;
-      border-bottom: none;
-      border-top: 10px solid #8d8dd6;
-      background: transparent;
-      width: 100%;
-      font-size: 16px;
-      color: #7c7c7c; }
-      .OurServiceWebsite .content .contact-form .colBTN i {
-        font-size: 30px;
-        color: #8d8dd6;
-        vertical-align: middle; }
-    .OurServiceWebsite .content .contact-form .text-title-paragraf {
-      border-top: 2px dotted #d4d0d0; }
-      .OurServiceWebsite .content .contact-form .text-title-paragraf p {
-        text-align: center;
-        color: #7c7c7c;
-        margin: 15px 0; }
-    .OurServiceWebsite .content .contact-form .BTN-SEND {
-      background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
-      background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
-      background-image: -ms-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
-      color: #FFF;
-      border: 1px solid #FFF;
-      padding: 3px 24px;
-      outline: 1px solid #9797da;
-      margin: 15px 0;
-      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
-      transition: all 0.5s;
-      -webkit-transition: all 0.5s;
-      font-size: 12px; }
-      .OurServiceWebsite .content .contact-form .BTN-SEND:hover {
-        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
-        -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
-        -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
   @media (max-width: 767px) {
     .OurServiceWebsite .content .left-hand {
       padding: 0; } }
@@ -4573,6 +4586,12 @@ header {
   font-size: 40px;
   text-align: center;
   color: #7c7c7c; }
+  @media (max-width: 991px) {
+    .OurServiceAdvertising .h0 {
+      font-size: 30px; } }
+  @media (max-width: 768px) {
+    .OurServiceAdvertising .h0 {
+      font-size: 22px; } }
 .OurServiceAdvertising .p {
   text-align: center;
   color: #7c7c7c;
@@ -4596,8 +4615,7 @@ header {
   float: left;
   width: 100%; }
   .OurServiceAdvertising .carousel-area img {
-    width: 350px;
-    border: 3px solid #d4d4d4; }
+    width: 350px; }
   .OurServiceAdvertising .carousel-area .flip-carousel li {
     text-align: center; }
   .OurServiceAdvertising .carousel-area .link {
@@ -4786,6 +4804,12 @@ header {
   font-size: 40px;
   text-align: center;
   color: #7c7c7c; }
+  @media (max-width: 991px) {
+    .OurServiceBanners .h0 {
+      font-size: 30px; } }
+  @media (max-width: 768px) {
+    .OurServiceBanners .h0 {
+      font-size: 22px; } }
 .OurServiceBanners .p {
   text-align: center;
   color: #7c7c7c;
@@ -4809,8 +4833,7 @@ header {
   float: left;
   width: 100%; }
   .OurServiceBanners .carousel-area img {
-    width: 350px;
-    border: 3px solid #d4d4d4; }
+    width: 350px; }
   .OurServiceBanners .carousel-area .flip-carousel li {
     text-align: center; }
   .OurServiceBanners .carousel-area .link {
@@ -4895,66 +4918,6 @@ header {
 .OurServiceBanners .content {
   padding: 25px 0;
   border-top: 8px solid #ebebeb; }
-  .OurServiceBanners .content .contact-form {
-    border: 1px solid;
-    padding: 0; }
-    @media (min-width: 767px) {
-      .OurServiceBanners .content .contact-form {
-        position: sticky;
-        position: -webkit-sticky;
-        top: 100px; } }
-    .OurServiceBanners .content .contact-form .mondatory {
-      padding-right: 0; }
-      .OurServiceBanners .content .contact-form .mondatory span {
-        padding: 13px 0;
-        display: block;
-        font-size: 12px;
-        color: #878787; }
-    @media (min-width: 991px) {
-      .OurServiceBanners .content .contact-form .pad-r {
-        padding-right: 5px; } }
-    @media (min-width: 991px) {
-      .OurServiceBanners .content .contact-form .pad-l {
-        padding-left: 5px; } }
-    .OurServiceBanners .content .contact-form h3, .OurServiceBanners .content .contact-form p {
-      text-align: center;
-      color: #7c7c7c; }
-    .OurServiceBanners .content .contact-form .colBTN {
-      border-left: none;
-      border-right: none;
-      border-bottom: none;
-      border-top: 10px solid #8d8dd6;
-      background: transparent;
-      width: 100%;
-      font-size: 16px;
-      color: #7c7c7c; }
-      .OurServiceBanners .content .contact-form .colBTN i {
-        font-size: 30px;
-        color: #8d8dd6;
-        vertical-align: middle; }
-    .OurServiceBanners .content .contact-form .text-title-paragraf {
-      border-top: 2px dotted #d4d0d0; }
-      .OurServiceBanners .content .contact-form .text-title-paragraf p {
-        text-align: center;
-        color: #7c7c7c;
-        margin: 15px 0; }
-    .OurServiceBanners .content .contact-form .BTN-SEND {
-      background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
-      background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
-      background-image: -ms-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
-      color: #FFF;
-      border: 1px solid #FFF;
-      padding: 3px 24px;
-      outline: 1px solid #9797da;
-      margin: 15px 0;
-      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
-      transition: all 0.5s;
-      -webkit-transition: all 0.5s;
-      font-size: 12px; }
-      .OurServiceBanners .content .contact-form .BTN-SEND:hover {
-        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
-        -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
-        -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
   @media (max-width: 767px) {
     .OurServiceBanners .content .left-hand {
       padding: 0; } }
@@ -5025,7 +4988,14 @@ header {
 .OurServiceReference .h0 {
   font-size: 40px;
   text-align: center;
-  color: #7c7c7c; }
+  color: #7c7c7c;
+  margin: 10px 0; }
+  @media (max-width: 991px) {
+    .OurServiceReference .h0 {
+      font-size: 30px; } }
+  @media (max-width: 768px) {
+    .OurServiceReference .h0 {
+      font-size: 22px; } }
 .OurServiceReference .p {
   text-align: center;
   color: #7c7c7c;
@@ -5044,78 +5014,19 @@ header {
   margin-top: 10px;
   resize: none;
   padding: 10px; }
+.OurServiceReference .logo {
+  padding-top: 30px;
+  padding-bottom: 20px; }
+  .OurServiceReference .logo img {
+    margin: 0 auto; }
 .OurServiceReference .carousel-area {
   padding: 30px 0;
   float: left;
   width: 100%; }
   .OurServiceReference .carousel-area img {
-    width: 350px;
-    border: 3px solid #d4d4d4; }
+    width: 350px; }
   .OurServiceReference .carousel-area .flip-carousel li {
     text-align: center; }
-  .OurServiceReference .carousel-area .link {
-    display: block;
-    color: #000;
-    font-family: 'Stainless';
-    font-size: 18px;
-    margin-top: 7px;
-    text-align: center; }
-    .OurServiceReference .carousel-area .link::first-letter {
-      font-size: 25px; }
-    .OurServiceReference .carousel-area .link:hover {
-      font-size: 20px;
-      text-decoration: none; }
-    .OurServiceReference .carousel-area .link:focus {
-      text-decoration: none; }
-    .OurServiceReference .carousel-area .link.dm-national {
-      color: #1d126e; }
-    .OurServiceReference .carousel-area .link.dm-alsace {
-      color: #412B24; }
-    .OurServiceReference .carousel-area .link.dm-aquitaine {
-      color: #7f1337; }
-    .OurServiceReference .carousel-area .link.dm-auvergne {
-      color: #6ca534; }
-    .OurServiceReference .carousel-area .link.dm-bassenormandie {
-      color: #5c84f7; }
-    .OurServiceReference .carousel-area .link.dm-bourgogne {
-      color: #a80c17; }
-    .OurServiceReference .carousel-area .link.dm-bretagne {
-      color: #9e714c; }
-    .OurServiceReference .carousel-area .link.dm-centre {
-      color: #c1ba49; }
-    .OurServiceReference .carousel-area .link.dm-champagneardenne {
-      color: #d5be8a; }
-    .OurServiceReference .carousel-area .link.dm-corse {
-      color: #87ace6; }
-    .OurServiceReference .carousel-area .link.dm-franchecomte {
-      color: #ABB99B; }
-    .OurServiceReference .carousel-area .link.dm-hautenormandie {
-      color: #01642e; }
-    .OurServiceReference .carousel-area .link.dm-languedoc {
-      color: #fe7117; }
-    .OurServiceReference .carousel-area .link.dm-limousin {
-      color: #c0d95b; }
-    .OurServiceReference .carousel-area .link.dm-lorraine {
-      color: #ffa800; }
-    .OurServiceReference .carousel-area .link.dm-midipyrenees {
-      color: #DD0A20; }
-    .OurServiceReference .carousel-area .link.dm-nordpascalais {
-      color: #6e418e; }
-    .OurServiceReference .carousel-area .link.dm-paris {
-      color: #2950ab; }
-    .OurServiceReference .carousel-area .link.dm-paysloire {
-      color: #98A4B4; }
-    .OurServiceReference .carousel-area .link.dm-picardie {
-      color: #605855; }
-    .OurServiceReference .carousel-area .link.dm-poitou {
-      color: #9E80B5; }
-    .OurServiceReference .carousel-area .link.dm-provence {
-      color: #8d8dd6; }
-    .OurServiceReference .carousel-area .link.dm-rhonealpes {
-      color: #99438E; }
-    .OurServiceReference .carousel-area .link.dm-dpf {
-      color: #a5250c;
-      font-family: Georgia; }
   .OurServiceReference .carousel-area p {
     font-size: 16px; }
     .OurServiceReference .carousel-area p.dpf {
@@ -5135,66 +5046,19 @@ header {
 .OurServiceReference .content {
   padding: 25px 0;
   border-top: 8px solid #ebebeb; }
-  .OurServiceReference .content .contact-form {
-    border: 1px solid;
-    padding: 0; }
-    @media (min-width: 767px) {
-      .OurServiceReference .content .contact-form {
-        position: sticky;
-        position: -webkit-sticky;
-        top: 100px; } }
-    .OurServiceReference .content .contact-form .mondatory {
-      padding-right: 0; }
-      .OurServiceReference .content .contact-form .mondatory span {
-        padding: 13px 0;
-        display: block;
-        font-size: 12px;
-        color: #878787; }
-    @media (min-width: 991px) {
-      .OurServiceReference .content .contact-form .pad-r {
-        padding-right: 5px; } }
-    @media (min-width: 991px) {
-      .OurServiceReference .content .contact-form .pad-l {
-        padding-left: 5px; } }
-    .OurServiceReference .content .contact-form h3, .OurServiceReference .content .contact-form p {
-      text-align: center;
-      color: #7c7c7c; }
-    .OurServiceReference .content .contact-form .colBTN {
-      border-left: none;
-      border-right: none;
-      border-bottom: none;
-      border-top: 10px solid #8d8dd6;
-      background: transparent;
-      width: 100%;
-      font-size: 16px;
-      color: #7c7c7c; }
-      .OurServiceReference .content .contact-form .colBTN i {
-        font-size: 30px;
-        color: #8d8dd6;
-        vertical-align: middle; }
-    .OurServiceReference .content .contact-form .text-title-paragraf {
-      border-top: 2px dotted #d4d0d0; }
-      .OurServiceReference .content .contact-form .text-title-paragraf p {
-        text-align: center;
-        color: #7c7c7c;
-        margin: 15px 0; }
-    .OurServiceReference .content .contact-form .BTN-SEND {
-      background-image: -moz-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
-      background-image: -webkit-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
-      background-image: -ms-linear-gradient(-90deg, #c4c4ea 0%, #8f8fd7 100%);
-      color: #FFF;
-      border: 1px solid #FFF;
-      padding: 3px 24px;
-      outline: 1px solid #9797da;
-      margin: 15px 0;
-      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
-      transition: all 0.5s;
-      -webkit-transition: all 0.5s;
-      font-size: 12px; }
-      .OurServiceReference .content .contact-form .BTN-SEND:hover {
-        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
-        -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42);
-        -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.42); }
+  .OurServiceReference .content .title-block .title-TXT {
+    font-size: 25px;
+    color: #7c7c7c;
+    margin: 0 0 25px 0; }
+    @media (max-width: 991px) {
+      .OurServiceReference .content .title-block .title-TXT {
+        font-size: 18px; } }
+  .OurServiceReference .content .ok {
+    padding-bottom: 25px; }
+    .OurServiceReference .content .ok img {
+      margin: 0 auto; }
+  .OurServiceReference .content .border {
+    border-bottom: 8px solid #ebebeb; }
   @media (max-width: 767px) {
     .OurServiceReference .content .left-hand {
       padding: 0; } }
@@ -5204,17 +5068,9 @@ header {
     padding: 20px 0; }
     .OurServiceReference .content .left-hand .OurNews .img {
       margin: 0 auto; }
-    .OurServiceReference .content .left-hand .OurNews .title-block .title-TXT {
-      font-size: 25px;
-      color: #7c7c7c;
-      margin: 0 0 25px 0;
-      text-align: center; }
-      @media (max-width: 991px) {
-        .OurServiceReference .content .left-hand .OurNews .title-block .title-TXT {
-          font-size: 18px; } }
-    .OurServiceReference .content .left-hand .OurNews .title-block .title-img {
-      display: inline-block;
-      margin-right: 10px; }
+    @media (min-width: 767px) {
+      .OurServiceReference .content .left-hand .OurNews .imgpad {
+        padding-top: 50px; } }
     .OurServiceReference .content .left-hand .OurNews .title-TXT2 {
       font-size: 20px;
       color: #3b3737;
@@ -5223,12 +5079,27 @@ header {
       @media (max-width: 991px) {
         .OurServiceReference .content .left-hand .OurNews .title-TXT2 {
           font-size: 16px; } }
+    .OurServiceReference .content .left-hand .OurNews .title-block-cont {
+      padding-bottom: 20px; }
     .OurServiceReference .content .left-hand .OurNews .prgf {
       color: #7c7c7c;
       font-size: 17px; }
       @media (max-width: 991px) {
         .OurServiceReference .content .left-hand .OurNews .prgf {
           font-size: 15px; } }
+    .OurServiceReference .content .left-hand .OurNews .prgf-ul {
+      color: #7c7c7c;
+      font-size: 16px;
+      margin: 0; }
+      @media (max-width: 991px) {
+        .OurServiceReference .content .left-hand .OurNews .prgf-ul {
+          font-size: 15px; } }
+      .OurServiceReference .content .left-hand .OurNews .prgf-ul:before {
+        content: ".";
+        font-size: 90px;
+        line-height: 0;
+        margin-right: 10px;
+        color: #d53a69; }
     .OurServiceReference .content .left-hand .OurNews span {
       color: #d53a69; }
     .OurServiceReference .content .left-hand .OurNews .min {
@@ -5236,8 +5107,34 @@ header {
       font-size: 12px;
       text-align: center;
       margin-top: 20px; }
+    .OurServiceReference .content .left-hand .OurNews .pad10 {
+      padding: 15px 0; }
+      .OurServiceReference .content .left-hand .OurNews .pad10 .banerTXT {
+        color: #FFF;
+        background: #7c7c7c;
+        text-align: center;
+        padding: 11px 0;
+        margin: 20px 0; }
   .OurServiceReference .content .left-hand .footer-foot {
-    padding: 20px 0; }
+    padding: 20px 0;
+    border: 1px solid #5e5e5e;
+    background-image: -moz-linear-gradient(90deg, #dbdbdb 0%, white 100%);
+    background-image: -webkit-linear-gradient(90deg, #dbdbdb 0%, white 100%);
+    background-image: -ms-linear-gradient(90deg, #dbdbdb 0%, white 100%);
+    margin: 35px 0; }
+    .OurServiceReference .content .left-hand .footer-foot .title-TXT3 {
+      font-size: 18px;
+      color: #d53a69;
+      text-align: center;
+      margin: 10px 0; }
+      @media (max-width: 991px) {
+        .OurServiceReference .content .left-hand .footer-foot .title-TXT3 {
+          font-size: 16px; } }
+  .OurServiceReference .content .first-section {
+    border-right: 1px dashed #b8b2b2; }
+    @media (max-width: 768px) {
+      .OurServiceReference .content .first-section {
+        border-right: none; } }
 
 section.footer .footer-content {
   background-image: url(../images/background.png);
@@ -5295,9 +5192,5 @@ section.footer .footer-foot {
     section.footer .footer-foot .social a:before {
       content: "";
       margin: 0; }
-
-.fi {
-  overflow: visible !important;
-  height: auto !important; }
 
 /*# sourceMappingURL=style.css.map */

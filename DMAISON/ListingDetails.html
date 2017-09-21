@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Le meilleur de l’immobilier de votre région est ici ! Un large choix d’annonces immobilières en vente, location et location de vacances, nombreux appartements, maisons, villa, commerces, terrains, etc." />
+    <meta name="Author-Corporate" content="DMAISONS.COM" />
+    <meta name="keywords" content="dmaisons.com,immobilier,vente,location,location vacances,appartement,maison,villa,commerce,terrain" />
+    <!-- /favicons -->
+    <title>DMAISONS.COM | Tout l’immobilier : vente, location, location vacances</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.firefox.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/flexslider.custom.css" type="text/css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.flipster.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/validetta.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/simplelightbox.css" type="text/css">
+    <link href="css/bootstrap-multiselect.css" rel="stylesheet">
+    <link href="css/select2.css" rel="stylesheet">
+    <!-- /stylesheets -->
+
+</head>
+<body>
+<!-- header -->
+<header>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container text-right">
+            <div class="textheader">
+                <p>16 678 online real estate advertisements,
+                    Last advertisement today in 05:00 PM</p>
+            </div>
+            <div id="data"></div>
+            <div class="lang">
+                <div id="image-dropdown">
+                    <i onclick="showww()" class="fa fa-chevron-down" aria-hidden="true"></i>
+                    <div class="img_holder" onclick="myfuunc(this);">
+                        <img class="flagimgs second" src="images/icons/United-Kingdom.png" /> <span class="iTEXT"></span>
+                    </div>
+                    <div class="img_holder" onclick="myfuunc(this);" >
+                        <img class="flagimgs second" src="images/icons/France.png" /> <span class="iTEXT"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid head">
+            <div class="container logo-pos">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img class="img-responsive" src="images/logo.png" alt="">
+                        <p>All real estate of your region | SALE - RENTAL - HOLIDAY RENTAL</p>
+
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle  active" data-toggle="dropdown" href="#"><img src="images/icons/icon-home.png">SEARCH A PROPERTY <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/post.png">POST AN AD<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/email.png">E-MAIL ALERTS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/setting.png">SERVICES<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span>Loan simulation</a></li>
+                                <li><a href="#"><span>> </span>Your comments</a></li>
+                                <li><a href="#"><span>> </span>Our professional services</a></li>
+                                <li><a href="#"><span>> </span>Contact us</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container serach-bar">
+        <div class="col-md-10 col-md-offset-1 text-center filters">
+            <div class="forms">
+                <div class="form1">
+                    <select id="select-box2-filter" name="typebiens[]" class="form-control " data-placeholder="Annonce" >
+                        <option value="0">Annonce</option>
+                        <option value="1">Vente</option>
+                        <option value="2">Location</option>
+                        <option value="3">Location saisonnière</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+
+                <div class="form2">
+                    <select id="select-box2-filter2" name="typebiens[]" class="form-control " data-placeholder="Biens" multiple="multiple">
+                        <option value="99">Appartements</option>
+                        <option value="8">Maisons de Villages / Villes</option>
+                        <option value="10">Divers</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+                <div class="form3">
+                    <select name="Localité" id="location" class="form-control select2-sel select2-sel-v2">
+                        <option value="" selected hidden>Ville ou code postal*</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+                <button class="btn-search">search</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="container title-text text-center">
+        <h1 class="title">Welcome on <p>DMAISONS.COM</p></h1>
+        <p>THE BEST PRPERTIES, REGION BY REGION</p>
+    </div>
+</header>
+<!-- /header -->
+<section class="ListingDetails">
+    <section class="listing">
+        <div class="container">
+            <div class="col-md-9 col-sm-12 col-xs-12 left">
+                <div class="list-group col-sm-12 col-xs-12">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <ul>
+                            <li><a href="#"><img src="images/listingMail.png" alt=""> Create an e-mail alert</a></li>
+                            <li><a href="#"><img src="images/listingSend.png" alt=""> Send to a friend</a></li>
+                            <li><a href="#"><img src="images/listingPrint.png" alt=""> Print information</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header col-md-12 col-sm-12 col-xs-12">
+                    <div class="wrapper row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <h3>SALE</h3> <h3>4-ROOM APARTMENT</h3>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                            <div class="icons">
+                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                <a href="#"><img src="images/icons/icon-1.png" alt=""></a>
+                                <a href="#"><img src="images/icons/icon-2.png" alt=""></a>
+                                <a href="#" class="like"><span>like <i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row listing-item">
+                        <div class="col-md-12 col-sm-12 col-xs-12 paddno">
+                            <div class="col-md-8 col-sm-8 col-xs-12 text-left">
+                                <h3 class="title">Marseille 1er (13001)</h3>
+                                <p>Bouches-du-Rhône</p>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                                <div class="price">
+                                    <h3>139 000 €</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 lst-itm-dtl-img">
+                            <!-- Listing Details Full Images Block Starts -->
+                            <div id="slider" class="flexslider listing-dtl-slider-m2 listing-dtl-gallery listing-dtl-gallery-m1 lst-itm-dtl-full-imgs">
+                                <ul class="slides gallery">
+                                    <li>
+                                        <figure class="lst-itm-dtl-full-img">
+                                            <a href="images/listing/full-images/listing-img-full1.jpg" class="gal-class1" >
+                                                <img src="images/listing/full-images/listing-img-full1.jpg" alt="Listing Img1" title="Listing Img1" />
+                                            </a>
+                                            <figcaption>
+                                                <a href="images/listing/full-images/listing-img-full1.jpg" class="gal-class btn btn-default btn-default-m1 btn-md btn-zoom-clr btn-zoom
+                                                  hvr-icon-grow width-auto">
+                                                    <i class="fa fa-arrows-alt marg-right5"></i>Agrandir
+                                                </a>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure class="lst-itm-dtl-full-img">
+                                            <a target="_blank" href="images/listing/full-images/listing-img-full2.jpg" class="gal-class1" >
+                                                <img  src="images/listing/full-images/listing-img-full2.jpg" alt="Listing Img1" title="Listing Img1" />
+                                            </a>
+                                            <figcaption>
+                                                <a href="images/listing/full-images/listing-img-full1.jpg" class="gal-class btn btn-default btn-default-m1 btn-md btn-zoom-clr btn-zoom
+                                                  hvr-icon-grow width-auto">
+                                                    <i class="fa fa-arrows-alt marg-right5"></i>Agrandir
+                                                </a>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure class="lst-itm-dtl-full-img">
+                                            <a href="images/listing/full-images/listing-img-full3.jpg" class="gal-class1" >
+                                                <img  src="images/listing/full-images/listing-img-full3.jpg" alt="Listing Img1" title="Listing Img1" />
+                                            </a>
+                                            <figcaption>
+                                                <a href="images/listing/full-images/listing-img-full1.jpg" class="gal-class btn btn-default btn-default-m1 btn-md btn-zoom-clr btn-zoom
+                                                  hvr-icon-grow width-auto">
+                                                    <i class="fa fa-arrows-alt marg-right5"></i>Agrandir
+                                                </a>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure class="lst-itm-dtl-full-img">
+                                            <a target="_blank" href="images/listing/full-images/listing-img-full3.jpg" class="gal-class1" >
+                                                <img  src="images/listing/full-images/listing-img-full3.jpg" alt="Listing Img1" title="Listing Img1" />
+                                            </a>
+                                            <figcaption>
+                                                <a  href="images/listing/full-images/listing-img-full3.jpg" class="gal-class btn btn-default btn-default-m1 btn-md btn-zoom-clr btn-zoom
+                                                  hvr-icon-grow width-auto">
+                                                    <i class="fa fa-arrows-alt marg-right5"></i>Agrandir
+                                                </a>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure class="lst-itm-dtl-full-img">
+                                            <a target="_blank" href="images/listing/full-images/listing-img-full3.jpg" class="gal-class1" >
+                                                <img  src="images/listing/full-images/listing-img-full3.jpg" alt="Listing Img1" title="Listing Img1" />
+                                            </a>
+                                            <figcaption>
+                                                <a href="images/listing/full-images/listing-img-full1.jpg" class="gal-class btn btn-default btn-default-m1 btn-md btn-zoom-clr btn-zoom
+                                                  hvr-icon-grow width-auto">
+                                                    <i class="fa fa-arrows-alt marg-right5"></i>Agrandir
+                                                </a>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure class="lst-itm-dtl-full-img">
+                                            <a target="_blank" href="images/listing/full-images/listing-img-full3.jpg" class="gal-class1" >
+                                                <img  src="images/listing/full-images/listing-img-full3.jpg" alt="Listing Img1" title="Listing Img1" />
+                                            </a>
+                                            <figcaption>
+                                                <a href="images/listing/full-images/listing-img-full1.jpg" class="gal-class btn btn-default btn-default-m1 btn-md btn-zoom-clr btn-zoom
+                                                  hvr-icon-grow width-auto">
+                                                    <i class="fa fa-arrows-alt marg-right5"></i>Agrandir
+                                                </a>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!-- Listing Details Full Images Block Ends -->
+                            <div class="thumbnails-wrapper hidden-sm hidden-xs">
+                                <!-- Listing Details Thumbnails Block Starts -->
+                                <div id="thumbnails" class="flexslider listing-dtl-slider-m2 lst-itm-dtl-thumbnails">
+                                    <ul class="slides">
+                                        <li class="real-thumb">
+                                            <div class="row-col lst-itm-dtl-thumb">
+                                                <img src="images/listing/thumbnails/listing-img-thumb1.png" alt="Listing Img1 Thumbnail" title="Listing Img2 Thumbnail"/>
+                                            </div>
+                                        </li>
+                                        <li class="real-thumb">
+                                            <div class="row-col lst-itm-dtl-thumb">
+                                                <img src="images/listing/thumbnails/listing-img-thumb1.png" alt="Listing Img1 Thumbnail" title="Listlistinging Img2 Thumbnail"/>
+                                            </div>
+                                        </li>
+                                        <li class="real-thumb">
+                                            <div class="row-col lst-itm-dtl-thumb">
+                                                <img src="images/listing/thumbnails/listing-img-thumb1.png" alt="Listing Img1 Thumbnail" title="Listing Img2 Thumbnail"/>
+                                            </div>
+                                        </li>
+                                        <li class="real-thumb">
+                                            <div class="row-col lst-itm-dtl-thumb">
+                                                <img src="images/listing/thumbnails/listing-img-thumb1.png" alt="Listing Img1 Thumbnail" title="Listing Img2 Thumbnail"/>
+                                            </div>
+                                        </li>
+                                        <li class="real-thumb">
+                                            <div class="row-col lst-itm-dtl-thumb">
+                                                <img src="images/listing/thumbnails/listing-img-thumb1.png" alt="Listing Img1 Thumbnail" title="Listing Img2 Thumbnail"/>
+                                            </div>
+                                        </li>
+                                        <li class="real-thumb">
+                                            <div class="row-col lst-itm-dtl-thumb">
+                                                <img src="images/listing/thumbnails/listing-img-thumb1.png" alt="Listing Img1 Thumbnail" title="Listing Img2 Thumbnail"/>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Listing Details Thumbnails Block Ends -->
+                            </div>
+                        </div>
+                        <div class="list-items col-md-12 col-sm-12 col-xs-12">
+                            <div class="listDetails-group col-md-9 col-sm-9 col-xs-12">
+                                <ul>
+                                    <li>Living area : 75 m <sup>2</sup></li>
+                                    <li>Number of rooms : 4</li>
+                                    <li>Bedrooms : 3</li>
+                                    <li>Bedrooms : 3</li>
+                                </ul>
+                                <div class="honorires">
+                                    <span>* Honoraires à la charge de l'acquéreur  Prix hors honoraires : 107000 € - Honoraires : 6.54 % TTC</span>
+                                </div>
+                            </div>
+                            <div class="listDetails-group col-md-3 col-sm-3 col-xs-12 text-right">
+                                <div class="Dpe-Ges">
+                                    <img src="images/icons/dpe.jpg" alt="">
+                                    <img src="images/icons/ges.jpg" alt="">
+                                </div>
+                                    <div class="ref">Ref. : 1957 / 671002</div>
+                            </div>
+                        </div>
+                        <div class="disqription col-md-12 col-sm-12 col-xs-12">
+                            <p>Marseille 1er, Longchamp, au calme, proches de toutes commodités, atypique appartement constitué
+                                d'un T3 et d'un T1 entourant une terrasse patio d'environ 20 m². 2 salles de bains, placards, cellier,
+                                travaux de rénovation à prévoir ! Bon potentiel, à voir ! Le prix indiqué comprend les honoraires de négociation
+                                qui se montent à 6.92% TTC du prix affiché, ces honoraires sont à la charge exclusive de l'acquéreur. DPE: 450, soit G,
+                                GES: 80, soit G. Fabrice GHIOTTI, Agent Commercial immatriculé au RSAC de MARSEILLE 06EME sous le numéro 49885284700033 - A
+                                la lucarne de l'immobilier - Votre contact : Fabrice GHIOTTI - 06 62 62 61 41 - Réf. 62303
+                                Marseille 1er, Longchamp, au calme, proches de toutes commodités, atypique appartement constitué
+                                d'un T3 et d'un T1 entourant une terrasse patio d'environ 20 m². 2 salles de bains, placards, cellier,
+                                travaux de rénovation à prévoir ! Bon potentiel, à voir ! Le prix indiqué comprend les honoraires de négociation
+                                qui se montent à 6.92% TTC du prix affiché, ces honoraires sont à la charge exclusive de l'acquéreur. DPE: 450, soit G,
+                                GES: 80, soit G. Fabrice GHIOTTI, Agent Commercial immatriculé au RSAC de MARSEILLE 06EME sous le numéro 49885284700033 - A
+                                la lucarne de l'immobilier - Votre contact : Fabrice GHIOTTI - 06 62 62 61 41 - Réf. 62303</p>
+                        </div>
+                        <div class="contact-form col-md-12 col-sm-12 col-xs-12">
+                            <div class="btn-request">REQUEST INFORMATION</div>
+                            <div class="forms">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <h4>A LA LUCARNE DE L'IMMOBILIER</h4>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <img class="img-responsive logo-contact" src="images/icons/logo.png" alt="AGENCE MA PROVENCE" title="">
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <div class="pagecontacts">
+                                        <p>21 RUE RAYMOND BARBET</p>
+                                        <p>92000 Nanterre</p>
+                                        <p>Site web</p>
+                                        <div class="number">
+                                            <button id="shownum">
+                                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                                <span id="showNumber">view number</span>
+                                                <span id="hideNumber">+374-525-546</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12 text-center">
+                                    <div class="message-details"></div>
+                                    <form method="POST" action="" name="details_form" id="details_form" onsubmit="return testDejaSubmit();" role="form" class="form Fiche-Bien-Form">
+                                        <input type="hidden" name="checkdata" value="1"><input type="hidden" name="fiche_num" value="664304"><input type="hidden" name="region" value="0"><input type="hidden" name="referer" value="%2Fannonces-immobilieres%2Ftous-les-departements%2Ftous-les-arrondissements%2Fvente%2Ftous-types-de-biens%2Ftous-les-prix%2Flisting.html">													<input type="hidden" name="fiche_forf_num" value="">
+                                        <!--<div class=" formgroup text-right ">-->
+                                        <div class="col-xs-4 formItem ">
+                                            <select id="form_client_civilite" name="form_client_civilite" class="form-control">
+                                                <option value="0" selected="">M.</option>
+                                                <option value="1">Mme</option>
+                                                <option value="2">Mlle</option>
+                                                <option value="3">Sté</option>
+                                            </select>
+                                        </div>
+                                        <!--<div class="">-->
+                                        <div class="col-xs-8 formItem form-col form-group">
+                                            <input class="form-control" type="text" name="form_client_nom" id="form_client_nom" placeholder="Nom*" value="">
+                                        </div>
+                                        <div class="col-xs-12 formItem form-col form-group">
+                                            <input class="form-control" type="text" name="form_client_prenom" id="form_client_prenom" placeholder="Prénom" value="">
+                                        </div>
+                                        <div class="col-xs-4 formItem form-col form-group">
+                                            <input class="form-control" type="email" name="form_client_cp" id="form_client_cp" placeholder="Code postal" value="">
+                                        </div>
+                                        <div class="col-xs-8 formItem form-col form-group">
+                                            <input class="form-control" type="text" name="form_client_ville" id="form_client_ville" placeholder="Ville" value="">
+                                        </div>
+                                        <div class="col-xs-12 formItem form-col form-group">
+                                            <input class="form-control" type="text" name="form_client_tel1" id="form_client_tel1" placeholder="Téléphone" value="">
+                                        </div>
+                                        <div class="col-xs-12 formItem form-col form-group">
+                                            <input class="form-control" type="email" name="form_client_email" id="form_client_email" placeholder="E-mail" value="">
+                                        </div>
+                                        <!--</div>-->
+                                        <div class="col-xs-12 formItem">
+
+                                            <textarea rows="8" cols="80" class="form-control col-xs-12 formItem" placeholder="Vos commentaires" id="form_client_demande" name="form_client_demande"></textarea>
+                                        </div>
+                                        <div class="btn-div">
+                                            <button href="#" class="btn-send " type="button">SEND</button>
+                                        </div>
+                                        <!--</div>--><!--form-group-->
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 col-xs-12 right">
+                <div class="calcul">
+                    <h4>MY LOAN <br>
+                        SIMUATION</h4>
+                    <a href="#"><img src="images/icons/calcul.png" alt="calculate"></a>
+                </div>
+                <div class="mail">
+                    <div class="alertmail">
+                        <img src="images/icons/mail.png" alt="">
+                        <p>RECEIVE
+                            ADVERTISEMENT
+                            IN REAL TIME</p>
+                    </div>
+                    <p>Find the all latest real estate advertisements <br>
+                        in your e-mail inbox</p>
+                    <div class="mailsend">
+                        <input type="EMAIL" placeholder="e-mail">
+                        <button class="btnsend">OK</button>
+                    </div>
+
+                </div>
+                <div class="Banners">
+                    <img  class="img-thumbnail" src="images/banner12.jpg" alt="">
+                </div>
+                <div class="Banners">
+                    <img  class="img-thumbnail" src="images/banner12.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+</section>
+<section class="footer">
+    <div class="container-fluid text-center  footer-content">
+        <div class="row">
+            <img class="img-responsive navbar-brend" src="images/logo.png" alt="">
+            <div class="title-text">
+                <p> Copyright 1998-2017	- DMAISONS.COM	- Luxury Real Estate - Logiciel immobilier</p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-left footer-foot">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Search a property</h4>
+                <a href="#">Search a property</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Post an ad</h4>
+                <a href="#">Private advertising</a>
+                <a href="#">Private advertising</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>E-mail alerts</h4>
+                <a href="#">New alert</a>
+                <a href="#">Manage your alerts</a>
+
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Services</h4>
+                <a href="#">Loan simulation</a>
+                <a href="#">Your option</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Company</h4>
+                <a href="#">Contact</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 social">
+                <h4>Post an ad</h4>
+                <a href="#"><img src="images/icons/facebook.png" alt=""></a>
+                <a href="#"><img src="images/icons/twitter-icon.png" alt=""></a>
+                <a href="#"><img src="images/icons/Google-Plus-icon.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+<div id="gotop"></div>
+<!--scroll top-->
+
+<!-- js -->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/validetta.min.js"></script>
+<script type="text/javascript" src="js/validettaLang-fr-FR.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.flipster.min.js"></script>
+<script type="text/javascript" src="js/flexslider/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/simple-lightbox.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+<script type="text/javascript" src="js/select2.full.min.js"></script>
+<script type="text/javascript" src="js/DatePicker.min.js"></script>
+
+<script>
+
+    var dropd = document.getElementById("image-dropdown");
+
+    function showww() {
+        dropd.style.height = "auto";
+        dropd.style.overflow = "visible";
+    }
+
+    function hideee() {
+        dropd.style.height = "30px";
+        dropd.style.overflow = "hidden";
+    }
+    function myfuunc(imgParent) {
+        hideee();
+        var mainDIVV = document.getElementById("image-dropdown");
+        imgParent.parentNode.removeChild(imgParent);
+        mainDIVV.insertBefore(imgParent, mainDIVV.childNodes[0]);
+    }
+
+</script>
+</body>
+</html>

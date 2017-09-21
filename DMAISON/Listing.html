@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Le meilleur de l’immobilier de votre région est ici ! Un large choix d’annonces immobilières en vente, location et location de vacances, nombreux appartements, maisons, villa, commerces, terrains, etc." />
+    <meta name="Author-Corporate" content="DMAISONS.COM" />
+    <meta name="keywords" content="dmaisons.com,immobilier,vente,location,location vacances,appartement,maison,villa,commerce,terrain" />
+    <!-- /favicons -->
+    <title>DMAISONS.COM | Tout l’immobilier : vente, location, location vacances</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.firefox.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/flexslider.custom.css" type="text/css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.flipster.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/validetta.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/simplelightbox.css" type="text/css">
+    <link href="css/bootstrap-multiselect.css" rel="stylesheet">
+    <link href="css/select2.css" rel="stylesheet">
+    <!-- /stylesheets -->
+
+</head>
+<body>
+<!-- header -->
+<header>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container text-right">
+            <div class="textheader">
+                <p>16 678 online real estate advertisements,
+                    Last advertisement today in 05:00 PM</p>
+            </div>
+            <div id="data"></div>
+            <div class="lang">
+                <div id="image-dropdown">
+                    <i onclick="showww()" class="fa fa-chevron-down" aria-hidden="true"></i>
+                    <div class="img_holder" onclick="myfuunc(this);">
+                        <img class="flagimgs second" src="images/icons/United-Kingdom.png" /> <span class="iTEXT"></span>
+                    </div>
+                    <div class="img_holder" onclick="myfuunc(this);" >
+                        <img class="flagimgs second" src="images/icons/France.png" /> <span class="iTEXT"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid head">
+            <div class="container logo-pos">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img class="img-responsive" src="images/logo.png" alt="">
+                        <p>All real estate of your region | SALE - RENTAL - HOLIDAY RENTAL</p>
+
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle  active" data-toggle="dropdown" href="#"><img src="images/icons/icon-home.png">SEARCH A PROPERTY <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/post.png">POST AN AD<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/email.png">E-MAIL ALERTS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span> Private advertising</a></li>
+                                <li><a href="#"><span>> </span> Professional Area</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/icons/setting.png">SERVICES<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span>> </span>Loan simulation</a></li>
+                                <li><a href="#"><span>> </span>Your comments</a></li>
+                                <li><a href="#"><span>> </span>Our professional services</a></li>
+                                <li><a href="#"><span>> </span>Contact us</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container serach-bar">
+        <div class="col-md-10 col-md-offset-1 text-center filters">
+            <div class="forms">
+                <div class="form1">
+                    <select id="select-box2-filter" name="typebiens[]" class="form-control " data-placeholder="Annonce" >
+                        <option value="0">Annonce</option>
+                        <option value="1">Vente</option>
+                        <option value="2">Location</option>
+                        <option value="3">Location saisonnière</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+
+                <div class="form2">
+                    <select id="select-box2-filter2" name="typebiens[]" class="form-control " data-placeholder="Biens" multiple="multiple">
+                        <option value="99">Appartements</option>
+                        <option value="8">Maisons de Villages / Villes</option>
+                        <option value="10">Divers</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+                <div class="form3">
+                    <select name="Localité" id="location" class="form-control select2-sel select2-sel-v2">
+                        <option value="" selected hidden>Ville ou code postal*</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="forms">
+                <button class="btn-search">search</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="container title-text text-center">
+        <h1 class="title">Welcome on <p>DMAISONS.COM</p></h1>
+        <p>THE BEST PRPERTIES, REGION BY REGION</p>
+    </div>
+</header>
+<!-- /header -->
+<section class="content-listing">
+    <section class="listing-first">
+        <div class="container">
+            <div class="list-group col-md-12">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h4>8 ADVERTISEMENTS</h4>
+                    <h6>available with your search criteria</h6>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <ul>
+                        <li><a href="#"><img src="images/listingMail.png" alt=""> Create an e-mail alert</a></li>
+                        <li><a href="#"><img src="images/listingSend.png" alt=""> Send to a friend</a></li>
+                        <li><a href="#"><img src="images/listingPrint.png" alt=""> Print information</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="listing-sort">
+        <section class="listing-first">
+            <div class="container">
+                <div class="list-group-sort ">
+                    <div class="sort-date sort">
+                        <h4 class="">Sort by</h4>
+                    </div>
+                        <div class="sort">
+                            <select name="lst-sort-control" class="form-control select2-sel select2-sel-v1 arrow-m2" id="lst-sort-control">
+                                <optgroup label="Prix">
+                                    <option value="prix-opt1">Prix (croissant)</option>
+                                    <option value="prix-opt2">Prix (décroissant)</option>
+                                </optgroup>
+                                <optgroup label="Date">
+                                    <option value="date-opt1">Date (croissant)</option>
+                                    <option value="date-opt2">Date (croissant)</option>
+                                </optgroup>
+                                <optgroup label="Surface">
+                                    <option value="surface-opt1">Surface (croissant)</option>
+                                    <option value="surface-opt2">Surface (décroissant)</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div class="sort">
+                            <div class="asc-desc">
+                                <a href="#" id="show"><i class="fa fa-sort-asc"></i>desqending</a>
+                                <a href="#" id="hide"><i class="fa fa-sort-desc"></i>desq</a>
+                            </div>
+                        </div>
+                        <div class="sort">
+                            <select name="lst-sort-control" class="form-control select2-sel select2-sel-v1 arrow-m2" id="lst-sort-control">
+                                <optgroup label="page">
+                                    <option value="prix-opt1">10 ads per page</option>
+                                    <option value="prix-opt2">20 ads per page</option>
+                                    <option value="prix-opt3">50 ads per page</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div class="sort">
+                            <!-- Pagination Model3 Starts -->
+                            <section id="pagination" class="text-center pagination-m3">
+                                <div class="section-bg" >
+                                    <div class="row-col marg-btm-5 pagination-bg">
+                                        <ul class="pagination">
+                                            <li class="prev-page"><a href="#">&lt;</a></li>
+                                            <li><a href="#">1</a></li>
+                                            <li class="active"><a href="#" >2</a></li>
+                                            <li><a href="#">3</a></li>
+                                            <li class="next-page"><a href="#">&gt;</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- Pagination Model3 Ends -->
+                        </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="listing">
+        <div class="container">
+            <div class="col-md-9 col-sm-12 col-xs-12 left">
+                <div class="header col-md-12 col-sm-12 col-xs-12">
+                    <div class="wrapper row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <h3>SALE</h3> <h3>4-ROOM APARTMENT</h3>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                            <div class="icons">
+                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                <a href="#"><img src="images/icons/icon-1.png" alt=""></a>
+                                <a href="#"><img src="images/icons/icon-2.png" alt=""></a>
+                                <a href="#" class="like"><span>like <i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row listing-item">
+                       <div class="col-md-5 col-sm-12 col-xs-12">
+                           <div class="padd">
+                               <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                               <div class="owl-carousel-listing owl-carousel owl-theme">
+                                   <div class="item"><img src="images/slider/Untitled-1.png" alt=""></div>
+                                   <div class="item"><img src="images/slider/Untitled-1.png" alt=""></div>
+                                   <div class="item"><img src="images/slider/Untitled-1.png" alt=""></div>
+                                   <div class="item"><img src="images/slider/Untitled-1.png" alt=""></div>
+                                </div>
+                                   <div id="counter"></div>
+                               <div class="ref">Ref. : 1957 / 671002</div>
+                               <div class="phot">
+                              <div class="photo"></div>
+                                   <i class="fa fa-camera" aria-hidden="true"></i>
+
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-md-7 col-sm-12 col-xs-12 info-block">
+                           <div class="col-md-7 col-sm-7 col-xs-12 information">
+                               <div class="title">
+                                   <h3>Marseille 1er (13001)</h3>
+                                   <p>Bouches-du-Rhône</p>
+                               </div>
+                               <div class="disqription">
+                                   <p>Marseille 1er, longchamp, au calme, proches de toutes commodités, atypique appartement constitué d'un t3 et d'un t1 entourant une terrasse patio d'environ 20...</p>
+                               </div>
+                               <div class="btn-block">
+                                   <a href="#" class="info-details">Details</a>
+                               </div>
+                               <div class="Dpe-Ges">
+                                   <img src="images/icons/dpe.jpg" alt="">
+                                   <img src="images/icons/ges.jpg" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-5 col-sm-5 col-xs-12 information flag-block">
+                               <div class="back-img">
+                                   <div class="price">
+                                       <h3>139 000 €</h3>
+                                   </div>
+                               <div id="flag">
+                                   <ul>
+                                       <li>Living area : 75 m <sup>2</sup></li>
+                                       <li>Number of rooms : 4</li>
+                                       <li>Bedrooms : 3</li>
+                                        <li>Bedrooms : 3</li>
+                                   </ul>
+                               </div>
+                            </div>
+                           </div>
+                       </div>
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                            <div class="footer-text">
+                                <h3>
+                                    A LA LUCARNE DE L'IMMOBILIER
+                                </h3>
+                                <span>* Honoraires à la charge de l'acquéreur  Prix hors honoraires : 107000 € - Honoraires : 6.54 % TTC</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                           <div class="Call">
+                               <i class="fa fa-phone" aria-hidden="true"></i>
+                               <button class="btn-request">REQUEST INFORMATION</button>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header col-md-12 col-sm-12 col-xs-12">
+                    <div class="wrapper row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <h3>SALE</h3> <h3>4-ROOM APARTMENT</h3>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                            <div class="icons">
+                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                <a href="#"><img src="images/icons/icon-1.png" alt=""></a>
+                                <a href="#"><img src="images/icons/icon-2.png" alt=""></a>
+                                <a href="#" class="like"><span>like <i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row listing-item">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                            <div class="padd">
+                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                <div class="owl-carousel-listing owl-carousel owl-theme">
+                                    <div class="item"><img src="images/slider/Untitled-1.png" alt=""></div>
+                                    <div class="item"><img src="images/slider/Untitled-1.png" alt=""></div>
+                                    <div class="item"><img src="images/slider/Untitled-1.png" alt=""></div>
+                                    <div class="item"><img src="images/slider/Untitled-1.png" alt=""></div>
+                                </div>
+                                <div id="counter"></div>
+                                <div class="ref">Ref. : 1957 / 671002</div>
+                                <div class="phot">
+                                    <div class="photo"></div>
+                                    <i class="fa fa-camera" aria-hidden="true"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12 info-block">
+                            <div class="col-md-7 col-sm-7 col-xs-12 information">
+                                <div class="title">
+                                    <h3>Marseille 1er (13001)</h3>
+                                    <p>Bouches-du-Rhône</p>
+                                </div>
+                                <div class="disqription">
+                                    <p>Marseille 1er, longchamp, au calme, proches de toutes commodités, atypique appartement constitué d'un t3 et d'un t1 entourant une terrasse patio d'environ 20...</p>
+                                </div>
+                                <div class="btn-block">
+                                    <a href="#" class="info-details">Details</a>
+                                </div>
+                                <div class="Dpe-Ges">
+                                    <img src="images/icons/dpe.jpg" alt="">
+                                    <img src="images/icons/ges.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-5 col-sm-5 col-xs-12 information flag-block">
+                                <div class="back-img">
+                                    <div class="price">
+                                        <h3>139 000 €</h3>
+                                    </div>
+                                    <div id="flag">
+                                        <ul>
+                                            <li>Living area : 75 m <sup>2</sup></li>
+                                            <li>Number of rooms : 4</li>
+                                            <li>Bedrooms : 3</li>
+                                            <li>Bedrooms : 3</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                            <div class="footer-text">
+                                <h3>
+                                    A LA LUCARNE DE L'IMMOBILIER
+                                </h3>
+                                <span>* Honoraires à la charge de l'acquéreur  Prix hors honoraires : 107000 € - Honoraires : 6.54 % TTC</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <div class="Call">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <button class="btn-request">REQUEST INFORMATION</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 col-xs-12 right">
+                <div class="btnSearch">
+                    <button class="btn-search">SEARCH</button>
+                </div>
+                <div class="search-select">
+                    <h4>ADVERTISEMENT</h4>
+                    <div class="forms">
+                        <div class="form1">
+                            <select id="select-box2-filter" name="typebiens[]" class="form-control " data-placeholder="Annonce" >
+                                <option value="0">Annonce</option>
+                                <option value="1">Vente</option>
+                                <option value="2">Location</option>
+                                <option value="3">Location saisonnière</option>
+                            </select>
+                        </div>
+                    <h4>PROPERTIES</h4>
+                        <div class="form2">
+                            <select id="select-box2-filter2" name="typebiens[]" class="form-control " data-placeholder="Biens" multiple="multiple">
+                                <option value="99">Appartements</option>
+                                <option value="8">Maisons de Villages / Villes</option>
+                                <option value="10">Divers</option>
+                            </select>
+                        </div>
+                    </div>
+                    <h4>RENTAL*</h4>
+                </div>
+                <div class="flush">
+                    <img class="img-responsive" src="images/map.jpg" alt="">
+                </div>
+                <div class="optional">
+                    <table class="table two">
+                        <tbody>
+                        <tr>
+                            <td>Extend to</td>
+                            <td>
+                                <select name="typebiens[]" class="form-control " data-placeholder="Annonce" >
+                                    <option>0 km</option>
+                                    <option value="0">5 km</option>
+                                    <option value="1">10 km</option>
+                                    <option value="2">15 km</option>
+                                    <option value="3">20 km</option>
+                                </select>
+                            </td>
+                            <td>near</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <h4>OPTIONAL CRITERIA</h4>
+                    <div class="table-responsive">
+                        <table class="table one">
+                            <tbody>
+                            <tr>
+                                <td>Price</td>
+                                <td><input class="InputText " type="text" name="prixmin" placeholder="Mini"></td>
+                                <td><input class="InputText " type="text" name="prixmax" placeholder="Maxi"></td>
+                                <td><span>€</span></td>
+                            </tr>
+                            <tr>
+                                <td>Living area</td>
+                                <td><input class="InputText " type="text" name="prixmin" placeholder="Mini"></td>
+                                <td><input class="InputText " type="text" name="prixmax" placeholder="Maxi"></td>
+                                <td><span>m <sup>2</sup></span></td>
+                            </tr>
+                            <tr>
+                                <td>Surface area</td>
+                                <td><input class="InputText " type="text" name="prixmin" placeholder="Mini"></td>
+                                <td><input class="InputText " type="text" name="prixmax" placeholder="Maxi"></td>
+                                <td><span>m <sup>2</sup></span></td>
+                            </tr>
+                            <tr>
+                                <td>Rooms</td>
+                                <td><input class="InputText " type="text" name="prixmin" placeholder="Mini"></td>
+                                <td><input class="InputText " type="text" name="prixmax" placeholder="Maxi"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Badrooms</td>
+                                <td><input class="InputText " type="text" name="prixmin" placeholder="Mini"></td>
+                                <td><input class="InputText " type="text" name="prixmax" placeholder="Maxi"></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="table two">
+                            <tbody>
+                            <tr>
+                                <td>With swimming</td>
+                                <td><input class="InputCheckbox " type="checkbox"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Date of</td>
+                                <td>
+                                    <select name="typebiens[]" class="form-control " data-placeholder="Annonce" >
+                                    <option value="0">Mois</option>
+                                    <option value="1">Joournes</option>
+                                </select>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>With pictures only</td>
+                                <td><input class="InputText " type="checkbox"></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                <h4 class="h4">8 ADVERTISEMENTS <span>with your criteria</span></h4>
+            </div>
+                <div class="mail">
+                   <div class="alertmail">
+                       <img src="images/icons/mail.png" alt="">
+                       <p>RECEIVE
+                           ADVERTISEMENT
+                           IN REAL TIME</p>
+                   </div>
+                       <p>Find the all latest real estate advertisements <br>
+                           in your e-mail inbox</p>
+                    <div class="mailsend">
+                        <input type="EMAIL" placeholder="e-mail">
+                        <button class="btnsend">OK</button>
+                    </div>
+
+                </div>
+
+                <div class="Banners">
+                    <img  class="img-thumbnail" src="images/banner12.jpg" alt="">
+                </div>
+                <div class="Banners">
+                    <img  class="img-thumbnail" src="images/banner12.jpg" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+</section>
+<section class="footer">
+    <div class="container-fluid text-center  footer-content">
+        <div class="row">
+            <img class="img-responsive navbar-brend" src="images/logo.png" alt="">
+            <div class="title-text">
+                <p> Copyright 1998-2017	- DMAISONS.COM	- Luxury Real Estate - Logiciel immobilier</p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-left footer-foot">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Search a property</h4>
+                <a href="#">Search a property</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Post an ad</h4>
+                <a href="#">Private advertising</a>
+                <a href="#">Private advertising</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>E-mail alerts</h4>
+                <a href="#">New alert</a>
+                <a href="#">Manage your alerts</a>
+
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Services</h4>
+                <a href="#">Loan simulation</a>
+                <a href="#">Your option</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                <h4>Company</h4>
+                <a href="#">Contact</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 social">
+                <h4>Post an ad</h4>
+                <a href="#"><img src="images/icons/facebook.png" alt=""></a>
+                <a href="#"><img src="images/icons/twitter-icon.png" alt=""></a>
+                <a href="#"><img src="images/icons/Google-Plus-icon.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+<div id="gotop"></div>
+<!--scroll top-->
+<!-- js -->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/validetta.min.js"></script>
+<script type="text/javascript" src="js/validettaLang-fr-FR.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.flipster.min.js"></script>
+<script type="text/javascript" src="js/flexslider/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/simple-lightbox.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+<script type="text/javascript" src="js/select2.full.min.js"></script>
+<script type="text/javascript" src="js/DatePicker.min.js"></script>
+<script>
+
+    var dropd = document.getElementById("image-dropdown");
+
+    function showww() {
+        dropd.style.height = "auto";
+        dropd.style.overflow = "visible";
+    }
+
+    function hideee() {
+        dropd.style.height = "30px";
+        dropd.style.overflow = "hidden";
+    }
+    function myfuunc(imgParent) {
+        hideee();
+        var mainDIVV = document.getElementById("image-dropdown");
+        imgParent.parentNode.removeChild(imgParent);
+        mainDIVV.insertBefore(imgParent, mainDIVV.childNodes[0]);
+    }
+
+</script>
+</body>
+</html>

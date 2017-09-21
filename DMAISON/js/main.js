@@ -1,44 +1,267 @@
-//
-// $(function(){
-//     $('.selectpicker').selectpicker();
-// });
-
 $(document).ready(function(){
 
+// carousels
+    $('.flip-carousel').flipster({
+        style: 'carousel',
+        start:4,
+        loop: true,
+        autoplay: 3000,
+        scrollwheel: false,
+        spacing: -0.5,
+        buttons: false,
+
+    });
+// /carousels
+    //website page icons
+    function myfuunc1() {
+        var elem = $(this).clone();
+        $(this).parent().prepend(elem);
+        $(this).remove();
+    }
+    $('.cont').on('click', 'a', myfuunc1);
+    //website page icons
+
+    // DATAPICKER
+
+    var date_input=$('input[name="date"]'); //our date input has the name "date"
+    var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+    date_input.datepicker({
+        format: 'mm/dd/yyyy',
+        container: container,
+        todayHighlight: true,
+        autoclose: true,
+    })
+    // DATAPICKER
+
+// owl-HomePage
+    $('.owl-HomePage2').owlCarousel({
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout: 4000,
+        responsiveClass:true,
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots:false,
+        nav:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            460:{
+                items:2,
+            },
+            600:{
+                items:3,
+            },
+            1000:{
+                items:3,
+                nav:true,
+            }
+        }
+    })
+
+// owl-HomePage
+// owl-HomePage
+    $('.owl-HomePage').owlCarousel({
+        loop:true,
+        margin:10,
+        autoplay:false,
+        autoplayTimeout: 3000,
+        responsiveClass:true,
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots:false,
+        nav:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            460:{
+                items:2,
+            },
+            600:{
+                items:2,
+            }
+        }
+    })
+
+// owl-HomePage
+
+    // toolTip
+    $('[data-toggle="tooltip"]').tooltip();
+    //toolTip
 
 
-        $('.bxslider').bxSlider({
-            mode: 'vertical',
-            moveSlides: 1,
-            slideMargin: 5,
-            infiniteLoop: true,
-            slideWidth: 370,
-            minSlides: 5,
-            maxSlides: 5,
-            speed: 500,
-            autoControls: false,
-            touchEnabled:false,
-            auto: true,
-            pager: false,
+// chckbox check ALL
+    $("#checkAll").click(function () {
+        $(".check").prop('checked', $(this).prop('checked'));
+    });
+// chckbox check ALL
 
 
 
+
+
+// veiw number
+    $("#hideNumber").hide();
+    $("#shownum").click(function(){
+        $("#hideNumber").toggle();
+        $("#showNumber").toggle();
+
+    });
+
+
+    /*__________Listing Details Slider Starts ________*/
+
+    /* Function for Flex Slider Initialization */
+    /*__________Listing Details Gallery Starts________*/
+    /* Lightbox Gallery */
+    $(function(){
+        if($('.listing-dtl-gallery').length)
+        {
+            var gallery = $('.listing-dtl-gallery .gal-class').simpleLightbox({
+                navText:['',''],
+            })
+            var gallery1 = $('.listing-dtl-gallery .gal-class1').simpleLightbox({
+                navText:['',''],
+            })
+
+            var galCustomStyleForNav=function(){
+                setTimeout(function () {
+                    var imgWidth = $('.sl-image').width();
+                    var windowWidth = window.innerWidth;
+                    var marg=(windowWidth-imgWidth)/2;
+                    $('.sl-prev').css('left', marg);
+                    $('.sl-next').css('right', marg);
+                    $('.sl-prev').css('visibility', 'visible');
+                    $('.sl-next').css('visibility', 'visible');
+
+                }, 1000);
+            };
+
+            $('.listing-dtl-gallery .gal-class').on('shown.simplelightbox', function () {
+                galCustomStyleForNav();
+            });
+            $('.listing-dtl-gallery .gal-class1').on('shown.simplelightbox', function () {
+                galCustomStyleForNav();
+            });
+            $(window).bind('resize', function(){
+                galCustomStyleForNav();
+            });
+
+        }
+    });
+    /*__________Listing Details Gallery Ends________*/
+
+    if($('#thumbnails').length)
+        $('#thumbnails').flexslider({
+            animation: "slide",
+            controlNav: false,
+            animationLoop: false,
+            slideshow: false,
+            itemWidth: 94,
+            itemMargin: 2,
+            asNavFor: '#slider'
         });
-// homepage clients quotes slider
-//     $('.ninth-section-carousel').owlCarousel({
-//
-//         loop:true,
-//         nav:false,
-//         navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-//         dots:false,
-//         items:3,
-//         mouseDrag:true,
-//         autoplay:true,
-//         autoplayTimeout: 5000,
-//         animateOut: 'slideOutUp',
-//         animateIn: 'slideInUp'
-//     })
-// homepage clients quotes slider
+
+
+    if($('#slider').length)
+        $('#slider').flexslider({
+            animation: "slide",
+            controlNav: false,
+            animationLoop: true,
+            slideshow: false,
+            sync: "#thumbnails",
+            start: function(slider){
+                $('body').removeClass('loading');
+                //setListItmDtlDescHeight();
+            }
+        });
+
+
+
+    /* Function for Adding Listing Details Gallery Thumbnails Starts */
+    function addFakeThumbs() {
+        $('#thumbnails').css('width', 'auto');
+        var curThumbCnt=$('.real-thumb').length;
+        var thumbContWidth=$('#thumbnails').outerWidth()-36;
+        var fitThumbCnt=thumbContWidth/96;
+        var addThumbCnt= Math.floor(fitThumbCnt-curThumbCnt);
+        for(i=0; i<addThumbCnt; i++)
+        {
+            if(i==0)
+                $('.real-thumb').last().
+                after('<li style="margin-right: 2px; float: left; display: block;" class="fake-thumb"><div class="row-col lst-itm-dtl-thumb" ></div></li>');
+            else
+                $('.fake-thumb').last().
+                after('<li style="margin-right: 2px; float: left; display: block;" class="fake-thumb"><div class="row-col lst-itm-dtl-thumb" ></div></li>');
+        }
+        if(addThumbCnt>0)
+            $('#thumbnails .flex-direction-nav').css('display','none');
+
+        $('.fake-thumb').unbind('click');
+    };
+
+    $(function(){
+        addFakeThumbs();
+    });
+    $(window).bind('resize', function() {
+        addFakeThumbs();
+    });
+    addFakeThumbs();
+    /*__________Listing Details Slider Ends ________*/
+
+
+// flexslider
+    //Listing carousel
+    $('.owl-carousel-listing').owlCarousel({
+        margin:10,
+        responsiveClass:true,
+        items:1,
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots:false,
+        nav:true,
+        onInitialized  : counter, //When the plugin has initialized.
+        onTranslated : counter //When the translation of the stage has finished.
+
+    });
+          function counter(event) {
+            var element   = event.target;         // DOM element, in this example .owl-carousel
+            var items     = event.item.count;     // Number of items
+            var item      = event.item.index + 1;     // Position of the current item
+            $('#counter').html(item+" / "+items);
+            $('.photo').html(items)
+        }
+
+
+    //Listing carousel
+
+    $('.bxslider').bxSlider({
+        mode: 'vertical',
+        moveSlides: 1,
+        slideMargin: 5,
+        infiniteLoop: true,
+        slideWidth: 370,
+        minSlides: 5,
+        maxSlides: 5,
+        speed: 500,
+        autoControls: false,
+        touchEnabled:false,
+        auto: true,
+        pager: false,
+
+    });
+/*
+ASQ DESQ change icon
+*/
+
+    $("#show").hide();
+    $(".asc-desc").click(function(){
+        $("#hide").toggle();
+        $("#show").toggle();
+
+    });
 
     // data
 
@@ -47,6 +270,19 @@ $(document).ready(function(){
     // date
 
 
+// homepage slider
+    $('.homepage-slider').owlCarousel({
+        loop:true,
+        nav:false,
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        items:1,
+        dots:false,
+        autoplay:true,
+        autoplayTimeout: 5000,
+
+        // animateOut: 'fadeOut',
+
+    })
     // location select
     /**
      * This function select2 repo. Write data after ajax call
@@ -157,24 +393,23 @@ $(document).ready(function(){
 
     //location select
 
-
     // pagescroll_navbarSize start
-window.onload=function() {
-    if (window.pageYOffset > 10){
-        $('.navbar').css({'backgroundColor':'#fff','top':0});
-    }
-    else {
-        $('.navbar').css({'backgroundColor': '','top':''});
-    }
-};
+    window.onload=function() {
+        if (window.pageYOffset > 10){
+            $('.navbar').css({'backgroundColor':'#fff','top':0});
+        }
+        else {
+            $('.navbar').css({'backgroundColor': '','top':''});
+        }
+    };
 
     window.onscroll = function() {
         if (window.pageYOffset > 10){
             $('.navbar').css({'backgroundColor':'#fff','top':0});
-         }
+        }
         else {
             $('.navbar').css({'backgroundColor': '','top':''});
-         }
+        }
     }
 
     // pagescroll_navbarSize END
@@ -195,7 +430,6 @@ $('#localisation_multi').multiselect({
 });
 });
 // /Multiselect
-
 
 
 // scroll start
@@ -226,7 +460,7 @@ $('#localisation_multi').multiselect({
     'use strict';
 
     var defaults = {
-        background : 'rgba(27, 17, 106, 0.86)', // Background color
+        background : '#1d1270', // Background color
         color: '#fff', // Icon color
         rounded: true, // if true make the button rounded
         width: '40px',
